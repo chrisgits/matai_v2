@@ -11,6 +11,7 @@ let API_LOCAL = "http://localhost:3000",
 /* eslint-env node */
 const ESLintPlugin = require('eslint-webpack-plugin')
 const { configure } = require('quasar/wrappers');
+// const PrerenderSPAPlugin = require('prerender-spa-plugin')
 
 module.exports = configure(function (ctx) {
   return {
