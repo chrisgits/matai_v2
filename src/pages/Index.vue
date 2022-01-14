@@ -38,7 +38,7 @@
                   <div class="text-subtitle2">Des Moines, IA</div>
                   <div class="text-body1">This training will be hosted in Des Moines, IA by the Iowa State Patrol. This is further body copy that will be filled in with actual event data and wonderful words about the training that is to occur.</div>
                   <q-btn
-                    to="/join"
+                    to="/2022ConfRegistration"
                     unelevated
                     class="q-ma-md q-px-lg q-pa-md"
                     color="green"
