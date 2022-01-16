@@ -1,8 +1,8 @@
 <template>
-  <q-page class="flex column">
-    <div class="q-pa-md" align="center" style="background: #3e3e3e">
+  <div class="q-px-none">
+    <div id="jumbo" class="q-pa-lg  text-center">
       <h3>MIDWEST ASSOCIATION OF TECHNICAL ACCIDENT INVESTIGATORS</h3>
-      <h5 style="color: white">FOR THE ADVANCEMENT OF MOTOR VEHICLE CRASH INVESTIGATION</h5>
+      <h5 style="color: #1a1a1a">FOR THE ADVANCEMENT OF MOTOR VEHICLE CRASH INVESTIGATION</h5>
       <div class="flex flex-center q-pb-lg">
         <q-btn
           to="/join"
@@ -16,7 +16,7 @@
           to="/about"
           outline
           class="q-ml-lg q-py-md q-px-lg"
-          color="white"
+          color="#1a1a1a"
           label="learn more"
         />
       </div>
@@ -26,7 +26,6 @@
       <div>
           <div class="text-center">
             <h5 class="text-uppercase">upcoming events</h5>
-            <h6 class="text-uppercase">check out our latest training offerings</h6>
           </div>
           <!-- upcoming training cards -->
           <div class="row wrap justify-evenly">
@@ -67,25 +66,30 @@
             </div>
         </div>
       </div>
-      <!-- footer -->
-      <div class="row" style="background: #3a3a3a">
-        <div align="center" class="col">
-          <img
-            width="200"
-            src="../assets/MATAI_Circle_W@2x.png"
-            alt=""
-          >
-          </div>
-          <div class="col">
-            SOCIAL LINKS
-          </div>
-          <div class="col">
-            MEMBERS / JOIN
-          </div>
-        </div>
     </div>
-  </q-page>
+  </div>
 </template>
+
+<style lang="css" scoped>
+.constrain {
+  padding: 0px;
+}
+
+h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 0px;
+  margin-top: 0px 0px;
+}
+
+#jumbo {
+  background-image: url("../assets/img/busCrashOverhead.jpg");
+  background-color: #686868;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+</style>
 
 <script>
 import { defineComponent } from 'vue';

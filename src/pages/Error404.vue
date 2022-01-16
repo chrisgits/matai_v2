@@ -10,12 +10,14 @@
       </div>
 
       <q-btn
-        class="q-mt-xl"
-        color="white"
+        class="q-mt-xl q-pa-lg"
+        color="accent"
         text-color="blue"
         unelevated
+        rounded
+        size="35px"
         to="/"
-        label="Go Home"
+        label="Back to Safety"
         no-caps
       />
     </div>
