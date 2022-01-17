@@ -17,7 +17,7 @@
         <div>
           <q-btn to="/confinfo" class="q-py-sm q-px-sm" flat color="black" >Conference</q-btn>
           <q-btn to="/traininginfo" class="q-py-sm q-px-sm q-ml-xs" flat color="black" >Training</q-btn>
-          <q-btn to="/members" class="q-py-sm q-px-sm q-ml-xs" color="primary" label="MEMBERS" />
+          <q-btn to="/members" class="q-py-sm q-px-sm q-ml-xs" color="primary" label="LOGIN" />
         </div>
       </q-toolbar>
     </q-header>
@@ -77,7 +77,7 @@
 
                 <q-item to="/members" clickable v-ripple>
                   <q-item-section class="bg-accent" style="color: black">
-                    Members
+                    MEMBER LOGIN
                   </q-item-section>
                 </q-item>
               </q-list>

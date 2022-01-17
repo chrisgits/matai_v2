@@ -103,7 +103,7 @@ h3 {
 }
 /* webpackIgnore: true */
 #jumbo {
-  background-image: url("../assets/img/buscrash.jpg");
+  background-image: url("../assets/img/buscrash2.jpg");
   background-color: #686868;
   background-position: center;
   background-repeat: no-repeat;
