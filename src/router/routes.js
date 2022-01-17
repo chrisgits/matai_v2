@@ -6,13 +6,15 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/Index.vue') },
       { path: '/Contact', component: () => import('pages/Contact.vue') },
-      { path: '/Conf', component: () => import('pages/ConfPage.vue') },
-      { path: '/training', component: () => import('pages/TrainingPage.vue') },
+      { path: '/confinfo', component: () => import('pages/ConfPage.vue') },
+      { path: '/traininginfo', component: () => import('pages/TrainingPage.vue') },
       { path: '/members', component: () => import('pages/Members.vue'), meta: {requiresAuth: false} },
       { path: '/applicants', component: () => import('pages/applicants.vue') },
       { path: '/About', component: () => import('pages/About.vue') },
       { path: '/registerTraining', component: () => import('pages/registerTraining.vue') },
       { path: '/2022ConfRegistration', component: () => import('pages/registerConf.vue') },
+      { path: '/history', component: () => import('pages/history.vue') },
+      { path: '/memberlist', component: () => import('pages/MemberList.vue') },
       { path: '/join', component: () => import('pages/join.vue') },
       { path: '/auth', component: () => import('pages/auth.vue') }
     ]

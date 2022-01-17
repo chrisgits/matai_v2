@@ -7,16 +7,16 @@
       >
         <div>
           <q-btn to="/" flat class="q-pl-none">
-            <img class="gt-sm" width="250" src="../assets/MATAI_TextBlock@6x.png" alt="">
-            <img class="lt-md q-pl-none" width="60" src="../assets/MATAI_Block@6x.png" alt="">
+            <img class="gt-sm" width="250" src="../assets/MATAI_TextBlock.svg" alt="">
+            <img class="lt-md q-pl-none" width="60" src="../assets/MATAI_Block.svg" alt="">
           </q-btn>
         </div>
         <div>
           <q-space />
         </div>
         <div>
-          <q-btn to="/conf" class="q-py-sm q-px-sm" flat color="black" >Conference</q-btn>
-          <q-btn to="/training" class="q-py-sm q-px-sm q-ml-xs" flat color="black" >Training</q-btn>
+          <q-btn to="/confinfo" class="q-py-sm q-px-sm" flat color="black" >Conference</q-btn>
+          <q-btn to="/traininginfo" class="q-py-sm q-px-sm q-ml-xs" flat color="black" >Training</q-btn>
           <q-btn to="/members" class="q-py-sm q-px-sm q-ml-xs" color="primary" label="MEMBERS" />
         </div>
       </q-toolbar>
@@ -29,12 +29,12 @@
       class="q-pt-md q-pb-xs "
     >
       <div class="row justify-center items-center text-center">
-        <div class="col-sm-1 gt-xs q-mr-md">
+        <div class="col-sm-1 gt-xs q-mr-lg">
           <div>
-            <img class="lt-md" width="100" src="../assets/MATAI_Block@6x.png" alt="matai-logo">
+            <img class="lt-md" width="100" src="../assets/MATAI_Block.svg" alt="matai-logo">
           </div>
           <div>
-            <img class="gt-md" width="200" src="../assets/MATAI_Circle_W@6x.png" alt="matai-logo">
+            <img class="gt-md" width="200" src="../assets/MATAI_Circle_W.svg" alt="matai-logo">
           </div>
         </div>
         <div class="col-sm-2 col-xs-6">
@@ -46,9 +46,9 @@
                   </q-item-section>
                 </q-item>
 
-                <q-item to="/about" clickable v-ripple>
+                <q-item to="/join" clickable v-ripple>
                   <q-item-section>
-                    About
+                    Join
                   </q-item-section>
                 </q-item>
 
@@ -63,15 +63,15 @@
         <div class="col-sm-2 col-xs-6">
             <div style="max-width: 350px">
               <q-list dense bordered padding class="rounded-borders">
-                <q-item to="/" clickable v-ripple>
-                  <q-item-section>
-                    Home
-                  </q-item-section>
-                </q-item>
-
                 <q-item to="/about" clickable v-ripple>
                   <q-item-section>
                     About
+                  </q-item-section>
+                </q-item>
+
+                <q-item to="/history" clickable v-ripple>
+                  <q-item-section>
+                    History
                   </q-item-section>
                 </q-item>
 
