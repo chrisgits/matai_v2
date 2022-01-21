@@ -25,17 +25,44 @@
     <div>
       <div>
           <div class="text-center">
-            <h5 class="text-uppercase">upcoming events</h5>
+            <h5 class="text-uppercase text-h4">upcoming events</h5>
           </div>
           <!-- upcoming training cards -->
-          <div class="row wrap justify-evenly">
-            <div class="col-12 col-md-6 q-pa-md q-gutter-md">
-              <q-card class="flex justify-center q-pa-md my-card">
+          <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">  
+              <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
+                <img style="width: 200px" class="q-pa-sm" src="../assets/MATAI_Circle.svg">
+                <q-card-section>
+                  <div class="text-h4">SPRING TRAINING 2022</div>
+                  <div class="text-h5 text-orange-10">Visibility Analysis and Advanced Nighttime Mapping Techniques</div>
+                  <div class="text-h5">March 28-30, 2022</div>
+                  <div class="text-h6 ">Green Bay, WI</div>
+                  <br>
+                  <div class="text-body1">This training will focus on visibility, basic lighting analysis and advanced nighttime headlight mapping techniques. It will be held over 2 1/2 days in Green Bay, WI. It will start and 0800 Monday morning and continue through Wednesday at noon.</div>
+                  <q-btn
+                    to="/registerTraining"
+                    unelevated
+                    class="q-ma-md q-px-lg q-pa-md"
+                    color="green"
+                    label="register"
+                    text-color="white"
+                  />
+                  <q-btn
+                    to="/springtraining"
+                    unelevated
+                    class="q-ma-md q-px-lg q-pa-md"
+                    color="blue"
+                    label="info"
+                    text-color="white"
+                  />
+                </q-card-section>
+              </q-card>
+
+              <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <img style="width: 200px" class="q-pa-sm" src="../assets/2022_falltrain@6x.png">
                 <q-card-section>
-                  <div class="text-h6">2022 FALL CONFERENCE</div>
-                  <div class="text-subtitle1">September 12-14, 2022</div>
-                  <div class="text-subtitle2">Des Moines, IA</div>
+                  <div class="text-h4">2022 FALL CONFERENCE</div>
+                  <div class="text-h5">September 12-14, 2022</div>
+                  <div class="text-h6">Des Moines, IA</div>
                   <br>
                   <div class="text-body1">This training will be hosted in Des Moines, IA by the Iowa State Patrol. This conference will be centered on the topic of Commercial Motor Vehicles and will include live crash testing as well as presentations from industry experts.</div>
                   <q-btn
@@ -57,34 +84,13 @@
                 </q-card-section>
               </q-card>
             </div>
-            <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">  
-              <q-card class="flex justify-center q-pa-md my-card">
-                <img style="width: 200px" class="q-pa-sm" src="../assets/MATAI_Circle.svg">
-                <q-card-section>
-                  <div class="text-h6">SPRING TRAINING 2022</div>
-                  <div class="text-subtitle1">March 28-30, 2022</div>
-                  <div class="text-subtitle2">Green Bay, WI</div>
-                  <br>
-                  <div class="text-body1">This training will be hosted in Green Bay, WI from March 28-30th. This is further body copy that will be filled in with actual event data and wonderful words about the training that is to occur.</div>
-                  <q-btn
-                    to="/registerTraining"
-                    unelevated
-                    class="q-ma-md q-px-lg q-pa-md"
-                    color="green"
-                    label="register"
-                    text-color="white"
-                  />
-                  <q-btn
-                    to="/traininginfo"
-                    unelevated
-                    class="q-ma-md q-px-lg q-pa-md"
-                    color="blue"
-                    label="info"
-                    text-color="white"
-                  />
-                </q-card-section>
-              </q-card>
+          <!--training section-->
+          <div class="row wrap justify-evenly">
+            <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
+              
             </div>
+            
+
         </div>
       </div>
     </div>
