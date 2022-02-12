@@ -16,11 +16,9 @@ const routes = [
       { path: '/2022ConfRegistration', component: () => import('pages/registerConf.vue') },
       { path: '/history', component: () => import('pages/history.vue') },
       { path: '/memberlist', component: () => import('pages/MemberList.vue') },
-      { path: '/join', component: () => import('pages/join.vue') },
-      { path: '/auth', component: () => import('pages/auth.vue') }
+      { path: '/join', component: () => import('pages/join.vue') }
     ]
   },
-
   // Always leave this as last one,
   // but you can also remove it
   {
