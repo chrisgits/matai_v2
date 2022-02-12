@@ -3,14 +3,13 @@
     <div class="q-pa-md row">
       <p>The Midwest Association of Technical Accident Investigators, <strong>MATAI</strong>, was formed to provide a professional affiliation of individuals dedicated to advancement in the technical aspects of motor vehicle traffic accident investigations.</p>
       <p>Through their affiliation with <strong>MATAI</strong>, professionals in the field of accident investigation discuss problem areas and work together to improve the process of accident investigation and the presentation of related evidence in court.</p>
-      <p>An annual conference and general meeting is held each year so that members can get together to discuss activities of the past year in the reconstruction field and to prove that the various formulas used in the field are accurate. We also provide an annual training session over a 3-day period that provides instruction on a specialized topic. This is generally held opposite of the Annual Conference during the calendar year.</p>
-      <p>Founded in 1986, <strong>MATAI</strong> was one of the original contributing organizations involved in the development and establishment of the Accreditation Commission for Traffic Accident Reconstruction (ACTAR). Currently, more than 46% of the MATAI membership is Accredited by ACTAR. Please read a brief history of our organization.</p>
-      <p>A membership application is available for download as PDF, or you may review membership requirements before downloading or printing an application form.</p>
-
+      <p>An annual conference and general meeting is held each year so that members can get together to discuss activities of the past year in the reconstruction field and to prove that the various formulas and techniques used in the field are accurate. We also provide an annual training session over a 3-day period that provides instruction on a specialized topic. This is generally held opposite of the Annual Conference during the calendar year.</p>
+      <p>Founded in 1986, <strong>MATAI</strong> was one of the original contributing organizations involved in the development and establishment of the Accreditation Commission for Traffic Accident Reconstruction (ACTAR). Currently, more than 46% of the MATAI membership is Accredited by ACTAR. Please read a brief <a href="#/history">history</a> of our organization.</p>
+      <p>A membership application is available for download as a PDF, or you may review membership requirements <a href="#/join">here</a> before downloading or printing an application form on the <a href="#/join">Join</a> page.</p>
     </div>
     <div class="q-pa-md row " id="board">
       <div class="col-12 text-center">
-        <h4 class="q-pa-none q-my-sm">Current Serving Board</h4>
+        <h4 class="q-pa-none q-my-sm">MATAI Board of Directors</h4>
       </div>
       <div class="row justify-center"> <!-- CARD LIST-->
         <q-card
@@ -26,21 +25,21 @@
               <div class="text-overline">{{boardmember.title}}</div>
               <div class="text-h5 q-mt-sm q-mb-xs">{{boardmember.name}}</div>
               <div class="text-subtitle-3 q-mt-sm q-mb-xs">
-                <a
+                <!-- <a
                 :key="boardmember.email"
                 :href="boardmember.email">Email
-                </a>
+                </a> -->
               </div>
-              <div class="text-caption text-primary">
+              <!-- <div class="text-caption text-primary">
                 {{boardmember.name}} has been {{boardmember.title}} since {{boardmember.yos}}.
-              </div>
+              </div> -->
             </q-card-section>
-            <q-card-section class="col-5 flex flex-center">
+            <!-- <q-card-section class="col-5 flex flex-center">
               <q-img
                 class="rounded-borders memberImg"
                 :src="boardmember.photo"
               />
-            </q-card-section>
+            </q-card-section> -->
           </q-card-section>
           <q-separator />
         </q-card> <!-- END CARD -->
@@ -51,6 +50,7 @@
         <h6>PO Box 92</h6>
         <h6>Johnston, IA 50131</h6>
         <h6>(515)-207-7605</h6>
+        <h6><a href="mailto:info@matai.org">info@matai.org</a></h6>
         <br>
       </div>
       <div class="col-12 q-mb-lg">
@@ -68,9 +68,16 @@
 </template>
 
 <style lang="sass" scoped>
+p
+  font-size: 20px
+
 .my-card-p
   background-color: lightblue
   color: black
+
+.my-dir-p
+  background-color: #3c69b3 
+  color: white
 
 .memberImg
   height: 200px
@@ -89,25 +96,36 @@ export default defineComponent({
   data() {
     return {
       boardmembers: [
-        {
-          name: 'James Ronfeldt',
-          title: 'President',
-          email: 'mailto: jr281@rap.midco.net',
-          phone1: '605-390-3033',
-          phone2: '605-394-4130',
-          yos: '2020',
-          photo: 'https://m.media-amazon.com/images/M/MV5BMTkwMTkxNjUzM15BMl5BanBnXkFtZTgwMTg5MTczMTE@._V1_UY317_CR175,0,214,317_AL_.jpg',
-          bio: 'This is bio text if needed',
-          class: 'my-card-p'
-        },
+        // {
+        //   name: 'James Ronfeldt',
+        //   title: 'President',
+        //   email: 'mailto: jr281@rap.midco.net',
+        //   phone1: '605-390-3033',
+        //   phone2: '605-394-4130',
+        //   yos: '2020',
+        //   photo: 'https://m.media-amazon.com/images/M/MV5BMTkwMTkxNjUzM15BMl5BanBnXkFtZTgwMTg5MTczMTE@._V1_UY317_CR175,0,214,317_AL_.jpg',
+        //   bio: 'This is bio text if needed',
+        //   class: 'my-card-p'
+        // },
         {
           name: 'Drew Bolzer',
-          title: 'Vice President',
+          title: 'President',
           email: 'mailto: dbolzer@lancaster.ne.gov',
           phone1: '402-450-6627',
           phone2: '',
           yos: '2018',
           photo: 'https://static.wikia.nocookie.net/breakingbad/images/c/c7/Munn.png',
+          bio: 'This is bio text if needed',
+          class: 'my-card-p'
+        },
+        {
+          name: 'Chris Starrett',
+          title: 'Vice President',
+          email: 'mailto: starrett@dps.state.ia.us',
+          phone1: '641-990-4245',
+          phone2: '',
+          yos: '2020',
+          photo: 'https://static.wikia.nocookie.net/breakingbad/images/d/d6/Kalanchoe.png',
           bio: 'This is bio text if needed',
           class: 'my-card-p'
         },
@@ -163,16 +181,6 @@ export default defineComponent({
           bio: 'This is bio text if needed'
         },
         {
-          name: 'Chris Starrett',
-          title: 'Board Member',
-          email: 'mailto: starrett@dps.state.ia.us',
-          phone1: '641-990-4245',
-          phone2: '',
-          yos: '2020',
-          photo: 'https://static.wikia.nocookie.net/breakingbad/images/d/d6/Kalanchoe.png',
-          bio: 'This is bio text if needed'
-        },
-        {
           name: 'John Mobley',
           title: 'Board Member',
           email: 'mailto: nsp616@gmail.com',
@@ -181,6 +189,17 @@ export default defineComponent({
           yos: '2020',
           photo: 'https://vignette.wikia.nocookie.net/breakingbad/images/f/f3/Officer_Saxton_-_I.F.T..png/revision/latest?cb=20131025090606',
           bio: 'This is bio text if needed'
+        },
+        {
+          name: 'Mike Adams',
+          title: 'Founding Director',
+          email: 'mailto: aka@goldfieldaccess.net',
+          phone1: '515-332-5313',
+          phone2: '',
+          yos: '1987',
+          photo: '/public/img/mike_adams.jpg',
+          bio: 'This is bio text if needed',
+          class: 'my-dir-p'
         },
       ]
     }

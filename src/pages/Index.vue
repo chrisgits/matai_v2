@@ -33,11 +33,15 @@
                 <img style="width: 200px" class="q-pa-sm" src="../assets/MATAI_Circle.svg">
                 <q-card-section>
                   <div class="text-h4">SPRING TRAINING 2022</div>
-                  <div class="text-h5 text-orange-10">Visibility Analysis and Advanced Nighttime Mapping Techniques</div>
+                  <div class="text-h5 text-orange-10">Forensic Visibility Analysis and Nighttime Mapping Techniques</div>
                   <div class="text-h5">March 28-30, 2022</div>
                   <div class="text-h6 ">Green Bay, WI</div>
                   <br>
-                  <div class="text-body1">This training will focus on visibility, basic lighting analysis and advanced nighttime headlight mapping techniques. It will be held over 2 1/2 days in Green Bay, WI. It will start and 0800 Monday morning and continue through Wednesday at noon.</div>
+                  <div class="text-body1">This training will focus on visibility, basic lighting analysis and advanced nighttime headlight mapping techniques. It will be held over 2 1/2 days in Green Bay, WI. It will start and 0800 Monday morning and continue through Wednesday at noon. There will be hours of training after dark as well.</div>
+                  <br>
+                  <div class="text-body1">Nighttime collisions pose a special set of problems which a Collision Reconstructionist needs to approach with both an appreciation for that which may seem obvious but is not, and a plan as to how best to analyze the often complex variables they are presented with.</div>
+                  <br>
+                  <div class="text-body1">Understanding visibility and how to document this evidence is key to forming a solid opinion as to causal factors in nighttime vehicle collisions.</div>
                   <q-btn
                     to="/registerTraining"
                     unelevated

@@ -151,7 +151,7 @@ module.exports = configure(function (ctx) {
       manifest: {
         name: `matai_app`,
         short_name: `matai_app`,
-        description: `A Quasar Framework app`,
+        description: `MATAI.org`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',

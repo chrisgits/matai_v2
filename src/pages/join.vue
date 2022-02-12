@@ -1,22 +1,37 @@
 <template>
   <div class="row justify-center">
-    <div class="col" style="max-width: 400px">
+    <div class="col join" style="max-width: 600px">
       <h4 class="text-bold">Joining MATAI</h4>
       <p>As an association we recognize all potential members interested in our organization. With this in mind we require that Applicants must have successfully completed a recognized Technical Crash Investigation Course, or its equivalent.</p>
-      <p>We also provide that if the Applicant has completed an advanced Accident Investigation Course with at
-      least one (1) year experience in the area of Accident Investigation, and provide a copy of an investigation completed during that year, to include a scaled diagram.</p>
+      <p>We also provide that if the Applicant has completed an advanced Accident Investigation Course with at least one (1) year experience in the area of Accident Investigation, and provide a copy of an investigation completed during that year, to include a scaled diagram.</p>
       <p>A link to our PDF Application is provided below.</p>  
       <div class="q-pa-md q-gutter-sm">
         <q-btn
-          onClick="/assets/MATAI_Application_2022.pdf"
+          type="a"
+          href="https://matai.org/public/MATAI_Application_2022.pdf"
           value="Open"
           color="accent"
           text-color="black"
           label="Membership Application Form"
         />
+        <q-pdfviewer
+          v-model="show"
+          type="html5"
+          :src="updatedSrc"
+          content-class="absolute"
+        />
       </div>
+      
     
-      <p>You are invited to register for <strong>website access</strong> during the interim while your application is reviewed. Once approved you will be granted access to the Members section with exclusive content: </p>
+      <p>You are invited to register for <strong>website access</strong> during the interim while your application is reviewed. Once approved you will be granted access to the Members section with exclusive content:</p>
+      <p>Our new members site will have a unique orange navigation bar for easy identification and will provide our members the ability to control their memberships, update their contact information and register for upcoming training and conferences.</p>
+      <q-img
+        width="400px"
+        src="../../src/assets/MATAI_memberNav.png"
+        class="nav-img"
+      />
+
+      <p>New features will be implemented as the Board explores the new potentials in the new site and management platform.</p>
         <div class="q-pa-md">
           <q-list separator>
             <q-item clickable v-ripple>
@@ -48,10 +63,30 @@
   </div>
 </template>
 
-<script>
-import { defineComponent } from 'vue';
+<style scoped>
+.join > p {
+  font-size: 20px;
+}
+.nav-img {
+  margin-bottom: 1em;
+}
+</style>
 
-export default defineComponent({
-  name: 'About'
-})
+<script>
+export default {
+  data () {
+    return {
+      show: true,
+      src: "https://www.orimi.com/pdf-test.pdf"
+    }
+  },
+  computed: {
+    updatedSrc () {
+      if (process.env.MODE === 'electron') {
+        return '/' + this.src
+      }
+      return this.src
+    }
+  }
+}
 </script>

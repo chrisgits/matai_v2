@@ -52,7 +52,7 @@ export default {
   },
   created() {
     axios
-      .get('https://opensheet.elk.sh/1UZZRY29-F64yIKmaVGA7BcVuGlrdzYh9gmWjj6kQfoU/members')
+      .get('https://opensheet.elk.sh/11FaAIuTyNDvHlZI5E-5EIL3ScvfB5dPjrXtshsbZaxY/members')
       .then(res => {
         this.members = res.data
       })

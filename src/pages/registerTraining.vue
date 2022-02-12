@@ -5,7 +5,14 @@
         <h4>Training Registration</h4>
       </div>
       <div class="col-12">
-        <h6>training registration details</h6>
+        <q-btn
+            href="https://matai.springly.org/collect/description/223295-q-2022-matai-spring-training-green-bay-wi"
+            unelevated
+            class="q-py-md q-px-lg"
+            color="accent"
+            label="Registration Site"
+            text-color="black"
+          />
       </div>
     </div>
 

@@ -36,12 +36,12 @@
           label="hotel"
         />
         <q-space />
-        <span class="text-bold text-h6">Details</span>
+        <span class="text-bold text-h6 q-mr-sm">Details</span>
+
         <q-btn
-          color="blue"
+          color="deep-orange"
+          bordered
           round
-          flat
-          dense
           :icon="expanded ? 'keyboard_arrow_up' : 'keyboard_arrow_down'"
           @click="expanded = !expanded"
         />
@@ -59,3 +59,15 @@
     </q-card>
   </div>
 </template>
+
+<script>
+import { ref } from 'vue'
+
+export default {
+  setup () {
+    return {
+      expanded: ref(false),
+    }
+  }
+}
+</script>
