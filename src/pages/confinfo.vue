@@ -12,21 +12,22 @@
         <div class="text-h4 q-mt-sm q-mb-xs">Commercial Motor Vehicle Topics</div>
         <div class="text-h5 q-mt-sm q-mb-xs">Des Moines, IA</div>
         <div class="text-black text-body1">
-          This training will focus on crashes involving CMVs and be held over 3 days. It will be hosted at the Iowa Raceway with lodging provided by Praire Meadows.
+          This training will focus on crashes involving CMVs and be held over 3 days. It will be held in the Des Moines metro area with lodging provided by Praire Meadows.
         </div>
         <br>
         <div class="text-black text-body1">
           Lodging will be at the nearby Praire Meadows Raceway and Casino. The link below will provide attendees to take advantage of group rates for this conference. Please use GROUP Code: <strong>091122MATAI</strong> with password <strong>863000679</strong> for the reserved conference rooms at the $129/night rate.
         </div>
+        <h5>More information will be posted here and the registration button below will become live as soon as it is available!</h5>
       </q-card-section>
 
       <q-card-actions>
         <q-btn
-          to="/2022ConfRegistration"
           unelevated
           size="lg"
-          color="deep-orange"
-          label="register"
+          color="grey"
+          text-color="darkgrey"
+          label="registration coming soon"
         />
         <q-btn
           href="https://book.rguest.com/onecart/wbe/group/1609/PrairieMeadowsRacetrackandCasino/auth"
@@ -35,27 +36,8 @@
           color="blue"
           label="hotel"
         />
-        <q-space />
-        <span class="text-bold text-h6 q-mr-sm">Details</span>
-
-        <q-btn
-          color="deep-orange"
-          bordered
-          round
-          :icon="expanded ? 'keyboard_arrow_up' : 'keyboard_arrow_down'"
-          @click="expanded = !expanded"
-        />
       </q-card-actions>
 
-      <q-slide-transition>
-        <div v-show="expanded">
-          <q-separator />
-          <q-card-section class="text-subtitle2">
-            <h4>Additional Details</h4>
-            <p>More information about hotel pricing, conference location and specifics will be found here... </p>
-          </q-card-section>
-        </div>
-      </q-slide-transition>
     </q-card>
   </div>
 </template>

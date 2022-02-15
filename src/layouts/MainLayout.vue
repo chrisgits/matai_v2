@@ -7,8 +7,8 @@
       >
         <div>
           <q-btn to="/" flat class="q-pl-none">
-            <img class="gt-sm" width="250" src="../assets/MATAI_TextBlock.svg" alt="">
-            <img class="lt-md q-pl-none" width="60" src="../assets/MATAI_Block.svg" alt="">
+            <img class="gt-sm" width="250" src="../assets/MATAI_TextBlock@6x.png" alt="">
+            <img class="lt-md q-pl-none" width="60" src="../assets/MATAI_Block@6x.png" alt="">
           </q-btn>
         </div>
         <div>
@@ -69,12 +69,16 @@
                   </q-item-section>
                 </q-item>
 
-                <q-item to="/history" clickable v-ripple>
+                <!-- <q-item to="/history" clickable v-ripple>
                   <q-item-section>
                     History
                   </q-item-section>
+                </q-item> -->
+                <q-item to="/springtraining" clickable v-ripple>
+                  <q-item-section>
+                    Spring Training
+                  </q-item-section>
                 </q-item>
-
                 <!-- <q-item to="/members" clickable v-ripple>
                   <q-item-section class="bg-accent" style="color: black">
                     MEMBER LOGIN
@@ -85,7 +89,7 @@
         </div>
       </div>
       <div class="q-pt-sm social text-center">
-        <q-btn href="https://www.facebook.com/Midwest-Association-of-Technical-Accident-Investigators-1513079988957586/"><i class="fab fa-youtube-square fa-2x"></i></q-btn>
+        <q-btn href="https://www.youtube.com/channel/UCvLubrvZf15Zm4-ioYWlYHg"><i class="fab fa-youtube-square fa-2x"></i></q-btn>
         <q-btn href="https://www.facebook.com/Midwest-Association-of-Technical-Accident-Investigators-1513079988957586/"><i class="fab fa-facebook-square fa-2x"></i></q-btn>
       </div>
       <div class="q-pt-xs" align="center">

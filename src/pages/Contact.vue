@@ -1,12 +1,24 @@
 <template>
-  <q-page class="flex flex-center">
-    <h4>MATAI Contact Page</h4>
-
     <div class="container">
-      <iframe src="/html/test.html" frameborder="0"></iframe>
+      <iframe
+        src="https://matai.springly.org/collect/description/223295-q-2022-matai-spring-training-green-bay-wi?iframe=1"
+        frameborder="0"
+        width="100%"
+      ></iframe>
     </div>
-  </q-page>
 </template>
+
+<style scoped>
+body {
+  height: "100%";
+}
+.container {
+  width: 100%;
+}
+
+iframe { height:100%; width:100%; display:block; }
+
+</style>
 
 <script>
 import { defineComponent } from 'vue';

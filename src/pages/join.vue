@@ -11,19 +11,14 @@
           href="https://matai.org/public/MATAI_Application_2022.pdf"
           value="Open"
           color="accent"
+          class="q-ma-md q-px-lg q-pa-md"
           text-color="black"
           label="Membership Application Form"
         />
-        <q-pdfviewer
-          v-model="show"
-          type="html5"
-          :src="updatedSrc"
-          content-class="absolute"
-        />
+        <h5>Or send a note to: <a href="mailto:admin@matai.org">admin@matai.org</a></h5>
       </div>
-      
     
-      <p>You are invited to register for <strong>website access</strong> during the interim while your application is reviewed. Once approved you will be granted access to the Members section with exclusive content:</p>
+      <!-- <p>You are invited to register for <strong>website access</strong> during the interim while your application is reviewed. Once approved you will be granted access to the Members section with exclusive content.</p> -->
       <p>Our new members site will have a unique orange navigation bar for easy identification and will provide our members the ability to control their memberships, update their contact information and register for upcoming training and conferences.</p>
       <q-img
         width="400px"
@@ -47,23 +42,27 @@
         </div>
 
       <p>So long as your dues are paid on an annual basis you will retain these membership privileges and content.</p>
-
+      <h5><strong>Under Construction!</strong></h5>
+      <p>While we are ramping up our new website please be patient as we implement this new system. If you have questions about joining or anything during this time please send them to our website admin <a href="mailto:admin@matai.org">admin@matai.org</a></p>
       <div class="q-pa-md">
         <!-- website member form -->
-        <q-btn
+        <!-- <q-btn
           to="/auth"
           unelevated
           class="q-ma-md q-px-lg q-pa-md"
-          color="green"
-          label="website registration"
+          color="grey"
+          label="member website registration"
           text-color="black"
-        /> 
+        />  -->
       </div>
     </div> <!--col-->
   </div>
 </template>
 
 <style scoped>
+.join {
+  padding: 1em;
+}
 .join > p {
   font-size: 20px;
 }

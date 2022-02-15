@@ -11,14 +11,15 @@
         <div class="text-h4 q-mt-sm q-mb-xs">Forensic Visibility Analysis and Nighttime Mapping Techniques</div>
         <div class="text-h5 q-mt-sm q-mb-xs">Brown County, WI</div>
         <div class="text-black text-body1">
-          This training will focus on visibility, basic lighting analysis and advanced nighttime headlight mapping techniques. It will be held over 3 days in Brown County, WI. It will start and 0800 Monday morning and continue through Wednesday including some hours after dark.
+          This training will focus on visibility, lighting analysis and nighttime mapping techniques. It will be held over 3 days in Brown County, WI. It will start and 0800 Monday morning and continue through Wednesday including some hours after dark.
         </div>
         <br>
         <div class="text-black text-body1">
           A block of rooms has been set aside at the Country Inn & Suites by Radisson, Green Bay East.  850 Kepler Drive Suite A, Green Bay, Wisconsin 54311. <a href="https://www.radissonhotels.com/en-us/hotels/country-inn-green-bay-bellevue-wi">Country Inn & Suites</a>  The hotel is approximately an 8-minute drive to the training facility.  They are offering a rate of $ 90/ night.  If you are a member of a tax exempt organization please have that available at the time of booking.
         </div>
+        <br>
         <div class="text-black text-body1">
-          Reservations by phone 920-288-0101 ask for Midwest Association- MATAI Group  (Group ID 220326MATA)
+          Reservations by phone <strong>920-288-0101</strong> ask for <strong>Midwest Association - MATAI Group  (Group ID 220326MATA)</strong>
         </div>
         <br>
         <div class="text-black text-body1">
