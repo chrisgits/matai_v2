@@ -82,7 +82,7 @@
                       class="q-ma-md q-px-lg q-pa-md"
                       color="grey"
                       label="registration live soon"
-                      text-color="darkgray"
+                      text-color="white"
                     />
                     <q-btn
                       to="/confinfo"
