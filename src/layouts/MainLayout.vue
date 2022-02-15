@@ -39,7 +39,7 @@
         </div>
         <div class="col-sm-2 col-xs-6">
             <div class="">
-              <q-list dense bordered padding class="rounded-borders">
+              <q-list dense padding class="rounded-borders">
                 <q-item to="/" clickable v-ripple>
                   <q-item-section>
                     Home
@@ -62,7 +62,7 @@
         </div>
         <div class="col-sm-2 col-xs-6">
             <div style="max-width: 350px">
-              <q-list dense bordered padding class="rounded-borders">
+              <q-list dense padding class="rounded-borders">
                 <q-item to="/about" clickable v-ripple>
                   <q-item-section>
                     About
@@ -86,12 +86,13 @@
                 </q-item> -->
               </q-list>
             </div>
+            <div class="q-pt-xs social text-center">
+              <q-btn href="https://www.youtube.com/channel/UCvLubrvZf15Zm4-ioYWlYHg"><i class="fab fa-youtube-square fa-2x"></i></q-btn>
+              <q-btn href="https://www.facebook.com/Midwest-Association-of-Technical-Accident-Investigators-1513079988957586/"><i class="fab fa-facebook-square fa-2x"></i></q-btn>
+            </div>
         </div>
       </div>
-      <div class="q-pt-sm social text-center">
-        <q-btn href="https://www.youtube.com/channel/UCvLubrvZf15Zm4-ioYWlYHg"><i class="fab fa-youtube-square fa-2x"></i></q-btn>
-        <q-btn href="https://www.facebook.com/Midwest-Association-of-Technical-Accident-Investigators-1513079988957586/"><i class="fab fa-facebook-square fa-2x"></i></q-btn>
-      </div>
+
       <div class="q-pt-xs" align="center">
        <p class="q-mb-xs text-uppercase text-caption copyright"><span class="material-icons">
         copyright</span>2022  matai</p>

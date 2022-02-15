@@ -46,11 +46,12 @@
                     <br>
                     <div class="text-body1">Understanding visibility and how to document this evidence is key to forming a solid opinion as to causal factors in nighttime vehicle collisions.</div>
                     <q-btn
-                    
+                      type="a"
+                      href="https://matai.pixelengineering.co/collect/description/223295-q-2022-matai-spring-training-green-bay-wi"
                       unelevated
                       class="q-ma-md q-px-lg q-pa-md"
-                      color="grey"
-                      label="registration live soon"
+                      color="green"
+                      label="registration"
                       text-color="white"
                     />
                     <q-btn

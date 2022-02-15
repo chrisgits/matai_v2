@@ -29,10 +29,12 @@
 
       <q-card-actions>
         <q-btn
+          type="a"
+          href="https://matai.pixelengineering.co/collect/description/223295-q-2022-matai-spring-training-green-bay-wi"
           unelevated
           size="lg"
-          color="grey"
-          label="Registration Live Soon!"
+          color="green"
+          label="Registration"
         />
         <q-btn
           href="https://www.radissonhotels.com/en-us/hotels/country-inn-green-bay-bellevue-wi" target="_blank"

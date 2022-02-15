@@ -46,14 +46,15 @@
       <p>While we are ramping up our new website please be patient as we implement this new system. If you have questions about joining or anything during this time please send them to our website admin <a href="mailto:admin@matai.org">admin@matai.org</a></p>
       <div class="q-pa-md">
         <!-- website member form -->
-        <!-- <q-btn
-          to="/auth"
+        <q-btn
+          type="a"
+          href="https://matai.pixelengineering.co/collect/description/225038-j-matai-new-member-application"
           unelevated
           class="q-ma-md q-px-lg q-pa-md"
           color="grey"
           label="member website registration"
           text-color="black"
-        />  -->
+        /> 
       </div>
     </div> <!--col-->
   </div>
