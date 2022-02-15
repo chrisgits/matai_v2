@@ -8,14 +8,14 @@
       <div class="q-pa-md q-gutter-sm">
         <q-btn
           type="a"
-          href="https://matai.org/public/MATAI_Application_2022.pdf"
+          href="https://files.matai.org/public/MATAI_Application_2022.pdf"
+          target="_blank"
           value="Open"
           color="accent"
           class="q-ma-md q-px-lg q-pa-md"
           text-color="black"
           label="Membership Application Form"
         />
-        <h5>Or send a note to: <a href="mailto:admin@matai.org">admin@matai.org</a></h5>
       </div>
     
       <!-- <p>You are invited to register for <strong>website access</strong> during the interim while your application is reviewed. Once approved you will be granted access to the Members section with exclusive content.</p> -->
