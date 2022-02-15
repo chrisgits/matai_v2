@@ -81,7 +81,7 @@
                       unelevated
                       class="q-ma-md q-px-lg q-pa-md"
                       color="grey"
-                      label="registration open soon"
+                      label="registration live soon"
                       text-color="darkgray"
                     />
                     <q-btn
