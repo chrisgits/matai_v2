@@ -9,7 +9,7 @@
     </div>
     <div class="col-12 ">
       <h5>A Look at a snippet of the first letter to the incoming Directors</h5>
-      <q-img src="../../src/assets/history/firstNL.png" alt="first newsletter snippet" class="img-border shadow-3 q-mb-xl"/>
+      <img src="../../src/assets/history/firstNL.png" alt="first newsletter snippet" class="img-border shadow-3 q-mb-xl"/>
     </div>
     <div class="row ">
       <div class="col-6">
@@ -35,7 +35,7 @@
       <img src="../../src/assets/history/trainingList88.png" alt="member involvement snippet" class="img-border shadow-3 q-mb-xl">
       <p>It is interesting to see the topics of the day and that many of those topics are still relevant today -- other than the 'video taped animations' of course.</p>
       <p>There is also mention of <a href="https://www.napars.org/">NAPARS</a>, the National Association of Professional Accident Reconstruction Specialists, Inc. -- which, first and foremost, is an even longer name than MATAI, at 77 characters if you include spaces! They are mentioned because they had proposed a potential partnership for a national bi-monthly newsletter since the printing and mailing of newsletters for these organizations was a significant undertaking and cost.</p>
-      <p>In December 1988 NAPARS introduces the Accident Reconstruction Journal, which is still published to this day. Becoming a member of MATAI provides you with copies of this Journal back to 2013.</p>
+      <p>In December 1988 NAPARS introduces the Accident Reconstruction Journal, which is still edited and published by Victor Craig to this day. Becoming a member of MATAI provides you with copies of this Journal back to 2013.</p>
     </div>
     <div class="col-12">
       <p>The third annual meeting - AMTS III - was held in Cedar Rapids, IA in May, 1990 and the newsletter reported over 100 members representing six states.</p>
@@ -48,18 +48,28 @@
       <p>The Summer of '94 conference topic was School Bus crashes which was repeated again in 2019 with remote-controlled buses!</p>
       <img src="../../src/assets/history/Summer94NL.png" alt="member involvement snippet" class="img-border shadow-3 q-mb-xl">
     </div>
+    <div class="col-12">
+      <p>The third annual meeting - AMTS III - was held in Cedar Rapids, IA in May, 1990 and the newsletter reported over 100 members representing six states.</p>
+      <p>The February 1991 newsletter informs the membership of training to be held in Council Bluffs (AMTS IV). The letter includes words from  <strong>Richard Yoder</strong> as President who is currently still actively engaged on the board in 2022!</p>
+      <p>Interestingly there is also mention of a 'national certification' process moving forward and MATAI being a part of that effort. Think <a href="https://actar.org">ACTAR</a>!</p>
+      <p>Continued conferences took place and in 1993 the newsletter took on a new look and feel as better technology took over things like word processing. </p>
+      
+    </div>
 
   </q-page>
 </template>
 
 <style lang="sass" scoped>
 .page
+  color: white
   padding: 1em
+  background-color: $primary
 p
   font-size: 20px
   margin-bottom: 1em
 img
   width: 100%
+  border-radius: 5px
 .img-border
   width: 100%
 .col-6

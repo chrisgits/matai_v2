@@ -6,7 +6,7 @@
 // Configuration for your app
 // https://quasar.dev/quasar-cli/quasar-conf-js
 let API_LOCAL = "http://localhost:3000",
-    API_PROD = "https://matai-beta.herokuapp.com"
+    API_PROD = "https://www.matai.org"
 
 /* eslint-env node */
 const ESLintPlugin = require('eslint-webpack-plugin')

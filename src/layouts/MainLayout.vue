@@ -34,7 +34,7 @@
             <img class="lt-lg" width="100" src="../assets/MATAI_blockw@2x.png" alt="matai-logo">
           </div>
           <div>
-            <img class="gt-md" width="200" src="../assets/MATAI_Circle_W.svg" alt="matai-logo">
+            <img class="gt-md" width="125" src="../assets/MATAI_Circle_W.svg" alt="matai-logo">
           </div>
         </div>
         <div class="col-sm-2 col-xs-6">
