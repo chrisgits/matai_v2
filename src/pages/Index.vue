@@ -59,7 +59,7 @@
                       unelevated
                       class="q-ma-md q-px-lg q-pa-md"
                       color="blue"
-                      label="info"
+                      label="more info"
                       text-color="white"
                     />
                   </q-card-section>
@@ -78,7 +78,6 @@
                     <br>
                     <div class="text-body1">This training will be hosted in Des Moines, IA by the Iowa State Patrol. This conference will be centered on the topic of Commercial Motor Vehicles and will include live crash testing as well as presentations from industry experts.</div>
                     <q-btn
-                      
                       unelevated
                       class="q-ma-md q-px-lg q-pa-md"
                       color="grey"
@@ -90,7 +89,7 @@
                       unelevated
                       class="q-ma-md q-px-lg q-pa-md"
                       color="blue"
-                      label="info"
+                      label="more info"
                       text-color="white"
                     />
                   </q-card-section>
@@ -100,10 +99,11 @@
           <!--training section-->
           <div class="row wrap justify-evenly">
             <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
-              
+              <h3>Welcome to MATAI</h3>
+              <h5>The <strong>Midwest Association of Technical Accident Investigators</strong>, MATAI, was formed to provide a professional affiliation of individuals dedicated to advancement in the technical aspects of motor vehicle traffic accident investigations.</h5>
+              <h5>Check back often as we update our new site with more content for members and visitors alike.</h5>
+              <h5>We look foward to interacting with our membership as well as presenting material relevant to the field of crash investigation for visitors from around the globe.</h5>
             </div>
-            
-
         </div>
       </div>
     </div>
@@ -114,6 +114,9 @@
 .constrain {
   padding: 0px;
 }
+/* br {
+  margin-top: 1em;
+} */
 
 h3 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
