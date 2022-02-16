@@ -40,24 +40,35 @@
                     <div class="text-h5">March 28-30, 2022</div>
                     <div class="text-h6 ">Green Bay, WI</div>
                     <br>
+                    <h4>Course Instructors</h4>
+                    <h5 class="q-mb-none">Dan Billington</h5>
+                    <div class="text-body2 q-mb-sm text-bold">Great Lakes Forensic Experts</div>
+                    <div class="text-black text-body1">
+                      Dan is an ACTAR Accredited Collision Reconstructionist and Visibility Expert based in south-central Wisconsin.His
+                      career started in 1994 with the Waukesha County Sheriff’s Department, where he became an integral part of their Collision Reconstruction team.
+                      <br>
+                      In 2009, Dan left the Sheriff’s Department to begin full-time work as a private consultant. Since then he has investigated thousands of collisions, and has completed nearly 1000 collision reconstructions!
+                      <br>
+                      Currently, Dan’s clients include prosecution, criminal defense attorneys, civil attorneys, and the U.S. military. He has testified as an expert more than 100 times, and has spoken at many national and regional conferences, including Harvard University in Cambridge, MA.
+                    </div>
+                    <h5 class="q-mb-none">Chris Starrett</h5>
+                    <div class="text-body2 q-mb-sm text-bold">SV Aerial Consulting</div>
+                    <div class="text-black text-body1">
+                      Chris is an ACTAR Accredited Collision Reconstructionist and Forensic Mapping Expert based in central Iowa. His law enforcement career started in 2003 an he currently serves as the sergeant over the Collision Reconstruction team for the Iowa State Patrol.
+                      <br>
+                      Chris and business partner Eric Van Zee formed SV Aerial Consulting in 2020.
+                      <br>
+                      Chris is a 17-year veteran of the Iowa State Patrol and has helped launch their drone program. Chris is both a part 107 certified drone pilot, certified drone flight instructor, and a licensed single-engine aircraft pilot.
+                    </div>
                     <div class="text-body1">This training will focus on visibility, basic lighting analysis and advanced nighttime headlight mapping techniques. It will be held over 2 1/2 days in Green Bay, WI. It will start and 0800 Monday morning and continue through Wednesday at noon. There will be hours of training after dark as well.</div>
                     <br>
                     <div class="text-body1">Nighttime collisions pose a special set of problems which a Collision Reconstructionist needs to approach with both an appreciation for that which may seem obvious but is not, and a plan as to how best to analyze the often complex variables they are presented with.</div>
                     <br>
                     <div class="text-body1">Understanding visibility and how to document this evidence is key to forming a solid opinion as to causal factors in nighttime vehicle collisions.</div>
                     <q-btn
-                      type="a"
-                      href="https://matai.pixelengineering.co/collect/description/223295-q-2022-matai-spring-training-green-bay-wi"
-                      unelevated
-                      class="q-ma-md q-px-lg q-pa-md"
-                      color="green"
-                      label="registration"
-                      text-color="white"
-                    />
-                    <q-btn
                       to="/springtraining"
                       unelevated
-                      class="q-ma-md q-px-lg q-pa-md"
+                      class="q-my-md q-px-lg q-pa-md"
                       color="blue"
                       label="more info"
                       text-color="white"
@@ -79,7 +90,7 @@
                     <div class="text-body1">This training will be hosted in Des Moines, IA by the Iowa State Patrol. This conference will be centered on the topic of Commercial Motor Vehicles and will include live crash testing as well as presentations from industry experts.</div>
                     <q-btn
                       unelevated
-                      class="q-ma-md q-px-lg q-pa-md"
+                      class="q-my-md q-mr-md q-px-lg q-pa-md"
                       color="grey"
                       label="registration live soon"
                       text-color="white"
@@ -87,7 +98,7 @@
                     <q-btn
                       to="/confinfo"
                       unelevated
-                      class="q-ma-md q-px-lg q-pa-md"
+                      class="q-my-md q-px-lg q-pa-md"
                       color="blue"
                       label="more info"
                       text-color="white"

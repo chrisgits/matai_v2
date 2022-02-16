@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md row justify-center items-start q-gutter-md">
-    <q-card class="my-card" flat bordered>
+    <q-card class="my-card" flat>
       <div class="text-h4 q-mt-sm q-mb-xs">2022 Spring Training</div>
       <q-img
         src="../../src/assets/img/lightmappingLogo.jpg"
