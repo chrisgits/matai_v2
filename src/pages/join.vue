@@ -47,7 +47,7 @@
         <!-- website member form -->
         <q-btn
           type="a"
-          href="https://matai.pixelengineering.co/collect/description/225038-j-matai-new-member-application"
+          href="https://momentum.matai.org/collect/description/225038-j-matai-new-member-application"
           unelevated
           class="q-my-md q-pa-md"
           color="green"
