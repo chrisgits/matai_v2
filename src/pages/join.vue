@@ -42,17 +42,29 @@
         </div>
 
       <p>So long as your dues are paid on an annual basis you will retain these membership privileges and content.</p>
-      <h5><strong>Under Construction!</strong></h5>
-      <p>While we are ramping up our new website please be patient as we implement this new system. If you have questions about joining or anything during this time please send them to our website admin <a href="mailto:admin@matai.org">admin@matai.org</a></p>
+      <p>If you have questions about joining or anything during this time please send them to our website admin <a href="mailto:admin@matai.org">admin@matai.org</a></p>
       <div class="q-pa-md">
         <!-- website member form -->
         <q-btn
           type="a"
           href="https://matai.pixelengineering.co/collect/description/225038-j-matai-new-member-application"
           unelevated
-          class="q-ma-md q-px-lg q-pa-md"
+          class="q-my-md q-pa-md"
+          color="green"
+          label="new member website registration"
+          text-color="black"
+        /> 
+      </div>
+      <h5><strong>Current/Past MATAI Members</strong></h5>
+      <p>We will be implementing a separate form to intake our current and past members to this new membership platform. We will send out an email notice once this has been finalized and tested. If you did not receive an email recently (on or around Feb 15, 2022) about the Spring Training your email previously registered with MATAI is likely not up to date. Please send our website admin an email to update your contact info with us so we can send you the latest updates with MATAI. <a href="mailto:admin@matai.org">admin@matai.org</a> <strong>Thank you!</strong></p>
+      <p><strong>Once this process is set the button below will link you to our form to update your website/membership information.</strong></p>
+      <div class="q-pa-md">
+        <!-- website member form -->
+        <q-btn
+          unelevated
+          class="q-my-md q-pa-md"
           color="grey"
-          label="member website registration"
+          label="current member website registration"
           text-color="black"
         /> 
       </div>
