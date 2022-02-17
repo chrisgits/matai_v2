@@ -21,7 +21,7 @@
         </div>
         <q-btn
           type="a"
-          href="https://matai.pixelengineering.co/collect/description/223295-q-2022-matai-spring-training-green-bay-wi"
+          href="https://momentum.matai.org/collect/description/223295-q-2022-matai-spring-training-green-bay-wi"
           unelevated
           size="lg"
           color="green"
@@ -65,7 +65,7 @@
       <q-card-actions>
         <q-btn
           type="a"
-          href="https://matai.pixelengineering.co/collect/description/223295-q-2022-matai-spring-training-green-bay-wi"
+          href="https://momentum.matai.org/collect/description/223295-q-2022-matai-spring-training-green-bay-wi"
           unelevated
           size="lg"
           color="green"
