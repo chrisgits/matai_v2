@@ -109,12 +109,18 @@
             </div>
           <!--training section-->
           <div class="row wrap justify-evenly">
-            <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
+            <div class="col-12 col-md-12 q-pa-md items-start q-gutter-md">
               <h3>Welcome to MATAI</h3>
               <h5>The <strong>Midwest Association of Technical Accident Investigators</strong>, MATAI, was formed to provide a professional affiliation of individuals dedicated to advancement in the technical aspects of motor vehicle traffic accident investigations.</h5>
               <h5>Check back often as we update our new site with more content for members and visitors alike.</h5>
               <h5>We look foward to interacting with our membership as well as presenting material relevant to the field of crash investigation for visitors from around the globe.</h5>
             </div>
+        </div>
+        <div class="q-pa-md">
+          <q-video
+          :ratio="16/9"
+            src="https://www.youtube.com/embed/4XfUUX31Ieo?rel=0"
+          />
         </div>
       </div>
     </div>
@@ -131,6 +137,7 @@
 
 h3 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: ;
   padding: 0px;
   margin-top: 0px 0px;
 }
