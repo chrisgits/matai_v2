@@ -1,7 +1,7 @@
 {
   "name": "matai_v2",
-  "version": "1.0.1",
-  "description": "A Quasar Framework app",
+  "version": "2.0.1",
+  "description": "MATAI Website",
   "productName": "MATAI",
   "author": "C. Mannel <chris@pixelengineering.co>",
   "private": true,
