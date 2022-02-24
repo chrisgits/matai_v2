@@ -21,14 +21,14 @@
         />
       </div>
     </div>
-    
+
     <div>
       <div>
           <div class="text-center">
             <div class="text-uppercase text-h3 q-pa-lg">upcoming events</div>
           </div>
           <!-- upcoming training cards -->
-          <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">  
+          <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
               <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-4 gt-xs">
@@ -137,7 +137,6 @@
 
 h3 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-style: ;
   padding: 0px;
   margin-top: 0px 0px;
 }
@@ -155,14 +154,6 @@ h3 {
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'Home',
-  data () {
-  return {}
-  },
-  methods: {
-    logout() {
-      console.log('logged out')
-    }
-  }
+  name: 'Home'
 })
 </script>
