@@ -1,7 +1,16 @@
 <template>
-  <q-page class="flex">
-    <h4 style="color: darkorange">Our MATAI Members Page is Under Construction</h4>
-    <h5>Once Live you will be redirected to our members platform for login and membership management</h5>
+  <q-page class="q-pa-md">
+    <h4>Welcome back!</h4>
+    <h5>The members platform is LIVE! Once you have gone through the <a href="https://momentum.matai.org/collect/description/228963-r-matai-member-renewal">renewal</a> process you can login below:</h5>
+    <q-btn
+          unelevated
+          href="https://momentum.matai.org/contacts/login"
+          class="q-my-md q-pa-md"
+          color="primary"
+          label="CURRENT MEMBER LOGIN"
+          text-color="white"
+          icon-right="login"
+        />
   </q-page>
 </template>
 

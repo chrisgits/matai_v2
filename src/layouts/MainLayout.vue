@@ -17,7 +17,14 @@
         <div>
           <q-btn to="/confinfo" class="q-py-sm q-px-sm" flat color="black" >Conference</q-btn>
           <q-btn to="/springtraining" class="q-py-sm q-px-sm q-ml-xs" flat color="black" >Training</q-btn>
-          <!-- <q-btn to="/members" class="q-py-sm q-px-sm q-ml-xs" color="primary" label="LOGIN"/> -->
+          <q-btn
+            unelevated
+            href="https://momentum.matai.org/collect/description/228963-r-matai-member-renewal"
+            class="q-py-xs q-px-sm q-ml-xs text-black"
+            icon-right="login"
+            color="accent"
+            label="renewals"
+          />
         </div>
       </q-toolbar>
     </q-header>
@@ -34,30 +41,29 @@
             <img class="lt-lg" width="100" src="../assets/MATAI_blockw@2x.png" alt="matai-logo">
           </div>
           <div>
-            <img class="gt-md" width="125" src="../assets/MATAI_Circle_W.svg" alt="matai-logo">
+            <q-btn to="/"><img class="gt-md" width="125" src="../assets/MATAI_Circle_W.svg" alt="matai-logo"></q-btn>
           </div>
         </div>
         <div class="col-sm-2 col-xs-6">
             <div class="">
               <q-list dense padding class="rounded-borders">
-                <q-item to="/" clickable v-ripple>
-                  <q-item-section>
-                    Home
-                  </q-item-section>
-                </q-item>
-
                 <q-item to="/join" clickable v-ripple>
                   <q-item-section>
                     Join
                   </q-item-section>
                 </q-item>
-
                 <q-item to="/confinfo" clickable v-ripple>
                   <q-item-section>
                     Conference
                   </q-item-section>
                 </q-item>
+                <q-item to="/springtraining" clickable v-ripple>
+                  <q-item-section>
+                    Spring Training
+                  </q-item-section>
+                </q-item>
               </q-list>
+
             </div>
         </div>
         <div class="col-sm-2 col-xs-6">
@@ -68,22 +74,22 @@
                     About
                   </q-item-section>
                 </q-item>
-
+                <q-item to="/members" clickable v-ripple>
+                  <q-item-section class="bg-primary">
+                    <q-btn unelevevated class="text-white" label="members"></q-btn>
+                  </q-item-section>
+                </q-item>
                 <!-- <q-item to="/history" clickable v-ripple>
                   <q-item-section>
                     History
                   </q-item-section>
                 </q-item> -->
-                <q-item to="/springtraining" clickable v-ripple>
-                  <q-item-section>
-                    Spring Training
+
+                <q-item href="https://momentum.matai.org/collect/description/228963-r-matai-member-renewal" clickable v-ripple>
+                  <q-item-section class="bg-accent q-pa-xs">
+                    <q-btn unelevated class="text-black" icon-right="login" label="member renewal"></q-btn>
                   </q-item-section>
                 </q-item>
-                <!-- <q-item to="/members" clickable v-ripple>
-                  <q-item-section class="bg-accent" style="color: black">
-                    MEMBER LOGIN
-                  </q-item-section>
-                </q-item> -->
               </q-list>
             </div>
             <div class="q-pt-xs social text-center">
@@ -106,7 +112,7 @@
 </template>
 
 <style lang="sass" scoped>
-.constrain 
+.constrain
   padding: 0px
 
 .copyright
@@ -125,6 +131,6 @@ export default {
   data () {
 
   }
-  
+
 }
 </script>

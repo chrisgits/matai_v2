@@ -15,9 +15,16 @@
         <q-btn
           to="/about"
           outline
-          class="q-ml-lg q-py-md q-px-lg"
+          class="q-ml-xs q-py-md q-px-lg"
           color="#1a1a1a"
           label="learn more"
+        />
+        <q-btn
+          to="/members"
+          outline
+          class="bg-primary q-ml-xs q-py-md q-px-lg"
+          color="white"
+          label="members"
         />
       </div>
     </div>
