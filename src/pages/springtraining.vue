@@ -7,9 +7,20 @@
       />
 
       <q-card-section>
-        <div class="text-bold text-h5 text-orange-9">March 28-30, 2022</div>
-        <div class="text-h4 q-mt-sm q-mb-xs">Forensic Visibility Analysis and Nighttime Mapping Techniques</div>
-        <div class="text-h5 q-mt-sm q-mb-xs">Brown County, WI</div>
+        <div class="row">
+          <div class="col-12 text-bold text-h5 text-orange-9">March 28-30, 2022</div>
+          <div class="col-12 text-h4 q-mt-sm q-mb-xs">Forensic Visibility Analysis and Nighttime Mapping Techniques</div>
+          <div class="col-12 text-h5 q-mt-sm q-mb-xs">Brown County, WI</div>
+          <div class="col-6 text-h5 q-mt-sm q-mb-xs">Current IATAI Members are approved for Member Pricing for this training!</div>
+          <div class="col-6 q-pl-md text-center"><img src="../../src/assets/iatai.jpg" style="width: 100px" alt="IATAI Logo"></div>
+          <div class="col-6 text-h5">
+            ACTAR credits information will be added when available.
+          </div>
+          <div class="col-6 q-pl-md text-center">
+            <img src="../../src/assets/actar.png" style="width: 100px" alt="ACTAR Seal">
+          </div>
+        </div>
+        <hr>
         <div class="text-body1">
           The forensic science of collision reconstruction goes far beyond that which is learned in traditional training. Understanding physics and mathematics, and developing proficiency in those disciplines is only the foundation. The factors which contribute to the cause of collisions are often far more complex than simply determining speed or understanding the basics of time and distance.
           <br>
@@ -50,15 +61,16 @@
         </div>
         <h4>Lodging</h4>
         <div class="text-black text-body1">
-          A block of rooms has been set aside at the Country Inn & Suites by Radisson, Green Bay East.  850 Kepler Drive Suite A, Green Bay, Wisconsin 54311. <a href="https://www.radissonhotels.com/en-us/hotels/country-inn-green-bay-bellevue-wi">Country Inn & Suites</a>  The hotel is approximately an 8-minute drive to the training facility.  They are offering a rate of $ 90/ night.  If you are a member of a tax exempt organization please have that available at the time of booking.
+          A block of rooms has been set aside at the Country Inn & Suites by Radisson, Green Bay East.  850 Kepler Drive Suite A, Green Bay, Wisconsin 54311. <a href="https://www.radissonhotels.com/en-us/hotels/country-inn-green-bay-bellevue-wi">Country Inn & Suites</a>  The hotel is approximately an 8-minute drive to the training facility.
+          If you are a member of a tax exempt organization please have that available at the time of booking.
         </div>
         <br>
         <div class="text-black text-body1">
-          Reservations by phone <strong>920-288-0101</strong> ask for <strong>Midwest Association - MATAI Group  (Group ID 220326MATA)</strong>
+          Reservations by phone <strong>920-288-0101</strong>
         </div>
         <br>
         <div class="text-black text-body1">
-          This rate is available for the night of Saturday, March 26, 2022 departing Wednesday, March 30, 2022.  This offer expires on <strong>February 24, 2022</strong>.
+          <strong>The group rates have expired for these rooms but reservations can still be made for $96/night.</strong>
         </div>
       </q-card-section>
 
