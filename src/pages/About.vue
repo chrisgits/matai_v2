@@ -24,15 +24,18 @@
             <q-card-section class="q-pt-xs col-7">
               <div class="text-overline">{{boardmember.title}}</div>
               <div class="text-h5 q-mt-sm q-mb-xs">{{boardmember.name}}</div>
-              <div class="text-subtitle-3 q-mt-sm q-mb-xs">
-                <!-- <a
+              <div class="q-mt-sm q-mb-xs">
+                <a
                 :key="boardmember.email"
                 :href="boardmember.email">Email
-                </a> -->
+                </a>
               </div>
               <!-- <div class="text-caption text-primary">
                 {{boardmember.name}} has been {{boardmember.title}} since {{boardmember.yos}}.
               </div> -->
+              <div class="text-primary">
+                {{boardmember.phone1}}
+              </div>
             </q-card-section>
             <!-- <q-card-section class="col-5 flex flex-center">
               <q-img
@@ -41,7 +44,6 @@
               />
             </q-card-section> -->
           </q-card-section>
-          <q-separator />
         </q-card> <!-- END CARD -->
       </div>
       <div class="col-12">
@@ -96,17 +98,6 @@ export default defineComponent({
   data() {
     return {
       boardmembers: [
-        // {
-        //   name: 'James Ronfeldt',
-        //   title: 'President',
-        //   email: 'mailto: jr281@rap.midco.net',
-        //   phone1: '605-390-3033',
-        //   phone2: '605-394-4130',
-        //   yos: '2020',
-        //   photo: 'https://m.media-amazon.com/images/M/MV5BMTkwMTkxNjUzM15BMl5BanBnXkFtZTgwMTg5MTczMTE@._V1_UY317_CR175,0,214,317_AL_.jpg',
-        //   bio: 'This is bio text if needed',
-        //   class: 'my-card-p'
-        // },
         {
           name: 'Drew Bolzer',
           title: 'President',
@@ -114,7 +105,7 @@ export default defineComponent({
           phone1: '402-450-6627',
           phone2: '',
           yos: '2018',
-          photo: 'https://static.wikia.nocookie.net/breakingbad/images/c/c7/Munn.png',
+          photo: '',
           bio: 'This is bio text if needed',
           class: 'my-card-p'
         },
@@ -125,7 +116,7 @@ export default defineComponent({
           phone1: '641-990-4245',
           phone2: '',
           yos: '2020',
-          photo: 'https://static.wikia.nocookie.net/breakingbad/images/d/d6/Kalanchoe.png',
+          photo: '',
           bio: 'This is bio text if needed',
           class: 'my-card-p'
         },
@@ -136,18 +127,18 @@ export default defineComponent({
           phone1: '515-321-4381',
           phone2: '',
           yos: '2019',
-          photo: 'https://i.pinimg.com/originals/d5/c0/34/d5c0345ae70fbdbaa33b7537d685da54.jpg',
+          photo: '',
           bio: 'This is bio text if needed',
           class: 'my-card-p'
         },
         {
           name: 'Dave Hallman',
           title: 'Board Member',
-          email: 'mailto: ',
+          email: 'mailto: david@hallmanengineering.com',
           phone1: '',
           phone2: '',
           yos: '2021',
-          photo: 'https://vignette.wikia.nocookie.net/breakingbad/images/8/8a/Elliott_Schwartz.png/revision/latest?cb=20131005103743&path-prefix=es',
+          photo: '',
           bio: 'This is bio text if needed'
         },
         {
@@ -157,7 +148,7 @@ export default defineComponent({
           phone1: '',
           phone2: '',
           yos: '2020',
-          photo: 'https://vignette.wikia.nocookie.net/breakingbad/images/5/57/BCS_S4_Howard_Hamlin.jpg/revision/latest?cb=20180824195855',
+          photo: '',
           bio: 'This is bio text if needed'
         },
         {
@@ -167,7 +158,7 @@ export default defineComponent({
           phone1: '920-475-2975',
           phone2: '',
           yos: '2019',
-          photo: 'https://vignette.wikia.nocookie.net/breakingbad/images/b/bd/Cast_bb_700x1000_todd-beneke-lg.jpg/revision/latest?cb=20170723165057',
+          photo: '',
           bio: 'This is bio text if needed'
         },
         {
@@ -177,7 +168,7 @@ export default defineComponent({
           phone1: '319-573-1170',
           phone2: '',
           yos: '1987',
-          photo: 'https://vignette.wikia.nocookie.net/breakingbad/images/b/b7/HankS5.jpg/revision/latest/scale-to-width-down/700?cb=20120620014136',
+          photo: '',
           bio: 'This is bio text if needed'
         },
         {
@@ -187,7 +178,7 @@ export default defineComponent({
           phone1: '402-616-7391',
           phone2: '',
           yos: '2020',
-          photo: 'https://vignette.wikia.nocookie.net/breakingbad/images/f/f3/Officer_Saxton_-_I.F.T..png/revision/latest?cb=20131025090606',
+          photo: '',
           bio: 'This is bio text if needed'
         },
         {
@@ -197,7 +188,7 @@ export default defineComponent({
           phone1: '515-332-5313',
           phone2: '',
           yos: '1987',
-          photo: '/public/img/mike_adams.jpg',
+          photo: '/img/mike_adams.jpg',
           bio: 'This is bio text if needed',
           class: 'my-dir-p'
         },
