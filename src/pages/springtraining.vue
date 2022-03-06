@@ -66,7 +66,7 @@
         </div>
         <br>
         <div class="text-black text-body1">
-          Reservations by phone <strong>920-288-0101</strong>
+          Reservations by phone <strong><a href="tel:920-288-0101">920-288-0101</a></strong>
         </div>
         <br>
         <div class="text-black text-body1">

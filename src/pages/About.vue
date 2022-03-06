@@ -51,7 +51,7 @@
         <h6>MATAI</h6>
         <h6>PO Box 92</h6>
         <h6>Johnston, IA 50131</h6>
-        <h6>(515) 321-4381</h6>
+        <h6><a href="tel:515-321-4381">515-321-4381</a></h6>
         <h6><a href="mailto:info@matai.org">info@matai.org</a></h6>
         <br>
       </div>
