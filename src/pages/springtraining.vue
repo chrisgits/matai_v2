@@ -1,7 +1,32 @@
 <template>
   <div class="q-pa-md row justify-center items-start q-gutter-md">
-    <q-card class="my-card" flat>
-      <div class="text-h4 q-mt-sm q-mb-xs">2022 Spring Training</div>
+    <div class="text-center">
+      <div class="text-uppercase text-h3 q-pa-lg">upcoming events</div>
+    </div>
+    <q-card class="my-card">
+
+
+      <q-card-section>
+        <div class="row">
+          <div class="text-h4 q-mt-sm q-mb-xs">2023 Training Session<span class="text-blue-10"></span></div>
+          <div class="col-12 text-uppercase text-bold text-h5 text-orange-9">tbd</div>
+          <div class="col-12 text-h4 q-mt-sm q-mb-xs">Upcoming training session to be announced</div>
+        </div>
+        <hr>
+        <div class="text-body1">
+          As always, the board is always discussing future trainings during their monthly board meetings. As soon as a topic and location are decided on that information will be posted here. We will notify the membership via email as well.
+          <br>
+          We have always encouraged membership participation, so if you have a topic you would like considered or feel folks need more training or exposure to please contact the Board through the <a href="/about">about</a> page via email or phone call. Any input is greatly appreciated.
+        </div>
+      </q-card-section>
+
+
+    </q-card>
+    <div class="text-center">
+      <div class="text-uppercase text-h3 q-pa-lg">past events</div>
+    </div>
+    <q-card class="my-card">
+      <div class="text-h4 q-mt-sm q-mb-xs">2022 Spring Training <span class="text-blue-10">-- COMPLETED</span></div>
       <q-img
         src="../../src/assets/img/lightmappingLogo.jpg"
       />
@@ -11,14 +36,6 @@
           <div class="col-12 text-bold text-h5 text-orange-9">March 28-30, 2022</div>
           <div class="col-12 text-h4 q-mt-sm q-mb-xs">Forensic Visibility Analysis and Nighttime Mapping Techniques</div>
           <div class="col-12 text-h5 q-mt-sm q-mb-xs">Brown County, WI</div>
-          <div class="col-6 text-h5 q-mt-sm q-mb-xs">Current IATAI Members are approved for Member Pricing for this training!</div>
-          <div class="col-6 q-pl-md text-center"><img src="../../src/assets/iatai.jpg" style="width: 100px" alt="IATAI Logo"></div>
-          <div class="col-6 text-h5">
-            ACTAR credits information will be added when available.
-          </div>
-          <div class="col-6 q-pl-md text-center">
-            <img src="../../src/assets/actar.png" style="width: 100px" alt="ACTAR Seal">
-          </div>
         </div>
         <hr>
         <div class="text-body1">
@@ -30,15 +47,6 @@
         <div class="text-black text-body1 q-mt-sm">
           Understanding visibility and how to document this evidence is key to forming a solid opinion as to causal factors in nighttime vehicle collisions.
         </div>
-        <q-btn
-          type="a"
-          href="https://momentum.matai.org/collect/description/223295-q-2022-matai-spring-training-green-bay-wi"
-          unelevated
-          size="lg"
-          color="green"
-          label="Registration"
-          class="q-mt-sm"
-        />
         <h4>Course Instructors</h4>
         <h5 class="q-mb-none">Dan Billington</h5>
         <div class="text-body2 q-mb-sm text-bold">Great Lakes Forensic Experts</div>
@@ -59,36 +67,16 @@
           <br>
           Chris is a 17-year veteran of the Iowa State Patrol and has helped launch their drone program. Chris is both a part 107 certified drone pilot, certified drone flight instructor, and a licensed single-engine aircraft pilot.
         </div>
-        <h4>Lodging</h4>
-        <div class="text-black text-body1">
-          A block of rooms has been set aside at the Country Inn & Suites by Radisson, Green Bay East.  850 Kepler Drive Suite A, Green Bay, Wisconsin 54311. <a href="https://www.radissonhotels.com/en-us/hotels/country-inn-green-bay-bellevue-wi">Country Inn & Suites</a>  The hotel is approximately an 8-minute drive to the training facility.
-          If you are a member of a tax exempt organization please have that available at the time of booking.
-        </div>
-        <br>
-        <div class="text-black text-body1">
-          Reservations by phone <strong><a href="tel:920-288-0101">920-288-0101</a></strong>
-        </div>
-        <br>
-        <div class="text-black text-body1">
-          <strong>The group rates have expired for these rooms but reservations can still be made for $96/night.</strong>
-        </div>
       </q-card-section>
 
       <q-card-actions>
         <q-btn
           type="a"
-          href="https://momentum.matai.org/collect/description/223295-q-2022-matai-spring-training-green-bay-wi"
+          href="/"
           unelevated
           size="lg"
-          color="green"
-          label="Registration"
-        />
-        <q-btn
-          href="https://www.radissonhotels.com/en-us/hotels/country-inn-green-bay-bellevue-wi" target="_blank"
-          unelevated
-          size="lg"
-          color="blue"
-          label="hotel"
+          color="grey"
+          label="event completed"
         />
         <q-space />
       </q-card-actions>

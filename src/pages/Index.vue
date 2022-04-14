@@ -39,54 +39,6 @@
               <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-4 gt-xs">
-                      <img style="width: 100%" class="q-pa-sm" src="../assets/SpringTraining2022.png">
-                  </q-card-section>
-                  <q-card-section class="col-xs-12 col-sm-8">
-                    <div class="text-h4">SPRING TRAINING 2022</div>
-                    <div class="text-h5 text-orange-10">Forensic Visibility Analysis and Nighttime Mapping Techniques</div>
-                    <div class="text-h5">March 28-30, 2022</div>
-                    <div class="text-h6 ">Green Bay, WI</div>
-                    <br>
-                    <h4>Course Instructors</h4>
-                    <h5 class="q-mb-none">Dan Billington</h5>
-                    <div class="text-body2 q-mb-sm text-bold">Great Lakes Forensic Experts</div>
-                    <div class="text-black text-body1">
-                      Dan is an ACTAR Accredited Collision Reconstructionist and Visibility Expert based in south-central Wisconsin.His
-                      career started in 1994 with the Waukesha County Sheriff’s Department, where he became an integral part of their Collision Reconstruction team.
-                      <br>
-                      In 2009, Dan left the Sheriff’s Department to begin full-time work as a private consultant. Since then he has investigated thousands of collisions, and has completed nearly 1000 collision reconstructions!
-                      <br>
-                      Currently, Dan’s clients include prosecution, criminal defense attorneys, civil attorneys, and the U.S. military. He has testified as an expert more than 100 times, and has spoken at many national and regional conferences, including Harvard University in Cambridge, MA.
-                    </div>
-                    <h5 class="q-mb-none">Chris Starrett</h5>
-                    <div class="text-body2 q-mb-sm text-bold">SV Aerial Consulting</div>
-                    <div class="text-black text-body1">
-                      Chris is an ACTAR Accredited Collision Reconstructionist and Forensic Mapping Expert based in central Iowa. His law enforcement career started in 2003 an he currently serves as the sergeant over the Collision Reconstruction team for the Iowa State Patrol.
-                      <br>
-                      Chris and business partner Eric Van Zee formed SV Aerial Consulting in 2020.
-                      <br>
-                      Chris is a 17-year veteran of the Iowa State Patrol and has helped launch their drone program. Chris is both a part 107 certified drone pilot, certified drone flight instructor, and a licensed single-engine aircraft pilot.
-                    </div>
-                    <div class="text-body1">This training will focus on visibility, basic lighting analysis and advanced nighttime headlight mapping techniques. It will be held over 2 1/2 days in Green Bay, WI. It will start and 0800 Monday morning and continue through Wednesday at noon. There will be hours of training after dark as well.</div>
-                    <br>
-                    <div class="text-body1">Nighttime collisions pose a special set of problems which a Collision Reconstructionist needs to approach with both an appreciation for that which may seem obvious but is not, and a plan as to how best to analyze the often complex variables they are presented with.</div>
-                    <br>
-                    <div class="text-body1">Understanding visibility and how to document this evidence is key to forming a solid opinion as to causal factors in nighttime vehicle collisions.</div>
-                    <q-btn
-                      to="/springtraining"
-                      unelevated
-                      class="q-my-md q-px-lg q-pa-md"
-                      color="blue"
-                      label="more info"
-                      text-color="white"
-                    />
-                  </q-card-section>
-                </div>
-              </q-card>
-
-              <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
-                <div class="flex row">
-                  <q-card-section class="col-4 gt-xs">
                     <img style="width: 100%" class="q-pa-sm" src="../assets/2022_falltrain@6x.png">
                   </q-card-section>
                   <q-card-section class="col-xs-12 col-sm-8">
@@ -113,7 +65,35 @@
                   </q-card-section>
                 </div>
               </q-card>
+          </div>
+          <div>
+            <div class="text-center">
+              <div class="text-uppercase text-h3 q-pa-lg">past events</div>
             </div>
+            <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
+              <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
+                <div class="flex row">
+                  <q-card-section class="col-4 gt-xs">
+                      <img style="width: 100%" class="q-pa-sm" src="../assets/SpringTraining2022.png">
+                  </q-card-section>
+                  <q-card-section class="col-xs-12 col-sm-8">
+                    <div class="text-h4">SPRING TRAINING 2022 <span class="text-green-10">COMPLETED</span></div>
+                    <div class="text-h5 text-blue-10">Forensic Visibility Analysis and Nighttime Mapping Techniques</div>
+                    <div class="text-h5">March 28-30, 2022</div>
+                    <div class="text-h6 ">Green Bay, WI</div>
+                    <q-btn
+                      to="/springtraining"
+                      unelevated
+                      class="q-my-md q-px-lg q-pa-md"
+                      color="blue"
+                      label="more info"
+                      text-color="white"
+                    />
+                  </q-card-section>
+                </div>
+              </q-card>
+            </div>
+          </div>
           <!--training section-->
           <div class="row wrap justify-evenly">
             <div class="col-12 col-md-12 q-pa-md items-start q-gutter-md">

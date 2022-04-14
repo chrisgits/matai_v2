@@ -72,7 +72,7 @@
       <div class="col-xs-12 col-sm-6 q-pa-sm">
         <p>The 2004 newsletter also introduces the now familiar circular MATAI logo in the flyer for the 2004 Conference in Rock Island.</p>
         <p>The 2005 Conference is set in the first time host state of South Dakota. It was hosted in Rapid City by Brad Booth and Mike Selves and included presentations on numerous topics by highly regarded instructors.</p>
-        <p>Discussions begin amongst the board members in planning the 20th Anniversary of MATAI in 2006 as well as the Conference for that year that was set for another first time host state of Missouri (Kansas City).</p>
+        <p>Discussions begin amongst the board members in planning the 20th Anniversary of MATAI in 2006 as well as the Conference for that year that was set for a second time host state of Missouri (Kansas City).</p>
 
       </div>
       <div class="col-xs-12 col-sm-6 q-pa-md">
