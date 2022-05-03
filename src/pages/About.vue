@@ -152,6 +152,16 @@ export default defineComponent({
           bio: 'This is bio text if needed'
         },
         {
+          name: 'James Ronfeldt ',
+          title: 'Board Member',
+          email: 'mailto: jr32281@gmail.com',
+          phone1: '',
+          phone2: '',
+          yos: '2020',
+          photo: '',
+          bio: 'This is bio text if needed'
+        },
+        {
           name: 'Charles J. Tassoul',
           title: 'Board Member',
           email: 'mailto: cjtklj@hotmail.com',
