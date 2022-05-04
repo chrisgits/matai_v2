@@ -5,6 +5,10 @@
       <p>Through their affiliation with <strong>MATAI</strong>, professionals in the field of accident investigation discuss problem areas and work together to improve the process of accident investigation and the presentation of related evidence in court.</p>
       <p>An annual conference and general meeting is held each year so that members can get together to discuss activities of the past year in the reconstruction field and to prove that the various formulas and techniques used in the field are accurate. We also provide an annual training session over a 3-day period that provides instruction on a specialized topic. This is generally held opposite of the Annual Conference during the calendar year.</p>
       <p>Founded in 1986, <strong>MATAI</strong> was one of the original contributing organizations involved in the development and establishment of the Accreditation Commission for Traffic Accident Reconstruction (ACTAR). Currently, more than 46% of the MATAI membership is Accredited by ACTAR.</p>
+      <q-chip color="teal" text-color="white" icon="bookmark">
+        New
+      </q-chip>
+      <p>Our <a href="/history">history</a> page will bring you through the fascinating past of this organization. If you would like to contribute interesting tidbits of our history in the form of stories, good experiences, photos or otherwise please submit them to <a href="mailto:admin@matai.org">admin@matai.org</a>. Any contributions are greatly appreciated!</p>
       <p>A membership application in PDF format is available on the <a href="/join">Join</a> page. You may review membership requirements in the PDF.</p>
     </div>
     <div class="q-pa-md row " id="board">

@@ -101,6 +101,10 @@
               <h5>The <strong>Midwest Association of Technical Accident Investigators</strong>, MATAI, was formed to provide a professional affiliation of individuals dedicated to advancement in the technical aspects of motor vehicle traffic accident investigations.</h5>
               <h5>Check back often as we update our new site with more content for members and visitors alike.</h5>
               <h5>We look foward to interacting with our membership as well as presenting material relevant to the field of crash investigation for visitors from around the globe.</h5>
+              <q-chip color="teal" text-color="white" icon="bookmark">
+              New
+              </q-chip>
+              <h5>If you are a history buff check out our organization's past on the <span style="color: teal">new</span> <a href="/history">History</a> page. If you have past experiences to share with the membership please email the website admin with stories, media or the like that could be added in the future. <a href="mailto:admin@matai.org">admin@matai.org</a>.</h5>
             </div>
         </div>
         <div class="q-pa-md">

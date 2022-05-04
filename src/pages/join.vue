@@ -19,7 +19,7 @@
       </div>
 
       <!-- <p>You are invited to register for <strong>website access</strong> during the interim while your application is reviewed. Once approved you will be granted access to the Members section with exclusive content.</p> -->
-      <p>Our members site will have a unique orange navigation bar for easy identification and will provide our members the ability to control their memberships, update their contact information and register for upcoming training and conferences.</p>
+      <p>Our members site has a unique orange navigation bar for easy identification and will provide our members the ability to control their memberships, update their contact information and register for upcoming training and conferences.</p>
       <q-img
         width="400px"
         src="../../src/assets/MATAI_memberNav.png"

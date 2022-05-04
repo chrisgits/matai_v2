@@ -1,11 +1,13 @@
 <template>
   <div class="q-pa-md row justify-center items-start q-gutter-md">
-    <q-card class="my-card" flat bordered>
+    <q-card class="my-card q-pa-xs" flat bordered>
       <div class="text-h4 q-mt-sm q-mb-xs">2022 Fall Conference</div>
       <q-img
         width="400px"
+        class="q-pa-sm gt-xs"
         src="../../src/assets/img/semi_crash.jpg"
       />
+      <q-img width="350px" class="q-pa-sm q-ma-md" src="../assets/2022_falltrain@6x.png"/>
 
       <q-card-section>
         <div class="text-bold text-h5 text-orange-9">September 12-14, 2022</div>

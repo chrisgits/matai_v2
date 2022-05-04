@@ -36,15 +36,15 @@
       class="q-pt-md q-pb-xs "
     >
       <div class="row justify-center items-center text-center">
-        <div class="col-sm-1 gt-xs q-mr-lg">
-          <div>
-            <img class="lt-lg" width="100" src="../assets/MATAI_blockw@2x.png" alt="matai-logo">
+        <div class="col-sm-4 gt-xs row justify-end">
+          <div class="">
+            <q-btn unelevated flat to="/"><img class="lt-lg" width="125" src="../assets/MATAI_blockw@2x.png" alt="matai-logo"/></q-btn>
           </div>
           <div>
-            <q-btn to="/"><img class="gt-md" width="125" src="../assets/MATAI_Circle_W.svg" alt="matai-logo"></q-btn>
+            <q-btn unelevated flat to="/"><img class="gt-md" width="175" src="../assets/MATAI_Circle_W.svg" alt="matai-logo"></q-btn>
           </div>
         </div>
-        <div class="col-sm-2 col-xs-6">
+        <div class="col-sm-4 col-xs-6">
             <div class="">
               <q-list dense padding class="rounded-borders">
                 <q-item to="/join" clickable v-ripple>
@@ -62,11 +62,16 @@
                     Spring Training
                   </q-item-section>
                 </q-item>
+                <q-item to="/history" clickable v-ripple>
+                  <q-item-section>
+                    MATAI History
+                  </q-item-section>
+                </q-item>
               </q-list>
 
             </div>
         </div>
-        <div class="col-sm-2 col-xs-6">
+        <div class="col-sm-4 col-xs-6">
             <div style="max-width: 350px">
               <q-list dense padding class="rounded-borders">
                 <q-item to="/about" clickable v-ripple>
