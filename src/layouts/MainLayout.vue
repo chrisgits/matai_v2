@@ -15,6 +15,7 @@
           <q-space />
         </div>
         <div>
+          <q-btn to="/cta" class="q-py-sm q-px-sm" flat color="deep-orange" >CTA</q-btn>
           <q-btn to="/confinfo" class="q-py-sm q-px-sm" flat color="black" >Conference</q-btn>
           <q-btn to="/springtraining" class="q-py-sm q-px-sm q-ml-xs" flat color="black" >Training</q-btn>
           <q-btn

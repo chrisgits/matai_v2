@@ -42,16 +42,18 @@
                     <img style="width: 100%" class="q-pa-sm" src="../assets/2022_falltrain@6x.png">
                   </q-card-section>
                   <q-card-section class="col-xs-12 col-sm-8">
+                    <div class="text-h4 text-green">REGISTRATION OPEN</div>
                     <div class="text-h4">2022 FALL CONFERENCE</div>
                     <div class="text-h5">September 12-14, 2022</div>
                     <div class="text-h6">Des Moines, IA</div>
                     <br>
                     <div class="text-body1">This training will be hosted in Des Moines, IA by the Iowa State Patrol. This conference will be centered on the topic of Commercial Motor Vehicles and will include live crash testing as well as presentations from industry experts.</div>
                     <q-btn
+                      href="https://momentum.matai.org/collect/description/248881-q-2022-matai-fall-conference-des-moines-ia"
                       unelevated
                       class="q-my-md q-mr-md q-px-lg q-pa-md"
-                      color="grey"
-                      label="registration live soon"
+                      color="green"
+                      label="registration open"
                       text-color="white"
                     />
                     <q-btn
@@ -77,7 +79,7 @@
                       <img style="width: 100%" class="q-pa-sm" src="../assets/SpringTraining2022.png">
                   </q-card-section>
                   <q-card-section class="col-xs-12 col-sm-8">
-                    <div class="text-h4">SPRING TRAINING 2022 <span class="text-green-10">COMPLETED</span></div>
+                    <div class="text-h4">SPRING TRAINING 2022 <span class="text-red-10">COMPLETED</span></div>
                     <div class="text-h5 text-blue-10">Forensic Visibility Analysis and Nighttime Mapping Techniques</div>
                     <div class="text-h5">March 28-30, 2022</div>
                     <div class="text-h6 ">Green Bay, WI</div>
@@ -104,6 +106,14 @@
               <q-chip color="teal" text-color="white" icon="bookmark">
               New
               </q-chip>
+              <h4>New Crash Team Academy Introduced!</h4>
+              <div class="flex justify-center">
+                <img style="width: 250px" src="../assets/CTA_circle_s.png">
+                <img style="height: 150px" src="../assets/CTA_full@2x.png">
+              </div>
+              <h5>Check out the Crash Team Academy page <span style="color: teal"></span> <a href="/cta">here</a> for more information on this pre-conference opportunity this year. Space is <strong>limited</strong>  so register now if you'd like to attend this specialized training and experience prior to the start of this year's fall <a href="/confinfo">conference</a>.</h5>
+              <hr>
+              <h4>History Page</h4>
               <h5>If you are a history buff check out our organization's past on the <span style="color: teal">new</span> <a href="/history">History</a> page. If you have past experiences to share with the membership please email the website admin with stories, media or the like that could be added in the future. <a href="mailto:admin@matai.org">admin@matai.org</a>.</h5>
             </div>
         </div>

@@ -16,7 +16,8 @@ const routes = [
       { path: '/2022ConfRegistration', component: () => import('pages/registerConf.vue') },
       { path: '/history', component: () => import('pages/history.vue') },
       { path: '/memberlist', component: () => import('pages/MemberList.vue') },
-      { path: '/join', component: () => import('pages/join.vue') }
+      { path: '/join', component: () => import('pages/join.vue') },
+      { path: '/cta', component: () => import('pages/cta.vue') }
     ]
   },
   // Always leave this as last one,
