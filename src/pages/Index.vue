@@ -49,14 +49,6 @@
                     <br>
                     <div class="text-body1">This training will be hosted in Des Moines, IA by the Iowa State Patrol. This conference will be centered on the topic of Commercial Motor Vehicles and will include live crash testing as well as presentations from industry experts.</div>
                     <q-btn
-                      href="https://momentum.matai.org/collect/description/248881-q-2022-matai-fall-conference-des-moines-ia"
-                      unelevated
-                      class="q-my-md q-mr-md q-px-lg q-pa-md"
-                      color="green"
-                      label="registration open"
-                      text-color="white"
-                    />
-                    <q-btn
                       to="/confinfo"
                       unelevated
                       class="q-my-md q-px-lg q-pa-md"

@@ -15,7 +15,12 @@
         </div>
         <br>
         <div class="text-black text-h6">
-          This conference will focus on crashes involving CMVs and be held over 3 days. It will include content and presentations from nationally recognized presenters and experts in CMV topics. <br><br> Attendees will have the option to come early and attend the CTA session on Saturday and Sunday. It will be held in the Des Moines metro area with lodging provided by Praire Meadows Raceway and Casino.
+          This conference will focus on crashes involving CMVs and be held over 3 days. It will include content and presentations from nationally recognized presenters and experts in CMV topics. <br> Our presenter information can be found on this page.
+          <br> <br>
+
+          Eight (8) participants will have the option to come early (with paid registration) and attend the CTA session on Saturday and Sunday.
+          <br><br>
+          The cost of the Academy is $1000 plus lodging. If you register for both the conference and the CTA you receive a 10% discount on both.
         </div>
         <br>
         <div class="text-black text-body1">
@@ -30,16 +35,25 @@
 
       <q-card-actions>
         <q-btn
-          href="https://momentum.matai.org/collect/description/248881-q-2022-matai-fall-conference-des-moines-ia"
+          href="https://momentum.matai.org/collect/description/248881-q-2022-matai-fall-conference-des-moines-ia" target="blank"
           class="q-my-md q-mr-md q-px-xl q-pa-md"
           unelevated
           size="xl"
           color="green"
           text-color="darkgrey"
-          label="registration open"
+          label="CONF ONLY REGISTRATION"
         />
         <q-btn
-          href="https://book.rguest.com/onecart/wbe/group/1609/PrairieMeadowsRacetrackandCasino/auth"
+          to=/cta
+          class="q-my-md q-mr-md q-px-xl q-pa-md"
+          unelevated
+          size="xl"
+          color="orange"
+          text-color="darkgrey"
+          label="CTA INFO"
+        />
+        <q-btn
+          href="https://book.rguest.com/onecart/wbe/group/1609/PrairieMeadowsRacetrackandCasino/auth" target="blank"
           unelevated
           size="lg"
           color="blue"
@@ -74,7 +88,7 @@
         <br>
       </q-card-section>
       <q-card-section>
-        <div class="text-black text-h5">
+        <div class="text-black text-h5" id="pres">
           Conference Presenters
         </div>
         <br>
