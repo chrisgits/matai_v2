@@ -97,7 +97,7 @@
 
               <q-img
                 class="col-5 gt-sm rounded"
-                src="../assets/img/kent-b.jpg"
+                src="../assets/img/kent-b2.jpg"
               />
             </q-card-section><!--horizontal section-->
           </q-card-section>

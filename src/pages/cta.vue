@@ -139,7 +139,7 @@
         <q-card class="bg-blue-9 q-pa-lg rounded-borders">
           <q-card-section bordered shadow-2 horizontal>
             <q-card-section class="col-4 gt-xs ">
-              <q-img class="rounded-borders" src="../assets/img/MH_c.png"></q-img>
+              <q-img class="rounded-borders" src="../assets/img/MH_c2.png"></q-img>
             </q-card-section>
             <q-card-section class="col-xs-12 col-sm-8">
               <div class="text-h4">Michelle Hoffman</div>
@@ -154,7 +154,7 @@
         <q-card class="bg-blue-9 q-pa-lg rounded-borders">
           <q-card-section bordered shadow-2 horizontal>
             <q-card-section class="col-4 gt-xs ">
-              <q-img class="rounded-borders" src="../assets/img/DH_c.jpg"></q-img>
+              <q-img class="rounded-borders" src="../assets/img/DH_c2.jpg"></q-img>
             </q-card-section>
             <q-card-section class="col-xs-12 col-sm-8">
               <div class="text-h4">David M. Hallman</div>
