@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="hHh lpR lFr">
+  <q-layout view="hHh lpR lfr">
     <q-header reveal bordered class="text-white justify-center" style="background: #fff" height-hint="61.59">
       <q-toolbar
         active-color="accent"
@@ -17,12 +17,11 @@
         <div>
           <q-btn to="/cta" class="q-py-sm q-px-sm" flat color="deep-orange" >CTA</q-btn>
           <q-btn to="/confinfo" class="q-py-sm q-px-sm" flat color="black" >Conference</q-btn>
-          <q-btn to="/springtraining" class="q-py-sm q-px-sm q-ml-xs" flat color="black" >Training</q-btn>
+          <q-btn to="/springtraining" class="q-py-sm q-px-sm" flat color="black" >Training</q-btn>
           <q-btn
             unelevated
             href="https://momentum.matai.org/collect/description/228963-r-matai-member-renewal"
-            class="q-py-xs q-px-sm q-ml-xs text-black"
-            icon-right="login"
+            class="q-py-xs q-px-sm text-black"
             color="accent"
             label="renewals"
           />
@@ -31,7 +30,6 @@
     </q-header>
 
     <q-footer
-      reveal
       height-hint="2"
       style="background: #1c1c1c"
       class="q-pt-md q-pb-xs "

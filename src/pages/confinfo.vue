@@ -1,9 +1,16 @@
 <template>
-  <div class="q-pa-md row justify-center items-start q-gutter-md">
-    <q-card class="my-card q-pa-xs" flat bordered>
+  <div class="row justify-center items-start q-gutter-md">
+    <q-card class="q-pa-xs" flat>
       <div class="text-h4 q-mt-sm q-mb-xs">2022 Fall Conference</div>
-      <q-img width="350px" class="q-pa-sm q-ma-md" src="../assets/2022_falltrain@6x.png"/>
-      <q-img width="450px" class="q-pa-sm q-ma-md" src="../assets/CTA_full@2x.png"/>
+      <div class="row">
+        <div class="col-xs-12 col-6">
+          <q-img fit="contain" width="50%" class="q-pa-sm q-ma-md" src="../assets/2022_falltrain@6x.png"/>
+        </div>
+        <div class="col-xs-12 col-6 ">
+          <q-img fit="contain" width="50%" class="q-pa-sm q-ma-md" src="../assets/CTA_full@2x.png"/>
+        </div>
+      </div>
+
 
       <q-card-section>
         <div class="text-bold text-h5 text-orange-9">September 12-14, 2022</div>
@@ -88,7 +95,7 @@
         <br>
       </q-card-section>
       <q-card-section>
-        <div class="text-black text-h5" id="pres">
+        <div class="text-black text-h5">
           Conference Presenters
         </div>
         <br>
@@ -98,9 +105,9 @@
               Kent Boots – Kent E. Boots & Associates
             </div>
             <br>
-            <q-card-section horizontal>
+            <q-card-section horizontal col-xs-12>
               <q-card-section class="text-white">
-                <div class="text-body1">
+                <div class="text-body1 ">
                   Kent retired from the Orange County Sheriff’s Department (CA) in 2006, and has nearly 30 years of experience in Traffic Collision Investigation and Reconstruction.  He has been involved in Crash Data Retrieval technology for nearly 20 years.  In addition to being a CDR Technician and Analyst, he is a CDR Technician Trainer, and previously co-instructed a CDR Technician Trainer Certification Course.  Kent has also attended additional specialized training to trouble-shoot communication problems and obtain data in situations where other technicians might not be able to.
                 </div>
                 <br>

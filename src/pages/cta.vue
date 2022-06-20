@@ -1,9 +1,9 @@
 <template>
   <q-page padding>
-    <q-card class="my-card q-pa-md bg-grey-4 text-center" flat bordered>
+    <q-card class="q-pa-md bg-grey-4 text-center" flat bordered>
       <q-card-section class="flex justify-center">
-        <q-img class="gt-xs text-center" src="../assets/CTA_full@2x.png"/>
-        <q-img class="q-ma-md lt-sm" src="../assets/CTA_block@2x.png"/>
+        <q-img width="100%" class="gt-xs text-center" src="../assets/CTA_full@2x.png"/>
+        <q-img width="100%" class="q-ma-md lt-sm" src="../assets/CTA_block@2x.png"/>
       </q-card-section>
 
       <q-card-section>
@@ -58,7 +58,7 @@
 
       <q-card-actions>
         <q-btn
-          href="https://momentum.matai.org/collect/description/248883-t-2022-crash-test-academy-registration"
+          href="https://momentum.matai.org/collect/description/248883-t-2022-crash-test-academy-registration" target="blank"
           class="q-pa-lg q-mr-lg"
           unelevated
           size="xl"
@@ -71,7 +71,7 @@
     <BR></BR>
     <div class="q-pa-md">
       <div class="text-h4">CTA Instructor Team</div>
-      <div class="text-h5">The primary instructors for CTA are Bob Anderson and Billy S. Cox, Jr., each having more than 25 years of experience conducting a several hundred crash tests which analyze vehicle and human performance.</div> <br>
+      <div class="text-h5">The primary instructors for <strong>CTA</strong> are <strong> Bob Anderson</strong> and <strong>Billy S. Cox, Jr.</strong>, each having more than 25 years of experience conducting a several hundred crash tests which analyze vehicle and human performance.</div> <br>
       <div class="text-h6 text-blue-9">About Your Instructors</div>
     </div>
     <!--INSTRUCTOR BIOS-->
