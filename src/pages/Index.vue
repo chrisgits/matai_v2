@@ -98,12 +98,12 @@
               <q-chip color="teal" text-color="white" icon="bookmark">
               New
               </q-chip>
-              <h4>New Crash Team Academy Introduced!</h4>
+              <h4>New Crash Test Academy Introduced!</h4>
               <div class="flex justify-center">
                 <img style="width: 250px" src="../assets/CTA_circle_s.png">
                 <img style="height: 150px" src="../assets/CTA_full@2x.png">
               </div>
-              <h5>Check out the Crash Team Academy page <span style="color: teal"></span> <a href="/cta">here</a> for more information on this pre-conference opportunity this year. Space is <strong>limited</strong>  so register now if you'd like to attend this specialized training and experience prior to the start of this year's fall <a href="/confinfo">conference</a>.</h5>
+              <h5>Check out the Crash Test Academy page <span style="color: teal"></span> <a href="/cta">here</a> for more information on this pre-conference opportunity this year. Space is <strong>limited</strong>  so register now if you'd like to attend this specialized training and experience prior to the start of this year's fall <a href="/confinfo">conference</a>.</h5>
               <hr>
               <h4>History Page</h4>
               <h5>If you are a history buff check out our organization's past on the <span style="color: teal">new</span> <a href="/history">History</a> page. If you have past experiences to share with the membership please email the website admin with stories, media or the like that could be added in the future. <a href="mailto:admin@matai.org">admin@matai.org</a>.</h5>
