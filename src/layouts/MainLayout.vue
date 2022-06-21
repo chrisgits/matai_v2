@@ -1,6 +1,6 @@
 <template>
   <q-layout view="hHh lpR lfr">
-    <q-header reveal bordered class="text-white justify-center" style="background: #fff" height-hint="61.59">
+    <q-header bordered class="text-white justify-center" style="background: #fff" height-hint="61.59">
       <q-toolbar
         active-color="accent"
         class="q-py-sm q-pl-xs p-pr-xs row justify-evenly"
