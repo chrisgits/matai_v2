@@ -1,21 +1,35 @@
 <template>
   <div class="row justify-center items-start q-gutter-md">
     <q-card class="q-pa-xs" flat>
-      <div class="text-h4 q-mt-sm q-mb-xs">2022 Fall Conference</div>
       <div class="row">
+        <div class="text-h4 q-mt-sm q-mb-xs">2022 Fall Conference</div>
         <div class="col-xs-12 col-6">
-          <q-img fit="contain" width="50%" class="q-pa-sm q-ma-md" src="../assets/2022_falltrain@6x.png"/>
-        </div>
-        <div class="col-xs-12 col-6 ">
+          <q-img fit="contain" width="20%" class="q-pa-sm q-ma-md" src="../assets/2022_falltrain@6x.png"/>
           <q-img fit="contain" width="50%" class="q-pa-sm q-ma-md" src="../assets/CTA_full@2x.png"/>
         </div>
+        <div class="col-xs-12 col-sm-6 text-h6">
+          <div>ACTAR Credit Info</div>
+        </div>
       </div>
+      <div class="row">
+        <div class="col-xs-4 col-sm-3 q-pa-md">
+          <q-img fit="contain" width="100%" class="q-pa-sm" src="../assets/actar.png"/>
+        </div>
+        <div class="col-xs-8 col-sm-9 q-pa-md text-h6">
+          <p><strong>Credits for CTA Participation: 16 Hours</strong></p>
+          <p><strong>Credits for Conference Participation: 19 Hours</strong></p>
+        </div>
+      </div>
+
+
 
 
       <q-card-section>
         <div class="text-bold text-h5 text-orange-9">September 12-14, 2022</div>
         <div class="text-h4 q-mt-sm q-mb-xs">Commercial Motor Vehicle Topics</div>
         <div class="text-h5 q-mt-sm q-mb-xs">Des Moines, IA</div>
+        <br>
+        <div class="text-blue text-bold text-h5">Vendor Registration Open! See Link below.</div>
         <br>
         <div class="text-black text-bold text-h5">
           NEW FOR 2022. <span class="text-deep-orange-8">CRASH TEST ACADEMY</span> (<a href="/cta">CTA</a>) available as a part of this fall's conference.
@@ -43,18 +57,17 @@
       <q-card-actions>
         <q-btn
           href="https://momentum.matai.org/collect/description/248881-q-2022-matai-fall-conference-des-moines-ia" target="blank"
-          class="q-my-md q-mr-md q-px-xl q-pa-md"
+
           unelevated
-          size="xl"
+          size="lg"
           color="green"
           text-color="darkgrey"
           label="CONF ONLY REGISTRATION"
         />
         <q-btn
           to=/cta
-          class="q-my-md q-mr-md q-px-xl q-pa-md"
           unelevated
-          size="xl"
+          size="lg"
           color="orange"
           text-color="darkgrey"
           label="CTA INFO"
@@ -62,9 +75,19 @@
         <q-btn
           href="https://book.rguest.com/onecart/wbe/group/1609/PrairieMeadowsRacetrackandCasino/auth" target="blank"
           unelevated
+          class="q-my-sm"
+          size="lg"
+          color="teal"
+          label="hotel"
+        />
+        <q-btn
+          href="https://momentum.matai.org/collect/description/257118-q-2022-matai-fall-conference-vendor-registration" target="blank"
+          class="q-my-sm"
+          unelevated
           size="lg"
           color="blue"
-          label="hotel"
+          text-color="white"
+          label="VENDOR REGISTRATION"
         />
       </q-card-actions>
     </q-card>
@@ -75,10 +98,10 @@
         <q-card class="bg-grey-4">
           <q-card-section>
             <div class="text-deep-orange-8 text-h6">
-              <span class="text-bold text-black">9/10</span> Saturday – Crash Team Academy
+              <span class="text-bold text-black">9/10</span> Saturday – Crash Test Academy
             </div>
             <div class="text-deep-orange-8 text-h6">
-              <span class="text-bold text-black">9/11</span> <span><img style="width: 50px; position: relative; top: 5px;" src="../assets/img/usa-flag.png" alt=""></span> Sunday - Crash Team Academy
+              <span class="text-bold text-black">9/11</span> <span><img style="width: 50px; position: relative; top: 5px;" src="../assets/img/usa-flag.png" alt=""></span> Sunday - Crash Test Academy
             </div>
             <div class="text-black text-h6">
               <span class="text-bold text-black">9/12</span> Monday – Crash Day, Iowa State Fairgrounds

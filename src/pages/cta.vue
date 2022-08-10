@@ -53,7 +53,6 @@
           On the second day of the conference, teams will convene in the CTA conference room and continue to analyze all of the data collected with the goal of presenting the data and providing the data to MATAI conference attendee on the morning of the final conference day. <br><br>
           By the time the team members present their data, CTA attendees will experience the factors that go into putting on crash tests at a conference, gain perspective as to why there is a delay between testing, understand the complexity and pitfalls of conducting live, meaningful crash tests.
         </div>
-
       </q-card-section>
 
       <q-card-actions>
