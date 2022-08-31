@@ -1,5 +1,8 @@
 <template>
   <div class="q-px-none">
+    <div class="bg-accent q-mt-none q-pb-lg">
+      <Counter/>
+    </div>
     <div id="jumbo" class="q-pa-lg  text-center">
       <h3>MIDWEST ASSOCIATION OF TECHNICAL ACCIDENT INVESTIGATORS</h3>
       <h5 style="color: #1a1a1a">FOR THE ADVANCEMENT OF MOTOR VEHICLE CRASH INVESTIGATION</h5>
@@ -34,7 +37,7 @@
           <div class="text-center">
             <div class="text-uppercase text-h3 q-pa-lg">upcoming events</div>
           </div>
-          <!-- upcoming training cards -->
+          <!-- training cards -->
           <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
               <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
@@ -60,7 +63,38 @@
                 </div>
               </q-card>
           </div>
-          <div>
+          <div class="q-mb-lg">
+            <div class="text-center">
+              <div class="text-uppercase text-h3 q-pa-lg">Member Training Events</div>
+              <div class="text-subtitle q-px-xl">These events are not directly produced by MATAI but are organized or known by its members to be related to the field of crash investigation.</div>
+            </div>
+            <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
+              <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
+                <div class="flex row">
+                  <q-card-section class="col-4 gt-xs">
+                      <img style="width: 100%" class="q-pa-sm" src="../assets/SpringTraining2022.png">
+                  </q-card-section>
+                  <q-card-section class="col-xs-12 col-sm-8">
+                    <div class="text-h4 text-green">REGISTRATION OPEN</div>
+                    <div class="text-h5 text-bold text-blue-10">Optics, Lighting and Visibility for the Forensic Investigator</div>
+                    <div class="text-h5">October 10-12, 2022</div>
+                    <div class="text-h6 ">Lincoln, Nebraska</div>
+                    <q-btn
+                      to="/optics-training"
+                      unelevated
+                      class="q-my-md q-px-lg q-pa-md"
+                      color="blue"
+                      label="more info"
+                      text-color="white"
+                    />
+                  </q-card-section>
+                </div>
+              </q-card>
+            </div>
+          </div>
+          <q-separator inset />
+          <!-- past events section -->
+          <div class="q-border-top">
             <div class="text-center">
               <div class="text-uppercase text-h3 q-pa-lg">past events</div>
             </div>
@@ -100,8 +134,13 @@
               </q-chip>
               <h4>New Crash Test Academy Introduced!</h4>
               <div class="flex justify-center">
-                <img style="width: 250px" src="../assets/CTA_circle_s.png">
-                <img style="height: 150px" src="../assets/CTA_full@2x.png">
+                <div class="gt-xs">
+                  <img style="width: 250px" src="../assets/CTA_circle_s.png"/>
+                </div>
+                <div class="lt-sm q-pt-lg">
+                  <img style="height: 4em" src="../assets/CTA_full@2x.png"/>
+                </div>
+
               </div>
               <h5>Check out the Crash Test Academy page <span style="color: teal"></span> <a href="/cta">here</a> for more information on this pre-conference opportunity this year. Space is <strong>limited</strong>  so register now if you'd like to attend this specialized training and experience prior to the start of this year's fall <a href="/confinfo">conference</a>.</h5>
               <hr>
@@ -145,8 +184,13 @@ h3 {
 
 <script>
 import { defineComponent } from 'vue';
+import Counter from '../components/Counter.vue';
+
 
 export default defineComponent({
-  name: 'Home'
+  name: 'Home',
+  components: {
+    Counter
+}
 })
 </script>

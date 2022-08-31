@@ -21,7 +21,7 @@
           <q-btn
             unelevated
             href="https://momentum.matai.org/collect/description/228963-r-matai-member-renewal"
-            class="q-py-xs q-px-sm text-black"
+            class="q-py-xs q-px-sm gt-xs text-black"
             color="accent"
             label="renewals"
           />
@@ -80,7 +80,7 @@
                 </q-item>
                 <q-item to="/members" clickable v-ripple>
                   <q-item-section class="bg-primary">
-                    <q-btn unelevevated class="text-white" label="members"></q-btn>
+                    <q-btn unelevated class="text-white" label="members"></q-btn>
                   </q-item-section>
                 </q-item>
                 <!-- <q-item to="/history" clickable v-ripple>
@@ -91,7 +91,7 @@
 
                 <q-item href="https://momentum.matai.org/collect/description/228963-r-matai-member-renewal" clickable v-ripple>
                   <q-item-section class="bg-accent q-pa-xs">
-                    <q-btn unelevated class="text-black" icon-right="login" label="member renewal"></q-btn>
+                    <q-btn unelevated class="text-black " label="member renewal"></q-btn>
                   </q-item-section>
                 </q-item>
               </q-list>
