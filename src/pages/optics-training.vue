@@ -99,6 +99,11 @@
         <div class="text-black text-body1">
           There are no specific hotels blocked for this training event. Exit 403 on I-80 (27th Street) has several hotels or downtown Lincoln has hotels and night life available. See Registration PDF below.
         </div>
+        <br>
+        <div class="text-h5">Contact</div>
+        <div class="text-black text-body1">
+          <strong>Jim Sobek</strong>, PE at Clearly Visible Presentations, LLC - 317-966-7316  or <a href="mailto:clearlyvisPres@aol.com">clearlyvisPres@aol.com</a>
+        </div>
       </q-card-section>
 
       <q-card-actions>
