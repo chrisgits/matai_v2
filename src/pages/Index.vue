@@ -71,9 +71,6 @@
             <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
               <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
-                  <q-card-section class="col-4 gt-xs">
-                      <img style="width: 100%" class="q-pa-sm" src="../assets/SpringTraining2022.png">
-                  </q-card-section>
                   <q-card-section class="col-xs-12 col-sm-8">
                     <div class="text-h4 text-green">REGISTRATION OPEN</div>
                     <div class="text-h5 text-bold text-blue-10">Optics, Lighting and Visibility for the Forensic Investigator</div>
