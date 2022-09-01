@@ -18,8 +18,8 @@ const routes = [
       { path: '/memberlist', component: () => import('pages/MemberList.vue') },
       { path: '/join', component: () => import('pages/join.vue') },
       { path: '/cta', component: () => import('pages/cta.vue') },
-      { path: '/optics-training', component: () => import('pages/optics-training.vue') }
-
+      { path: '/optics-training', component: () => import('pages/optics-training.vue') },
+      { path: '/conflive', component: () => import('pages/conflive.vue') }
     ]
   },
   // Always leave this as last one,
