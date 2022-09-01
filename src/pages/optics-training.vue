@@ -83,8 +83,7 @@
           Certificates will be provided at the end of the class.
           <br><br>
           Fee covers course materials on digital media, coffee, break snacks and certificate. Meals and lodging ac-commodations are the students’ responsibility.
-          <br><br>
-          The cost of the Academy is $1000 plus lodging. If you register for both the conference and the CTA you receive a 10% discount on both.
+          <br></br>
         </div>
         <br>
         <!-- section -->
