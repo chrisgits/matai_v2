@@ -53,7 +53,7 @@
         <div class="text-h5">Course Benefits</div>
           <ul>
             <li>Learn how the human vision system works</li>
-            <li>Learn how to use a light meter to measuring illuminance and luminance.</li>
+            <li>Learn how to use a light meter to measuring illumi-nance and luminance.</li>
             <li>Understand headlights and their performance limits</li>
             <li>Recognize how viewpoint may change visibility</li>
             <li>Understand how to photograph the scene at night</li>
@@ -78,12 +78,12 @@
         <!-- section -->
         <div class="text-h5">Course Details</div>
         <div class="text-black text-body1">
-          The course will consist of three 8-hour days with a lunch break and two coffee breaks (mid-morning and mid-afternoon). The second day will consist of an afternoon/evening session (to do field work in the dark.) Rain or fog will not impede that work unless lightning or other dangerous conditions are present.
+          The course will consist of three 8-hour days with a lunch break and two coffee breaks (mid-morning and mid-afternoon). The second day will consist of an after-noon/evening session (to do field work in the dark.) Rain or fog will not impede that work unless lightning or other dangerous conditions are present.
           <br> <br>
           Certificates will be provided at the end of the class.
           <br><br>
-          Fee covers course materials on digital media, coffee, break snacks and certificate. Meals and lodging acscommodations are the students’ responsibility.
-          <br>
+          Fee covers course materials on digital media, coffee, break snacks and certificate. Meals and lodging ac-commodations are the students’ responsibility.
+          <br></br>
         </div>
         <br>
         <!-- section -->
