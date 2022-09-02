@@ -15,15 +15,21 @@
           <q-space />
         </div>
         <div>
-          <q-btn to="/cta" class="q-py-sm q-px-sm" flat color="deep-orange" >CTA</q-btn>
-          <q-btn to="/confinfo" class="q-py-sm q-px-sm" flat color="black" >Conference</q-btn>
-          <q-btn to="/springtraining" class="q-py-sm q-px-sm" flat color="black" >Training</q-btn>
+          <!-- <q-btn to="/cta" class="q-py-sm q-px-sm" flat color="deep-orange" >CTA</q-btn> -->
+          <q-btn color="blue" to="/confinfo" class="q-py-xs q-px-sm gt-xs q-ml-sm ">Conf signup</q-btn>
+          <q-btn
+            unelevated
+            to="/conflive"
+            class="q-py-xs q-px-sm gt-xs q-ml-sm text-black"
+            color="green"
+            label="conf live!"
+          />
           <q-btn
             unelevated
             href="https://momentum.matai.org/collect/description/228963-r-matai-member-renewal"
-            class="q-py-xs q-px-sm gt-xs text-black"
+            class="q-py-xs q-px-sm q-ml-sm gt-xs text-black"
             color="accent"
-            label="renewals"
+            label="RENEWALS"
           />
         </div>
       </q-toolbar>
