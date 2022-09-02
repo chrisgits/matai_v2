@@ -36,7 +36,7 @@
           </q-card-actions>
           <q-card-actions class="col-xs-12 col-sm-6">
             <q-btn
-              href="https://files.matai.org/public/conf_schedule.pdf" target="blank"
+              href="https://play.google.com/store/apps/details?id=com.tnetic.iselfcheck&hl=en_US&gl=US" target="blank"
               class="q-my-sm col-xs-12"
               unelevated
               size="lg"
