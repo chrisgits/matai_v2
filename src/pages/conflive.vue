@@ -1,32 +1,62 @@
 <template>
+    <!-- <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green">
+      2022 CONFERENCE IS LIVE
+    </q-banner> -->
     <div class="row justify-center items-start q-gutter-md">
       <q-card class="q-pa-xs" flat>
         <div class="row text-center justify-center">
-          <div class="text-h2 text-center q-mt-sm q-mb-xs"><p>2022 Conference is <span class="text-green text-bold">LIVE!</span></p></div>
-          <div class="col-xs-12 col-6">
-            <q-img fit="contain" width="20%" class="q-pa-sm q-ma-md" src="../assets/2022_falltrain@6x.png"/>
+          <!-- <div class="text-h2 text-center q-mt-sm q-mb-xs"><p>2022 Conference is <span class="text-green text-bold">LIVE!</span></p></div> -->
+          <div class="col-xs-12 col-6 lt-sm">
+            <q-img fit="contain" width="50%" class="q-pa-sm q-ma-md" src="../assets/2022_falltrain@6x.png"/>
+          </div>
+          <div class="col-xs-12 col-6 gt-xs">
+            <q-img fit="contain" width="40%" class="q-pa-sm q-ma-md" src="../assets/2022_falltrain@6x.png"/>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xs-4 col-sm-3 q-pa-md align-center justify-center">
-            <q-img  class="q-pa-sm q-mt-lg" src="../assets/actar.png"/>
+        <div class="row justify-center">
+          <div class="col-xs-4 col-sm-3 q-pa-md">
+            <q-img  class="q-pa-sm q-mt-lg gt-xs" src="../assets/actar.png"/>
           </div>
-          <div class="col-xs-8 col-sm-9 q-pa-md text-h6">
+          <div class="col-xs-12 col-sm-9 q-pa-md text-h6">
             <h5 class="q-ma-none text-bold">Attention!</h5>
             <p>For attendees to receive credit for ACTAR CEUs for this conference you must download the i-Attend app for your device and check in to each session you attend with the QR code available at the entrance. This is a change and process implemented by ACTAR. Please visit <a href="www.actar.org/ceu/earning">www.actar.org/ceu/earning</a> for the details of this change.</p>
-            <p>For your convenience here is the <a href="https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1b0333fe-f7a7-4cbd-a61a-ae900137cf2b">i-Attend Video</a> to the video instructions for the app. If you would like the PDF version download it <a href="">here</a>.</p>
+            <p>For your convenience here is the <a href="https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1b0333fe-f7a7-4cbd-a61a-ae900137cf2b">link</a> to the i-Attend video instructions for the app. If you would like the PDF instructions download it <a href="https://files.matai.org/public/i-attend.pdf">here</a>.</p>
           </div>
-        </div> 
+          <q-card-actions class="col-xs-12 col-sm-6">
+            <q-btn
+              href="https://apps.apple.com/us/app/i-attend-self-check-in/id1421201302" target="blank"
+              class="q-my-sm col-xs-12"
+              unelevated
+              size="lg"
+              color="blue"
+              icon="apple"
+              text-color="white"
+              label="i-ATTEND iOS APP"
+            />
+          </q-card-actions>
+          <q-card-actions class="col-xs-12 col-sm-6">
+            <q-btn
+              href="https://files.matai.org/public/conf_schedule.pdf" target="blank"
+              class="q-my-sm col-xs-12"
+              unelevated
+              size="lg"
+              color="blue"
+              icon="android"
+              text-color="white"
+              label="i-ATTEND APP"
+            />
+          </q-card-actions>
+        </div>
         <q-card-section>
           <div class="text-bold text-h5 text-orange-9">September 12-14, 2022</div>
           <div class="text-h4 q-mt-sm q-mb-xs">Commercial Motor Vehicle Topics</div>
-          <div class="text-h5 q-mt-sm q-mb-xs">Des Moines, IA</div>   
+          <div class="text-h5 q-mt-sm q-mb-xs">Des Moines, IA</div>
         </q-card-section>
-  
+
         <q-card-actions>
           <q-btn
-            href="https://files.matai.org/conf_schedule.pdf" target="blank"
-            class="q-my-sm"
+            href="https://files.matai.org/public/conf_schedule.pdf" target="blank"
+            class="q-my-sm col-xs-12"
             unelevated
             size="lg"
             color="blue"
@@ -36,53 +66,106 @@
         </q-card-actions>
       </q-card>
 
-      <q-card>
-        <q-card-section>
-          <div class="text-bold text-h5 text-blue-9">2022 Conference Schedule</div>
-          <br>
-          <q-card class="bg-grey-4">
-            <q-card-section>
-              <div class="text-deep-orange-8 text-h6">
-                <span class="text-bold text-black">9/10</span> Saturday – Crash Test Academy
-              </div>
-              <div class="text-deep-orange-8 text-h6">
-                <span class="text-bold text-black">9/11</span> <span><img style="width: 50px; position: relative; top: 5px;" src="../assets/img/usa-flag.png" alt=""></span> Sunday - Crash Test Academy
-              </div>
-              <div class="text-black text-h6">
-                <span class="text-bold text-black">9/12</span> Monday – Crash Day, Iowa State Fairgrounds
-              </div>
-              <div class="text-black text-h6">
-                <span class="text-bold text-black">9/13</span> Tuesday – William Messerschmidt, Iowa DOT, Lawyer presentation
-              </div>
-              <div class="text-black text-h6">
-                <span class="text-bold text-black">9/14</span> Wednesday – Kent Boots, Data presentation
-              </div>
-            </q-card-section>
-          </q-card>
-  
-          <br>
-        </q-card-section>  
-      </q-card>
-  
+      <!-- SCHEDULE COMPONENT -->
+      <schedule />
+      <!-- SCHEDULE COMPONENT -->
     </div>
+    <section class="text-center">
+      <h4 class="q-pa-sm">IMPORTANT LOCATIONS</h4>
+      <q-card class="q-pa-md col-xs-12">
+        <h5 class="text-bold">Iowa State Fairgrounds</h5>
+        <div class="q-pa-md">
+          <q-list bordered>
+            <q-item><h5>CTA Classroom and Crash Testing Site</h5></q-item>
+            <q-item><h5>3000 E Grand Ave, Des Moines, IA 50317</h5></q-item>
+          </q-list>
+        </div>
+
+        <q-card-actions class="row justify-center">
+            <q-btn
+              href="https://www.google.com/maps/place/Iowa+State+Fairgrounds/@41.5956801,-93.5556668,17z/data=!3m1!4b1!4m5!3m4!1s0x87ee971382c68b8f:0x1b11f4168f440760!8m2!3d41.5956761!4d-93.5534728" target="blank"
+              class="col-xs-12 col-sm-6"
+              unelevated
+              size="lg"
+              color="blue"
+              icon="location_on"
+              text-color="white"
+              label="FAIRGROUNDS"
+            />
+          </q-card-actions>
+      </q-card>
+      <q-card class="q-pa-md">
+        <h5 class="text-bold">Prairie Meadows Casino, Racetrack and Hotel</h5>
+        <q-list bordered>
+          <q-item><h5>Conference Presentations and Lodging</h5></q-item>
+          <q-item><h5>1 Prairie Meadows Dr, Altoona, IA 50009</h5></q-item>
+        </q-list>
+        <q-card-actions class="row justify-center">
+            <q-btn
+              href="https://www.google.com/maps/place/Prairie+Meadows+Casino,+Racetrack,+%26+Hotel/@41.6545048,-93.4930985,17z/data=!3m1!4b1!4m8!3m7!1s0x87ee93c4ee30aa63:0x36dc2b61db51851a!5m2!4m1!1i2!8m2!3d41.6545008!4d-93.4909045" target="blank"
+              class="col-xs-12 col-sm-6"
+              unelevated
+              size="lg"
+              color="blue"
+              icon="location_on"
+              text-color="white"
+              label="HOTEL"
+            />
+          </q-card-actions>
+      </q-card>
+    </section>
+    <!-- social media links -->
+    <section>
+      <q-card class="q-pa-md">
+        <h5 class="text-bold">SOCIAL MEDIA / LINKS</h5>
+        <q-card-actions class="row justify-center">
+            <q-btn
+              href="https://www.youtube.com/channel/UCvLubrvZf15Zm4-ioYWlYHg" target="blank"
+              class="col-xs-12 col-sm-6"
+              unelevated
+              icon="fab fa-youtube-square fa-2x"
+              size="lg"
+              color="red"
+              text-color="white"
+              label="MATAI YOUTUBE"
+            />
+          </q-card-actions>
+          <q-card-actions class="row justify-center">
+            <q-btn
+              href="https://www.facebook.com/Midwest-Association-of-Technical-Accident-Investigators-1513079988957586/" target="blank"
+              class="col-xs-12 col-sm-6"
+              unelevated
+              icon="fab fa-facebook-square fa-2x"
+              size="lg"
+              color="blue"
+              text-color="white"
+              label="MATAI facebook"
+            />
+          </q-card-actions>
+      </q-card>
+    </section>
   </template>
-  
+
   <style lang="sass" scoped>
-  
+
   .rounded
     border-radius: 10px
-  
+
   </style>
-  
-  
+
+
   <script>
-  import { ref } from 'vue'
-  
+  import { ref } from 'vue';
+  import Schedule from '../components/schedule.vue';
+
   export default {
     setup () {
       return {
         expanded: ref(false),
       }
-    }
+    },
+    components: {
+    Schedule
+  }
   }
   </script>

@@ -188,6 +188,6 @@ export default defineComponent({
   name: 'Home',
   components: {
     Counter
-}
+  }
 })
 </script>
