@@ -159,11 +159,11 @@
             <q-card-section horizontal col-xs-12>
               <q-card-section class="text-white q-pa-none">
                 <div class="text-body1 ">
-                  Mr. Sobek is a physicist and forensic engineer at Wolf Technical Services, Inc. in Indianapolis, Indiana. He holds a degree in Physics from Thiel College in Green-ville, PA and has additional training at UCLA and Purdue University. He is a member of the Illuminating Engineering Society of North America and is licensed as a Professional Engi-neer in Indiana. Since April 1988, he has partic-ipated in several thousand accident analyses involving lighting and visibility issues and has testified in several hundred cases in United States and Canadian courts.
+                  Mr. Sobek is a physicist and forensic engineer at Wolf Technical Services, Inc. in Indianapolis, Indiana. He holds a degree in Physics from Thiel College in Greenville, PA and has additional training at UCLA and Purdue University. He is a member of the Illuminating Engineering Society of North America and is licensed as a Professional Engineer in Indiana. Since April 1988, he has participated in several thousand accident analyses involving lighting and visibility issues and has testified in several hundred cases in United States and Canadian courts.
                 </div>
                 <br>
                 <div class="text-body1">
-                  Prior to joining Wolf, Mr. Sobek worked for 20 years as a Research Physicist and Electrical En-gineer at the Naval Avionics Center, Indianapo-lis, developing missile guidance systems. He is a co-patent holder on DSMAC, the precision electro-optical guidance system currently used on the Navy’s Tomahawk cruise missile.
+                  Prior to joining Wolf, Mr. Sobek worked for 20 years as a Research Physicist and Electrical Engineer at the Naval Avionics Center, Indianapolis, developing missile guidance systems. He is a co-patent holder on DSMAC, the precision electro-optical guidance system currently used on the Navy’s Tomahawk cruise missile.
                 </div>
                 <br>
                 <div class="text-body1">

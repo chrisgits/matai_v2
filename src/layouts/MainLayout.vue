@@ -3,34 +3,31 @@
     <q-header bordered class="text-white justify-center" style="background: #fff" height-hint="61.59">
       <q-toolbar
         active-color="accent"
-        class="q-py-sm q-pl-xs p-pr-xs row justify-evenly"
+        class="q-py-sm q-pl-xs row justify-evenly"
       >
-        <div>
-          <q-btn to="/" flat class="q-pl-none">
-            <img class="gt-sm" width="250" src="../assets/MATAI_TextBlock@6x.png" alt="">
-            <img class="lt-md q-pl-none" width="60" src="../assets/MATAI_Block@6x.png" alt="">
+        <div class="col-xs-3 col-sm-4">
+          <q-btn to="/" flat class="q-pa-none">
+            <img class="gt-xs" width="250" src="../assets/MATAI_TextBlock@6x.png" alt="">
+            <img class="lt-sm q-pa-none" width="60" src="../assets/MATAI_Block@6x.png" alt="">
           </q-btn>
         </div>
-        <div>
-          <q-space />
-        </div>
-        <div>
+        <div class="col-xs-8 col-sm-4">
           <!-- <q-btn to="/cta" class="q-py-sm q-px-sm" flat color="deep-orange" >CTA</q-btn> -->
-          <q-btn color="blue" to="/confinfo" class="q-py-xs q-px-sm gt-xs q-ml-sm ">Conf signup</q-btn>
+          <q-btn color="blue" to="/confinfo" class="q-py-xs q-px-sm q-ml-sm ">Conf signup</q-btn>
           <q-btn
             unelevated
             to="/conflive"
-            class="q-py-xs q-px-sm gt-xs q-ml-sm text-black"
+            class="q-py-xs q-px-sm q-ml-sm text-black"
             color="green"
             label="conf live!"
           />
-          <q-btn
+          <!-- <q-btn
             unelevated
             href="https://momentum.matai.org/collect/description/228963-r-matai-member-renewal"
             class="q-py-xs q-px-sm q-ml-sm gt-xs text-black"
             color="accent"
             label="RENEWALS"
-          />
+          /> -->
         </div>
       </q-toolbar>
     </q-header>
