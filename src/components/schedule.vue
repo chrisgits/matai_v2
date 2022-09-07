@@ -84,7 +84,7 @@
           <h6 class="q-ma-none">8:00p - 8:45a</h6>
           <h5 class="q-ma-none q-pb-sm">Opening Ceremonies</h5>
           <h6 class="q-ma-none">8:45a - 9:15a</h6>
-          <h5 class="q-ma-none q-pb-sm">Transportation to the Iowa State Iowa Speedway </h5>
+          <h5 class="q-ma-none q-pb-sm">Transportation to the Iowa Speedway </h5>
           <h6 class="q-ma-none">9:15a - 12:00p</h6>
           <h5 class="q-ma-none q-pb-sm">Crash Testing - Iowa Speedway</h5>
           <h6 class="q-ma-none">12:00p - 1:00p</h6>
