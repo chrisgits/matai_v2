@@ -18,8 +18,10 @@
             unelevated
             to="/conflive"
             class="q-py-xs q-px-sm q-ml-sm text-black"
-            color="green"
+            color="accent"
             label="conf live!"
+            size="lg"
+            style="border: black 4px solid"
           />
           <!-- <q-btn
             unelevated

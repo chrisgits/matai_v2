@@ -13,7 +13,100 @@
             <q-img fit="contain" width="40%" class="q-pa-sm q-ma-md" src="../assets/2022_falltrain@6x.png"/>
           </div>
         </div>
-        <div class="row justify-center">
+        <q-card-section>
+          <div class="text-bold text-h5 text-orange-9">September 12-14, 2022</div>
+          <div class="text-h4 q-mt-sm q-mb-xs">Commercial Motor Vehicle Topics</div>
+          <div class="text-h5 q-mt-sm q-mb-xs">Des Moines, IA</div>
+        </q-card-section>
+
+        <q-card-actions class="row justify-center q-ma-none">
+          <q-btn
+            href="https://files.matai.org/public/2022_MATAI_Conf_Program.pdf" target="blank"
+            class="q-mb-sm  col-xs-12"
+            unelevated
+            size="lg"
+            color="green"
+            text-color="white"
+            label="CONF BROCHURE PDF"
+          />
+        </q-card-actions>
+        <div class="row justify-center q-ma-none q-pa-sm">
+          <q-btn
+              href="https://www.google.com/maps/place/Prairie+Meadows+Casino,+Racetrack,+%26+Hotel/@41.6545048,-93.4930985,17z/data=!3m1!4b1!4m8!3m7!1s0x87ee93c4ee30aa63:0x36dc2b61db51851a!5m2!4m1!1i2!8m2!3d41.6545008!4d-93.4909045" target="blank"
+              class="q-mb-sm q-ml-none col-xs-12"
+              unelevated
+              size="lg"
+              color="blue"
+              icon="location_on"
+              text-color="white"
+              label="HOTEL"
+            />
+            <q-btn
+              href="https://www.google.com/maps/place/Iowa+Speedway/@41.6768427,-93.0131922,17z/data=!3m1!4b1!4m5!3m4!1s0x87ef1b22825f07e3:0x7e6fd16dea43ebae!8m2!3d41.6768427!4d-93.0110035" target="blank"
+              class="q-ml-none col-xs-12"
+              unelevated
+              size="lg"
+              color="blue"
+              icon="location_on"
+              text-color="white"
+              label="IOWA SPEEDWAY"
+            />
+        </div>
+      </q-card>
+
+      <!-- SCHEDULE COMPONENT -->
+      <schedule />
+      <!-- SCHEDULE COMPONENT -->
+    </div>
+    <section class="text-center">
+      <h4 class="q-pa-sm q-ma-none">IMPORTANT LOCATIONS</h4>
+      <q-card class="q-pa-md col-xs-12">
+        <h4 style="color: red; font-weight: bold;" class="q-ma-none">LOCATION CHANGE!!</h4>
+        <h4 class="text-bold">Iowa Speedway</h4>
+        <div class="q-pa-md">
+          <q-list bordered>
+            <q-item><h5>CTA Classroom and Crash Testing Site</h5></q-item>
+            <q-item><h5>3333 Rusty Wallace Dr, Newton, IA 50208</h5></q-item>
+          </q-list>
+        </div>
+
+        <q-card-actions class="row justify-center">
+            <q-btn
+              href="https://www.google.com/maps/place/Iowa+Speedway/@41.6768427,-93.0131922,17z/data=!3m1!4b1!4m5!3m4!1s0x87ef1b22825f07e3:0x7e6fd16dea43ebae!8m2!3d41.6768427!4d-93.0110035" target="blank"
+              class="col-xs-12 col-sm-6"
+              unelevated
+              size="lg"
+              color="blue"
+              icon="location_on"
+              text-color="white"
+              label="IOWA SPEEDWAY"
+            />
+          </q-card-actions>
+      </q-card>
+      <q-card class="q-pa-md">
+        <h5 class="text-bold">Prairie Meadows Casino, Racetrack and Hotel</h5>
+        <q-list bordered>
+          <q-item><h5>Conference Presentations and Lodging</h5></q-item>
+          <q-item><h5>1 Prairie Meadows Dr, Altoona, IA 50009</h5></q-item>
+        </q-list>
+        <q-card-actions class="row justify-center">
+            <q-btn
+              href="https://www.google.com/maps/place/Prairie+Meadows+Casino,+Racetrack,+%26+Hotel/@41.6545048,-93.4930985,17z/data=!3m1!4b1!4m8!3m7!1s0x87ee93c4ee30aa63:0x36dc2b61db51851a!5m2!4m1!1i2!8m2!3d41.6545008!4d-93.4909045" target="blank"
+              class="col-xs-12 col-sm-6"
+              unelevated
+              size="lg"
+              color="blue"
+              icon="location_on"
+              text-color="white"
+              label="HOTEL"
+            />
+          </q-card-actions>
+      </q-card>
+      <br>
+    </section>
+    <br><br>
+    <section>
+      <div class="row justify-center">
           <div class="col-xs-4 col-sm-3 q-pa-md">
             <q-img  class="q-pa-sm q-mt-lg gt-xs" src="../assets/actar.png"/>
           </div>
@@ -47,72 +140,6 @@
             />
           </q-card-actions>
         </div>
-        <q-card-section>
-          <div class="text-bold text-h5 text-orange-9">September 12-14, 2022</div>
-          <div class="text-h4 q-mt-sm q-mb-xs">Commercial Motor Vehicle Topics</div>
-          <div class="text-h5 q-mt-sm q-mb-xs">Des Moines, IA</div>
-        </q-card-section>
-
-        <q-card-actions>
-          <q-btn
-            href="https://files.matai.org/public/conf_schedule.pdf" target="blank"
-            class="q-my-sm col-xs-12"
-            unelevated
-            size="lg"
-            color="blue"
-            text-color="white"
-            label="CONF SCHEDULE PDF"
-          />
-        </q-card-actions>
-      </q-card>
-
-      <!-- SCHEDULE COMPONENT -->
-      <schedule />
-      <!-- SCHEDULE COMPONENT -->
-    </div>
-    <section class="text-center">
-      <h4 class="q-pa-sm">IMPORTANT LOCATIONS</h4>
-      <q-card class="q-pa-md col-xs-12">
-        <h5 class="text-bold">Iowa State Fairgrounds</h5>
-        <div class="q-pa-md">
-          <q-list bordered>
-            <q-item><h5>CTA Classroom and Crash Testing Site</h5></q-item>
-            <q-item><h5>3000 E Grand Ave, Des Moines, IA 50317</h5></q-item>
-          </q-list>
-        </div>
-
-        <q-card-actions class="row justify-center">
-            <q-btn
-              href="https://www.google.com/maps/place/Iowa+State+Fairgrounds/@41.5956801,-93.5556668,17z/data=!3m1!4b1!4m5!3m4!1s0x87ee971382c68b8f:0x1b11f4168f440760!8m2!3d41.5956761!4d-93.5534728" target="blank"
-              class="col-xs-12 col-sm-6"
-              unelevated
-              size="lg"
-              color="blue"
-              icon="location_on"
-              text-color="white"
-              label="FAIRGROUNDS"
-            />
-          </q-card-actions>
-      </q-card>
-      <q-card class="q-pa-md">
-        <h5 class="text-bold">Prairie Meadows Casino, Racetrack and Hotel</h5>
-        <q-list bordered>
-          <q-item><h5>Conference Presentations and Lodging</h5></q-item>
-          <q-item><h5>1 Prairie Meadows Dr, Altoona, IA 50009</h5></q-item>
-        </q-list>
-        <q-card-actions class="row justify-center">
-            <q-btn
-              href="https://www.google.com/maps/place/Prairie+Meadows+Casino,+Racetrack,+%26+Hotel/@41.6545048,-93.4930985,17z/data=!3m1!4b1!4m8!3m7!1s0x87ee93c4ee30aa63:0x36dc2b61db51851a!5m2!4m1!1i2!8m2!3d41.6545008!4d-93.4909045" target="blank"
-              class="col-xs-12 col-sm-6"
-              unelevated
-              size="lg"
-              color="blue"
-              icon="location_on"
-              text-color="white"
-              label="HOTEL"
-            />
-          </q-card-actions>
-      </q-card>
     </section>
     <!-- social media links -->
     <section>

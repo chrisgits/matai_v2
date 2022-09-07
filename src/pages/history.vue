@@ -25,7 +25,7 @@
       </div>
     </div><!--row-->
     <div class="col-12 ">
-      <p>In the first newsletter of 1987 there was discussions of the 1st Annual Meeting to be planned and a proposal for motorcycle sliding tests to be performed. As a part of this newsletter there were Acceleration Study data included for analysis purposes. </p>
+      <p>In the first newsletter of 1987 there were discussions of the 1st Annual Meeting to be planned and a proposal for motorcycle sliding tests to be performed. As a part of this newsletter there were Acceleration Study data included for analysis purposes.</p>
       <p>In the 2nd newsletter of 1987 a brief history was narrated by authors Adams and Knight:</p>
       <img src="../../src/assets/history/mataiHistory.png" alt="history snippet" class="img-border shadow-3 q-mb-xl">
       <p>A continuing tradition of MATAI was first discussed in this newsletter as well -- how the organization depends on the active roll of its members:</p>

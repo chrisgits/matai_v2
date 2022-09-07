@@ -59,6 +59,15 @@
                       label="more info"
                       text-color="white"
                     />
+                    <q-btn
+                      unelevated
+                      to="/conflive"
+                      class="q-py-xs q-px-sm q-ml-sm text-black"
+                      color="accent"
+                      label="conf live!"
+                      size="lg"
+                      style="border: black 4px solid"
+                    />
                   </q-card-section>
                 </div>
               </q-card>
