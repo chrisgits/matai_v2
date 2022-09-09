@@ -4,7 +4,8 @@
     <q-banner
       dense
         class="bg-accent text-black text-center">
-        <h5>Take note of location change of crash testing - Moved to <span class="text-bold">Iowa Speedway</span></h5>
+        <h5 class="q-ma-sm">Take note of location change of crash testing - Moved to <span class="text-bold">Iowa Speedway</span></h5>
+        <h6 class="q-ma-sm text-black"><span><q-img fit="contain" width="15%" class="q-pa-sm q-ma-md" src="../assets/actar.png"/></span> Information on required ACTAR CEU logging found after schedule below!</h6>
       </q-banner>
     <div class="row q-gutter-md q-mb-sm">
 
@@ -23,7 +24,7 @@
         <div>
           <h6 class="q-ma-none">08:00a - 12:00p</h6>
           <h5 class="q-ma-none q-pb-sm">Iowa Speedway - Newton Club Building (Grandstands) - In Classroom Teaching </h5>
-          <p class="text-bold text-red">Meet in Hotel Lobby on Saturday Morning For Carpool - Time will be listed here (TBD)</p>
+          <p class="text-bold text-red">Meet in Hotel Lobby on Saturday Morning For Carpool - 8:00am</p>
           <h6 class="q-ma-none">12:00p - 1:00p</h6>
           <h5 class="q-ma-none q-pb-sm">Lunch</h5>
           <h6 class="q-ma-none">1:00p - 5:00p</h6>

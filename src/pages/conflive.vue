@@ -52,6 +52,7 @@
               label="IOWA SPEEDWAY"
             />
         </div>
+        <h6 class="q-ma-sm">Group transportation will be provided by bus to the speedway.</h6>
       </q-card>
 
       <!-- SCHEDULE COMPONENT -->
@@ -63,6 +64,7 @@
       <q-card class="q-pa-md col-xs-12">
         <h4 style="color: red; font-weight: bold;" class="q-ma-none">LOCATION CHANGE!!</h4>
         <h4 class="text-bold">Iowa Speedway</h4>
+        <p class="text-bold text-red">TRANSPORTATION PROVIDED BY BUS from HOTEL</p>
         <div class="q-pa-md">
           <q-list bordered>
             <q-item><h5>CTA Classroom and Crash Testing Site</h5></q-item>
@@ -106,7 +108,7 @@
     </section>
     <br><br>
     <section>
-      <div class="row justify-center">
+      <div class="row justify-center" id="actar">
           <div class="col-xs-4 col-sm-3 q-pa-md">
             <q-img  class="q-pa-sm q-mt-lg gt-xs" src="../assets/actar.png"/>
           </div>
