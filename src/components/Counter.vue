@@ -61,7 +61,7 @@ export default {
       const timer = setInterval (()=> {
         const now = new Date();
         // conf start date 9/12/22 at 0800 hrs
-        const end = new Date(2022, 8, 12, 10, 0, 0);
+        const end = new Date(2022, 8, 12, 8, 0, 0);
         const distance = end.getTime() - now.getTime();
 
         if(distance < 0){
