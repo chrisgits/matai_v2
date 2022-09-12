@@ -12,43 +12,6 @@
     </div>
 
     <q-timeline class="q-mt-xl" layout="dense" side="right" color="secondary">
-      <q-timeline-entry heading>CTA Schedule</q-timeline-entry>
-
-      <q-timeline-entry
-        title="Sepember 10th"
-        subtitle="Saturday"
-        side="right"
-        color="orange"
-        icon="engineering"
-      >
-        <div>
-          <h6 class="q-ma-none">08:00a - 12:00p</h6>
-          <h5 class="q-ma-none q-pb-sm">Iowa Speedway - Newton Club Building (Grandstands) - In Classroom Teaching</h5>
-          <h6 class="q-ma-none">12:00p - 1:00p</h6>
-          <h5 class="q-ma-none q-pb-sm">Lunch</h5>
-          <h6 class="q-ma-none">1:00p - 5:00p</h6>
-          <h5 class="q-ma-none q-pb-sm">Iowa Speedway – Prepping Crash Test Cars</h5>
-        </div>
-      </q-timeline-entry>
-
-      <q-timeline-entry
-        title="September 11th"
-        subtitle="Sunday"
-        side="right"
-        color="orange"
-        icon="engineering"
-      >
-        <div>
-          <p><span><img style="width:75px; position: relative; top: 5px;" src="../assets/img/usa-flag.png" alt=""></span></p>
-          <h6 class="q-ma-none">08:00a - 12:00p</h6>
-          <h5 class="q-ma-none q-pb-sm">Iowa Speedway – Continue Prepping Crash Test Cars</h5>
-          <h6 class="q-ma-none">12:00p - 1:00p</h6>
-          <h5 class="q-ma-none q-pb-sm">Lunch</h5>
-          <h6 class="q-ma-none">1:00p - 5:00p</h6>
-          <h5 class="q-ma-none q-pb-sm">Low Speed Crash Testing – ONLY for Crash Team Academy</h5>
-        </div>
-      </q-timeline-entry>
-
       <q-timeline-entry heading>Conference Schedule</q-timeline-entry>
       <q-timeline-entry
         title="September 11th"
