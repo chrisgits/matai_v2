@@ -1,7 +1,9 @@
 <template>
   <div class="q-px-none">
-    <div class="bg-accent q-mt-none q-pb-lg">
-      <Counter/>
+    <div class="q-mt-none q-pb-lg">
+      <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green">
+      2022 CONFERENCE IS LIVE
+    </q-banner>
     </div>
     <div id="jumbo" class="q-pa-lg  text-center">
       <h3>MIDWEST ASSOCIATION OF TECHNICAL ACCIDENT INVESTIGATORS</h3>
@@ -45,7 +47,6 @@
                     <img style="width: 100%" class="q-pa-sm" src="../assets/2022_falltrain@6x.png">
                   </q-card-section>
                   <q-card-section class="col-xs-12 col-sm-8">
-                    <div class="text-h4 text-green">REGISTRATION OPEN</div>
                     <div class="text-h4">2022 FALL CONFERENCE</div>
                     <div class="text-h5">September 12-14, 2022</div>
                     <div class="text-h6">Des Moines, IA</div>
@@ -190,13 +191,13 @@ h3 {
 
 <script>
 import { defineComponent } from 'vue';
-import Counter from '../components/Counter.vue';
+// import Counter from '../components/Counter.vue';
 
 
 export default defineComponent({
   name: 'Home',
   components: {
-    Counter
+    // Counter
   }
 })
 </script>

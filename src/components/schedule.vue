@@ -23,12 +23,11 @@
       >
         <div>
           <h6 class="q-ma-none">08:00a - 12:00p</h6>
-          <h5 class="q-ma-none q-pb-sm">Iowa Speedway - Newton Club Building (Grandstands) - In Classroom Teaching </h5>
-          <p class="text-bold text-red">Meet in Hotel Lobby on Saturday Morning For Carpool - 8:00am</p>
+          <h5 class="q-ma-none q-pb-sm">Iowa Speedway - Newton Club Building (Grandstands) - In Classroom Teaching</h5>
           <h6 class="q-ma-none">12:00p - 1:00p</h6>
           <h5 class="q-ma-none q-pb-sm">Lunch</h5>
           <h6 class="q-ma-none">1:00p - 5:00p</h6>
-          <h5 class="q-ma-none q-pb-sm">Iowa Speedway – Prepping Crash Test Cars </h5>
+          <h5 class="q-ma-none q-pb-sm">Iowa Speedway – Prepping Crash Test Cars</h5>
         </div>
       </q-timeline-entry>
 
@@ -42,7 +41,7 @@
         <div>
           <p><span><img style="width:75px; position: relative; top: 5px;" src="../assets/img/usa-flag.png" alt=""></span></p>
           <h6 class="q-ma-none">08:00a - 12:00p</h6>
-          <h5 class="q-ma-none q-pb-sm">Iowa Speedway – Continue Prepping Crash Test Cars </h5>
+          <h5 class="q-ma-none q-pb-sm">Iowa Speedway – Continue Prepping Crash Test Cars</h5>
           <h6 class="q-ma-none">12:00p - 1:00p</h6>
           <h5 class="q-ma-none q-pb-sm">Lunch</h5>
           <h6 class="q-ma-none">1:00p - 5:00p</h6>
@@ -97,7 +96,7 @@
           <h5 class="q-ma-none q-pb-sm">Informal Banquet</h5>
           <p class="text-bold">Beef Tenderloin, Chicken and all the fixin's!</p>
           <h6 class="q-ma-none">Nightly</h6>
-          <h5 class="q-ma-none q-pb-sm">Hospitality Room - To Be Announced!</h5>
+          <h5 class="q-ma-none q-pb-sm">Hospitality Room - <span class="text-bold">Room 228</span></h5>
         </div>
       </q-timeline-entry>
 
@@ -138,7 +137,7 @@
             Sponsored by <span class="text-bold">Seiler Instrument</span>
           </p>
           <h6 class="q-ma-none">Nightly</h6>
-          <h5 class="q-ma-none q-pb-sm">Hospitality Room - To Be Announced!</h5>
+          <h5 class="q-ma-none q-pb-sm">Hospitality Room - <span class="text-bold">Room 228</span></h5>
 
         </div>
       </q-timeline-entry>

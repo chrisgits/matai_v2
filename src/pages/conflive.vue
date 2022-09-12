@@ -1,7 +1,7 @@
 <template>
-    <!-- <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green">
+    <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green">
       2022 CONFERENCE IS LIVE
-    </q-banner> -->
+    </q-banner>
     <div class="row justify-center items-start q-gutter-md">
       <q-card class="q-pa-xs" flat>
         <div class="row text-center justify-center">
