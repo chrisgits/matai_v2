@@ -1,7 +1,7 @@
 <template>
-    <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green">
-      2022 CONFERENCE IS LIVE
-    </q-banner>
+    <!-- <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green">
+      2023 CONFERENCE IS LIVE
+    </q-banner> -->
     <div class="row justify-center items-start q-gutter-md">
       <q-card class="q-pa-xs" flat>
         <div class="row text-center justify-center">
@@ -14,7 +14,7 @@
           </div>
         </div>
         <q-card-section>
-          <div class="text-bold text-h5 text-orange-9">September 12-14, 2022</div>
+          <div class="text-bold text-h5 text-orange-9">September 12-14, 2022 <br><span class="text-red-10">COMPLETED</span></div>
           <div class="text-h4 q-mt-sm q-mb-xs">Commercial Motor Vehicle Topics</div>
           <div class="text-h5 q-mt-sm q-mb-xs">Des Moines, IA</div>
         </q-card-section>

@@ -1,9 +1,9 @@
 <template>
   <div class="q-px-none">
     <div class="q-mt-none q-pb-lg">
-      <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green">
+      <!-- <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green">
       2022 CONFERENCE IS LIVE
-    </q-banner>
+    </q-banner> -->
     </div>
     <div id="jumbo" class="q-pa-lg  text-center">
       <h3>MIDWEST ASSOCIATION OF TECHNICAL ACCIDENT INVESTIGATORS</h3>
@@ -36,42 +36,12 @@
 
     <div>
       <div>
-          <div class="text-center">
+          <!-- <div class="text-center">
             <div class="text-uppercase text-h3 q-pa-lg">upcoming events</div>
-          </div>
+          </div> -->
           <!-- training cards -->
           <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
-              <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
-                <div class="flex row">
-                  <q-card-section class="col-4 gt-xs">
-                    <img style="width: 100%" class="q-pa-sm" src="../assets/2022_falltrain@6x.png">
-                  </q-card-section>
-                  <q-card-section class="col-xs-12 col-sm-8">
-                    <div class="text-h4">2022 FALL CONFERENCE</div>
-                    <div class="text-h5">September 12-14, 2022</div>
-                    <div class="text-h6">Des Moines, IA</div>
-                    <br>
-                    <div class="text-body1">This training will be hosted in Des Moines, IA by the Iowa State Patrol. This conference will be centered on the topic of Commercial Motor Vehicles and will include live crash testing as well as presentations from industry experts.</div>
-                    <q-btn
-                      to="/confinfo"
-                      unelevated
-                      class="q-my-md q-px-lg q-pa-md"
-                      color="blue"
-                      label="more info"
-                      text-color="white"
-                    />
-                    <q-btn
-                      unelevated
-                      to="/conflive"
-                      class="q-py-xs q-px-sm q-ml-sm text-black"
-                      color="accent"
-                      label="conf live!"
-                      size="lg"
-                      style="border: black 4px solid"
-                    />
-                  </q-card-section>
-                </div>
-              </q-card>
+
           </div>
           <div class="q-mb-lg">
             <div class="text-center">
@@ -109,6 +79,38 @@
               <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-4 gt-xs">
+                    <img style="width: 100%" class="q-pa-sm" src="../assets/2022_falltrain@6x.png">
+                  </q-card-section>
+                  <q-card-section class="col-xs-12 col-sm-8">
+                    <div class="text-h4">2022 FALL CONFERENCE <br>
+                      <span class="text-red-10">COMPLETED</span></div>
+                    <div class="text-h5">September 12-14, 2022</div>
+                    <div class="text-h6">Des Moines, IA</div>
+                    <br>
+                    <div class="text-body1">This training will be hosted in Des Moines, IA by the Iowa State Patrol. This conference will be centered on the topic of Commercial Motor Vehicles and will include live crash testing as well as presentations from industry experts.</div>
+                    <q-btn
+                      to="/confinfo"
+                      unelevated
+                      class="q-my-md q-px-lg q-pa-md"
+                      color="blue"
+                      label="more info"
+                      text-color="white"
+                    />
+                    <!-- <q-btn
+                      unelevated
+                      to="/conflive"
+                      class="q-py-xs q-px-sm q-ml-sm text-black"
+                      color="accent"
+                      label="conf live!"
+                      size="lg"
+                      style="border: black 4px solid"
+                    /> -->
+                  </q-card-section>
+                </div>
+              </q-card>
+              <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
+                <div class="flex row">
+                  <q-card-section class="col-4 gt-xs">
                       <img style="width: 100%" class="q-pa-sm" src="../assets/SpringTraining2022.png">
                   </q-card-section>
                   <q-card-section class="col-xs-12 col-sm-8">
@@ -136,20 +138,6 @@
               <h5>The <strong>Midwest Association of Technical Accident Investigators</strong>, MATAI, was formed to provide a professional affiliation of individuals dedicated to advancement in the technical aspects of motor vehicle traffic accident investigations.</h5>
               <h5>Check back often as we update our new site with more content for members and visitors alike.</h5>
               <h5>We look foward to interacting with our membership as well as presenting material relevant to the field of crash investigation for visitors from around the globe.</h5>
-              <q-chip color="teal" text-color="white" icon="bookmark">
-              New
-              </q-chip>
-              <h4>New Crash Test Academy Introduced!</h4>
-              <div class="flex justify-center">
-                <div class="gt-xs">
-                  <img style="width: 250px" src="../assets/CTA_circle_s.png"/>
-                </div>
-                <div class="lt-sm q-pt-lg">
-                  <img style="height: 4em" src="../assets/CTA_full@2x.png"/>
-                </div>
-
-              </div>
-              <h5>Check out the Crash Test Academy page <span style="color: teal"></span> <a href="/cta">here</a> for more information on this pre-conference opportunity this year. Space is <strong>limited</strong>  so register now if you'd like to attend this specialized training and experience prior to the start of this year's fall <a href="/confinfo">conference</a>.</h5>
               <hr>
               <h4>History Page</h4>
               <h5>If you are a history buff check out our organization's past on the <span style="color: teal">new</span> <a href="/history">History</a> page. If you have past experiences to share with the membership please email the website admin with stories, media or the like that could be added in the future. <a href="mailto:admin@matai.org">admin@matai.org</a>.</h5>

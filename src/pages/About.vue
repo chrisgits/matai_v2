@@ -156,10 +156,10 @@ export default defineComponent({
           bio: 'This is bio text if needed'
         },
         {
-          name: 'James Ronfeldt ',
+          name: 'Chris Mannel',
           title: 'Board Member',
-          email: 'mailto: jr32281@gmail.com',
-          phone1: '',
+          email: 'mailto: chris@nar-llc.com',
+          phone1: '531-444-9348',
           phone2: '',
           yos: '2020',
           photo: '',

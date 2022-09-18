@@ -1,5 +1,5 @@
 <template>
-      <q-banner
+      <!-- <q-banner
         dense
         class="bg-accent text-black"
       >
@@ -14,18 +14,16 @@
         size="lg"
         style="border: black 4px solid"
       />
-    </q-banner>
+    </q-banner> -->
   <div class="row justify-center items-start q-gutter-md">
     <q-card class="q-pa-xs" flat>
       <div class="row">
-        <div class="text-h4 q-mt-sm q-mb-xs">2022 Fall Conference</div>
+        <div class="text-h4 q-mt-sm q-mb-xs">2022 Fall Conference <br><span class="text-red-10">COMPLETED</span></div>
       </div>
       <q-card-section>
         <div class="text-bold text-h5 text-orange-9">September 12-14, 2022</div>
         <div class="text-h4 q-mt-sm q-mb-xs">Commercial Motor Vehicle Topics</div>
         <div class="text-h5 q-mt-sm q-mb-xs">Des Moines, IA</div>
-        <br>
-        <div class="text-blue text-bold text-h5">Vendor Registration Open! See Link below.</div>
         <br>
         <div class="text-black text-bold text-h5">
           NEW FOR 2022. <span class="text-deep-orange-8">CRASH TEST ACADEMY</span> (<a href="/cta">CTA</a>) available as a part of this fall's conference.
@@ -52,38 +50,12 @@
 
       <q-card-actions>
         <q-btn
-          href="https://momentum.matai.org/collect/description/248881-q-2022-matai-fall-conference-des-moines-ia" target="blank"
-
-          unelevated
-          size="lg"
-          color="green"
-          text-color="darkgrey"
-          label="CONF ONLY REGISTRATION"
-        />
-        <q-btn
           to=/cta
           unelevated
           size="lg"
           color="orange"
           text-color="darkgrey"
           label="CTA INFO"
-        />
-        <q-btn
-          href="https://book.rguest.com/onecart/wbe/group/1609/PrairieMeadowsRacetrackandCasino/auth" target="blank"
-          unelevated
-          class="q-my-sm"
-          size="lg"
-          color="teal"
-          label="hotel"
-        />
-        <q-btn
-          href="https://momentum.matai.org/collect/description/257118-q-2022-matai-fall-conference-vendor-registration" target="blank"
-          class="q-my-sm"
-          unelevated
-          size="lg"
-          color="blue"
-          text-color="white"
-          label="VENDOR REGISTRATION"
         />
       </q-card-actions>
     </q-card>
@@ -110,18 +82,6 @@
             </div>
           </q-card-section>
         </q-card>
-
-        <h4>See Full Schedule on the Conf Live! page</h4>
-        <q-btn
-          unelevated
-          to="/conflive"
-          class="q-py-xs q-px-sm q-ml-sm text-black"
-          color="accent"
-          label="conf live!"
-          size="lg"
-          style="border: black 4px solid"
-        />
-
         <br>
       </q-card-section>
       <q-card-section>
