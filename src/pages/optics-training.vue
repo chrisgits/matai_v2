@@ -19,7 +19,7 @@
         <div class="text-bold text-h5 text-orange-9">October 10-12, 2022</div>
         <div class="text-h5 q-mt-sm q-mb-xs">Lincoln, Nebraska</div>
         <br>
-        <q-btn
+        <!-- <q-btn
           type="a"
           size="lg"
           href="https://files.matai.org/public/Optics_Training_October 2022.pdf"
@@ -28,7 +28,7 @@
           color="accent"
           text-color="black"
           label="Optics Training Registration PDF"
-        />
+        /> -->
         <br>
         <!-- section -->
         <div class="text-h5 q-mt-lg">Course Topics</div>
@@ -104,7 +104,7 @@
         </div>
       </q-card-section>
 
-      <q-card-actions>
+      <!-- <q-card-actions>
         <q-btn
           type="a"
           size="lg"
@@ -115,7 +115,7 @@
           text-color="black"
           label="Optics Training Registration PDF"
         />
-      </q-card-actions>
+      </q-card-actions> -->
     </q-card>
 
     <!-- Schedule -->
@@ -171,10 +171,10 @@
                 </div>
               </q-card-section>
 
-              <q-img
+              <!-- <q-img
                 class="col-5 gt-sm rounded"
                 src="../assets/img/kent-b2.jpg"
-              />
+              /> -->
             </q-card-section><!--horizontal section-->
           </q-card-section>
         </q-card><!--PRESENTER BIO-->

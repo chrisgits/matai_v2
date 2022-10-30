@@ -26,7 +26,7 @@
           <q-btn
             unelevated
             href="https://momentum.matai.org/collect/description/228963-r-matai-member-renewal"
-            class="q-py-xs q-px-sm q-ml-sm gt-xs text-black"
+            class="q-py-xs q-px-sm q-ml-sm text-black"
             color="accent"
             label="RENEWALS"
           />

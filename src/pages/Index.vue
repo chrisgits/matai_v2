@@ -52,7 +52,33 @@
               <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-xs-12 col-sm-8">
-                    <div class="text-h4 text-green">REGISTRATION OPEN</div>
+                    <div class="text-h4 text-green">NEW TRAINING TO BE ANNOUNCED SOON!</div>
+                    <div class="text-h5 text-bold text-blue-10">Please submit training ideas to your Board Members!</div>
+                    <q-btn
+                      to="/optics-training"
+                      unelevated
+                      class="q-my-md q-px-lg q-pa-md"
+                      color="blue"
+                      label="MATAI Board Contact"
+                      text-color="white"
+                    />
+                    <div class="text-h5 text-bold text-blue-10">Be on the lookout for your email newsletter and upcoming membership survey!</div>
+                  </q-card-section>
+                </div>
+              </q-card>
+            </div>
+          </div>
+          <q-separator inset />
+          <!-- past events section -->
+          <div class="q-border-top">
+            <div class="text-center">
+              <div class="text-uppercase text-h3 q-pa-lg">past events</div>
+            </div>
+            <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
+              <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
+                <div class="flex row">
+                  <q-card-section class="col-xs-12 col-sm-8">
+                    <div class="text-h4 text-red-10">COMPLETED</div>
                     <div class="text-h5 text-bold text-blue-10">Optics, Lighting and Visibility for the Forensic Investigator</div>
                     <div class="text-h5">October 10-12, 2022</div>
                     <div class="text-h6 ">Lincoln, Nebraska</div>
@@ -67,15 +93,6 @@
                   </q-card-section>
                 </div>
               </q-card>
-            </div>
-          </div>
-          <q-separator inset />
-          <!-- past events section -->
-          <div class="q-border-top">
-            <div class="text-center">
-              <div class="text-uppercase text-h3 q-pa-lg">past events</div>
-            </div>
-            <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
               <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-4 gt-xs">

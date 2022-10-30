@@ -41,12 +41,12 @@
                 {{boardmember.phone1}}
               </div>
             </q-card-section>
-            <!-- <q-card-section class="col-5 flex flex-center">
+            <q-card-section class="col-5 flex flex-center">
               <q-img
                 class="rounded-borders memberImg"
                 :src="boardmember.photo"
               />
-            </q-card-section> -->
+            </q-card-section>
           </q-card-section>
         </q-card> <!-- END CARD -->
       </div>
@@ -109,7 +109,7 @@ export default defineComponent({
           phone1: '402-450-6627',
           phone2: '',
           yos: '2018',
-          photo: '',
+          photo: '/img/bolzer.jpg',
           bio: 'This is bio text if needed',
           class: 'my-card-p'
         },
@@ -120,7 +120,7 @@ export default defineComponent({
           phone1: '641-990-4245',
           phone2: '',
           yos: '2020',
-          photo: '',
+          photo: '/img/starrett.jpg',
           bio: 'This is bio text if needed',
           class: 'my-card-p'
         },
@@ -131,7 +131,7 @@ export default defineComponent({
           phone1: '515-321-4381',
           phone2: '',
           yos: '2019',
-          photo: '',
+          photo: '/img/lundgren.jpg',
           bio: 'This is bio text if needed',
           class: 'my-card-p'
         },
@@ -142,7 +142,7 @@ export default defineComponent({
           phone1: '',
           phone2: '',
           yos: '2021',
-          photo: '',
+          photo: '/img/hallman.jpg',
           bio: 'This is bio text if needed'
         },
         {
@@ -152,17 +152,7 @@ export default defineComponent({
           phone1: '',
           phone2: '',
           yos: '2020',
-          photo: '',
-          bio: 'This is bio text if needed'
-        },
-        {
-          name: 'Chris Mannel',
-          title: 'Board Member',
-          email: 'mailto: chris@nar-llc.com',
-          phone1: '531-444-9348',
-          phone2: '',
-          yos: '2020',
-          photo: '',
+          photo: '/img/schoolmaster.jpg',
           bio: 'This is bio text if needed'
         },
         {
@@ -172,7 +162,7 @@ export default defineComponent({
           phone1: '920-475-2975',
           phone2: '',
           yos: '2019',
-          photo: '',
+          photo: '/img/tassoul.jpg',
           bio: 'This is bio text if needed'
         },
         {
@@ -182,7 +172,7 @@ export default defineComponent({
           phone1: '319-573-1170',
           phone2: '',
           yos: '1987',
-          photo: '',
+          photo: '/img/yoder.jpg',
           bio: 'This is bio text if needed'
         },
         {
@@ -192,7 +182,17 @@ export default defineComponent({
           phone1: '402-616-7391',
           phone2: '',
           yos: '2020',
-          photo: '',
+          photo: '/img/mobley.jpg',
+          bio: 'This is bio text if needed'
+        },
+        {
+          name: 'Chris Mannel',
+          title: 'Board Member',
+          email: 'mailto: chris@nar-llc.com',
+          phone1: '531-444-9348',
+          phone2: '',
+          yos: '2022',
+          photo: '/img/mannel.jpg',
           bio: 'This is bio text if needed'
         },
         {
