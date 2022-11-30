@@ -5,14 +5,14 @@
       2022 CONFERENCE IS LIVE
     </q-banner> -->
     </div>
-    <div id="jumbo" class="q-pa-lg  text-center">
+    <div id="jumbo" class="q-pa-lg  text-center text-black">
       <h3>MIDWEST ASSOCIATION OF TECHNICAL ACCIDENT INVESTIGATORS</h3>
       <h5 style="color: #1a1a1a">FOR THE ADVANCEMENT OF MOTOR VEHICLE CRASH INVESTIGATION</h5>
       <div class="flex flex-center q-pb-lg">
         <q-btn
           to="/join"
           unelevated
-          class="q-py-md q-px-lg"
+          class="q-py-md q-px-lg text-weight-bolder"
           color="accent"
           label="join now"
           text-color="black"
@@ -20,14 +20,14 @@
         <q-btn
           to="/about"
           outline
-          class="q-ml-xs q-py-md q-px-lg"
+          class="q-ml-xs q-py-md q-px-lg text-weight-bolder"
           color="#1a1a1a"
           label="learn more"
         />
         <q-btn
           to="/members"
           outline
-          class="bg-primary q-ml-xs q-py-md q-px-lg"
+          class="bg-primary q-ml-xs q-py-md q-px-lg text-weight-bolder"
           color="white"
           label="members"
         />
@@ -44,18 +44,14 @@
 
           </div>
           <div class="q-mb-lg">
-            <div class="text-center">
-              <div class="text-uppercase text-h3 q-pa-lg">Member Training Events</div>
-              <div class="text-subtitle q-px-xl">These events are not directly produced by MATAI but are organized or known by its members to be related to the field of crash investigation.</div>
-            </div>
             <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
               <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
-                  <q-card-section class="col-xs-12 col-sm-8">
+                  <q-card-section class="col-xs-12 col-sm-10">
                     <div class="text-h4 text-green">NEW TRAINING TO BE ANNOUNCED SOON!</div>
                     <div class="text-h5 text-bold text-blue-10">Please submit training ideas to your Board Members!</div>
                     <q-btn
-                      to="/optics-training"
+                      to="/about"
                       unelevated
                       class="q-my-md q-px-lg q-pa-md"
                       color="blue"
@@ -63,6 +59,8 @@
                       text-color="white"
                     />
                     <div class="text-h5 text-bold text-blue-10">Be on the lookout for your email newsletter and upcoming membership survey!</div>
+                    <br>
+                    <div class="text-h6 text-bold text-orange-10">The data from the 2022 Conference is available under the members section! If you are not a member and attended this year's Conference you should have received an email with the link. If not please contact <a href="mailto:admin@matai.org">admin@matai.org</a>. Thank you!</div>
                   </q-card-section>
                 </div>
               </q-card>
@@ -99,11 +97,12 @@
                     <img style="width: 100%" class="q-pa-sm" src="../assets/2022_falltrain@6x.png">
                   </q-card-section>
                   <q-card-section class="col-xs-12 col-sm-8">
-                    <div class="text-h4">2022 FALL CONFERENCE <br>
+                    <div class="text-h4">2022 FALL CONFERENCE<br>
                       <span class="text-red-10">COMPLETED</span></div>
                     <div class="text-h5">September 12-14, 2022</div>
                     <div class="text-h6">Des Moines, IA</div>
                     <br>
+                    <div class="text-body1 text-orange-10">Crash Testing Data now available. Members - login to the <a href="/members">members</a> section or email <a href="mailto:admin@matai.org">admin@matai.org</a> if you attended and did not receive the emailed link.</div>
                     <div class="text-body1">This training will be hosted in Des Moines, IA by the Iowa State Patrol. This conference will be centered on the topic of Commercial Motor Vehicles and will include live crash testing as well as presentations from industry experts.</div>
                     <q-btn
                       to="/confinfo"
@@ -186,7 +185,7 @@ h3 {
 }
 /* webpackIgnore: true */
 #jumbo {
-  background-image: url("../assets/img/buscrash2.jpg");
+  background-image: url("../assets/img/buscrash2022.jpg");
   background-color: #686868;
   background-position: center;
   background-repeat: no-repeat;
