@@ -6,6 +6,7 @@
     <div class="col-12">
       <hr>
       <h5 class="text-center">The first part of this flashback will look at the first 20 years of MATAI <br>1986 - 2006</h5>
+      <h5 class="text-center text-yellow">NEW! Our 20th Anniversary video (via YouTube) added to our History timeline! Check it out at the end of this section!</h5>
       <hr>
       <p>From humble beginnings in middle America, the Midwest Association of Technical Accident Investigators was organized in 1986 by Mike Adams, Ray Knight and Jon Wilson of Iowa.</p>
       <p>They started the idea of the organization and worked to develop the first group of individuals that would become the Founding Board of Directors</p>
@@ -73,14 +74,27 @@
         <p>The 2004 newsletter also introduces the now familiar circular MATAI logo in the flyer for the 2004 Conference in Rock Island.</p>
         <p>The 2005 Conference is set in the first time host state of South Dakota. It was hosted in Rapid City by Brad Booth and Mike Selves and included presentations on numerous topics by highly regarded instructors.</p>
         <p>Discussions begin amongst the board members in planning the 20th Anniversary of MATAI in 2006 as well as the Conference for that year that was set for a second time host state of Missouri (Kansas City).</p>
-
       </div>
+
+
       <div class="col-xs-12 col-sm-6 q-pa-md">
         <img src="../../src/assets/history/fall2004.png" alt="member involvement snippet" class="img-border shadow-3 q-mb-xl">
       </div>
+      <div class="col-xs-12 q-pa-sm">
+        <div>
+          <p>The 2006 Conference held in Kansas City Missouri celebrated the 20th Anniversary of the organization. We have unearthed the compilation video and it is now available on our YouTube channel for the next generation to view! Take a step back in time to see the foundation of our organization. Link below and on the <a href="https://www.youtube.com/channel/UCvLubrvZf15Zm4-ioYWlYHg">MATAI YouTube Channel</a>.</p>
+        </div>
+        <div class="q-pa-md">
+          <q-video
+          :ratio="16/9"
+            src="https://www.youtube.com/embed/Y7tPrE6wo0g?rel=0"
+          />
+      </div>
+      </div>
+
       <div class="col-12">
         <hr>
-        <h5 class="text-center">The second part of this series will include happenings from <br>2006 - 2021</h5>
+        <h5 class="text-center">The second part of this series will include happenings from <br>2007 - Present</h5>
         <h5 class="text-center">STAY TUNED!</h5>
         <hr>
       </div>

@@ -25,39 +25,24 @@
         <div class="text-h4 q-mt-sm q-mb-xs">Commercial Motor Vehicle Topics</div>
         <div class="text-h5 q-mt-sm q-mb-xs">Des Moines, IA</div>
         <br>
+        <div class="text-h6 text-bold text-orange-10">The data from the 2022 Conference is available under the members section! If you are not a member and attended this year's Conference you should have received an email with the link. If not please contact <a href="mailto:admin@matai.org">admin@matai.org</a>. Thank you!</div>
+        <br>
         <div class="text-black text-bold text-h5">
-          NEW FOR 2022. <span class="text-deep-orange-8">CRASH TEST ACADEMY</span> (<a href="/cta">CTA</a>) available as a part of this fall's conference.
+          <span class="text-deep-orange-8">CRASH TEST ACADEMY</span> (<a href="/cta">CTA</a>) was available as a part of this conference.
         </div>
         <br>
         <div class="text-black text-h6">
-          This conference will focus on crashes involving CMVs and be held over 3 days. It will include content and presentations from nationally recognized presenters and experts in CMV topics. <br> Our presenter information can be found on this page.
+          This conference focused on crashes involving CMVs and be held over 3 days. It included content and presentations from nationally recognized presenters and experts in CMV topics. <br> Our presenter information can be found on this page.
           <br> <br>
 
-          Eight (8) participants will have the option to come early (with paid registration) and attend the CTA session on Saturday and Sunday.
-          <br><br>
-          The cost of the Academy is $1000 plus lodging. If you register for both the conference and the CTA you receive a 10% discount on both.
+          Eight (8) participants had the option to come early (with paid registration) and attend the CTA session on Saturday and Sunday.
         </div>
         <br>
         <div class="text-black text-body1">
           The MATAI annual conference continues to grow each year. We have advanced our crash test research in recent years to include highly sophisticated crash test instrumentation and robotic steering devices to steer the vehicles into various crash scenarios.  For the first time this fall, MATAI will offer attendees the option to participate in the “Crash Test Academy” (CTA), which will provide hands-on experience with all aspects of planning, execution and presentation of full scale automobile crash tests. For more information on CTA content, cost and instructors please visit the <a href="/cta">CTA</a> page.
         </div>
         <br>
-
-        <div class="text-black text-body1">
-          Lodging is at the Praire Meadows Raceway and Casino. The link below will provide attendees to take advantage of group rates for this conference. Please use GROUP Code: <strong>091122MATAI</strong> with password <strong>863000679</strong> for the reserved conference rooms at the $129/night rate.
-        </div>
       </q-card-section>
-
-      <q-card-actions>
-        <q-btn
-          to=/cta
-          unelevated
-          size="lg"
-          color="orange"
-          text-color="darkgrey"
-          label="CTA INFO"
-        />
-      </q-card-actions>
     </q-card>
     <q-card>
       <q-card-section>

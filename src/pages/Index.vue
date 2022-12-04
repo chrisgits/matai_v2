@@ -105,7 +105,7 @@
                     <div class="text-body1 text-orange-10">Crash Testing Data now available. Members - login to the <a href="/members">members</a> section or email <a href="mailto:admin@matai.org">admin@matai.org</a> if you attended and did not receive the emailed link.</div>
                     <div class="text-body1">This training will be hosted in Des Moines, IA by the Iowa State Patrol. This conference will be centered on the topic of Commercial Motor Vehicles and will include live crash testing as well as presentations from industry experts.</div>
                     <q-btn
-                      to="/confinfo"
+                      to="/confinfo2022"
                       unelevated
                       class="q-my-md q-px-lg q-pa-md"
                       color="blue"
