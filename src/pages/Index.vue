@@ -1,8 +1,8 @@
 <template>
   <div class="q-px-none">
     <div class="q-mt-none q-pb-lg">
-      <!-- <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green">
-      2022 CONFERENCE IS LIVE
+      <!-- <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green q-pa-lg">
+      <Counter/>
     </q-banner> -->
     </div>
     <div id="jumbo" class="q-pa-lg  text-center text-black">
@@ -194,6 +194,7 @@ h3 {
 </style>
 
 <script>
+import Counter from 'src/components/Counter.vue';
 import { defineComponent } from 'vue';
 // import Counter from '../components/Counter.vue';
 
@@ -201,6 +202,7 @@ import { defineComponent } from 'vue';
 export default defineComponent({
   name: 'Home',
   components: {
+    // Counter
     // Counter
   }
 })

@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-    <h5 class="q-pb-none q-my-none">CMV Conference 2022</h5>
+    <h5 class="q-pb-none q-my-none">MATAI Conference 2023</h5>
   </div>
   <div v-if="loaded" class="text-center q-pb-xs">
     <section class="flex text-h3 justify-center content-center">
@@ -60,8 +60,8 @@ export default {
     showRemaining (){
       const timer = setInterval (()=> {
         const now = new Date();
-        // conf start date 9/12/22 at 0800 hrs
-        const end = new Date(2022, 8, 12, 8, 0, 0);
+        // conf start date 9/12/23 at 0800 hrs
+        const end = new Date(2023, 8, 11, 8, 0, 0);
         const distance = end.getTime() - now.getTime();
 
         if(distance < 0){
