@@ -5,13 +5,13 @@
         active-color="accent"
         class="q-py-sm q-pl-xs row justify-evenly"
       >
-        <div class="col-xs-4 col-sm-6">
+        <div>
           <q-btn to="/" flat class="q-pa-none">
             <img class="gt-xs" width="250" src="../assets/MATAI_TextBlock@6x.png" alt="">
             <img class="lt-sm q-pa-none" width="60" src="../assets/MATAI_Block@6x.png" alt="">
           </q-btn>
         </div>
-        <div class="col-xs-5 col-sm-5 ">
+        <div>
           <!-- <q-btn to="/cta" class="q-py-sm q-px-sm" flat color="deep-orange" >CTA</q-btn> -->
           <!-- <q-btn color="blue" to="/confinfo" class="q-py-xs q-px-sm q-ml-sm ">Conf signup</q-btn> -->
           <!-- <q-btn
@@ -42,7 +42,7 @@
     >
       <div class="row justify-center items-center text-center">
         <div class="col-sm-4 gt-xs row justify-end">
-          <div class="">
+          <div>
             <q-btn unelevated flat to="/"><img class="lt-lg" width="125" src="../assets/MATAI_blockw@2x.png" alt="matai-logo"/></q-btn>
           </div>
           <div>

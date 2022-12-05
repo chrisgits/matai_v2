@@ -87,7 +87,7 @@
         <div class="q-pa-md">
           <q-video
           :ratio="16/9"
-            src="https://www.youtube.com/embed/Y7tPrE6wo0g?rel=0"
+            src="https://www.youtube.com/embed/_865cJP4zf0?rel=0"
           />
       </div>
       </div>
