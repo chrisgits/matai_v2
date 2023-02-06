@@ -41,10 +41,32 @@
           </div> -->
           <!-- training cards -->
           <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
+          <div class="q-pa-md">
+          <q-video
+          :ratio="16/9"
+            src="https://www.youtube.com/embed/i_we7VvWqr0"
+          />
+          </div>
 
           </div>
           <div class="q-mb-lg">
             <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
+              <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
+                <div class="flex row text-center justify-center">
+                  <q-card-section class="col-xs-12 col-sm-10">
+                    <div class="text-h4 text-orange text-center">2022 Conference Crash Videos now Online</div>
+                    <div class="text-h5 text-bold text-blue-10 text-center">Check out MATAI's YouTube Channel and Playlists to see the compiled videos from last year's conference crash testing</div>
+                    <q-btn
+                      href="https://www.youtube.com/channel/UCvLubrvZf15Zm4-ioYWlYHg"
+                      unelevated
+                      class="q-my-md q-px-lg q-pa-md"
+                      color="blue"
+                      label="MATAI YouTube Channel"
+                      text-color="white"
+                    />
+                  </q-card-section>
+                </div>
+              </q-card>
               <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-xs-12 col-sm-10">
