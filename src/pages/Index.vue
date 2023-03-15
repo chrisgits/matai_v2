@@ -2,8 +2,12 @@
   <div class="q-px-none">
     <div class="q-mt-none q-pb-lg">
       <!-- <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green q-pa-lg">
-      <Counter/>
+        ADD COUNTER BACK WHEN NEEDED!
+        <Counter/>
     </q-banner> -->
+    <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-orange q-pa-md">
+      <h4 class="q-ma-none text-black">Conf 2023 Dates! September 18 - 20th</h4>
+    </q-banner>
     </div>
     <div id="jumbo" class="q-pa-lg  text-center text-black">
       <h3>MIDWEST ASSOCIATION OF TECHNICAL ACCIDENT INVESTIGATORS</h3>
@@ -13,7 +17,7 @@
           to="/join"
           unelevated
           class="q-py-md q-px-lg text-weight-bolder"
-          color="accent"
+          color="green"
           label="join now"
           text-color="black"
         />
@@ -27,7 +31,7 @@
         <q-btn
           to="/members"
           outline
-          class="bg-primary q-ml-xs q-py-md q-px-lg text-weight-bolder"
+          class="bg-primary q-ml-xs q-py-md q-px-lg"
           color="white"
           label="members"
         />
@@ -36,16 +40,36 @@
 
     <div>
       <div>
-          <!-- <div class="text-center">
+          <div class="text-center">
             <div class="text-uppercase text-h3 q-pa-lg">upcoming events</div>
-          </div> -->
+          </div>
+          <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
+              <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
+                <div class="flex row">
+                  <q-card-section class="col-xs-12 col-sm-12">
+                    <div class="text-h4 text-green-10">NEW</div>
+                    <div class="text-h5 text-bold text-blue-10">2023 MATAI FALL CONFERENCE</div>
+                    <div class="text-h5">September 18 - 20, 2023</div>
+                    <div class="text-h6 ">Des Moines, IA</div>
+                    <q-btn
+                      to="/confinfo"
+                      unelevated
+                      class="q-my-md q-px-lg q-pa-md"
+                      color="orange"
+                      label="conf info"
+                      text-color="black"
+                    />
+                  </q-card-section>
+                </div>
+              </q-card>
+            </div>
           <!-- training cards -->
           <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
           <div class="q-pa-md">
-          <q-video
-          :ratio="16/9"
-            src="https://www.youtube.com/embed/i_we7VvWqr0"
-          />
+            <q-video
+            :ratio="16/9"
+              src="https://www.youtube.com/embed/i_we7VvWqr0"
+            />
           </div>
 
           </div>
@@ -70,7 +94,6 @@
               <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-xs-12 col-sm-10">
-                    <div class="text-h4 text-green">NEW TRAINING TO BE ANNOUNCED SOON!</div>
                     <div class="text-h5 text-bold text-blue-10">Please submit training ideas to your Board Members!</div>
                     <q-btn
                       to="/about"
@@ -178,7 +201,7 @@
               <h5>We look foward to interacting with our membership as well as presenting material relevant to the field of crash investigation for visitors from around the globe.</h5>
               <hr>
               <h4>History Page</h4>
-              <h5>If you are a history buff check out our organization's past on the <span style="color: teal">new</span> <a href="/history">History</a> page. If you have past experiences to share with the membership please email the website admin with stories, media or the like that could be added in the future. <a href="mailto:admin@matai.org">admin@matai.org</a>.</h5>
+              <h5>If you are a history buff check out our organization's past on the <a href="/history">History</a> page. If you have past experiences to share with the membership please email the website admin with stories, media or the like that could be added in the future. <a href="mailto:admin@matai.org">admin@matai.org</a>.</h5>
             </div>
         </div>
         <div class="q-pa-md">
@@ -216,16 +239,15 @@ h3 {
 </style>
 
 <script>
-import Counter from 'src/components/Counter.vue';
 import { defineComponent } from 'vue';
-// import Counter from '../components/Counter.vue';
+import Counter from '../components/Counter.vue';
 
 
 export default defineComponent({
   name: 'Home',
   components: {
-    // Counter
-    // Counter
+//    Counter
+
   }
 })
 </script>

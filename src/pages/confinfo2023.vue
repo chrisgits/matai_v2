@@ -21,9 +21,11 @@
         <div class="text-h4 q-mt-sm q-mb-xs">2023 Fall Conference <br><span class="text-green-10">PLANNED</span></div>
       </div>
       <q-card-section>
-        <div class="text-bold text-h5 text-orange-9">TBD</div>
-        <div class="text-h4 q-mt-sm q-mb-xs">Back to Basics (TENTATIVE)</div>
+        <div class="text-bold text-h5 text-orange-9">September 18-20, 2023</div>
+        <div class="text-h4 q-mt-sm q-mb-xs">Back to Basics - Live Crash Testing</div>
         <div class="text-h5 q-mt-sm q-mb-xs">Des Moines, IA</div>
+        <div class="text-h5 q-mt-sm q-mb-xs">ACTAR Exam - Thursday September 21, 2023</div>
+
         <br>
         <div class="text-black text-h6">
           This conference focused on going back to basics and will include the following testing and topics:
@@ -31,7 +33,7 @@
         </div>
         <br>
         <div class="text-black text-body1">
-          The MATAI annual conference continues to grow each year. This year we will step 'Back to Basics' to provide attendees a through review of the fundamentals that drive our understanding and interpretation of real-world evidence during our investigations.
+          The MATAI annual conference continues to grow each year. This year we will step 'Back to Basics' to provide attendees a thorough review of the fundamentals that drive our understanding and interpretation of real-world evidence during our investigations.
         </div>
         <br>
       </q-card-section>
@@ -47,47 +49,40 @@
             </div>
             <!-- <div class="text-deep-orange-8 text-h6">
               <span class="text-bold text-black">9/10</span> Saturday – Crash Test Academy - Iowa Speedway
-            </div>
-            <div class="text-deep-orange-8 text-h6">
-              <span class="text-bold text-black">9/11</span> <span><img style="width: 50px; position: relative; top: 5px;" src="../assets/img/usa-flag.png" alt=""></span> Sunday - Crash Test Academy
-            </div>
-            <div class="text-black text-h6">
-              <span class="text-bold text-black">9/12</span> Monday – Crash Day, Iowa Speedway
-            </div>
-            <div class="text-black text-h6">
-              <span class="text-bold text-black">9/13</span> Tuesday – William Messerschmidt, Iowa DOT, Presentations
-            </div>
-            <div class="text-black text-h6">
-              <span class="text-bold text-black">9/14</span> Wednesday – Kent Boots, Data Presentation
             </div> -->
+            <div class="text-black text-h6">
+              <span class="text-bold text-black">9/18</span> Monday – Crash Testing
+            </div>
+            <div class="text-black text-h6">
+              <span class="text-bold text-black">9/19</span> Tuesday – Presentations
+            </div>
+            <div class="text-black text-h6">
+              <span class="text-bold text-black">9/20</span> Wednesday Morning – Presentations and wrap-up
+            </div>
+            <div class="text-black text-h6">
+              <span class="text-bold text-black">9/20</span> Wednesday Afternoon – Optional ACTAR Prep Session
+            </div>
+            <div class="text-black text-h6">
+              <span class="text-bold text-black">9/21</span> Thursday – Hosted ACTAR Exam
+            </div>
           </q-card-section>
         </q-card>
         <br>
       </q-card-section>
-      <q-card-section>
+      <!-- <q-card-section>
         <div class="text-black text-h5 q-mb-md">
           Conference Presenters - TBD
         </div>
-        <!--PRESENTER COMPONENT-->
+        PRESENTER COMPONENT
         <Presenter/>
       <br>
 
-      </q-card-section>
+      </q-card-section> -->
 
     </q-card>
-
-    <div class="col-xs-12 col-sm-6 text-h6">
-          <div>ACTAR Credit Info</div>
-    </div>
   </div>
-  <div class="row">
-    <div class="col-xs-4 col-sm-3 q-pa-md">
-      <q-img fit="contain" width="80%" class="q-pa-sm" src="../assets/actar.png"/>
-    </div>
-    <div class="col-xs-8 col-sm-9 q-pa-md text-h6">
-      <p><strong>TBD</strong></p>
-    </div>
-  </div>
+  <!-- turn on actar component once ready -->
+  <!-- <actar/> -->
 </template>
 
 <style lang="sass" scoped>
@@ -101,6 +96,7 @@
 <script>
 import { ref } from 'vue'
 import Presenter from '../components/presenter.vue';
+import actar from '../components/actar.vue';
 
 export default {
   setup () {
@@ -109,7 +105,7 @@ export default {
     }
   },
   components: {
-    Presenter
+
   }
 }
 </script>

@@ -13,7 +13,7 @@
         </div>
         <div>
           <!-- <q-btn to="/cta" class="q-py-sm q-px-sm" flat color="deep-orange" >CTA</q-btn> -->
-          <!-- <q-btn color="blue" to="/confinfo" class="q-py-xs q-px-sm q-ml-sm ">Conf signup</q-btn> -->
+          <q-btn color="orange text-black" to="/confinfo" class="q-py-xs q-px-sm q-ml-sm ">Conf Info</q-btn>
           <!-- <q-btn
             unelevated
             to="/conflive"
@@ -27,10 +27,10 @@
             unelevated
             href="https://momentum.matai.org/collect/description/228963-r-matai-member-renewal"
             class="q-py-xs q-px-sm q-ml-sm text-black"
-            color="accent"
+            color="blue"
             label="RENEWALS"
           />
-          <q-btn color="blue" to="/about" class="q-py-xs q-px-sm q-ml-sm ">About</q-btn>
+          <q-btn color="green text-black" to="/about" class="q-py-xs q-px-sm q-ml-sm ">About</q-btn>
         </div>
       </q-toolbar>
     </q-header>
