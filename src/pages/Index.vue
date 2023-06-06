@@ -46,9 +46,13 @@
           <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
               <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
-                  <q-card-section class="col-xs-12 col-sm-12">
+                  <q-card-section class="col-4 gt-xs">
+                    <img style="width: 100%" class="q-pa-sm" src="../assets/img/2023Conf.png">
+                  </q-card-section>
+                  <q-card-section class="col-xs-12 col-sm-8">
                     <div class="text-h4 text-green-10">NEW</div>
                     <div class="text-h5 text-bold text-blue-10">2023 MATAI FALL CONFERENCE</div>
+                    <div class="text-h2 text-bold">BACK TO THE BASICS</div>
                     <div class="text-h5">September 18 - 20, 2023</div>
                     <div class="text-h6 ">Des Moines, IA</div>
                     <q-btn
