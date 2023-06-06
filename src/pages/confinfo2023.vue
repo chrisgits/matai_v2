@@ -25,7 +25,7 @@
                   </q-card-section>
       <q-card-section class="col-8">
         <div class="text-bold text-h5 text-orange-9">September 18-20, 2023</div>
-        <div class="text-h4 q-mt-sm q-mb-xs">Back to Basics - Live Crash Testing</div>
+        <div class="text-h4 q-mt-sm q-mb-xs">Back to the Basics - Live Crash Testing</div>
         <div class="text-h5 q-mt-sm q-mb-xs">Des Moines, IA</div>
         <div class="text-h5 q-mt-sm q-mb-xs">ACTAR Exam - Thursday September 21, 2023</div>
 
@@ -36,7 +36,7 @@
         </div>
         <br>
         <div class="text-black text-body1">
-          The MATAI annual conference continues to grow each year. This year we will step 'Back to Basics' to provide attendees a thorough review of the fundamentals that drive our understanding and interpretation of real-world evidence during our investigations.
+          The MATAI annual conference continues to grow each year. This year we will step 'Back to the Basics' to provide attendees a thorough review of the fundamentals that drive our understanding and interpretation of real-world evidence during our investigations.
         </div>
         <br>
         <div class="text-black text-h6">

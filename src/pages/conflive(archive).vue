@@ -7,15 +7,15 @@
         <div class="row text-center justify-center">
           <!-- <div class="text-h2 text-center q-mt-sm q-mb-xs"><p>2022 Conference is <span class="text-green text-bold">LIVE!</span></p></div> -->
           <div class="col-xs-12 col-6 lt-sm">
-            <q-img fit="contain" width="50%" class="q-pa-sm q-ma-md" src="../assets/img/2023Conf.png"/>
+            <q-img fit="contain" width="50%" class="q-pa-sm q-ma-md" src="../assets/2022_falltrain@6x.png"/>
           </div>
           <div class="col-xs-12 col-6 gt-xs">
-            <q-img fit="contain" width="40%" class="q-pa-sm q-ma-md" src="../assets/img/2023Conf.png"/>
+            <q-img fit="contain" width="40%" class="q-pa-sm q-ma-md" src="../assets/2022_falltrain@6x.png"/>
           </div>
         </div>
         <q-card-section>
-          <div class="text-bold text-h5 text-orange-9">September 18-20, 2023 <br><span class="text-green-10">UPCOMING</span></div>
-          <div class="text-h4 q-mt-sm q-mb-xs">Back to the Basics</div>
+          <div class="text-bold text-h5 text-orange-9">September 12-14, 2022 <br><span class="text-red-10">COMPLETED</span></div>
+          <div class="text-h4 q-mt-sm q-mb-xs">Commercial Motor Vehicle Topics</div>
           <div class="text-h5 q-mt-sm q-mb-xs">Des Moines, IA</div>
         </q-card-section>
 
@@ -62,11 +62,12 @@
     <section class="text-center">
       <h4 class="q-pa-sm q-ma-none">IMPORTANT LOCATIONS</h4>
       <q-card class="q-pa-md col-xs-12">
+        <h4 style="color: red; font-weight: bold;" class="q-ma-none">LOCATION CHANGE!!</h4>
         <h4 class="text-bold">Iowa Speedway</h4>
         <p class="text-bold text-red">TRANSPORTATION PROVIDED BY BUS from HOTEL</p>
         <div class="q-pa-md">
           <q-list bordered>
-            <q-item><h5>Crash Testing Site</h5></q-item>
+            <q-item><h5>CTA Classroom and Crash Testing Site</h5></q-item>
             <q-item><h5>3333 Rusty Wallace Dr, Newton, IA 50208</h5></q-item>
           </q-list>
         </div>
@@ -112,7 +113,7 @@
             <q-img  class="q-pa-sm q-mt-lg gt-xs" src="../assets/actar.png"/>
           </div>
           <div class="col-xs-12 col-sm-9 q-pa-md text-h6">
-            <h5 class="q-ma-none text-red text-bold">Attention!</h5>
+            <h5 class="q-ma-none text-bold">Attention!</h5>
             <p>For attendees to receive credit for ACTAR CEUs for this conference you must download the i-Attend app for your device and check in to each session you attend with the QR code available at the entrance. This is a change and process implemented by ACTAR. Please visit <a href="www.actar.org/ceu/earning">www.actar.org/ceu/earning</a> for the details of this change.</p>
             <p>For your convenience here is the <a href="https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1b0333fe-f7a7-4cbd-a61a-ae900137cf2b">link</a> to the i-Attend video instructions for the app. If you would like the PDF instructions download it <a href="https://files.matai.org/public/i-attend.pdf">here</a>.</p>
           </div>
