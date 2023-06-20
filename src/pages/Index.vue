@@ -66,7 +66,7 @@
                       text-color="black"
                       />
                       <q-btn
-                        to="/confinfo"
+                        href="https://momentum.matai.org/collect/description/325508-q-2023-matai-fall-conference-registration-des-moines-ia"
                         unelevated
                         class="q-ma-md q-px-lg q-pa-md"
                         color="blue"
