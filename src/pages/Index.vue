@@ -55,14 +55,26 @@
                     <div class="text-h2 text-bold">BACK TO THE BASICS</div>
                     <div class="text-h5">September 18 - 20, 2023</div>
                     <div class="text-h6 ">Des Moines, IA</div>
-                    <q-btn
+                    <div class="text-h4 text-red">Registration OPEN!</div>
+                    <q-card-section>
+                      <q-btn
                       to="/confinfo"
                       unelevated
-                      class="q-my-md q-px-lg q-pa-md"
+                      class="q-ma-md q-px-lg q-pa-md"
                       color="orange"
                       label="conf info"
                       text-color="black"
-                    />
+                      />
+                      <q-btn
+                        to="/confinfo"
+                        unelevated
+                        class="q-ma-md q-px-lg q-pa-md"
+                        color="blue"
+                        label="REGISTRATION"
+                        text-color="white"
+                      />
+                    </q-card-section>
+
                   </q-card-section>
                 </div>
               </q-card>

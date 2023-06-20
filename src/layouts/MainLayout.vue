@@ -111,7 +111,7 @@
 
       <div class="q-pt-xs" align="center">
        <p class="q-mb-xs text-uppercase text-caption copyright"><span class="material-icons">
-        copyright</span>2022  matai</p>
+        copyright</span>2023  matai</p>
       </div>
     </q-footer>
 

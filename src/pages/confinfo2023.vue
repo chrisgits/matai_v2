@@ -15,14 +15,14 @@
         style="border: black 4px solid"
       />
     </q-banner> -->
-  <div class="row justify-center items-start q-gutter-md">
+  <div class="row justify-center">
     <div class="col-12">
-        <div class="text-h4 q-mt-sm q-mb-xs">2023 Fall Conference <br><span class="text-red-10">UPCOMING IN SEPTEMBER</span></div>
+        <div class="text-h4 q-mt-sm q-mb-xs q-pl-lg">2023 Fall Conference <br><span class="text-red-10">UPCOMING IN SEPTEMBER</span></div>
       </div>
     <q-card class="q-pa-xs flex row" flat>
       <q-card-section class="col-4 gt-xs">
-                    <img style="width: 100%" class="q-pa-sm" src="../assets/img/2023Conf.png">
-                  </q-card-section>
+        <img style="width: 100%" class="q-pa-sm" src="../assets/img/2023Conf.png">
+      </q-card-section>
       <q-card-section class="col-8">
         <div class="text-bold text-h5 text-orange-9">September 18-20, 2023</div>
         <div class="text-h4 q-mt-sm q-mb-xs">Back to the Basics - Live Crash Testing</div>
@@ -43,21 +43,58 @@
           Instructor Andy Rich will be presenting on Tuesday on recon updates including a session on advanced uses of EDR data in analysis.
         </div>
         <br>
-        <div class="text-black text-h6">
-          A fully detailed schedule and conference lodging with more information will be forthcoming here soon! Check back and be on the lookout for an email blast from your MATAI Board of all the details and links to get registered for another great MATAI Conference this fall!
-        </div>
+        <div class="text-blue text-bold text-h5">Conference Pricing</div>
+        <ul>
+          <li>$500 for MATAI Members</li>
+          <li>$550 for non-members</li>
+          <li>$119 for 1 day ACTAR Prep Course with Andy Rich (Wednesday)</li>
+        </ul>
         <br>
+        <div class="text-blue text-bold text-h5">Hotel Information</div>
+        <ul>
+          <li>Prairie Meadows Raceway and Casino</li>
+          <li>$134.00/night for Single/Double rooms</li>
+          <li>$164.00/night for Suites</li>
+          <li>These rates have been negotiated with the hotel and group discount information as well as hotel registration link will be listed here when provided by hotel!</li>
+        </ul>
+      </q-card-section>
+      <q-card-section>
+        <q-btn
+            href="https://momentum.matai.org/collect/description/325508-q-2023-matai-fall-conference-registration-des-moines-ia" target="blank"
+            class="q-ml-none col-xs-12"
+            unelevated
+            size="lg"
+            color="orange-10"
+            text-color="dark-grey"
+            label="CONF REGISTRATION"
+          />
+        <q-btn
+          href="https://momentum.matai.org/collect/description/325510-q-2023-actar-prep-course-with-andy-rich-des-moines-ia" target="blank"
+          class="q-ml-sm col-xs-12"
+          unelevated
+          size="lg"
+          color="green"
+          text-color="dark-grey"
+          label="ACTAR PREP Registration"
+        />
+        <q-btn
+          to="/confinfo"
+          class="q-ml-sm col-xs-12"
+          unelevated
+          size="lg"
+          color="grey"
+          text-color="dark-gray"
+          label="Hotel Registration - NOT ACTIVE"
+        />
+
       </q-card-section>
     </q-card>
     <q-card>
       <q-card-section>
         <div class="text-bold text-h5 text-blue-9">2023 Conference Schedule</div>
         <br>
-        <q-card class="bg-grey-4">
+        <q-card class="bg-grey-7">
           <q-card-section>
-            <div class="text-deep-orange-8 text-h6">
-              <span class="text-bold text-black">TBD</span>
-            </div>
             <!-- <div class="text-deep-orange-8 text-h6">
               <span class="text-bold text-black">9/10</span> Saturday – Crash Test Academy - Iowa Speedway
             </div> -->
@@ -68,30 +105,30 @@
               <span class="text-bold text-black">9/19</span> Tuesday – Presentations -- Photography, Evidence Documentation and Andy Rich afternoon session on EDR Analysis update
             </div>
             <div class="text-black text-h6">
-              <span class="text-bold text-black">9/20</span> Wednesday Morning – Presentations, crash data review and wrap-up
+              <span class="text-bold text-black">9/20</span> Wednesday Morning – Presentations, crash data review and conference wrap-up
             </div>
             <div class="text-black text-h6">
-              <span class="text-bold text-black">9/20</span> Wednesday <span class="text-bold">ALL DAY SESSION*</span> – Optional ACTAR Prep Session
+              <span class="text-bold text-black">9/20</span> Wednesday <span class="text-bold text-orange-5">ALL DAY SESSION*</span> – Optional ACTAR Prep Session
             </div>
-            <div class="text-black text-h6">
-              <span class="text-bold text-black">9/21</span> Thursday – Hosted ACTAR Exam
+            <div class="text-light-blue-4 text-h6">
+              <span class="text-bold text-light-blue-4">9/21</span> Thursday – Hosted ACTAR Exam
             </div>
-            <div class="text-deep-orange-8 text-h6">
-              <span class="text-bold text-deep-orange-8">*NOTE </span>Those attending the ACTAR Prep session will have access to a recorded version of the Wednesday morning  presentations, data review and closing so as not to miss any of the conference content.
+            <div class="text-orange-2 text-h6">
+              <span class="text-bold text-orange-5">*NOTE </span>Those attending the Conference and ACTAR Prep session will have access to a recorded version of the Wednesday morning  presentations, data review and closing so as not to miss any of the conference content.
             </div>
           </q-card-section>
         </q-card>
         <br>
       </q-card-section>
-      <!-- <q-card-section>
+      <q-card-section>
         <div class="text-black text-h5 q-mb-md">
-          Conference Presenters - TBD
+          Conference Presenter Bios
         </div>
-        PRESENTER COMPONENT
+        <!-- Presenter COMPONENT -->
         <Presenter/>
       <br>
 
-      </q-card-section> -->
+      </q-card-section>
 
     </q-card>
   </div>
@@ -119,7 +156,7 @@ export default {
     }
   },
   components: {
-
+    Presenter
   }
 }
 </script>
