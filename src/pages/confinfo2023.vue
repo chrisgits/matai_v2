@@ -57,6 +57,10 @@
           <li>$164.00/night for Suites</li>
           <li>These rates have been negotiated with the hotel and group discount information as well as hotel registration link will be listed here when provided by hotel!</li>
         </ul>
+        <h4 class="q-ma-none">Hotel Registration Codes</h4>
+        <h5 class="q-ma-none">Link Below</h5>
+        <h5 class="q-ma-none text-red text-bold">Booking ID: 051723</h5>
+        <h5 class="q-ma-none text-red text-bold">Password: 863000679</h5>
       </q-card-section>
       <q-card-section>
         <q-btn
@@ -78,13 +82,13 @@
           label="ACTAR PREP Registration"
         />
         <q-btn
-          to="/confinfo"
+          href="https://book.rguest.com/wbe/group/1609/PrairieMeadowsRacetrackandCasino/delegate" target="blank"
           class="q-ml-sm col-xs-12"
           unelevated
           size="lg"
-          color="grey"
+          color="yellow-8"
           text-color="dark-gray"
-          label="Hotel Registration - NOT ACTIVE"
+          label="Hotel Registration - ACTIVE!"
         />
 
       </q-card-section>

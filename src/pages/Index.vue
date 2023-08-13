@@ -55,7 +55,8 @@
                     <div class="text-h2 text-bold">BACK TO THE BASICS</div>
                     <div class="text-h5">September 18 - 20, 2023</div>
                     <div class="text-h6 ">Des Moines, IA</div>
-                    <div class="text-h4 text-red">Registration OPEN!</div>
+                    <div class="text-h4 text-green">Registration OPEN!</div>
+                    <div class="text-h4 text-red">Hotel Info ADDED!</div>
                     <q-card-section>
                       <q-btn
                       to="/confinfo"
