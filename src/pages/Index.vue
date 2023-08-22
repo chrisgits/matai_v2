@@ -56,7 +56,7 @@
                     <div class="text-h5">September 18 - 20, 2023</div>
                     <div class="text-h6 ">Des Moines, IA</div>
                     <div class="text-h4 text-green">Registration OPEN!</div>
-                    <div class="text-h4 text-red">Hotel Info ADDED!</div>
+                    <h5 class="q-ma-none text-bold text-orange-10">Hotel Registration Deadline Extended to August 28th!</h5>
                     <q-card-section>
                       <q-btn
                       to="/confinfo"

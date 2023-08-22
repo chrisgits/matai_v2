@@ -28,6 +28,7 @@
         <div class="text-h4 q-mt-sm q-mb-xs">Back to the Basics - Live Crash Testing</div>
         <div class="text-h5 q-mt-sm q-mb-xs">Des Moines, IA</div>
         <div class="text-h5 q-mt-sm q-mb-xs">ACTAR Exam - Thursday September 21, 2023</div>
+        <h5 class="q-ma-none text-bold text-orange-10">Hotel Registration Deadline Extended to August 28th!</h5>
 
         <br>
         <div class="text-black text-h6">
@@ -51,6 +52,7 @@
         </ul>
         <br>
         <div class="text-blue text-bold text-h5">Hotel Information</div>
+
         <ul>
           <li>Prairie Meadows Raceway and Casino</li>
           <li>$134.00/night for Single/Double rooms</li>
@@ -58,7 +60,16 @@
           <li>These rates have been negotiated with the hotel and group discount information as well as hotel registration link will be listed here when provided by hotel!</li>
         </ul>
         <h4 class="q-ma-none">Hotel Registration Codes</h4>
-        <h5 class="q-ma-none">Link Below</h5>
+        <q-btn
+          href="https://book.rguest.com/wbe/group/1609/PrairieMeadowsRacetrackandCasino/delegate" target="blank"
+          class="q-my-md col-xs-12"
+          unelevated
+          size="lg"
+          color="yellow-8"
+          text-color="dark-gray"
+          label="Hotel Registration"
+        />
+        <h5 class="q-ma-none text-blue">Deadline Extended to August 28th!</h5>
         <h5 class="q-ma-none text-red text-bold">Booking ID: 051723</h5>
         <h5 class="q-ma-none text-red text-bold">Password: 863000679</h5>
       </q-card-section>
@@ -81,16 +92,6 @@
           text-color="dark-grey"
           label="ACTAR PREP Registration"
         />
-        <q-btn
-          href="https://book.rguest.com/wbe/group/1609/PrairieMeadowsRacetrackandCasino/delegate" target="blank"
-          class="q-ml-sm col-xs-12"
-          unelevated
-          size="lg"
-          color="yellow-8"
-          text-color="dark-gray"
-          label="Hotel Registration - ACTIVE!"
-        />
-
       </q-card-section>
     </q-card>
     <q-card>
