@@ -1,9 +1,10 @@
 <template>
   <q-page class="row">
     <div class="col-12">
-      <h4 class="q-px-sm">MATAI Member List</h4>
+      <h4 class="q-px-sm q-py-xs">MATAI Current Member List</h4>
+      <h5 class="q-py-none text-red">As of July 2023</h5>
     </div>
-    <div class="col-12">
+    <div class="col-12 q-py-xs">
       <div class="row justify-evenly">
         <div class="colhead col-4">
           <span>Name</span>
@@ -26,6 +27,9 @@
           class="memberlist q-pa-xs"
         />
       </div>
+      <h5 class="q-py-xs text-bold">Finding any errors?</h5>
+      <p>If there are errors in your listed information please correct it through the membership <a class="text-bold" href="https://momentum.matai.org/contacts/login">portal</a></p>
+      <p>If you have other questions or concerns with the information listed please contact <a href="mailto:admin@matai.org">admin@matai.org</a></p>
     </div>
   </q-page>
 </template>
