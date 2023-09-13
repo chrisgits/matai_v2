@@ -5,9 +5,9 @@
         <!-- ADD COUNTER BACK WHEN NEEDED! -->
         <Counter/>
     </q-banner>
-    <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-orange q-pa-md">
+    <!-- <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-orange q-pa-md">
       <h4 class="q-ma-none text-black">Conf 2023 Dates! September 18 - 20th</h4>
-    </q-banner>
+    </q-banner> -->
     </div>
     <div id="jumbo" class="q-pa-lg  text-center text-black">
       <h3>MIDWEST ASSOCIATION OF TECHNICAL ACCIDENT INVESTIGATORS</h3>

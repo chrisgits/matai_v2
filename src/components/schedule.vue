@@ -4,9 +4,9 @@
     <q-banner
       dense
         class="bg-accent text-black text-center">
-        <h4>Announcements</h4>
-        <h5 class="q-ma-sm"><span class="text-bold">Crash Test Location: Iowa Speedway</span></h5>
-        <p class="q-ma-sm text-bold q-ma-xs"><span><q-img fit="contain" width="15%" class="q-pa-sm q-ma-md" src="../assets/actar.png"/></span> Information on required ACTAR CEU logging found after schedule below!</p>
+        <h4 class="q-ma-xs">Announcements</h4>
+        <span><q-img fit="contain" width="25%" class="q-pa-sm q-ma-md" src="../assets/actar.png"/></span>
+        <h6 class="text-bold q-ma-xs q-pa-none"> Information on required ACTAR CEU logging found after schedule below!</h6>
       </q-banner>
     <div class="row q-gutter-md q-mb-sm">
 
@@ -21,13 +21,12 @@
         color="primary"
       >
         <div>
-          <h6 class="q-ma-none">07:00p - 8:30p</h6>
-          <h5 class="q-ma-none q-pb-sm">MATAI Board Meeting</h5>
-          <h6 class="q-ma-none">07:00p - 9:00p</h6>
+          <h6 class="q-ma-none">04:00p - 6:00p</h6>
           <h5 class="q-ma-none q-pb-sm">Early Registration (Packet Pickup)</h5>
-          <p class="text-bold">Prairie Meadows Conference Room</p>
+          <p class="text-bold">Prairie Meadows Pavilion</p>
           <h6 class="q-ma-none">06:00p - 9:00p</h6>
           <h5 class="q-ma-none q-pb-sm">Hospitality Suite</h5>
+          <p class="text-bold">Prairie Meadows Pavilion</p>
         </div>
       </q-timeline-entry>
       <q-timeline-entry
