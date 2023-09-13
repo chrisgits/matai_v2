@@ -17,13 +17,13 @@
     </q-banner> -->
   <div class="row justify-center">
     <div class="col-12">
-        <div class="text-h4 q-mt-sm q-mb-xs q-pl-lg">2023 Fall Conference <br><span class="text-red-10">UPCOMING IN SEPTEMBER</span></div>
+        <div class="text-h4 text-red q-mt-sm q-mb-xs q-pl-lg">2023 Fall Conference</div>
       </div>
     <q-card class="q-pa-xs flex row" flat>
-      <q-card-section class="col-4 gt-xs">
+      <q-card-section class="col-sm-4 col-xs-12">
         <img style="width: 100%" class="q-pa-sm" src="../assets/img/2023Conf.png">
       </q-card-section>
-      <q-card-section class="col-8 col-xs-12">
+      <q-card-section class="col-sm-8 col-xs-12">
         <div class="text-bold text-h5 text-orange-9">September 18-20, 2023</div>
         <div class="text-h4 q-mt-sm q-mb-xs">Back to the Basics - Live Crash Testing</div>
         <div class="text-h5 q-mt-sm q-mb-xs">Des Moines, IA</div>
