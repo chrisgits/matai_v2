@@ -21,7 +21,7 @@
 
         <q-card-actions class="row justify-center q-ma-none">
           <q-btn
-            href="https://files.matai.org/public/2022_MATAI_Conf_Program.pdf" target="blank"
+            href="https://files.matai.org/public/2023_MATAI_Conf_Brochure.pdf" target="blank"
             class="q-mb-sm  col-xs-12"
             unelevated
             size="lg"
