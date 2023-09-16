@@ -1,12 +1,12 @@
 
 <template>
-  <div class="q-pa-lg">
+  <div class="q-pa-sm">
     <q-banner
       dense
         class="bg-accent text-black text-center">
-        <h4 class="q-ma-xs">Announcements</h4>
-        <h4>Buses to Leave from Hotel Lobby to Raceway at</h4>
-        <h5>0800 hrs on Monday</h5>
+        <h4 class="q-ma-xs text-uppercase ">Announcements</h4>
+        <h5 class="q-ma-xs">Buses to Leave from Hotel Lobby to Raceway at</h5>
+        <h5 class="q-ma-xs">0800 hrs on Monday</h5>
         <span><q-img fit="contain" width="20%" class="q-pa-sm q-ma-md" src="../assets/actar.png"/></span>
         <h6 class="text-bold q-ma-xs q-pa-none"> Information on required ACTAR CEU logging found after schedule below!</h6>
       </q-banner>

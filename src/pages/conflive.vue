@@ -52,7 +52,9 @@
             />
         </div>
       </q-card>
-
+      <q-banner dense inline-actions class=" col-xs-12 text-white text-center">
+        <q-img fit="contain" class="q-pa-none q-ma-none" src="../assets/Prairie_Conf_Map.png"/>
+      </q-banner>
       <!-- SCHEDULE COMPONENT -->
       <schedule />
       <!-- SCHEDULE COMPONENT -->
