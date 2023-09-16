@@ -1,7 +1,7 @@
 <template>
-    <!-- <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green">
+    <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green">
       2023 CONFERENCE IS LIVE
-    </q-banner> -->
+    </q-banner>
     <div class="row justify-center items-start q-gutter-md">
       <q-card class="q-pa-xs" flat>
         <div class="row text-center justify-center">
@@ -14,9 +14,8 @@
           </div>
         </div>
         <q-card-section>
-          <div class="text-bold text-h5 text-orange-9">September 18-20, 2023 <br><span class="text-green-10">UPCOMING</span></div>
+          <div class="text-bold text-h5 text-orange-9">September 18-20, 2023</div>
           <div class="text-h4 q-mt-sm q-mb-xs">Back to the Basics</div>
-          <div class="text-h5 q-mt-sm q-mb-xs">Des Moines, IA</div>
         </q-card-section>
 
         <q-card-actions class="row justify-center q-ma-none">
@@ -52,7 +51,6 @@
               label="IOWA SPEEDWAY"
             />
         </div>
-        <h6 class="q-ma-sm">Group transportation will be provided by bus to the speedway.</h6>
       </q-card>
 
       <!-- SCHEDULE COMPONENT -->
@@ -63,7 +61,8 @@
       <h4 class="q-pa-sm q-ma-none">IMPORTANT LOCATIONS</h4>
       <q-card class="q-pa-md col-xs-12">
         <h4 class="text-bold">Iowa Speedway</h4>
-        <p class="text-bold text-red">TRANSPORTATION PROVIDED BY BUS from HOTEL LOBBY</p>
+        <h6 class="text-bold text-red q-ma-none">TRANSPORTATION PROVIDED BY BUS from HOTEL LOBBY</h6>
+        <h6 class="q-ma-none">0800 hrs on Monday Morning</h6>
         <div class="q-pa-md">
           <q-list bordered>
             <q-item><h5 class="q-ma-xs">Crash Testing Site</h5></q-item>

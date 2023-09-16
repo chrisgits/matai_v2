@@ -61,7 +61,7 @@ export default {
       const timer = setInterval (()=> {
         const now = new Date();
         // conf start date 9/18/23 at 0800 hrs
-        const end = new Date(2023, 8, 19, 8, 0, 0);
+        const end = new Date(2023, 8, 18, 8, 0, 0);
         const distance = end.getTime() - now.getTime();
 
         if(distance < 0){
