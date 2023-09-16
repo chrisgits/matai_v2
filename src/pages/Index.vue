@@ -50,13 +50,11 @@
                     <img style="width: 100%" class="q-pa-sm" src="../assets/img/2023Conf.png">
                   </q-card-section>
                   <q-card-section class="col-xs-12 col-sm-8">
-                    <div class="text-h4 text-green-10">NEW</div>
                     <div class="text-h5 text-bold text-blue-10">2023 MATAI FALL CONFERENCE</div>
                     <div class="text-h2 text-bold">BACK TO THE BASICS</div>
                     <div class="text-h5">September 18 - 20, 2023</div>
                     <div class="text-h6 ">Des Moines, IA</div>
-                    <div class="text-h4 text-green">Registration OPEN!</div>
-                    <h5 class="q-ma-none text-bold text-orange-10">Hotel Registration Deadline Extended to August 28th!</h5>
+                    <h5>Starting Monday!</h5>
                     <q-card-section>
                       <q-btn
                       to="/confinfo"
