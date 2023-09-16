@@ -25,7 +25,7 @@
         <div>
           <h6 class="q-ma-none">04:00p - 6:00p</h6>
           <h5 class="q-ma-none q-pb-sm">Early Registration (Packet Pickup)</h5>
-          <p class="text-bold">Prairie Meadows Pavilion</p>
+          <p class="text-bold">Hotel Lobby (not casino)</p>
           <h6 class="q-ma-none">07:00p - 8:30p</h6>
           <h5 class="q-ma-none q-pb-sm">MATAI Board Meeting</h5>
           <p class="text-bold">Prairie Meadows Pavilion</p>
