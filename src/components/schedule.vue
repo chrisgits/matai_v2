@@ -102,8 +102,15 @@
           <h6 class="q-ma-none">3:45p - 5:00p</h6>
           <h5 class="q-ma-none q-pb-sm">EDR Analysis Update - Continued</h5>
           <p class="q-ma-none text-bold q-mt-lg">Evening</p>
-          <h6 class="q-ma-none">6:00p - ??????</h6>
-          <h5 class="q-ma-none q-pb-sm">Axe Throwing - Ankeny</h5>
+          <h6 class="q-ma-none">6:00p</h6>
+          <h5 class="q-ma-none q-pb-sm">Bar Open - Pavilion</h5>
+          <p class="text-bold">Prairie Meadows Pavilion</p>
+          <h6 class="q-ma-none">7:00p</h6>
+          <h5 class="q-ma-none q-pb-sm">MATAI Dinner at Prairie Meadows - Pavilion</h5>
+          <p class="text-bold">Italian Dinner</p>
+          <h6 class="q-ma-none">Following Dinner...</h6>
+          <h5 class="q-ma-none q-pb-sm">Hospitality Suite</h5>
+          <p class="text-bold">Room 328</p>
         </div>
 
       </q-timeline-entry>
