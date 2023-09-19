@@ -51,7 +51,7 @@
                   </q-card-section>
                   <q-card-section class="col-xs-12 col-sm-8">
                     <div class="text-h5 text-bold text-orange-10">2024 MATAI SPRING TRAINING</div>
-                    <div class="text-h2 text-bold">VEHICLE EXAMINATIONS - HANDS ON COURSE</div>
+                    <div class="text-h2 text-bold">VEHICLE EXAMINATIONS - HANDS-ON COURSE</div>
                     <div class="text-h5">February 26 - March 1, 2024</div>
                     <div class="text-h6 ">Grinnell, IA</div>
                     <h5>Coming in Late Winter 2024!</h5>
