@@ -20,7 +20,8 @@ const routes = [
       { path: '/join', component: () => import('pages/join.vue') },
       { path: '/cta', component: () => import('pages/cta.vue') },
       { path: '/optics-training', component: () => import('pages/optics-training.vue') },
-      { path: '/conflive', component: () => import('pages/conflive.vue') }
+      { path: '/conflive', component: () => import('pages/conflive.vue') },
+      { path: '/springtrain24', component: () => import('pages/springtraining2024.vue') }
     ]
   },
   // Always leave this as last one,

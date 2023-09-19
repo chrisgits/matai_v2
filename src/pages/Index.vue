@@ -44,6 +44,34 @@
             <div class="text-uppercase text-h3 q-pa-lg">upcoming events</div>
           </div>
           <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
+            <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
+                <div class="flex row">
+                  <q-card-section class="col-4 gt-xs">
+                    <img style="width: 100%" class="q-pa-sm" src="../assets/MATAI_Circle@2x.png">
+                  </q-card-section>
+                  <q-card-section class="col-xs-12 col-sm-8">
+                    <div class="text-h5 text-bold text-orange-10">2024 MATAI SPRING TRAINING</div>
+                    <div class="text-h2 text-bold">VEHICLE EXAMINATIONS - HANDS ON COURSE</div>
+                    <div class="text-h5">February 26 - March 1, 2024</div>
+                    <div class="text-h6 ">Grinnell, IA</div>
+                    <h5>Coming in Late Winter 2024!</h5>
+                    <h6>Limited Seating Available! <span class="text-bold">21 students!</span></h6>
+                    <h6>Further details will be posted on the Spring Training page once it has been finalized and link will be available here!</h6>
+
+                    <q-card-section>
+                      <q-btn
+                        disable=""
+                        unelevated
+                        class="q-ma-md q-px-lg q-pa-md"
+                        color="grey"
+                        label="REGISTRATION OPEN SOON!"
+                        text-color="white"
+                      />
+                    </q-card-section>
+
+                  </q-card-section>
+                </div>
+              </q-card>
               <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-4 gt-xs">
@@ -54,7 +82,7 @@
                     <div class="text-h2 text-bold">BACK TO THE BASICS</div>
                     <div class="text-h5">September 18 - 20, 2023</div>
                     <div class="text-h6 ">Des Moines, IA</div>
-                    <h5>Starting Monday!</h5>
+                    <h5>Underway!</h5>
                     <q-card-section>
                       <q-btn
                       to="/confinfo"
@@ -63,14 +91,6 @@
                       color="orange"
                       label="conf info"
                       text-color="black"
-                      />
-                      <q-btn
-                        href="https://momentum.matai.org/collect/description/325508-q-2023-matai-fall-conference-registration-des-moines-ia"
-                        unelevated
-                        class="q-ma-md q-px-lg q-pa-md"
-                        color="blue"
-                        label="REGISTRATION"
-                        text-color="white"
                       />
                     </q-card-section>
 
