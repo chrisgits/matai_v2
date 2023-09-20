@@ -1,10 +1,7 @@
 <template>
   <div class="q-px-none">
     <div class="q-mt-none q-pb-lg">
-      <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green q-pa-lg">
-        <!-- ADD COUNTER BACK WHEN NEEDED! use : <Counter /> on next line and Counter in components at bottom -->
 
-      </q-banner>
     <!-- <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-orange q-pa-md">
       <h4 class="q-ma-none text-black">Conf 2023 Dates! September 18 - 20th</h4>
     </q-banner> -->
