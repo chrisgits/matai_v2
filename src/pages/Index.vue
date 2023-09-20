@@ -2,9 +2,9 @@
   <div class="q-px-none">
     <div class="q-mt-none q-pb-lg">
       <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green q-pa-lg">
-        <!-- ADD COUNTER BACK WHEN NEEDED! -->
-        <Counter/>
-    </q-banner>
+        <!-- ADD COUNTER BACK WHEN NEEDED! use : <Counter /> on next line and Counter in components at bottom -->
+
+      </q-banner>
     <!-- <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-orange q-pa-md">
       <h4 class="q-ma-none text-black">Conf 2023 Dates! September 18 - 20th</h4>
     </q-banner> -->
@@ -43,7 +43,7 @@
           <div class="text-center">
             <div class="text-uppercase text-h3 q-pa-lg">upcoming events</div>
           </div>
-          <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
+          <div class="col-12 col-md-6 q-pa-sm">
             <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-4 gt-xs">
@@ -72,31 +72,7 @@
                   </q-card-section>
                 </div>
               </q-card>
-              <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
-                <div class="flex row">
-                  <q-card-section class="col-4 gt-xs">
-                    <img style="width: 100%" class="q-pa-sm" src="../assets/img/2023Conf.png">
-                  </q-card-section>
-                  <q-card-section class="col-xs-12 col-sm-8">
-                    <div class="text-h5 text-bold text-blue-10">2023 MATAI FALL CONFERENCE</div>
-                    <div class="text-h2 text-bold">BACK TO THE BASICS</div>
-                    <div class="text-h5">September 18 - 20, 2023</div>
-                    <div class="text-h6 ">Des Moines, IA</div>
-                    <h5>Underway!</h5>
-                    <q-card-section>
-                      <q-btn
-                      to="/confinfo"
-                      unelevated
-                      class="q-ma-md q-px-lg q-pa-md"
-                      color="orange"
-                      label="conf info"
-                      text-color="black"
-                      />
-                    </q-card-section>
 
-                  </q-card-section>
-                </div>
-              </q-card>
             </div>
           <!-- training cards -->
           <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
@@ -153,6 +129,31 @@
               <div class="text-uppercase text-h3 q-pa-lg">past events</div>
             </div>
             <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
+              <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
+                <div class="flex row">
+                  <q-card-section class="col-4 gt-xs">
+                    <img style="width: 100%" class="q-pa-sm" src="../assets/img/2023Conf.png">
+                  </q-card-section>
+                  <q-card-section class="col-xs-12 col-sm-8">
+                    <div class="text-h4 text-red-10">COMPLETED</div>
+                    <div class="text-h5 text-bold text-blue-10">2023 MATAI FALL CONFERENCE</div>
+                    <div class="text-h2 text-bold">BACK TO THE BASICS</div>
+                    <div class="text-h5">September 18 - 20, 2023</div>
+                    <div class="text-h6 ">Des Moines, IA</div>
+                    <q-card-section>
+                      <q-btn
+                      to="/confinfo"
+                      unelevated
+                      class="q-ma-md q-px-lg q-pa-md"
+                      color="orange"
+                      label="conf info"
+                      text-color="black"
+                      />
+                    </q-card-section>
+
+                  </q-card-section>
+                </div>
+              </q-card>
               <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-xs-12 col-sm-8">
@@ -281,7 +282,7 @@ import Counter from '../components/Counter.vue';
 export default defineComponent({
   name: 'Home',
   components: {
-   Counter
+  //  Counter
 
   }
 })

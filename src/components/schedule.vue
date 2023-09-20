@@ -92,7 +92,9 @@
           <h6 class="q-ma-none">12:15p - 1:15p</h6>
           <h5 class="q-ma-none q-pb-sm">Lunch</h5>
           <h6 class="q-ma-none">1:15p - 2:15p</h6>
-          <h5 class="q-ma-none q-pb-sm">Session III - EDR Analysis Update with Andy Rich</h5>
+          <h5 class="qddf
+
+          -ma-none q-pb-sm">Session III - EDR Analysis Update with Andy Rich</h5>
           <h6 class="q-ma-none">2:15p - 2:30p</h6>
           <h5 class="q-ma-none q-pb-sm">Break</h5>
           <h6 class="q-ma-none">2:30p - 3:30p</h6>
