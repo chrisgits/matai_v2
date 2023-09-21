@@ -13,8 +13,13 @@
         </div>
         <div>
           <!-- <q-btn to="/cta" class="q-py-sm q-px-sm" flat color="deep-orange" >CTA</q-btn> -->
-          <!-- <q-btn color="orange text-black" to="/confinfo" class="q-py-xs q-px-sm q-ml-sm ">Conf Info</q-btn> -->
           <q-btn
+            color="orange text-black"
+            to="/springtrain24"
+            class="q-py-xs q-px-sm q-ml-sm ">Spring Training
+            <q-badge color="red" floating>NEW</q-badge>
+          </q-btn>
+          <!-- <q-btn
             unelevated
             to="/conflive"
             class="q-py-xs q-px-sm q-ml-sm text-black"
@@ -22,7 +27,7 @@
             label="conf live!"
             size="lg"
             style="border: black 4px solid"
-          />
+          /> -->
           <q-btn
             unelevated
             href="https://momentum.matai.org/collect/description/228963-r-matai-member-renewal"

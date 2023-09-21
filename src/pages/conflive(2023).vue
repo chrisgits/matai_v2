@@ -14,7 +14,7 @@
           </div>
         </div>
         <q-card-section>
-          <div class="text-bold text-h5 text-orange-9">September 18-20, 2023</div>
+          <div class="text-bold text-h5 text-orange-9">September 18-20, 2023 <br><span class="text-red-10">COMPLETED</span></div>
           <div class="text-h4 q-mt-sm q-mb-xs">Back to the Basics</div>
         </q-card-section>
 

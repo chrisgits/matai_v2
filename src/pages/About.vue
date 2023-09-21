@@ -103,24 +103,24 @@ export default defineComponent({
     return {
       boardmembers: [
         {
-          name: 'Drew Bolzer',
-          title: 'President',
-          email: 'mailto: dbolzer@lancaster.ne.gov',
-          phone1: '402-450-6627',
-          phone2: '',
-          yos: '2018',
-          photo: '/img/bolzer.jpg',
-          bio: 'This is bio text if needed',
-          class: 'my-card-p'
-        },
-        {
           name: 'Chris Starrett',
-          title: 'Vice President',
+          title: 'President',
           email: 'mailto: starrett@dps.state.ia.us',
           phone1: '641-990-4245',
           phone2: '',
           yos: '2020',
           photo: '/img/starrett.jpg',
+          bio: 'This is bio text if needed',
+          class: 'my-card-p'
+        },
+        {
+          name: 'Chris Mannel',
+          title: 'Vice President',
+          email: 'mailto: chris@nar-llc.com',
+          phone1: '531-444-9348',
+          phone2: '',
+          yos: '2022',
+          photo: '/img/mannel.jpg',
           bio: 'This is bio text if needed',
           class: 'my-card-p'
         },
@@ -134,6 +134,16 @@ export default defineComponent({
           photo: '/img/lundgren.jpg',
           bio: 'This is bio text if needed',
           class: 'my-card-p'
+        },
+        {
+          name: 'Drew Bolzer',
+          title: 'Board Member',
+          email: 'mailto: dbolzer@lancaster.ne.gov',
+          phone1: '402-450-6627',
+          phone2: '',
+          yos: '2018',
+          photo: '/img/bolzer.jpg',
+          bio: 'This is bio text if needed',
         },
         {
           name: 'Dave Hallman',
@@ -183,16 +193,6 @@ export default defineComponent({
           phone2: '',
           yos: '2020',
           photo: '/img/mobley.jpg',
-          bio: 'This is bio text if needed'
-        },
-        {
-          name: 'Chris Mannel',
-          title: 'Board Member',
-          email: 'mailto: chris@nar-llc.com',
-          phone1: '531-444-9348',
-          phone2: '',
-          yos: '2022',
-          photo: '/img/mannel.jpg',
           bio: 'This is bio text if needed'
         },
         {

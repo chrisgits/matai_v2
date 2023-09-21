@@ -7,7 +7,7 @@ const routes = [
       { path: '', component: () => import('pages/Index.vue') },
       { path: '/Contact', component: () => import('pages/Contact.vue') },
       { path: '/confinfo2022', component: () => import('pages/confinfo2022.vue') },
-      { path: '/confinfo', component: () => import('pages/confinfo2023.vue') },
+      { path: '/confinfo', component: () => import('pages/confinfo2024.vue') },
       { path: '/traininginfo', component: () => import('pages/TrainingPage.vue') },
       { path: '/members', component: () => import('pages/Members.vue'), meta: {requiresAuth: false} },
       { path: '/applicants', component: () => import('pages/applicants.vue') },
@@ -20,7 +20,8 @@ const routes = [
       { path: '/join', component: () => import('pages/join.vue') },
       { path: '/cta', component: () => import('pages/cta.vue') },
       { path: '/optics-training', component: () => import('pages/optics-training.vue') },
-      { path: '/conflive', component: () => import('pages/conflive.vue') },
+      { path: '/conflive', component: () => import('src/pages/conflive(2023).vue') },
+      { path: '/conflive24', component: () => import('src/pages/conflive2024.vue') },
       { path: '/springtrain24', component: () => import('pages/springtraining2024.vue') }
     ]
   },

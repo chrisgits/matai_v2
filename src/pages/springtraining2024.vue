@@ -9,7 +9,9 @@
       <q-card-section>
         <div class="row">
           <div class="text-h4 q-mt-sm q-mb-xs">2024 Spring Training Session<span class="text-blue-10"></span></div>
-          <div class="col-12 text-uppercase text-bold text-h5 text-orange-9">VEHICLE EXAMINATIONS - HANDS ON</div>
+          <div class="col-12 text-bold text-h4 text-red-9">February 26 - March 1, 2024</div>
+          <div class="col-12 text-uppercase text-bold text-h3 text-blue-9">VEHICLE EXAMINATIONS - HANDS ON</div>
+          <div class="col-12 text-h5 text-bold q-mt-sm q-mb-xs">Grinnell, IA</div>
           <div class="col-12 text-h4 q-mt-sm q-mb-xs">This course will be a HANDS-ON course presented by David Hallman and Kent Boots, both respected experts in the national crash reconstruction community.</div>
           <div class="col-12 text-h4 q-mt-sm q-mb-xs">There will be a limited seating of 21 students for this course. 7 teams of 3 with 7 vehicles for hands-on mechanical inspections with a high instructor to student ratio in a temperature controlled indoor space for the confort of the attendees in Iowa in February!</div>
           <div class="col-12 text-h4 q-mt-sm q-mb-xs">We will be lodged at the nearby Comfort Inn and Suites. The finalized pricing and detailed info will be posted here and sent via email once it has been determined!</div>
