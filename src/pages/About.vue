@@ -50,6 +50,7 @@
           </q-card-section>
         </q-card> <!-- END CARD -->
       </div>
+
       <div class="col-12">
         <h5>Contact MATAI</h5>
         <h6>MATAI</h6>
@@ -77,7 +78,7 @@
 p
   font-size: 20px
 
-.my-card-p
+.bg-officer
   background-color: lightblue
   color: black
 
@@ -111,7 +112,7 @@ export default defineComponent({
           yos: '2020',
           photo: '/img/starrett.jpg',
           bio: 'This is bio text if needed',
-          class: 'my-card-p'
+          class: 'bg-officer'
         },
         {
           name: 'Chris Mannel',
@@ -122,7 +123,7 @@ export default defineComponent({
           yos: '2022',
           photo: '/img/mannel.jpg',
           bio: 'This is bio text if needed',
-          class: 'my-card-p'
+          class: 'bg-officer'
         },
         {
           name: 'Kirk Lundgren',
@@ -133,7 +134,7 @@ export default defineComponent({
           yos: '2019',
           photo: '/img/lundgren.jpg',
           bio: 'This is bio text if needed',
-          class: 'my-card-p'
+          class: 'bg-officer'
         },
         {
           name: 'Drew Bolzer',
@@ -209,6 +210,6 @@ export default defineComponent({
       ]
     }
   }
-// https://vignette.wikia.nocookie.net/breakingbad/images/8/8a/Elliott_Schwartz.png/revision/latest?cb=20131005103743&path-prefix=es
+
 })
 </script>
