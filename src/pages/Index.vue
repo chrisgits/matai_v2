@@ -44,24 +44,32 @@
             <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-4 gt-xs">
-                    <img style="width: 100%" class="q-pa-sm" src="../assets/MATAI_Circle@2x.png">
+                    <img style="width: 100%" class="q-pa-sm" src="../assets/24SpringTrain@2x.png">
                   </q-card-section>
                   <q-card-section class="col-xs-12 col-sm-8">
                     <div class="text-h5 text-bold text-orange-10">2024 MATAI SPRING TRAINING</div>
                     <div class="text-h2 text-bold">VEHICLE EXAMINATIONS - HANDS-ON COURSE</div>
-                    <div class="text-h5">February 26 - March 1, 2024</div>
-                    <div class="text-h6 ">Grinnell, IA</div>
-                    <h5>Coming in Late Winter 2024!</h5>
-                    <h6>Limited Seating Available! <span class="text-bold">21 students!</span></h6>
-                    <h6>Further details will be posted on the Spring Training page once it has been finalized and link will be available here!</h6>
-
+                    <div class="text-h4">February 26 - March 1, 2024</div>
+                    <div class="text-h6 q-mb-md ">Grinnell, IA</div>
+                    <div class="text-h5 text-bold">COURSE REGISTRATION - $995</div>
+                    <div class="text-h5 text-bold text-orange-10">PRE-REGISTRATION OPEN FOR CURRENT MATAI MEMBERS!</div>
+                    <div class="text-h5 text-bold">Lodging - $80/night group rate</div>
+                    <h6>Limited Seating Available!</h6>
                     <q-card-section>
                       <q-btn
-                        disable=""
+                        href="https://momentum.matai.org/collect/description/351444-q-2024-matai-spring-training-grinnell-ia"
                         unelevated
                         class="q-ma-md q-px-lg q-pa-md"
-                        color="grey"
-                        label="REGISTRATION OPEN SOON!"
+                        color="green"
+                        label="MEMBER REGISTRATION OPEN"
+                        text-color="white"
+                      />
+                      <q-btn
+                        href="/springtrain24"
+                        unelevated
+                        class="q-ma-md q-px-lg q-pa-md"
+                        color="blue-10"
+                        label="course info"
                         text-color="white"
                       />
                     </q-card-section>
