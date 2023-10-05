@@ -20,7 +20,7 @@
           </div>
           <div class="col-12 text-h4 q-mt-sm q-mb-xs text-orange-10">MEMBER ONLY REGISTRATION IS OPEN!</div>
           <div class="col-12 text-h5 q-mt-sm q-mb-xs">This course will be a HANDS-ON course presented by David Hallman and Kent Boots, both respected experts in the national crash reconstruction community.</div>
-          <div class="col-12 text-h5 q-mt-sm q-mb-xs">There will be <span class="text-bold">limited seating of 21 students</span> for this course. 7 teams of 3 with 7 vehicles for hands-on mechanical inspections with a high instructor to student ratio! Held in a temperature-controlled indoor space for the confort of the attendees in Iowa in February!</div>
+          <div class="col-12 text-h5 q-mt-sm q-mb-xs">There will be <span class="text-bold">limited seating of 21 students</span> for this course. 7 teams of 3 with 7 vehicles for hands-on mechanical inspections with a high instructor to student ratio! Held in a temperature-controlled indoor space for the comfort of the attendees in Iowa in February!</div>
           <div class="col-12 text-h5 q-mt-sm q-mb-xs">We will be lodged at the nearby <span class="text-bold">Comfort Inn and Suites</span>. A Group rate for the hotel has been set at <span class="text-bold">$80/night</span>. When you make reservations simply advise the front desk you are with the MATAI group for these dates.</div>
         </div>
         <hr>
