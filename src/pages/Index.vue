@@ -52,9 +52,10 @@
                     <div class="text-h4">February 26 - March 1, 2024</div>
                     <div class="text-h6 q-mb-md ">Grinnell, IA</div>
                     <div class="text-h5 text-bold">COURSE REGISTRATION - $995</div>
-                    <div class="text-h5 text-bold text-orange-10">PRE-REGISTRATION OPEN FOR CURRENT MATAI MEMBERS!</div>
+                    <div class="text-h5 text-bold text-red">REGISTRATION DEADLINE JANUARY 31ST!</div>
                     <div class="text-h5 text-bold">Lodging - $80/night group rate</div>
                     <h6>Limited Seating Available!</h6>
+                    <h6><span class="text-red">NOTE:</span> If you would like to attend and have this week free but are awaiting department budgets and/or grants PLEASE notify us ASAP so that we can get an accurate headcount and plan accordingly. If the minimum number of students haven't been met by the deadline we will have to cancel the course and reschedule. Please email <a href="mailto:admin@matai.org">admin@matai.org</a> with questions or to advise of your intentions to attend.</h6>
                     <q-card-section>
                       <q-btn
                         href="https://momentum.matai.org/collect/description/351444-q-2024-matai-spring-training-grinnell-ia"
