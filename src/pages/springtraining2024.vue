@@ -9,17 +9,16 @@
       <q-card-section>
         <div class="row">
           <div class="col-xs-12 col-md-8">
-            <div class="text-h4 q-mt-sm q-mb-xs">2024 Spring Training Session<span class="text-blue-10"></span></div>
-            <div class="col-12 text-bold text-h4 text-orange-10 q-mb-sm">February 26 - March 1, 2024</div>
+            <div class="text-h4 q-mt-sm q-mb-xs">2024 Spring Training Session - POSTPONED<span class="text-blue-10"></span></div>
+            <div class="col-12 text-bold text-h4 text-orange-10 q-mb-sm">Dates: Future Course</div>
             <div class="col-12 text-uppercase text-bold text-h3 text-blue-9 q-mb-md">VEHICLE EXAMINATIONS - HANDS-ON</div>
-            <div class="col-12 text-h5 text-bold q-mt-sm q-mb-xs">Grinnell, IA</div>
+            <div class="col-12 text-h5 text-bold q-mt-sm q-mb-xs">Location: TBD</div>
             <div class="col-12 text-h4 text-bold q-mt-sm q-mb-xs">Course Registration - $995</div>
           </div>
           <div class="col-4 gt-sm">
             <img style="width: 100%" class="q-pa-sm" src="../assets/24SpringTrain@2x.png">
           </div>
-          <div class="col-12 text-h4 q-mt-sm q-mb-xs text-green">REGISTRATION IS OPEN!</div>
-          <div class="col-12 text-h4 q-mt-sm q-mb-xs text-red">REGISTRATION DEADLINE JANUARY 31ST!</div>
+          <div class="col-12 text-h4 q-mt-sm q-mb-xs text-red">REGISTRATION IS CLOSED!</div>
           <div class="col-12 text-h4 q-mt-sm q-mb-xs text-blue-10">COURSE DESCRIPTION</div>
           <div class="col-12 text-h5 q-mt-sm q-mb-xs">As crash investigators we are often presented with statements from drivers that “something broke” or malfunctioned in their vehicle which caused them to lose control and crash. On some occasions, we are presented with a crash in which there are no survivors. As those crashes are evaluated based solely on the available roadway and vehicle evidence, sometimes that roadway or vehicle evidence can indicate a possible mechanical failure with the vehicle prior to the crash. In this course, taught be David Hallman and Kent Boots, we will spend half of the time in the classroom and the other half in the shop inspecting multiple vehicles of various types and ages. Students will inspect, disassemble, and evaluate vehicle condition and vehicle component failures to determine if those failures could be a potential cause for the loss of control and / or a crash. This course will cover examples of roadway evidence as well as the pre-crash mechanical failures which produced it. This class will also focus on giving you the general skills to assess the post-crash mechanical condition of passenger vehicles and light trucks. Most importantly, this class will help you evaluate your own skills and determine when you may need to seek a specialist to assist you in evaluating possible contributing mechanical issues with a crash-involved vehicle.</div>
           <div class="col-12 text-h5 q-mt-sm q-mb-xs">This course will be a HANDS-ON course presented by David Hallman and Kent Boots, both respected experts in the national crash reconstruction community.</div>
@@ -29,22 +28,22 @@
         <hr>
       </q-card-section>
       <q-card-actions>
-        <q-btn
+        <!-- <q-btn
           class="q-mb-sm"
           href="https://momentum.matai.org/collect/description/351444-q-2024-matai-spring-training-grinnell-ia"
           unelevated
           size="lg"
           color="blue-10"
           label="MEMBER REGISTRATION OPEN"
-        />
-        <q-btn
+        /> -->
+        <!-- <q-btn
           class="q-mb-sm"
           href="https://www.choicehotels.com/iowa/grinnell/comfort-inn-hotels/ia127"
           unelevated
           size="lg"
           color="green"
           label="DIRECT HOTEL LINK"
-        />
+        /> -->
       </q-card-actions>
       <q-card-section>
         <h4>Course Instructors</h4>

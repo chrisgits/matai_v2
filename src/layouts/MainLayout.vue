@@ -12,13 +12,21 @@
           </q-btn>
         </div>
         <div>
-          <!-- <q-btn to="/cta" class="q-py-sm q-px-sm" flat color="deep-orange" >CTA</q-btn> -->
           <q-btn
+          to="/join"
+          unelevated
+          class="q-py-sm q-px-sm"
+          color="orange"
+          label="join now"
+          text-color="black"
+        />
+          <!-- <q-btn to="/cta" class="q-py-sm q-px-sm" flat color="deep-orange" >CTA</q-btn> -->
+          <!-- <q-btn
             color="orange text-black"
             to="/springtrain24"
             class="q-py-xs q-px-sm q-ml-sm ">Spring Training
             <q-badge color="red" floating>NEW</q-badge>
-          </q-btn>
+          </q-btn> -->
           <!-- <q-btn
             unelevated
             to="/conflive"

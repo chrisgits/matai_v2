@@ -14,15 +14,15 @@
           to="/join"
           unelevated
           class="q-py-md q-px-lg text-weight-bolder"
-          color="green"
+          color="orange"
           label="join now"
           text-color="black"
         />
         <q-btn
           to="/about"
-          outline
+
           class="q-ml-xs q-py-md q-px-lg text-weight-bolder"
-          color="#1a1a1a"
+          color="green"
           label="learn more"
         />
         <q-btn
@@ -44,35 +44,33 @@
             <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-4 gt-xs">
-                    <img style="width: 100%" class="q-pa-sm" src="../assets/24SpringTrain@2x.png">
+                    <!-- <img style="width: 100%" class="q-pa-sm" src="../assets/24SpringTrain@2x.png"> -->
                   </q-card-section>
                   <q-card-section class="col-xs-12 col-sm-8">
-                    <div class="text-h5 text-bold text-orange-10">2024 MATAI SPRING TRAINING</div>
+                    <!-- <div class="text-h5 text-bold text-orange-10">2024 MATAI SPRING TRAINING</div> -->
                     <div class="text-h2 text-bold">VEHICLE EXAMINATIONS - HANDS-ON COURSE</div>
-                    <div class="text-h4">February 26 - March 1, 2024</div>
-                    <div class="text-h6 q-mb-md ">Grinnell, IA</div>
-                    <div class="text-h5 text-bold">COURSE REGISTRATION - $995</div>
-                    <div class="text-h5 text-bold text-red">REGISTRATION DEADLINE JANUARY 31ST!</div>
-                    <div class="text-h5 text-bold">Lodging - $80/night group rate</div>
-                    <h6>Limited Seating Available!</h6>
-                    <h6><span class="text-red">NOTE:</span> If you would like to attend and have this week free but are awaiting department budgets and/or grants PLEASE notify us ASAP so that we can get an accurate headcount and plan accordingly. If the minimum number of students haven't been met by the deadline we will have to cancel the course and reschedule. Please email <a href="mailto:admin@matai.org">admin@matai.org</a> with questions or to advise of your intentions to attend.</h6>
+                    <div class="text-h4">Future Training Opportunity</div>
+                    <!-- <div class="text-h6 q-mb-md ">Grinnell, IA</div> -->
+                    <!-- <div class="text-h5 text-bold">COURSE REGISTRATION - $995</div> -->
+                    <!-- <div class="text-h5 text-bold text-red">REGISTRATION DEADLINE JANUARY 31ST!</div> -->
+                    <!-- <div class="text-h5 text-bold">Lodging - $80/night group rate</div> -->
                     <q-card-section>
-                      <q-btn
+                      <!-- <q-btn
                         href="https://momentum.matai.org/collect/description/351444-q-2024-matai-spring-training-grinnell-ia"
                         unelevated
                         class="q-ma-md q-px-lg q-pa-md"
                         color="green"
                         label="MEMBER REGISTRATION OPEN"
                         text-color="white"
-                      />
-                      <q-btn
+                      /> -->
+                      <!-- <q-btn
                         href="/springtrain24"
                         unelevated
                         class="q-ma-md q-px-lg q-pa-md"
                         color="blue-10"
                         label="course info"
                         text-color="white"
-                      />
+                      /> -->
                     </q-card-section>
 
                   </q-card-section>
