@@ -44,33 +44,33 @@
             <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-4 gt-xs">
-                    <!-- <img style="width: 100%" class="q-pa-sm" src="../assets/24SpringTrain@2x.png"> -->
+                    <img style="width: 100%" class="q-pa-sm" src="../assets/2024_Conf_Logo.png">
                   </q-card-section>
                   <q-card-section class="col-xs-12 col-sm-8">
-                    <!-- <div class="text-h5 text-bold text-orange-10">2024 MATAI SPRING TRAINING</div> -->
-                    <div class="text-h2 text-bold">VEHICLE EXAMINATIONS - HANDS-ON COURSE</div>
-                    <div class="text-h4">Future Training Opportunity</div>
-                    <!-- <div class="text-h6 q-mb-md ">Grinnell, IA</div> -->
-                    <!-- <div class="text-h5 text-bold">COURSE REGISTRATION - $995</div> -->
-                    <!-- <div class="text-h5 text-bold text-red">REGISTRATION DEADLINE JANUARY 31ST!</div> -->
-                    <!-- <div class="text-h5 text-bold">Lodging - $80/night group rate</div> -->
+                    <div class="text-h5 text-bold text-orange-10">2024 MATAI FALL CONFERENCE</div>
+                    <div class="text-h2 text-bold">ATV Topics and Crash Testing</div>
+                    <div class="text-h5">September 16 - 18, 2023</div>
+                    <div class="text-h6 q-mb-md ">Newton, IA</div>
+                    <div class="text-h5 text-bold">COURSE REGISTRATION - $500/ MEMBERS $550/ Non-members</div>
+                    <div class="text-h5 text-bold text-red">ACTAR Exam Preceeding the Conference!</div>
+                    <div class="text-h5 text-bold">Sunday September 15, 2024</div>
                     <q-card-section>
-                      <!-- <q-btn
-                        href="https://momentum.matai.org/collect/description/351444-q-2024-matai-spring-training-grinnell-ia"
+                      <q-btn
+                        href="https://momentum.matai.org/collect/description/425975-q-2024-matai-fall-conference-registration-newton-ia"
                         unelevated
                         class="q-ma-md q-px-lg q-pa-md"
                         color="green"
-                        label="MEMBER REGISTRATION OPEN"
+                        label="REGISTRATION IS OPEN"
                         text-color="white"
-                      /> -->
-                      <!-- <q-btn
-                        href="/springtrain24"
+                      />
+                      <q-btn
+                        href="/confinfo"
                         unelevated
-                        class="q-ma-md q-px-lg q-pa-md"
-                        color="blue-10"
-                        label="course info"
-                        text-color="white"
-                      /> -->
+                        class="q-ma-md q-px-lg q-pa-md text-bold"
+                        color="orange"
+                        label="conf info"
+                        text-color="black"
+                      />
                     </q-card-section>
 
                   </q-card-section>
