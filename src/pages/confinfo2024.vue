@@ -27,7 +27,7 @@
       <div class="text-bold text-h5 text-orange-9">September 16-18, 2024</div>
       <div class="text-h4 q-mt-sm q-mb-xs">ATV / UTV Topics - Live Crash Testing</div>
       <div class="text-h5 q-mt-sm q-mb-xs">Newton, IA</div>
-      <div class="text-h5 q-mt-sm q-mb-xs"><span class="text-bold">ACTAR Exam</span> - Sunday September 15, 2024 - Applications for this exam are <span class="text-orange-10 text-bold">OPEN SOON</span></div>
+      <div class="text-h5 q-mt-sm q-mb-xs"><span class="text-bold">ACTAR Exam</span> - Sunday September 15, 2024 - Applications for this exam are <span class="text-orange-10 text-bold">OPEN and due by Wednesday July 17, 2024</span> Please see the ACTAR <a href="http://actar.org">website</a> for more information.</div>
       <br>
       <div class="text-black text-h6">
         This conference focused on ATV/UTV involved crashes and will have the following highlights:
@@ -66,14 +66,29 @@
       <ul>
         <li>CobbleStone and the Best Western in Newton, IA</li>
         <li>Booking at conference rates is OPEN</li>
+        <li>Both hotels are close to everything but the Cobblestone is nearest the interstate and the raceway (crash testing), and the Best Western is nearest the DMACC Conference facility.</li>
+        <li class="text-bold">Please call these properties directly to get our MATAI 2024 rates. Website links below for room information.</li>
+        <li>Cobblestone telephone: <a href="tel:641-275-9495">641.275.9495</a> </li>
+        <li>Best Western telephone: <a href="tel:641-792-3333">641.792.3333</a></li>
       </ul>
       <q-btn
+        href="https://staycobblestone.com/ia/newton/"
         class="q-my-md col-xs-12"
         unelevated
         size="lg"
-        color="grey"
+        color="green"
         text-color="dark-gray"
-        label="Hotel Registration Open soon"
+        label="Cobblestone Website"
+      />
+      <br>
+      <q-btn
+        href="https://www.bestwestern.com/en_US/book/newton/hotel-rooms/best-western-holiday-manor/propertyCode.16108.html"
+        class="q-my-md col-xs-12"
+        unelevated
+        size="lg"
+        color="green"
+        text-color="dark-gray"
+        label="Best Western Newton Website"
       />
       <!-- <h5 class="q-ma-none text-blue">MATAI Hotel Block FULL!</h5> -->
     </q-card-section>

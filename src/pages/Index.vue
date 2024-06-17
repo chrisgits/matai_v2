@@ -51,7 +51,10 @@
                     <div class="text-h2 text-bold">ATV Topics and Crash Testing</div>
                     <div class="text-h5">September 16 - 18, 2023</div>
                     <div class="text-h6 q-mb-md ">Newton, IA</div>
-                    <div class="text-h5 text-bold">COURSE REGISTRATION - $500/ MEMBERS $550/ Non-members</div>
+                    <div class="text-h5 text-bold">COURSE REGISTRATION</div>
+                    <br>
+                    <div class="text-h5 text-bold">$500/ MEMBERS $550/ Non-members</div>
+                    <br>
                     <div class="text-h5 text-bold text-red">ACTAR Exam Preceeding the Conference!</div>
                     <div class="text-h5 text-bold">Sunday September 15, 2024</div>
                     <q-card-section>
