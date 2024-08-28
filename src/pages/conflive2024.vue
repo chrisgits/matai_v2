@@ -110,7 +110,7 @@
   <section>
     <div class="row justify-center" id="actar">
         <div class="col-xs-4 col-sm-3 q-pa-md">
-          <q-img fit="contain" width="25%" class="q-pa-sm q-mt-lg gt-xs" src="../assets/actar.png"/>
+          <q-img fit="contain" width="100%" class="q-pa-sm q-mt-lg gt-xs" src="../assets/actar.png"/>
         </div>
         <div class="col-xs-12 col-sm-9 q-pa-md text-h6">
           <h3 class="q-ma-none text-red text-bold">Attention!</h3>
