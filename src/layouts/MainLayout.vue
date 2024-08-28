@@ -24,7 +24,15 @@
           <q-btn
             color="orange text-black"
             to="/confinfo"
-            class="q-py-xs q-px-sm q-ml-sm ">Fall Conf
+            class="q-py-xs q-px-sm q-ml-sm ">
+            Fall Conf
+            <!-- <q-badge color="red" floating>NEW</q-badge> -->
+          </q-btn>
+          <q-btn
+            color="green text-black"
+            to="/conflive24"
+            class="q-py-xs q-px-sm q-ml-sm ">
+            Conf Live
             <q-badge color="red" floating>NEW</q-badge>
           </q-btn>
           <!-- <q-btn
@@ -43,7 +51,7 @@
             color="blue"
             label="RENEWALS"
           />
-          <q-btn color="green text-black" to="/about" class="q-py-xs q-px-sm q-ml-sm ">About</q-btn>
+          <!-- <q-btn color="green text-black" to="/about" class="q-py-xs q-px-sm q-ml-sm ">About</q-btn> -->
         </div>
       </q-toolbar>
     </q-header>

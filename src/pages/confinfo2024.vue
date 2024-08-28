@@ -27,7 +27,7 @@
       <div class="text-bold text-h5 text-orange-9">September 16-18, 2024</div>
       <div class="text-h4 q-mt-sm q-mb-xs">ATV / UTV Topics - Live Crash Testing</div>
       <div class="text-h5 q-mt-sm q-mb-xs">Newton, IA</div>
-      <div class="text-h5 q-mt-sm q-mb-xs"><span class="text-bold">ACTAR Exam</span> - Sunday September 15, 2024 - Applications for this exam are <span class="text-orange-10 text-bold">OPEN and due by Wednesday July 17, 2024</span> Please see the ACTAR <a href="http://actar.org">website</a> for more information.</div>
+      <!-- <div class="text-h5 q-mt-sm q-mb-xs"><span class="text-bold">ACTAR Exam</span> - Sunday September 15, 2024 - Applications for this exam are <span class="text-orange-10 text-bold">OPEN and due by Wednesday July 17, 2024</span> Please see the ACTAR <a href="http://actar.org">website</a> for more information.</div> -->
       <br>
       <div class="text-black text-h6">
         This conference focused on ATV/UTV involved crashes and will have the following highlights:
@@ -121,14 +121,11 @@
             <span class="text-bold text-black">9/16</span> Monday – Crash Testing - Iowa Speedway - Newton
           </div>
           <div class="text-black text-h6">
-            <span class="text-bold text-black">9/17</span> Tuesday – Presentations
+            <span class="text-bold text-black">9/17</span> Tuesday – Presentations - DMACC
           </div>
           <div class="text-black text-h6">
-            <span class="text-bold text-black">9/18</span> Wednesday Morning – Presentations, crash data review and conference wrap-up
+            <span class="text-bold text-black">9/18</span> Wednesday Morning – Presentations, Crash Data Review and Conference wrap-up
           </div>
-          <!-- <div class="text-black text-h6">
-            <span class="text-bold text-black">9/20</span> Wednesday <span class="text-bold text-orange-5">ALL DAY SESSION*</span> – Optional ACTAR Prep Session
-          </div> -->
         </q-card-section>
       </q-card>
       <br>
