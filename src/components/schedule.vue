@@ -24,7 +24,7 @@
         <div>
           <h6 class="q-ma-none">8a - 5p</h6>
           <h5 class="q-ma-none q-pb-sm">ACTAR Testing Session</h5>
-          <p class="text-bold">Hotel</p>
+          <p class="text-bold">DMACC</p>
         </div>
       </q-timeline-entry>
 
