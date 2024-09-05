@@ -42,7 +42,7 @@
           <li>Crash Testing Data Review</li>
         </ul>
         <q-img width="25%" class="q-pa-none q-ma-none gt-xs" src="../assets/actar.png"/>
-        <h6 class="q-pa-none">Attendees that are ACTAR accredited can earn up to <span class="text-deep-orange">24 credits</span> for this conference if they login to each session available to them. These credits are <span class="text-bold">NOT</span> automatically awarded by registering for the conference. Please see <a href="http://www.actar.org">ACTAR</a> website for more information!</h6>
+        <h6 class="q-pa-none">Attendees that are ACTAR accredited can earn up to <span class="text-red">18 credits</span> for this conference if they login to each session available to them. These credits are <span class="text-bold">NOT</span> automatically awarded by registering for the conference. Please see <a href="http://www.actar.org">ACTAR</a> website for more information!</h6>
       </div>
       <div class="text-blue text-bold text-h5">Conference Pricing</div>
       <ul>

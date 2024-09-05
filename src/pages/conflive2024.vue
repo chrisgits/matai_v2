@@ -18,7 +18,7 @@
         <div class="text-h4 q-mt-sm q-mb-xs">ATV / UTV Topics</div>
       </q-card-section>
 
-      <q-card-actions class="row justify-center q-ma-none">
+      <!-- <q-card-actions class="row justify-center q-ma-none">
         <q-btn
           href="https://files.matai.org/public/2023_MATAI_Conf_Brochure.pdf" target="blank"
           class="q-mb-sm  col-xs-12"
@@ -28,7 +28,7 @@
           text-color="white"
           label="CONF BROCHURE PDF"
         />
-      </q-card-actions>
+      </q-card-actions> -->
       <div class="row justify-center q-ma-none q-pa-sm">
         <q-btn
             href="https://maps.app.goo.gl/hwpobzznCDXtbBPK9" target="blank"
@@ -116,6 +116,7 @@
           <h3 class="q-ma-none text-red text-bold">Attention!</h3>
           <p>For attendees to receive credit for ACTAR CEUs for this conference you <span class="text-bold text-red">MUST</span> download the i-Attend app for your device and check in to <span class="text-bold">EACH</span> session you attend with the QR code available at the entrance. This is a change and process implemented by ACTAR. Please visit <a href="http://www.actar.org/ceu/earning">www.actar.org/ceu/earning</a> for the details of this change.</p>
           <p>For your convenience here is the <a href="https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1b0333fe-f7a7-4cbd-a61a-ae900137cf2b">link</a> to the i-Attend video instructions for the app. If you would like the PDF instructions download it <a href="https://files.matai.org/public/i-attend.pdf">here</a>.</p>
+          <h4 class="text-center text-deep-orange text-bold">18 credit hours available IF you login to each session as directed.</h4>
         </div>
         <q-card-actions class="col-xs-12 col-sm-6">
           <q-btn
