@@ -1,7 +1,7 @@
 <template>
-  <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green">
+  <!-- <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green">
     2024 CONFERENCE
-  </q-banner>
+  </q-banner> -->
   <div class="row justify-center items-start q-gutter-md">
     <q-card class="q-pa-xs" flat>
       <div class="row text-center justify-center">
@@ -9,18 +9,19 @@
         <div class="col-xs-12 col-6 lt-sm">
           <q-img fit="contain" width="100%" class="q-pa-sm q-ma-md" src="../assets/2024_Conf_Splash.jpg"/>
         </div>
-        <div class="col-xs-12 col-6 gt-xs">
+        <!-- <div class="col-xs-12 col-6 gt-xs">
           <q-img fit="contain" width="100%" class="q-pa-sm q-ma-md" src="../assets/2024_Conf_Logo.png"/>
-        </div>
+        </div> -->
       </div>
       <q-card-section>
-        <div class="text-bold text-h5 text-orange-9">September 16-18, 2024 <br><span class="text-yellow-10">Starts Soon!</span></div>
+        <div class="text-bold text-h5 text-orange-9">September 16-18, 2024 <br><span class="text-red">Starts Soon!</span></div>
         <div class="text-h4 q-mt-sm q-mb-xs">ATV / UTV Topics</div>
+        <h6 class="q-ma-none q-pa-none">Printable schedule and presenter bios</h6>
       </q-card-section>
 
-      <!-- <q-card-actions class="row justify-center q-ma-none">
+      <q-card-actions class="row justify-center q-ma-none">
         <q-btn
-          href="https://files.matai.org/public/2023_MATAI_Conf_Brochure.pdf" target="blank"
+          href="https://files.matai.org/public/2024_MATAI_Conf_Prog.pdf" target="blank"
           class="q-mb-sm  col-xs-12"
           unelevated
           size="lg"
@@ -28,7 +29,7 @@
           text-color="white"
           label="CONF BROCHURE PDF"
         />
-      </q-card-actions> -->
+      </q-card-actions>
       <div class="row justify-center q-ma-none q-pa-sm">
         <q-btn
             href="https://maps.app.goo.gl/hwpobzznCDXtbBPK9" target="blank"

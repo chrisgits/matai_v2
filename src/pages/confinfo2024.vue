@@ -1,5 +1,5 @@
 <template>
-  <!-- <q-banner
+  <q-banner
     dense
     class="bg-accent text-black"
   >
@@ -7,14 +7,14 @@
 
   <q-btn
     unelevated
-    to="/conflive"
+    to="/conflive24"
     class="q-py-xs q-px-sm q-ml-sm text-black"
-    color="accent"
+    color="green"
     label="conf live!"
     size="lg"
     style="border: black 4px solid"
   />
-</q-banner> -->
+</q-banner>
 <div class="row justify-center">
   <div class="q-pa-lg col-12">
     <img style="width: 100%" class="q-pa-sm" src="../assets/2024_Conf_Splash.jpg">
@@ -22,7 +22,21 @@
   <q-card class="q-pa-xs flex row" flat>
     <q-card-section class="col-sm-4 col-xs-12 gt-xs">
       <img style="width: 100%" class="q-pa-sm" src="../assets/2024_Conf_Logo.png">
+        <q-card-section class="text-red">
+          <h3>We are live on Monday!</h3>
+          <h4>Please head over to the Conf Live page for the current schedule and locations!</h4>
+          <q-btn
+            unelevated
+            to="/conflive24"
+            class="q-py-xs q-px-sm q-ml-sm text-black"
+            color="green"
+            label="conf live!"
+            size="lg"
+            style="border: black 4px solid"
+          />
+        </q-card-section>
     </q-card-section>
+
     <q-card-section class="col-sm-8 col-xs-12">
       <div class="text-bold text-h5 text-orange-9">September 16-18, 2024</div>
       <div class="text-h4 q-mt-sm q-mb-xs">ATV / UTV Topics - Live Crash Testing</div>
@@ -109,33 +123,28 @@
     <q-card-section>
       <div class="text-bold text-h5 text-blue-9">2024 Conference Schedule</div>
       <br>
-      <q-card class="bg-grey-7">
+      <q-card>
+        <h3>Printable Conference Brochure (PDF)</h3>
         <q-card-section>
-          <!-- <div class="text-deep-orange-8 text-h6">
-            <span class="text-bold text-black">9/10</span> Saturday – Crash Test Academy - Iowa Speedway
-          </div> -->
-          <div class="text-light-blue-4 text-h6">
-            <span class="text-bold text-light-blue-4">9/15</span> Sunday – Hosted ACTAR Exam
-          </div>
-          <div class="text-black text-h6">
-            <span class="text-bold text-black">9/16</span> Monday – Crash Testing - Iowa Speedway - Newton
-          </div>
-          <div class="text-black text-h6">
-            <span class="text-bold text-black">9/17</span> Tuesday – Presentations - DMACC
-          </div>
-          <div class="text-black text-h6">
-            <span class="text-bold text-black">9/18</span> Wednesday Morning – Presentations, Crash Data Review and Conference wrap-up
-          </div>
+          <q-btn
+          href="https://files.matai.org/public/2024_MATAI_Conf_Prog.pdf" target="blank"
+          class="q-mb-sm  col-xs-12"
+          unelevated
+          size="lg"
+          color="green"
+          text-color="white"
+          label="CONF BROCHURE PDF"
+        />
         </q-card-section>
       </q-card>
       <br>
     </q-card-section>
     <q-card-section>
       <div class="text-black text-h5 q-mb-md">
-        Conference Presenter Bios
+        Conference Presenter Bios available in the brochure linked above!
       </div>
       <!-- Presenter COMPONENT -->
-      <Presenter/>
+      <!-- <Presenter/> -->
     <br>
 
     </q-card-section>
@@ -161,7 +170,7 @@
 
 <script>
 import { ref } from 'vue'
-import Presenter from '../components/presenter.vue';
+// import Presenter from '../components/presenter.vue';
 import actar from '../components/actar.vue';
 
 export default {
@@ -171,7 +180,7 @@ return {
 }
 },
 components: {
-Presenter
+
 }
 }
 </script>

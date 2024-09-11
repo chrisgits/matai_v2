@@ -6,8 +6,8 @@
         class="bg-accent text-black text-center">
         <h4 class="q-ma-xs text-uppercase ">Announcements</h4>
         <h5 class="q-ma-xs">You will see important messages here!</h5>
-        <span><q-img fit="contain" width="20%" class="q-pa-sm q-ma-md" src="../assets/actar.png"/></span>
-        <h6 class="text-bold q-ma-xs q-pa-none"> Information on required ACTAR CEU logging found after schedule below!</h6>
+        <!-- <span><q-img fit="contain" width="20%" class="q-pa-sm q-ma-md" src="../assets/actar.png"/></span> -->
+        <h6 class="text-bold q-ma-md text-black"> Information on required ACTAR CEU logging found after schedule below!</h6>
       </q-banner>
     <div class="row q-gutter-md q-mb-sm">
 
