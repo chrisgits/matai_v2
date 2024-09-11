@@ -16,7 +16,7 @@
     <q-timeline class="q-mt-xl" layout="dense" side="right" color="secondary">
       <q-timeline-entry heading>Conference Schedule</q-timeline-entry>
       <q-timeline-entry
-        title="September 17st - ACTAR Test Participants"
+        title="September 15th - ACTAR Test Participants"
         subtitle="Sunday"
         side="left"
         color="accent"
@@ -29,7 +29,7 @@
       </q-timeline-entry>
 
       <q-timeline-entry
-        title="September 17th"
+        title="September 15th"
         subtitle="Sunday"
         side="right"
         color="primary"
