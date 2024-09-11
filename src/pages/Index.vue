@@ -46,7 +46,7 @@
                   <q-card-section class="col-xs-12 col-sm-8">
                     <div class="text-h5 text-bold text-orange-10">2024 MATAI FALL CONFERENCE</div>
                     <div class="text-h2 text-bold">ATV Topics and Crash Testing</div>
-                    <div class="text-h5">September 16 - 18, 2023</div>
+                    <div class="text-h5">September 16 - 18, 2024</div>
                     <div class="text-h6 q-mb-md ">Newton, IA</div>
                     <div class="text-h5 text-bold">COURSE REGISTRATION</div>
                     <br>
