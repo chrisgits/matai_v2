@@ -4,8 +4,10 @@
     <q-banner
       dense
         class="bg-accent text-black text-center">
-        <h4 class="q-ma-xs text-uppercase ">Announcements</h4>
-        <h5 class="q-ma-xs">You will see important messages here!</h5>
+        <h4 class="q-ma-xs q-pa-none text-uppercase ">Announcements</h4>
+        <h5 class="q-ma-xs q-pa-none">ACTAR Exam - DMACC - Room 224 - Sunday</h5>
+        <h5 class="q-ma-xs q-pa-none">DMACC - Conference Location - Room 210A</h5>
+        <h6 class="q-ma-xs q-pa-none">Use Main Entrance and stairs up to 2nd Floor</h6>
         <!-- <span><q-img fit="contain" width="20%" class="q-pa-sm q-ma-md" src="../assets/actar.png"/></span> -->
         <h6 class="text-bold q-ma-md text-black"> Information on required ACTAR CEU logging found after schedule below!</h6>
       </q-banner>
@@ -16,7 +18,7 @@
     <q-timeline class="q-mt-xl" layout="dense" side="right" color="secondary">
       <q-timeline-entry heading>Conference Schedule</q-timeline-entry>
       <q-timeline-entry
-        title="September 15th - ACTAR Test Participants"
+        title="September 15th - ACTAR TEST PARTICIPANTS"
         subtitle="Sunday"
         side="left"
         color="accent"
@@ -24,7 +26,7 @@
         <div>
           <h6 class="q-ma-none">8a - 5p</h6>
           <h5 class="q-ma-none q-pb-sm">ACTAR Testing Session</h5>
-          <p class="text-bold">DMACC</p>
+          <p class="text-bold">DMACC - Use Main Entrance up to 2nd Floor - Room 224</p>
         </div>
       </q-timeline-entry>
 
@@ -37,10 +39,10 @@
         <div>
           <h6 class="q-ma-none">06:00 - 7:00p</h6>
           <h5 class="q-ma-none q-pb-sm">Early Registration (Packet Pickup)</h5>
-          <p class="text-bold">DMACC</p>
+          <p class="text-bold">DMACC - 2nd Floor</p>
           <h6 class="q-ma-none">07:00p - 8:30p</h6>
           <h5 class="q-ma-none q-pb-sm">MATAI Board Meeting</h5>
-          <p class="text-bold">TBD</p>
+          <p class="text-bold">DMACC - Room 224</p>
           <h6 class="q-ma-none">06:00p - 9:00p</h6>
           <h5 class="q-ma-none q-pb-sm">Hospitality Suite - Everyone Welcome</h5>
           <p class="text-bold">Room TBD</p>
@@ -88,7 +90,7 @@
           <p>Coffee and rolls breakfast and Lunch provided</p>
           <h6 class="q-ma-none">8:00a - 9:30a</h6>
           <h5 class="q-ma-none q-pb-sm">Session I - ATV / UTV Overview with Q & A - John Zeirke</h5>
-          <p class="text-bold">DMACC</p>
+          <p class="text-bold">DMACC - 2nd Floor - Conference Room 210A</p>
           <h6 class="q-ma-none">9:30a - 9:45a</h6>
           <h5 class="q-ma-none q-pb-sm">Morning Break</h5>
           <h6 class="q-ma-none">9:45a - 11:00a</h6>
@@ -123,6 +125,7 @@
         <div>
           <h6 class="q-ma-none">7:30 - 8:00a</h6>
           <h5 class="q-ma-none q-pb-sm">MATAI All Organizational Meetng (Voting)</h5>
+          <p class="text-bold">DMACC - 2nd Floor - Conference Room 210A</p>
           <h6 class="q-ma-none">8:00 - 9:00a</h6>
           <h5 class="q-ma-none q-pb-sm">Session V - UTV Collision Case Study - Karl Boehm</h5>
           <h6 class="q-ma-none">9:00 - 10:30a</h6>
