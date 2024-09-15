@@ -6,6 +6,7 @@
         class="bg-accent text-black text-center">
         <h4 class="q-ma-xs q-pa-none text-uppercase ">Announcements</h4>
         <h5 class="q-ma-xs q-pa-none">UPDATE! EARLY PACKET PICKUP NOW AT BEST WESTERN - NEXT TO DMACC!</h5>
+        <h5>Registration also available in the morning at the raceway!</h5>
         <!-- <span><q-img fit="contain" width="20%" class="q-pa-sm q-ma-md" src="../assets/actar.png"/></span> -->
         <h6 class="text-bold q-ma-md text-black"> Information on required ACTAR CEU logging found after schedule below!</h6>
       </q-banner>
