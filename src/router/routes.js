@@ -20,7 +20,7 @@ const routes = [
       { path: '/join', component: () => import('pages/join.vue') },
       { path: '/cta', component: () => import('pages/cta.vue') },
       { path: '/optics-training', component: () => import('pages/optics-training.vue') },
-      { path: '/conflive', component: () => import('src/pages/conflive24.vue') },
+      { path: '/conflive', component: () => import('src/pages/conflive2024.vue') },
       { path: '/conflive24', component: () => import('src/pages/conflive2024.vue') },
       { path: '/springtrain24', component: () => import('pages/springtraining2024.vue') }
     ]
