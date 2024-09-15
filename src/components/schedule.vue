@@ -5,9 +5,7 @@
       dense
         class="bg-accent text-black text-center">
         <h4 class="q-ma-xs q-pa-none text-uppercase ">Announcements</h4>
-        <h5 class="q-ma-xs q-pa-none">ACTAR Exam - DMACC - Room 224 - Sunday</h5>
-        <h5 class="q-ma-xs q-pa-none">DMACC - Conference Location - Room 210A</h5>
-        <h6 class="q-ma-xs q-pa-none">Use Main Entrance and stairs up to 2nd Floor</h6>
+        <h5 class="q-ma-xs q-pa-none">UPDATE! EARLY PACKET PICKUP NOW AT BEST WESTERN - NEXT TO DMACC!</h5>
         <!-- <span><q-img fit="contain" width="20%" class="q-pa-sm q-ma-md" src="../assets/actar.png"/></span> -->
         <h6 class="text-bold q-ma-md text-black"> Information on required ACTAR CEU logging found after schedule below!</h6>
       </q-banner>
@@ -39,10 +37,10 @@
         <div>
           <h6 class="q-ma-none">06:00 - 7:00p</h6>
           <h5 class="q-ma-none q-pb-sm">Early Registration (Packet Pickup)</h5>
-          <p class="text-bold">DMACC - 2nd Floor</p>
+          <p class="text-bold">UPDATE! Best Western - Main Breakfast Suite</p>
           <h6 class="q-ma-none">07:00p - 8:30p</h6>
           <h5 class="q-ma-none q-pb-sm">MATAI Board Meeting</h5>
-          <p class="text-bold">DMACC - Room 224</p>
+          <p class="text-bold">UPDATE! Best Western - Main Breakfast Suite</p>
           <h6 class="q-ma-none">06:00p - 9:00p</h6>
           <h5 class="q-ma-none q-pb-sm">Hospitality Suite - Everyone Welcome</h5>
           <p class="text-bold">Room TBD</p>
