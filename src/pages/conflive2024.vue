@@ -29,6 +29,15 @@
           text-color="white"
           label="CONF BROCHURE PDF"
         />
+        <q-btn
+          href="https://files.matai.org/public/2024_MATAI_Conf_Eating.pdf" target="blank"
+          class="q-mb-sm  col-xs-12"
+          unelevated
+          size="lg"
+          color="green"
+          text-color="white"
+          label="NEWTON AREA FOOD/COFFEE"
+        />
       </q-card-actions>
       <div class="row justify-center q-ma-none q-pa-sm">
         <q-btn
