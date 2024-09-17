@@ -2,7 +2,7 @@
   <q-page class="row">
     <div class="col-12">
       <h4 class="q-px-sm q-py-xs">MATAI Current Member List</h4>
-      <h5 class="q-py-none text-red">As of July 2023</h5>
+      <h5 class="q-py-none text-red">As of September 2024 - Updated Annually</h5>
     </div>
     <div class="col-12 q-py-xs">
       <div class="row justify-evenly">
