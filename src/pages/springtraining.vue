@@ -8,7 +8,7 @@
 
       <q-card-section>
         <div class="row">
-          <div class="text-h4 q-mt-sm q-mb-xs">2023 Training Session<span class="text-blue-10"></span></div>
+          <div class="text-h4 q-mt-sm q-mb-xs">2025 Training Session<span class="text-blue-10"></span></div>
           <div class="col-12 text-uppercase text-bold text-h5 text-orange-9">tbd</div>
           <div class="col-12 text-h4 q-mt-sm q-mb-xs">Upcoming training session to be announced</div>
         </div>
