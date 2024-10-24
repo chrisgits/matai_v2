@@ -1,27 +1,52 @@
+// https://script.google.com/macros/s/AKfycbyugjdzlpE-LZrHZo6SGM6Pb7YOjfIgKjsCTVJQ3CGrnHMRNfojo-ufE91tj4OEJDMY/exec 3rd test
+
 import express from 'express';
 import cors from 'cors';
-import fetch from 'node-fetch';  // Ensure node-fetch v3.x is installed
+import fetch from 'node-fetch';
 
 const app = express();
-app.use(cors());
-app.use(express.json());
+const PORT = 3000; // You can change this port as needed
 
-app.post('/proxy', async (req, res) => {
+// Middleware
+app.use(cors()); // Allow all CORS requests
+app.use(express.json()); // Parse JSON body
 
-  console.log('Received request:', req.body); // Log incoming request
+// Endpoint to handle the form submission
+app.post('/submit', async (req, res) => {
+  const { name, email, pdfData } = req.body; // Extract data from the request body
 
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzCBmpUN6MFJ-LbwAh2QJsjggf8c9EA4NMc-u3IA4Dg1p7S_4eI2GBzZT-rtyVcgZVtHg/exec';
+  // Log the request body for debugging
+  console.log('Received data:', req.body);
+
   try {
-    const response = await fetch(scriptURL, {
+    const response = await fetch('https://script.google.com/macros/s/AKfycbyugjdzlpE-LZrHZo6SGM6Pb7YOjfIgKjsCTVJQ3CGrnHMRNfojo-ufE91tj4OEJDMY/exec', {
       method: 'POST',
-      body: JSON.stringify(req.body),
       headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, pdfData }),
     });
-    const data = await response.json();
-    res.json(data);
+
+    // Check if the response is ok (status 200-299)
+    if (!response.ok) {
+      const errorText = await response.text(); // Get the error response body
+      console.error('Error response from Apps Script:', errorText);
+      return res.status(response.status).send('Error communicating with the server.');
+    }
+
+    // Parse the response as JSON
+    const jsonResponse = await response.json();
+    console.log('Response from Apps Script:', jsonResponse);
+
+    // Send the JSON response back to the client
+    return res.status(200).json(jsonResponse);
   } catch (error) {
-    res.status(500).send('Error: ' + error.message);
+    console.error('Fetch error:', error);
+    return res.status(500).send('Server error.');
   }
 });
 
-app.listen(3000, () => console.log('Proxy server running on http://localhost:3000'));
+// Start the Express server
+app.listen(PORT, () => {
+  console.log(`Proxy server is running on http://localhost:${PORT}`);
+});
+
+

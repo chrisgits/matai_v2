@@ -6,20 +6,20 @@
       <q-form @submit="submitForm">
         <q-input v-model="formData.name_first" label="First Name" required />
         <q-input v-model="formData.name_last" label="Last Name" required />
-        <q-input v-model="formData.email" label="Email" required />
-        <q-input v-model="formData.home_address" label="Home Address" required />
-        <q-input v-model="formData.city" label="City" required />
-        <q-input v-model="formData.state" label="State" required />
-        <q-input v-model="formData.zip" label="Zip" required />
+        <q-input v-model="formData.eaddy" label="Email" required />
+        <q-input v-model="formData.home_address" label="Home Address"  />
+        <q-input v-model="formData.city" label="City"  />
+        <q-input v-model="formData.state" label="State"  />
+        <q-input v-model="formData.zip" label="Zip"  />
         <q-input mask="### - ### - ####"
           hint=""
-          v-model="formData.tel_home" label="Phone (Home)" required />
+          v-model="formData.tel_home" label="Phone (Home)"  />
         <q-input mask="### - ### - ####"
           hint=""
-          v-model="formData.tel_work" label="Phone (Work)" required />
-        <q-input v-model="formData.org" label="Agency/Organization" required />
-        <q-input v-model="formData.title" label="Position/Title" required />
-        <q-input v-model="formData.empl_dur" label="Length of Employment" required />
+          v-model="formData.tel_work" label="Phone (Work)"  />
+        <q-input v-model="formData.org" label="Agency/Organization"  />
+        <q-input v-model="formData.title" label="Position/Title"  />
+        <q-input v-model="formData.empl_dur" label="Length of Employment"  />
         <h6 class="q-my-md">Crash Courses Attended (if applicable)</h6>
         <p class="q-mt-lg q-mb-xs text-bold">INTERMEDIATE (or equivalent) COURSE ATTENDANCE</p>
         <q-input v-model="formData.course_interm_name" label="Intermediate Course Name" />
@@ -38,7 +38,7 @@
         <q-input v-model="formData.course_recon_loc" label="Recon Course Location" />
         <q-input v-model="formData.course_recon_dates" label="Recon Course Dates" />
         <p class="q-mt-lg q-mb-xs text-bold">ACTAR</p>
-        <q-input v-model="formData.actar_status" label="ACTAR Accredited?" required/>
+        <q-input v-model="formData.actar_status" label="ACTAR Accredited?" />
         <q-input v-model="formData.actar_number" label="ACTAR Number"/>
         <p class="q-mt-lg q-mb-xs text-bold text-blue">Please attach a detailed resume and/or additional information regarding your
           training and experience. Also, include a copy of the certificates of completion for
@@ -65,7 +65,7 @@ export default {
       formData: {
         name_first: '',
         name_last: '',
-        email: '',
+        eaddy: '',
         home_address: '',
         city: '',
         state: '',
@@ -95,12 +95,12 @@ export default {
   },
   methods: {
     submitForm() {
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbzCBmpUN6MFJ-LbwAh2QJsjggf8c9EA4NMc-u3IA4Dg1p7S_4eI2GBzZT-rtyVcgZVtHg/exec';
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbyugjdzlpE-LZrHZo6SGM6Pb7YOjfIgKjsCTVJQ3CGrnHMRNfojo-ufE91tj4OEJDMY/exec';
       const formData = new FormData();
 
       formData.append('first_name', this.formData.name_first);
       formData.append('last_name', this.formData.name_last);
-      formData.append('email', this.formData.email);
+      formData.append('email', this.formData.eaddy);
       formData.append('address', this.formData.home_address);
       formData.append('city', this.formData.city);
       formData.append('state', this.formData.state);
@@ -126,7 +126,7 @@ export default {
       formData.append('ACTAR Number', this.formData.actar_number);
       formData.append('pdfFile', this.formData.pdfFile); // Attach the PDF file
 
-      fetch('http://localhost:3000/proxy', {
+      fetch(scriptURL, {
         method: 'POST',
         body: JSON.stringify(this.formData),
         headers: {
