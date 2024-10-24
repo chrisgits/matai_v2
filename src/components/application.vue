@@ -93,6 +93,8 @@ export default {
       }
     }
   },
+
+
   methods: {
     submitForm() {
       const scriptURL = 'https://script.google.com/macros/s/AKfycbyugjdzlpE-LZrHZo6SGM6Pb7YOjfIgKjsCTVJQ3CGrnHMRNfojo-ufE91tj4OEJDMY/exec';
