@@ -11,20 +11,20 @@
         least one (1) year experience in the area of Accident Investigation, and provide a
         copy of an investigation completed during that year, to include a scaled diagram (either hand-drawn or electronic)</li>
       </ul>
-    <Application></Application>
+    <Application2></Application2>
     </div>
 
   </q-page>
 </template>
 
 <script>
-import Application from 'src/components/application.vue';
+import Application2 from 'src/components/application2.vue';
 import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'Home',
   components: {
-   Application
+   Application2
 
   }
 })
