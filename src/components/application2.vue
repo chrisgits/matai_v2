@@ -1,21 +1,11 @@
 <template>
-  <form @submit.prevent="submit">
-    <div>
-      <label for="name">Name:</label>
-      <input type="text" v-model="formData.name" required />
-    </div>
-    <div>
-      <label for="email">Email:</label>
-      <input type="email" v-model="formData.email" required />
-    </div>
-    <div>
-      <label for="pdf">Upload PDF:</label>
-      <input type="file" @change="handleFileUpload" />
-    </div>
-    <button type="submit">Submit</button>
-    <div v-if="error" class="error">{{ error }}</div>
-    <div v-if="success" class="success">{{ success }}</div>
-  </form>
+    <q-form>
+      <q-input v-model="formData.name" label="Full Name" required />
+      <q-input v-model="formData.email" label="Email" type="email" required />
+      <q-input v-model="formData.phone" label="Phone Number"  />
+      <q-input v-model="formData.address" label="Address"  />
+      <q-btn label="Submit" type="submit" color="primary" />
+    </q-form>
 </template>
 
 <script>
@@ -25,65 +15,35 @@ export default {
       formData: {
         name: '',
         email: '',
-        pdfData: null, // To hold the PDF file data
-      },
-      error: null,
-      success: null,
-    };
+        phone: '',
+        address: '',
+      }
+    }
   },
   methods: {
-    async handleFileUpload(event) {
-      const file = event.target.files[0];
-      if (file) {
-        const reader = new FileReader();
-        reader.onload = () => {
-          this.formData.pdfData = reader.result; // Store base64 data or handle accordingly
-        };
-        reader.readAsDataURL(file); // Read file as base64
-      }
-    },
-    async submit() {
-      this.error = null;
-      this.success = null;
+    submitForm() {
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwvWcEikRpNHjj05BxeWgKJY-1JxNZY2Anzs4MeyxEx8SwsXoUkGmHQpKmn6CBelrg/exec';
 
-      try {
-        const response = await fetch('https://script.google.com/macros/s/AKfycbyugjdzlpE-LZrHZo6SGM6Pb7YOjfIgKjsCTVJQ3CGrnHMRNfojo-ufE91tj4OEJDMY/exec', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(this.formData),
-        });
-
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
+      fetch(scriptURL, {
+        method: 'POST',
+        body: JSON.stringify(this.formData),
+        headers: {
+          'Content-Type': 'application/json',
         }
-
-        const result = await response.json();
-        if (result.success) {
-          this.success = 'Form submitted successfully!';
-          // Reset form data
-          this.formData = {
-            name: '',
-            email: '',
-            pdfData: null,
-          };
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.result === 'success') {
+          this.$q.notify({ type: 'positive', message: 'Form submitted successfully!' });
         } else {
-          throw new Error(result.error || 'Unknown error occurred');
+          this.$q.notify({ type: 'negative', message: 'Form submission failed!' });
         }
-      } catch (error) {
-        this.error = error.message;
-      }
-    },
-  },
-};
+      })
+      .catch(error => {
+        this.$q.notify({ type: 'negative', message: 'Error submitting form!' });
+        console.error(error);
+      });
+    }
+  }
+}
 </script>
-
-<style>
-.error {
-  color: red;
-}
-.success {
-  color: green;
-}
-</style>
