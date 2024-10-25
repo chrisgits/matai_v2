@@ -1,7 +1,7 @@
 <template>
   <q-form @submit="submitForm">
-    <q-input filled v-model="formData.name" label="Name" />
-    <q-input filled v-model="formData.email" label="Email" />
+    <q-input filled v-model="formData.name" label="Name" name="name" required />
+    <q-input filled v-model="formData.email" label="Email" type="email" name="email" required />
     <q-btn type="submit" label="Submit" />
   </q-form>
 </template>
@@ -12,13 +12,13 @@ export default {
     return {
       formData: {
         name: '',
-        email: '',
+        email: ''
       }
     };
   },
   methods: {
     async submitForm() {
-      const url = `${process.env.API_URL}/.netlify/functions/submitForm`; // URL to your Netlify Function
+      const url = 'https://script.google.com/macros/s/AKfycbxH68fhe0FXAUpvhul5U27Dzx92_mluokQhRmZgJJA82i1bUYJ8QmJzFiLqMC1Gv-XS/exec';  // Replace with your Apps Script URL
       const response = await fetch(url, {
         method: 'POST',
         headers: {
@@ -27,12 +27,10 @@ export default {
         body: JSON.stringify(this.formData),
       });
 
-      if (response.ok) {
-        alert('Form submitted successfully!');
-      } else {
-        alert('Error submitting form.');
-      }
+      const data = await response.json();
+      console.log(data);  // Log the response for debugging
     }
   }
 };
 </script>
+
