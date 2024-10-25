@@ -29,14 +29,14 @@ export default route(function (/* { store, ssrContext } */) {
     history: createHistory(process.env.MODE === 'ssr' ? void 0 : process.env.VUE_ROUTER_BASE)
   })
 
-  // Router.beforeEach(async (to, from, next) => {
-  //   const auth = to.meta.requiresAuth
-  //   if (auth && !await firebase.getCurrentUser()) {
-  //     next('/');
-  //   } else {
-  //     next();
-  //   }
-  // })
+  Router.beforeEach(async (to, from, next) => {
+    const auth = to.meta.requiresAuth
+    if (auth && !await firebase.getCurrentUser()) {
+      next('/');
+    } else {
+      next();
+    }
+  })
 
 
   return Router
