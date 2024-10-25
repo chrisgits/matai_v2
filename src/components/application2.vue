@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     async submitForm() {
-      const url = 'https://script.google.com/macros/s/AKfycbwvWcEikRpNHjj05BxeWgKJY-1JxNZY2Anzs4MeyxEx8SwsXoUkGmHQpKmn6CBelrg/exec';
+      const url = '/api/submitForm';  // URL to your Netlify Function
       const response = await fetch(url, {
         method: 'POST',
         headers: {
@@ -28,10 +28,8 @@ export default {
       });
 
       if (response.ok) {
-        // Success handling
         alert('Form submitted successfully!');
       } else {
-        // Error handling
         alert('Error submitting form.');
       }
     }
