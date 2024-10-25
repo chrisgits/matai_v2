@@ -5,8 +5,8 @@
 
 // Configuration for your app
 // https://quasar.dev/quasar-cli/quasar-conf-js
-let API_LOCAL = "http://localhost:3000",
-    API_PROD = "https://www.matai.org"
+// let API_LOCAL = "http://localhost:3000",
+//     API_PROD = "https://www.matai.org"
 
 /* eslint-env node */
 const ESLintPlugin = require('eslint-webpack-plugin')
@@ -52,8 +52,11 @@ module.exports = configure(function (ctx) {
       //switches between local and live API address
       //API_LOCAL > local = http://localhost:3000
       //API_PROD > heroku = https://matai-beta.herokuapp.com/
+      // env: {
+      //   API: API_PROD
+      // },
       env: {
-        API: API_PROD
+        API_URL: process.env.NODE_ENV === 'production' ? 'https://www.matai.org' : 'http://localhost:8888'
       },
       vueRouterMode: 'history', // available values: 'hash', 'history'
 

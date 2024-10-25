@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     async submitForm() {
-      const url = '/api/submitForm';  // URL to your Netlify Function
+      const url = `${process.env.API_URL}/.netlify/functions/submitForm`; // URL to your Netlify Function
       const response = await fetch(url, {
         method: 'POST',
         headers: {
