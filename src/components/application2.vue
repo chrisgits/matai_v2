@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     async submitForm() {
-      const url = 'https://script.google.com/macros/s/AKfycbxH68fhe0FXAUpvhul5U27Dzx92_mluokQhRmZgJJA82i1bUYJ8QmJzFiLqMC1Gv-XS/exec';  // Replace with your Apps Script URL
+      const url = `${process.env.API_URL}/.netlify/functions/submitForm`; // URL to your Netlify Function
       const response = await fetch(url, {
         method: 'POST',
         headers: {
