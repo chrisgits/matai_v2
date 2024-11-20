@@ -11,16 +11,17 @@
           to="/join"
           unelevated
           class="q-py-md q-px-lg text-weight-bolder"
-          color="orange"
+          color="green"
           label="join now"
           text-color="black"
         />
         <q-btn
           to="/about"
-
-          class="q-ml-xs q-py-md q-px-lg"
-          color="green"
+          outline
+          class="bg-orange q-ml-xs q-py-md q-px-lg"
+          color="orange"
           label="learn more"
+          text-color="black"
         />
         <q-btn
           to="/members"
