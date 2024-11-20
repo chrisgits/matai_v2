@@ -8,7 +8,7 @@
       <div class="q-pa-md q-gutter-sm">
         <q-btn
           type="a"
-          href="https://files.matai.org/public/MATAI_Application_2022.pdf"
+          href="https://files.matai.org/public/MATAI_Application_2025.pdf"
           target="_blank"
           value="Open"
           color="accent"

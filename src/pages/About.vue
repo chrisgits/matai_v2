@@ -54,6 +54,10 @@
       <div class="col-12">
         <h5>Contact MATAI</h5>
         <h6>Secretary - Charles Tassoul</h6>
+        <h6>Treasure - John Mobley</h6>
+        <h6>MATAI Mailing Address</h6>
+        <h6>PO Box 153</h6>
+        <h6>Homer, NE 68030</h6>
         <h6><a href="tel:920-475-2975">920-475-2975</a></h6>
         <h6><a href="mailto:info@matai.org">info@matai.org</a></h6>
         <br>

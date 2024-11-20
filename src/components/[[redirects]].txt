@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+ https://script.google.com/macros/s/AKfycbxH68fhe0FXAUpvhul5U27Dzx92_mluokQhRmZgJJA82i1bUYJ8QmJzFiLqMC1Gv-XS/exec
+
