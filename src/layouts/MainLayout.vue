@@ -21,13 +21,13 @@
           text-color="white"
         />
           <!-- <q-btn to="/cta" class="q-py-sm q-px-sm" flat color="deep-orange" >CTA</q-btn> -->
-          <!-- <q-btn
+          <q-btn
             color="orange text-black"
             to="/confinfo"
             class="q-py-xs q-px-sm q-ml-sm ">
-            Fall Conf
+            2025 Conf
             <q-badge color="red" floating>NEW</q-badge>
-          </q-btn> -->
+          </q-btn>
           <!-- <q-btn
             color="green text-black"
             to="/conflive24"
@@ -131,9 +131,9 @@
         </div>
       </div>
 
-      <div class="q-pt-xs" align="center">
+      <div class="q-pt-xs text-center">
        <p class="q-mb-xs text-uppercase text-caption copyright"><span class="material-icons">
-        copyright</span>2024  matai</p>
+        copyright</span>2025  matai, inc</p>
       </div>
     </q-footer>
 

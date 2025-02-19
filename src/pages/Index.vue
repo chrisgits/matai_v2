@@ -42,7 +42,7 @@
             <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-4 gt-xs">
-                    <img style="width: 100%" class="q-pa-sm" src="../assets/MATAI_Circle.svg">
+                    <img style="width: 100%" class="q-pa-sm" src="../assets/MATAI_Circle@2x.png">
                   </q-card-section>
                   <q-card-section class="col-xs-12 col-sm-8">
                     <div class="text-h5 text-bold text-red-10">2025 MATAI CONFERENCE</div>
@@ -56,22 +56,22 @@
                     <div class="text-h5 text-bold text-blue">ACTAR Exam Preceeding the Conference!</div>
                     <div class="text-h5 text-bold">Sunday June 8, 2025</div>
                     <q-card-section>
-                      <!-- <q-btn
-                        href="https://momentum.matai.org/collect/description/425975-q-2024-matai-fall-conference-registration-newton-ia"
+                      <q-btn
+                        href="https://momentum.matai.org/collect/description/479287-q-2025-matai-conference-registration-wisconsin-dells-wi"
                         unelevated
                         class="q-ma-md q-px-lg q-pa-md"
                         color="green"
                         label="REGISTRATION IS OPEN"
                         text-color="white"
-                      /> -->
-                      <!-- <q-btn
-                        href="/"
+                      />
+                      <q-btn
+                        href="/confinfo"
                         unelevated
                         class="q-ma-md q-px-lg q-pa-md text-bold"
-                        color="grey"
+                        color="accent"
                         label="conf info"
                         text-color="black"
-                      /> -->
+                      />
                     </q-card-section>
 
                   </q-card-section>
