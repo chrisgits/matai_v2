@@ -53,10 +53,12 @@
 
       <div class="col-12">
         <h5>Contact MATAI</h5>
-        <h6>MATAI</h6>
-        <h6>PO Box 92</h6>
-        <h6>Johnston, IA 50131</h6>
-        <h6><a href="tel:515-321-4381">515-321-4381</a></h6>
+        <h6>Secretary - Charles Tassoul</h6>
+        <h6>Treasure - John Mobley</h6>
+        <h6>MATAI Mailing Address</h6>
+        <h6>PO Box 153</h6>
+        <h6>Homer, NE 68030</h6>
+        <h6><a href="tel:920-475-2975">920-475-2975</a></h6>
         <h6><a href="mailto:info@matai.org">info@matai.org</a></h6>
         <br>
       </div>
@@ -126,13 +128,24 @@ export default defineComponent({
           class: 'bg-officer'
         },
         {
-          name: 'Kirk Lundgren',
-          title: 'Secretary/Treasurer',
+          name: 'Charles Tassoul',
+          title: 'Secretary',
           email: 'mailto: secretary@matai.org',
-          phone1: '515-321-4381',
+          phone1: '920-475-2975',
           phone2: '',
           yos: '2019',
-          photo: '/img/lundgren.jpg',
+          photo: '/img/tassoul.jpg',
+          bio: 'This is bio text if needed',
+          class: 'bg-officer'
+        },
+        {
+          name: 'John Mobley',
+          title: 'Treasurer',
+          email: 'mailto: nsp616@gmail.com',
+          phone1: '402-616-7391',
+          phone2: '',
+          yos: '2020',
+          photo: '/img/mobley.jpg',
           bio: 'This is bio text if needed',
           class: 'bg-officer'
         },
@@ -167,13 +180,13 @@ export default defineComponent({
           bio: 'This is bio text if needed'
         },
         {
-          name: 'Charles J. Tassoul',
+          name: 'Joseph Andersen',
           title: 'Board Member',
-          email: 'mailto: cjtklj@hotmail.com',
-          phone1: '920-475-2975',
+          email: 'mailto: 90917@kearneygov.org',
+          phone1: '402-250-5999',
           phone2: '',
-          yos: '2019',
-          photo: '/img/tassoul.jpg',
+          yos: '2024',
+          photo: '/img/andersen.jpg',
           bio: 'This is bio text if needed'
         },
         {
@@ -184,16 +197,6 @@ export default defineComponent({
           phone2: '',
           yos: '1987',
           photo: '/img/yoder.jpg',
-          bio: 'This is bio text if needed'
-        },
-        {
-          name: 'John Mobley',
-          title: 'Board Member',
-          email: 'mailto: nsp616@gmail.com',
-          phone1: '402-616-7391',
-          phone2: '',
-          yos: '2020',
-          photo: '/img/mobley.jpg',
           bio: 'This is bio text if needed'
         },
         {

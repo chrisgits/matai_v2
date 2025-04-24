@@ -12,29 +12,29 @@
           </q-btn>
         </div>
         <div>
-          <!-- <q-btn
+          <q-btn
           to="/join"
           unelevated
           class="q-py-sm q-px-sm"
-          color="orange"
+          color="green"
           label="join now"
-          text-color="black"
-        /> -->
+          text-color="white"
+        />
           <!-- <q-btn to="/cta" class="q-py-sm q-px-sm" flat color="deep-orange" >CTA</q-btn> -->
           <q-btn
             color="orange text-black"
             to="/confinfo"
             class="q-py-xs q-px-sm q-ml-sm ">
-            Fall Conf
-            <!-- <q-badge color="red" floating>NEW</q-badge> -->
+            2025 Conf
+            <q-badge color="red" floating>NEW</q-badge>
           </q-btn>
-          <q-btn
+          <!-- <q-btn
             color="green text-black"
             to="/conflive24"
             class="q-py-xs q-px-sm q-ml-sm ">
             Conf Live
             <q-badge color="red" floating>NEW</q-badge>
-          </q-btn>
+          </q-btn> -->
           <!-- <q-btn
             unelevated
             to="/conflive"
@@ -47,8 +47,9 @@
           <q-btn
             unelevated
             href="https://momentum.matai.org/collect/description/228963-r-matai-member-renewal"
-            class="q-py-xs q-px-sm q-ml-sm text-black"
+            class="q-py-xs q-px-sm q-ml-sm"
             color="blue"
+            text-color="white"
             label="RENEWALS"
           />
           <!-- <q-btn color="green text-black" to="/about" class="q-py-xs q-px-sm q-ml-sm ">About</q-btn> -->
@@ -78,7 +79,7 @@
                     Join
                   </q-item-section>
                 </q-item>
-                <q-item to="/confinfo" clickable v-ripple>
+                <!-- <q-item to="/confinfo" clickable v-ripple>
                   <q-item-section>
                     Conference
                   </q-item-section>
@@ -87,10 +88,15 @@
                   <q-item-section>
                     Spring Training
                   </q-item-section>
-                </q-item>
+                </q-item> -->
                 <q-item to="/history" clickable v-ripple>
                   <q-item-section>
                     MATAI History
+                  </q-item-section>
+                </q-item>
+                <q-item to="/about" clickable v-ripple>
+                  <q-item-section>
+                    About
                   </q-item-section>
                 </q-item>
               </q-list>
@@ -100,11 +106,6 @@
         <div class="col-sm-4 col-xs-6">
             <div style="max-width: 350px">
               <q-list dense padding class="rounded-borders">
-                <q-item to="/about" clickable v-ripple>
-                  <q-item-section>
-                    About
-                  </q-item-section>
-                </q-item>
                 <q-item to="/members" clickable v-ripple>
                   <q-item-section class="bg-primary">
                     <q-btn unelevated class="text-white" label="members"></q-btn>
@@ -130,9 +131,9 @@
         </div>
       </div>
 
-      <div class="q-pt-xs" align="center">
+      <div class="q-pt-xs text-center">
        <p class="q-mb-xs text-uppercase text-caption copyright"><span class="material-icons">
-        copyright</span>2024  matai</p>
+        copyright</span>2025  matai, inc</p>
       </div>
     </q-footer>
 

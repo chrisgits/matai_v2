@@ -1,8 +1,8 @@
 <template>
   <div class="q-px-none">
-    <div class="q-mt-none q-pb-lg bg-green">
+    <!-- <div class="q-mt-none q-pb-lg bg-green">
       <Counter></Counter>
-    </div>
+    </div> -->
     <div id="jumbo" class="q-pa-lg  text-center text-black">
       <h3>MIDWEST ASSOCIATION OF TECHNICAL ACCIDENT INVESTIGATORS</h3>
       <h5 style="color: #1a1a1a">FOR THE ADVANCEMENT OF MOTOR VEHICLE CRASH INVESTIGATION</h5>
@@ -11,16 +11,17 @@
           to="/join"
           unelevated
           class="q-py-md q-px-lg text-weight-bolder"
-          color="orange"
+          color="green"
           label="join now"
           text-color="black"
         />
         <q-btn
           to="/about"
-
-          class="q-ml-xs q-py-md q-px-lg text-weight-bolder"
-          color="green"
+          outline
+          class="bg-orange q-ml-xs q-py-md q-px-lg"
+          color="orange"
           label="learn more"
+          text-color="black"
         />
         <q-btn
           to="/members"
@@ -41,22 +42,22 @@
             <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-4 gt-xs">
-                    <img style="width: 100%" class="q-pa-sm" src="../assets/2024_Conf_Logo.png">
+                    <img style="width: 100%" class="q-pa-sm" src="../assets/MATAI_Circle@2x.png">
                   </q-card-section>
                   <q-card-section class="col-xs-12 col-sm-8">
-                    <div class="text-h5 text-bold text-orange-10">2024 MATAI FALL CONFERENCE</div>
-                    <div class="text-h2 text-bold">ATV Topics and Crash Testing</div>
-                    <div class="text-h5">September 16 - 18, 2024</div>
-                    <div class="text-h6 q-mb-md ">Newton, IA</div>
-                    <div class="text-h5 text-bold">COURSE REGISTRATION</div>
+                    <div class="text-h5 text-bold text-red-10">2025 MATAI CONFERENCE</div>
+                    <div class="text-h2 text-bold">TECH IN RECON</div>
+                    <div class="text-h5">June 9 - 11, 2025</div>
+                    <div class="text-h6 q-mb-md ">Wisconsin Dells, WI</div>
+                    <div class="text-h5 text-bold">MORE INFORMATION COMING SOON!</div>
                     <br>
-                    <div class="text-h5 text-bold">$500/ MEMBERS $550/ Non-members</div>
+                    <!-- <div class="text-h5 text-bold">$500/ MEMBERS $550/ Non-members</div> -->
                     <br>
-                    <div class="text-h5 text-bold text-red">ACTAR Exam Preceeding the Conference!</div>
-                    <div class="text-h5 text-bold">Sunday September 15, 2024</div>
+                    <div class="text-h5 text-bold text-blue">ACTAR Exam Preceeding the Conference!</div>
+                    <div class="text-h5 text-bold">Sunday June 8, 2025</div>
                     <q-card-section>
                       <q-btn
-                        href="https://momentum.matai.org/collect/description/425975-q-2024-matai-fall-conference-registration-newton-ia"
+                        href="https://momentum.matai.org/collect/description/479287-q-2025-matai-conference-registration-wisconsin-dells-wi"
                         unelevated
                         class="q-ma-md q-px-lg q-pa-md"
                         color="green"
@@ -67,7 +68,7 @@
                         href="/confinfo"
                         unelevated
                         class="q-ma-md q-px-lg q-pa-md text-bold"
-                        color="orange"
+                        color="accent"
                         label="conf info"
                         text-color="black"
                       />
@@ -133,6 +134,37 @@
               <div class="text-uppercase text-h3 q-pa-lg">past events</div>
             </div>
             <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
+              <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
+                <div class="flex row">
+                  <q-card-section class="col-4 gt-xs">
+                    <img style="width: 100%" class="q-pa-sm" src="../assets/2024_Conf_Logo.png">
+                  </q-card-section>
+                  <q-card-section class="col-xs-12 col-sm-8">
+                    <div class="text-h5 text-bold text-orange-10">2024 MATAI FALL CONFERENCE</div>
+                    <div class="text-h2 text-bold">ATV Topics and Crash Testing</div>
+                    <div class="text-h5">September 16 - 18, 2024</div>
+                    <div class="text-h6 q-mb-md ">Newton, IA</div>
+                    <div class="text-h5 text-bold">COURSE REGISTRATION</div>
+                    <br>
+                    <div class="text-h5 text-bold">$500/ MEMBERS $550/ Non-members</div>
+                    <br>
+                    <div class="text-h5 text-bold text-red">ACTAR Exam Preceeding the Conference!</div>
+                    <div class="text-h5 text-bold">Sunday September 15, 2024</div>
+                    <q-card-section>
+                      <q-btn
+                        href="/confinfo"
+                        unelevated
+                        class="q-ma-md q-px-lg q-pa-md text-bold"
+                        color="orange"
+                        label="conf info"
+                        text-color="black"
+                      />
+                    </q-card-section>
+
+                  </q-card-section>
+                </div>
+              </q-card>
+
               <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-4 gt-xs">
@@ -286,7 +318,7 @@ import Counter from '../components/Counter.vue';
 export default defineComponent({
   name: 'Home',
   components: {
-   Counter
+  //  Counter
 
   }
 })

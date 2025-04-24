@@ -33,3 +33,6 @@ yarn-error.log*
 *.sln
 matai_v2.code-workspace
 matai_forum.txt
+
+# Local Netlify folder
+.netlify

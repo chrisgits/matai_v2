@@ -2,23 +2,37 @@
   <div class="row justify-center">
     <div class="col join" style="max-width: 600px">
       <h4 class="text-bold">Joining MATAI - New Members</h4>
-      <p>As an association we recognize all potential members interested in our organization. With this in mind we require that Applicants must have successfully completed a recognized Technical Crash Investigation Course, or its equivalent.</p>
-      <p>We also provide that if the Applicant has completed an advanced Accident Investigation Course with at least one (1) year experience in the area of Accident Investigation, and provide a copy of an investigation completed during that year, to include a scaled diagram.</p>
-      <p>A link to our PDF Application is provided below.</p>
+      <p>As a professional association, we recognize all potential members interested in our organization. With this in mind we, require that Applicants must have successfully completed a recognized Technical Crash Investigation Course, or its equivalent.</p>
+      <p>We also provide that if the Applicant has completed an advanced Accident Investigation Course with at least one (1) year experience in the area of Accident Investigation, and provide a copy of an investigation completed during that year. More details are found on the application form.</p>
+      <p>A link to our electronic Application is provided below.</p>
       <div class="q-pa-md q-gutter-sm">
         <q-btn
           type="a"
-          href="https://files.matai.org/public/MATAI_Application_2022.pdf"
-          target="_blank"
+          to="/applicants"
           value="Open"
-          color="accent"
+          color="green"
           class="q-ma-md q-px-lg q-pa-md"
-          text-color="black"
+          text-color="white"
           label="Membership Application Form"
         />
       </div>
+      <p>Once your membership application is approved you will receive an email notifying you as such. If you misplaced this email but were approved, you can also click the green link below to initiate your member's website account and pay your first annual dues through this portal. Welcome.</p>
+      <div class="q-pa-md">
+        <!-- website member form -->
+        <q-btn
+          type="a"
+          href="https://momentum.matai.org/collect/description/225038-j-matai-new-member-application"
+          unelevated
+          class="q-my-md q-pa-md"
+          color="green"
+          label="new member website registration"
+          text-color="white"
+        />
+      </div>
+
 
       <!-- <p>You are invited to register for <strong>website access</strong> during the interim while your application is reviewed. Once approved you will be granted access to the Members section with exclusive content.</p> -->
+       <hr>
       <p>Our members site has a unique orange navigation bar for easy identification and will provide our members the ability to control their memberships, update their contact information and register for upcoming training and conferences.</p>
       <q-img
         width="400px"
@@ -43,18 +57,7 @@
 
       <p>So long as your dues are paid on an annual basis you will retain these membership privileges and content.</p>
       <p>If you have questions about joining or anything during this time please send them to our website admin <a href="mailto:admin@matai.org">admin@matai.org</a></p>
-      <div class="q-pa-md">
-        <!-- website member form -->
-        <q-btn
-          type="a"
-          href="https://momentum.matai.org/collect/description/225038-j-matai-new-member-application"
-          unelevated
-          class="q-my-md q-pa-md"
-          color="green"
-          label="new member website registration"
-          text-color="white"
-        />
-      </div>
+        <hr>
       <h4 class="q-mb-xs"><strong>Current/Past MATAI Members</strong></h4>
       <h5 class="q-mt-xs q-pa-sm bg-orange"><strong>Member renewal is LIVE!</strong></h5>
       <p>We have created a current/past member renewal form for the members-only site. This provides you website access as well as method to pay your annual dues for membership. You can choose a payment method in this form and we can take credit/debit cards as well as payment by check to the MATAI Secretary. Additional instructions are included in the form where needed. If you encounter troubles with this process please send an email to <a href="mailto:admin@matai.org">admin@matai.org</a>. <strong>Thank you!</strong></p>
@@ -67,7 +70,7 @@
           unelevated
           href="https://momentum.matai.org/collect/description/228963-r-matai-member-renewal"
           class="q-my-md q-pa-md"
-          color="green"
+          color="blue"
           label="current member renewal"
           text-color="white"
         />
