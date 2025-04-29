@@ -42,14 +42,16 @@
             <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-4 gt-xs">
-                    <img style="width: 100%" class="q-pa-sm" src="../assets/MATAI_Circle@2x.png">
+                    <img style="width: 100%" class="q-pa-sm" src="../assets/2025_Conf_Logo.png">
                   </q-card-section>
                   <q-card-section class="col-xs-12 col-sm-8">
                     <div class="text-h5 text-bold text-red-10">2025 MATAI CONFERENCE</div>
                     <div class="text-h2 text-bold">TECH IN RECON</div>
                     <div class="text-h5">June 9 - 11, 2025</div>
                     <div class="text-h6 q-mb-md ">Wisconsin Dells, WI</div>
-                    <div class="text-h5 text-bold">MORE INFORMATION COMING SOON!</div>
+                    <div class="text-h5 text-bold">Updated Conference Info Added!</div>
+                    <br>
+                    <div class="text-h6 text-bold text-red">We are excited to announce our speakers and topics! Please check out the conference info page and see the latest updates!</div>
                     <br>
                     <!-- <div class="text-h5 text-bold">$500/ MEMBERS $550/ Non-members</div> -->
                     <br>
