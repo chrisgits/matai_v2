@@ -23,6 +23,8 @@ const routes = [
       { path: '/conflive', component: () => import('src/pages/conflive2024.vue') },
       { path: '/conflive24', component: () => import('src/pages/conflive2024.vue') },
       { path: '/springtrain24', component: () => import('pages/springtraining2024.vue') },
+      { path: '/newmemberapp', component: () => import('pages/newApp.vue') }
+
     ]
   },
   // Always leave this as last one,
