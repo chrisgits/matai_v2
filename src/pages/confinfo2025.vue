@@ -53,7 +53,7 @@
         <!-- <div class="text-h5 q-mt-sm q-mb-xs"><span class="text-bold">ACTAR Exam</span> - Sunday September 15, 2024 - Applications for this exam are <span class="text-orange-10 text-bold">OPEN and due by Wednesday July 17, 2024</span> Please see the ACTAR <a href="http://actar.org">website</a> for more information.</div> -->
         <br>
         <br>
-        <div class="text-h4 text-red">UPDATED SCHEDULE / SPEAKERS BELOW!</div>
+        <div class="text-h4 text-red">UPDATED TOPICS / SPEAKERS BELOW!</div>
         <br>
         <div class="text-black text-h6">
           This conference will be focused on technology in crash reconstruction investigations.
