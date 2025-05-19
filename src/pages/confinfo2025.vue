@@ -156,14 +156,14 @@
           Conference Presenter Bios available in the brochure linked above!
         </div> -->
 
-        <Presenter/>
+
       <br>
 
       </q-card-section>
 
     </q-card>
   </div>
-
+  <ConferenceSchedule/>
     <!-- turn on actar component once ready -->
   <!-- <actar/> -->
 </template>
@@ -219,7 +219,8 @@
 
 
 <script setup>
-import { ref } from 'vue'
+import { ref } from 'vue';
+import ConferenceSchedule from '../components/ConferenceSchedule.vue';
 
 const presentations = ref([
   { title: 'Recent Issues in Digital Evidence Warrants', speaker: 'David Maas' },
@@ -229,7 +230,7 @@ const presentations = ref([
   { title: 'Identifying Counterfeit & Non-OEM Airbags in Crash Investigations with Case Study', speaker: 'Thomas Nichols and Thomas Erdmann' },
   { title: 'I\'m at the Crash, What Do I Need? Gathering Evidence and Preparing for Potential Prosecution', speaker: 'TSRP Breakout' },
   { title: 'Sketchup 3D Modeling for Crash Recon', speaker: 'MATAI Breakout - Bryce Adams' },
-  { title: 'Video Analysis through Axon Software and Case Study', speaker: 'Breakout - SA Justin Bender / Tilo Voitel - Axon, Inc' },
+  { title: 'Video Analysis through Axon Software and Case Study', speaker: 'Breakout - SA Justin Bender / Tilo Voitel' },
   { title: 'It\'s Not Just Texting Anymore: What Can You Get From the Phone?', speaker: 'Breakout - Wisconsin AAG' },
   { title: 'Using Tech to Leverage Fundamental Evidence Collection at Crash Scenes and Creating Deliverables for Court ', speaker: 'Breakout - Lt. Hunter Martini' },
   { title: 'WSP - Avoiding Spoilation of Electronic Evidence in CMV Crashes', speaker: 'Breakout - Ryan Schultz / Colton Fields' },
