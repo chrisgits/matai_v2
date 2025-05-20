@@ -175,7 +175,7 @@ import ConferenceSchedule from '../components/ConferenceSchedule.vue';
 
 const presentations = {
 'Monday': [
-  { time: '7:00 AM', title: 'Registration/Breakfast', speaker: 'David Maas', type: 'break' },
+  { time: '7:00 AM', title: 'Registration/Breakfast', speaker: '', type: 'break' },
   { time: '8:00 AM', title: 'Opening Ceremony', speaker: '', type: 'break' },
   { time: '8:15 AM', title: 'Recent Issues in Digital Evidence Warrants', speaker: 'David Maas', type: 'main' },
   { time: '10:15 AM', title: 'Morning Break', speaker: '', type: 'break' },
