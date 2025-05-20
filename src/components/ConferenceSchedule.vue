@@ -39,7 +39,7 @@
           <q-card-section class="flex" horizontal>
             <div class="time-column"
               :class="typeColors[event.type] || 'bg-grey-7 text-black'">
-              <div class="text-h6 text-black">{{ event.time }}</div>
+              <div class="text-h6 text-center text-black">{{ event.time }}</div>
             </div>
             <q-separator vertical />
             <div class="content-column q-pa-md">
