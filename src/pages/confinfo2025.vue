@@ -113,57 +113,9 @@
       </q-card-section>
 
     </q-card>
-    <q-card>
-      <q-card-section>
-        <div class="text-bold text-h5 text-blue-9">2025 - Latest Conference Topics / Speakers</div>
-        <br>
-        <!-- <q-card>
-          <h3>Printable Conference Brochure (PDF)</h3>
-          <q-card-section>
-            <q-btn
-            href="https://files.matai.org/public/2024_MATAI_Conf_Prog.pdf" target="blank"
-            class="q-mb-sm  col-xs-12"
-            unelevated
-            size="lg"
-            color="green"
-            text-color="white"
-            label="CONF BROCHURE PDF"
-          />
-          </q-card-section>
-        </q-card> -->
-
-        <q-card class="flex flex-center bg-grey-1">
-          <div class="q-pa-md" style="width: 100%; max-width: 800px;">
-            <div
-              v-for="(item, index) in presentations"
-              :key="index"
-              class="text-center q-mb-xl presentation-container"
-            >
-              <h4 class="presentation-title">
-                {{ item.title }}
-              </h4>
-              <h5 class="presentation-subtitle">
-                {{ item.speaker }}
-              </h5>
-            </div>
-          </div>
-
-        </q-card>
-        <br>
-      </q-card-section>
-      <q-card-section>
-        <!-- <div class="text-black text-h5 q-mb-md">
-          Conference Presenter Bios available in the brochure linked above!
-        </div> -->
-
-
-      <br>
-
-      </q-card-section>
-
-    </q-card>
   </div>
-  <ConferenceSchedule/>
+  <!-- CONFERENCE SCHEDULE COMPONENT INSERTED HERE -->
+  <ConferenceSchedule :schedule-data="presentations" />
     <!-- turn on actar component once ready -->
   <!-- <actar/> -->
 </template>
@@ -219,27 +171,40 @@
 
 
 <script setup>
-import { ref } from 'vue';
 import ConferenceSchedule from '../components/ConferenceSchedule.vue';
 
-const presentations = ref([
-  { title: 'Recent Issues in Digital Evidence Warrants', speaker: 'David Maas' },
-  { title: 'Integrated Workflow of Drone, Pix4D Photogrammetry and Lidar Scanning Processes in Scene Evidence Collection - Introduction of Blender 3D Software Tool Integration', speaker: 'Chris Starrett \/ Chris Mannel' },
-  { title: 'EDR Updates', speaker: 'Jon Northrup' },
-  { title: 'Panel Discussion - TECH - FROM SCENE TO COURTROOM - How Does Data Collection Translate to a Prosecutable Case?', speaker: 'CONFERENCE HOST PANEL' },
-  { title: 'Identifying Counterfeit & Non-OEM Airbags in Crash Investigations with Case Study', speaker: 'Thomas Nichols and Thomas Erdmann' },
-  { title: 'I\'m at the Crash, What Do I Need? Gathering Evidence and Preparing for Potential Prosecution', speaker: 'TSRP Breakout' },
-  { title: 'Sketchup 3D Modeling for Crash Recon', speaker: 'MATAI Breakout - Bryce Adams' },
-  { title: 'Video Analysis through Axon Software and Case Study', speaker: 'Breakout - SA Justin Bender / Tilo Voitel' },
-  { title: 'It\'s Not Just Texting Anymore: What Can You Get From the Phone?', speaker: 'Breakout - Wisconsin AAG' },
-  { title: 'Using Tech to Leverage Fundamental Evidence Collection at Crash Scenes and Creating Deliverables for Court ', speaker: 'Breakout - Lt. Hunter Martini' },
-  { title: 'WSP - Avoiding Spoilation of Electronic Evidence in CMV Crashes', speaker: 'Breakout - Ryan Schultz / Colton Fields' },
-  { title: 'Electric Vehicle Safety for First Responders', speaker: 'Breakout - Jeff Gross' },
-  { title: 'Drone Comparison, Best Fit Methodology and Current Tech Advances', speaker: 'Breakout - Adam Johnson' },
-  { title: 'Testimony Training - Tips and Common Challenges, From Basic to Expert', speaker: 'Breakout - AAGs Tara Jenswold and Emily Thompson' }
-
-
-])
+const presentations = {
+'Monday': [
+  { time: '7:00 AM', title: 'Registration/Breakfast', speaker: 'David Maas', type: 'break' },
+  { time: '8:00 AM', title: 'Opening Ceremony', speaker: '', type: 'break' },
+  { time: '8:15 AM', title: 'Recent Issues in Digital Evidence Warrants', speaker: 'David Maas', type: 'main' },
+  { time: '10:15 AM', title: 'Morning Break', speaker: '', type: 'break' },
+  { time: '10:30 AM', title: 'Integrated Workflow of Drone, Pix4D Photogrammetry and Lidar Scanning Processes in Scene Evidence Collection - Introduction of Blender 3D Software Tool Integration', speaker: 'Chris Starrett \/ Chris Mannel', type: 'main' },
+  { time: '12:30 PM', title: 'LUNCH PROVIDED', speaker: '', type: 'break' },
+  { time: '1:30 PM', title: 'EDR Updates', speaker: 'Jon Northrup', type: 'main' },
+  { time: '3:30 PM', title: 'Afternoon Break', speaker: '', type: 'break'  },
+  { time: '3:45 PM', title: 'Panel Discussion - TECH - FROM SCENE TO COURTROOM - How Does Data Collection Translate to a Prosecutable Case?', speaker: 'AAG Tara Jenswold. AAG Emily Thompson, Chris Mannel, Dave Hallman, Chris Starrett, Jon Northrop', type: 'main' }
+],
+'Tuesday': [
+  { time: '7:00 AM', title: 'Breakfast', speaker: '', type: 'main', type: 'break' },
+  { time: '8:00 AM', title: 'Identifying Counterfeit & Non-OEM Airbags in Crash Investigations with Case Study', speaker: 'Thomas Nichols – Global Brand Protection Specialist, General Motors and Automotive Anti-Counterfeiting Council and Thomas Erdmann – Forensic Specialist Seiler Public Safety', type: 'main' },
+  { time: '10:00 AM', title: 'Morning Break', speaker: '', type: 'break'  },
+  { time: '10:15 AM',title: 'I\'m at the Crash, What Do I Need? Gathering Evidence and Preparing for Potential Prosecution', speaker: 'AAG Tara Jenswold, AAG Emily Thompson, Trooper Tracy Drager – Wisconsin State Patrol and Deputy Tim Dexter - Washington County Sheriff’s Office', type: 'TSRP'},
+  { time: '10:15 AM',title: 'Sketchup 3D Modeling for Crash Recon', speaker: 'MATAI Breakout - Bryce Adams', type: 'MATAI' },
+  { time: '12:30 PM', title: 'LUNCH PROVIDED', speaker: '', type: 'break'  },
+  { time: '1:15 or 2:30 PM', title: 'Video Analysis through Axon Software and Case Study', speaker: 'Special Agent Justin Bender – Wisconsin DCI- and Tilo Voitel – Denver Metro Forensics LLC', type: 'breakout' },
+  { time: '1:15 or 2:30 PM', title: 'It\'s Not Just Texting Anymore: What Can You Get From the Phone?', speaker: 'AAG Tara Jenswold and AAG Emily Thompson and Detective Jeff Nocchi – Eau Claire County Sheriff\’s Office', type: 'breakout' },
+  { time: '1:15 or 2:30 PM', title: 'Using Tech to Leverage Fundamental Evidence Collection at Crash Scenes and Creating Deliverables for Court ', speaker: 'Lt. Hunter Martin, Kentucky State Police', type: 'breakout' },
+  { time: '1:15 or 2:30 PM', title: 'WSP - Avoiding Spoilation of Electronic Evidence in CMV Crashes', speaker: 'Inspector Ryan Schultz and Inspector Colton Fields – Wisconsin State Patrol', type: 'breakout' }
+],
+'Wednesday': [
+  { time: '7:00 AM', title: 'Breakfast', speaker: '', type: 'break' },
+  { time: '8:00 or 9:15 AM', title: 'Electric Vehicle Safety for First Responders', speaker: 'Breakout - Jeff Gross', type: 'breakout' },
+  { time: '8:00 or 9:15 AM', title: 'Drone Comparison, Best Fit Methodology and Current Tech Advances', speaker: 'Adam Johnston -Forensic Specialist Seiler Public Safety', type: 'breakout' },
+  { time: '8:00 or 9:15 AM', title: 'Testimony Training - Tips and Common Challenges, From Basic to Expert', speaker: 'AAGs Tara Jenswold and Emily Thompson', type: 'breakout' },
+  { time: '10:30 AM', title: 'Full Session Closing and Release', speaker: 'MATAI and TSRP Representatives', type: 'main' },
+]
+}
 
 </script>
 

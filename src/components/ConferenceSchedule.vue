@@ -19,13 +19,27 @@
           :label="day"
         />
       </q-tabs>
+      <!-- Legend Bar -->
+      <div class="q-mb-lg q-gutter-sm row items-center justify-center">
+        <div
+          v-for="type in allTypes"
+          :key="type"
+          class="row items-center q-pa-sm rounded legend-item"
+          :class="typeColors[type] || 'bg-grey-3 text-black'"
+          style="min-width: 120px; justify-content: center;"
+        >
+          <q-icon name="label" size="16px" class="q-mr-xs" />
+          <span class="text-caption">{{ type.charAt(0).toUpperCase() + type.slice(1) }}</span>
+        </div>
+      </div>
 
       <!-- Events List -->
-      <div v-for="(event, index) in events[selectedDay]" :key="index" class="q-mb-md">
+      <div v-for="(event, index) in props.scheduleData[selectedDay]" :key="index" class="q-mb-md">
         <q-card flat bordered class="calendar-block">
           <q-card-section class="flex" horizontal>
-            <div class="time-column">
-              <div class="text-h6 text-white">{{ event.time }}</div>
+            <div class="time-column"
+              :class="typeColors[event.type] || 'bg-grey-7 text-black'">
+              <div class="text-h6 text-black">{{ event.time }}</div>
             </div>
             <q-separator vertical />
             <div class="content-column q-pa-md">
@@ -46,38 +60,59 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
+import { defineProps} from 'vue'
+
+const allTypes = computed(() => {
+  const seen = new Set()
+  const result = []
+
+  for (const day in props.scheduleData) {
+    for (const event of props.scheduleData[day]) {
+      if (event.type && !seen.has(event.type)) {
+        seen.add(event.type)
+        result.push(event.type)
+      }
+    }
+  }
+
+  return result
+})
 
 // Setup the days
-const days = ['Monday - 9th', 'Tuesday - 10th', 'Wednesday - 11th']
+const days = computed(() => Object.keys(props.scheduleData))
+
+const props = defineProps({
+  scheduleData: {
+    type: Object,
+    required: true
+  }
+})
 
 // Current selected day
-const selectedDay = ref('Day 1')
+const selectedDay = ref(days.value[0] || '')
 
 // Full event schedule
 const events = {
-  'Monday - 9th': [
-    { time: '8:00 AM', title: 'Opening Remarks', speaker: 'Conference Host', location: 'Main Hall' },
-    { time: '9:00 AM', title: 'The Future of Innovation', speaker: 'Chris Mannel', location: 'Room A' },
-    { time: '10:00 AM', title: 'Sustainable Engineering', speaker: 'Jordan Lee', location: 'Room B' },
-    { time: '11:00 AM', title: 'AI and Human Creativity', speaker: 'Alex Smith', location: 'Room C' },
-    { time: '12:00 PM', title: 'Lunch Break', speaker: '', location: 'Dining Area' },
-  ],
-  'Tuesday - 10th': [
-    { time: '9:00 AM', title: 'Morning Kickoff', speaker: 'Session Leader', location: 'Main Hall' },
-    { time: '10:00 AM', title: 'Machine Learning Trends', speaker: 'Taylor Kim', location: 'Room A' },
-    { time: '11:00 AM', title: 'Sustainable Cities', speaker: 'Dr. Sophia Nguyen', location: 'Room B' },
-    { time: '1:00 PM', title: 'Workshop: Innovation Labs', speaker: 'Various Speakers', location: 'Room C' },
-  ],
-  'Wednesday - 11th': [
-    { time: '8:30 AM', title: 'Breakfast Networking', speaker: '', location: 'Lobby' },
-    { time: '9:30 AM', title: 'Closing Keynote', speaker: 'Special Guest', location: 'Main Hall' },
-    { time: '11:00 AM', title: 'Farewell Lunch', speaker: '', location: 'Dining Area' },
-  ]
+
+}
+
+const typeColors = {
+  break: 'bg-green-2 text-black',
+  main: 'bg-orange text-black',
+  TSRP: 'bg-secondary text-white',
+  MATAI: 'bg-blue-6 text-white',
+  breakout: 'bg-purple-5 text-white',
 }
 </script>
 
 <style scoped>
+
+.legend-item {
+  font-weight: 500;
+  white-space: nowrap;
+}
+
 .calendar-block {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
