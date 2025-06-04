@@ -17,7 +17,9 @@ const routes = [
       { path: '/join', component: () => import('pages/join.vue') },
       { path: '/cta', component: () => import('pages/cta.vue') },
       { path: '/conflive', component: () => import('src/pages/conflive2025.vue') },
-      { path: '/newmemberapp', component: () => import('pages/newApp.vue') }
+      { path: '/newmemberapp', component: () => import('pages/newApp.vue') },
+      { path: '/recontools', component: () => import('pages/ReconTools.vue') },
+
 
     ]
   },

@@ -175,34 +175,35 @@ import ConferenceSchedule from '../components/ConferenceSchedule.vue';
 
 const presentations = {
 'Monday': [
-  { time: '7:00 AM', title: 'Registration/Breakfast', speaker: '', type: 'break' },
-  { time: '8:00 AM', title: 'Opening Ceremony', speaker: '', type: 'break' },
-  { time: '8:15 AM', title: 'Recent Issues in Digital Evidence Warrants', speaker: 'David Maas', type: 'main' },
-  { time: '10:15 AM', title: 'Morning Break', speaker: '', type: 'break' },
-  { time: '10:30 AM', title: 'Integrated Workflow of Drone, Pix4D Photogrammetry and Lidar Scanning Processes in Scene Evidence Collection - Introduction of Blender 3D Software Tool Integration', speaker: 'Chris Starrett \/ Chris Mannel', type: 'main' },
-  { time: '12:30 PM', title: 'LUNCH PROVIDED', speaker: '', type: 'break' },
-  { time: '1:30 PM', title: 'EDR Updates', speaker: 'Jon Northrup', type: 'main' },
-  { time: '3:30 PM', title: 'Afternoon Break', speaker: '', type: 'break'  },
-  { time: '3:45 PM', title: 'Panel Discussion - TECH - FROM SCENE TO COURTROOM - How Does Data Collection Translate to a Prosecutable Case?', speaker: 'AAG Tara Jenswold. AAG Emily Thompson, Chris Mannel, Dave Hallman, Chris Starrett, Jon Northrop', type: 'main' }
+  { time: '7:00 AM', title: 'Registration/Breakfast', speaker: '', type: 'break', room: 'Meal Room/Entry Area' },
+  { time: '8:00 AM', title: 'Opening Ceremony', speaker: '', type: 'break', room: 'Grand Ballroom' },
+  { time: '8:15 AM', title: 'Recent Issues in Digital Evidence Warrants', speaker: 'David Maas', type: 'main', room: 'Grand Ballroom' },
+  { time: '10:15 AM', title: 'Morning Break', speaker: '', type: 'break', room: 'Entry Area' },
+  { time: '10:30 AM', title: 'Integrated Workflow of Drone, Pix4D Photogrammetry and Lidar Scanning Processes in Scene Evidence Collection - Introduction of Blender 3D Software Tool Integration', speaker: 'Chris Starrett \/ Chris Mannel', type: 'main', room: 'Grand Ballroom' },
+  { time: '12:30 PM', title: 'LUNCH PROVIDED', speaker: '', type: 'break', room: 'Meal Room' },
+  { time: '1:30 PM', title: 'EDR Updates', speaker: 'Jon Northrup', type: 'main', room: 'Grand Ballroom' },
+  { time: '3:30 PM', title: 'Afternoon Break', speaker: '', type: 'break', room: 'Entry Area'  },
+  { time: '3:45 PM', title: 'Panel Discussion - TECH - FROM SCENE TO COURTROOM - How Does Data Collection Translate to a Prosecutable Case?', speaker: 'AAG Tara Jenswold. AAG Emily Thompson, Chris Mannel, Dave Hallman, Chris Starrett, Jon Northrop', type: 'main', room: 'Grand Ballroom' }
 ],
 'Tuesday': [
-  { time: '7:00 AM', title: 'Breakfast', speaker: '', type: 'main', type: 'break' },
-  { time: '8:00 AM', title: 'Identifying Counterfeit & Non-OEM Airbags in Crash Investigations with Case Study', speaker: 'Thomas Nichols – Global Brand Protection Specialist, General Motors and Automotive Anti-Counterfeiting Council and Thomas Erdmann – Forensic Specialist Seiler Public Safety', type: 'main' },
-  { time: '10:00 AM', title: 'Morning Break', speaker: '', type: 'break'  },
-  { time: '10:15 AM',title: 'I\'m at the Crash, What Do I Need? Gathering Evidence and Preparing for Potential Prosecution', speaker: 'AAG Tara Jenswold, AAG Emily Thompson, Trooper Tracy Drager – Wisconsin State Patrol and Deputy Tim Dexter - Washington County Sheriff’s Office', type: 'TSRP'},
-  { time: '10:15 AM',title: 'Sketchup 3D Modeling for Crash Recon', speaker: 'MATAI Breakout - Bryce Adams', type: 'MATAI' },
-  { time: '12:30 PM', title: 'LUNCH PROVIDED', speaker: '', type: 'break'  },
-  { time: '1:15 or 2:30 PM', title: 'Video Analysis through Axon Software and Case Study', speaker: 'Special Agent Justin Bender – Wisconsin DCI- and Tilo Voitel – Denver Metro Forensics LLC', type: 'breakout' },
-  { time: '1:15 or 2:30 PM', title: 'It\'s Not Just Texting Anymore: What Can You Get From the Phone?', speaker: 'AAG Tara Jenswold and AAG Emily Thompson and Detective Jeff Nocchi – Eau Claire County Sheriff\’s Office', type: 'breakout' },
-  { time: '1:15 or 2:30 PM', title: 'Using Tech to Leverage Fundamental Evidence Collection at Crash Scenes and Creating Deliverables for Court ', speaker: 'Lt. Hunter Martin, Kentucky State Police', type: 'breakout' },
-  { time: '1:15 or 2:30 PM', title: 'WSP - Avoiding Spoilation of Electronic Evidence in CMV Crashes', speaker: 'Inspector Ryan Schultz and Inspector Colton Fields – Wisconsin State Patrol', type: 'breakout' }
+  { time: '7:00 AM', title: 'Breakfast', speaker: '', type: 'main', type: 'break', room: 'Meal Room' },
+  { time: '8:00 AM', title: 'Identifying Counterfeit & Non-OEM Airbags in Crash Investigations with Case Study', speaker: 'Thomas Nichols – Global Brand Protection Specialist, General Motors and Automotive Anti-Counterfeiting Council and Thomas Erdmann – Forensic Specialist Seiler Public Safety', type: 'main', room: 'Grand Ballroom' },
+  { time: '10:00 AM', title: 'Morning Break', speaker: '', type: 'break', room: 'Entry Area'  },
+  { time: '10:15 AM',title: 'I\'m at the Crash, What Do I Need? Gathering Evidence and Preparing for Potential Prosecution', speaker: 'AAG Tara Jenswold, AAG Emily Thompson, Trooper Tracy Drager – Wisconsin State Patrol and Deputy Tim Dexter - Washington County Sheriff’s Office', type: 'TSRP', room: 'Grand Ballroom'},
+  { time: '10:15 AM',title: 'Sketchup 3D Modeling for Crash Recon', speaker: 'MATAI Breakout - Bryce Adams', type: 'MATAI', room: 'Upper Dells Ballroom' },
+  { time: '12:30 PM', title: 'LUNCH PROVIDED', speaker: '', type: 'break', room: 'Meal Room'  },
+  { time: '1:15 or 2:30 PM', title: 'Video Analysis through Axon Software and Case Study', speaker: 'Special Agent Justin Bender – Wisconsin DCI- and Tilo Voitel – Denver Metro Forensics LLC', type: 'breakout', room: 'Upper Dells Ballroom' },
+  { time: '1:15 or 2:30 PM', title: 'It\'s Not Just Texting Anymore: What Can You Get From the Phone?', speaker: 'AAG Tara Jenswold and AAG Emily Thompson and Detective Jeff Nocchi – Eau Claire County Sheriff\’s Office', type: 'breakout', room: 'Grand Ballroom' },
+  { time: '1:15 or 2:30 PM', title: 'Using Tech to Leverage Fundamental Evidence Collection at Crash Scenes and Creating Deliverables for Court ', speaker: 'Lt. Hunter Martin, Kentucky State Police', type: 'breakout', room: 'Breakout G & H' },
+  { time: '1:15 or 2:30 PM', title: 'WSP - Avoiding Spoilation of Electronic Evidence in CMV Crashes', speaker: 'Inspector Ryan Schultz and Inspector Colton Fields – Wisconsin State Patrol', type: 'breakout', room: 'Breakout I' },
+  { time: '4:30 - 7:30 PM', title: 'Seiler Sponsored Conference Attendee and Customer Appreciation Cookout', speaker: '', type: 'main', room: 'Kilbourne Fireman\'s Park' },
 ],
 'Wednesday': [
-  { time: '7:00 AM', title: 'Breakfast', speaker: '', type: 'break' },
-  { time: '8:00 or 9:15 AM', title: 'Electric Vehicle Safety for First Responders', speaker: 'Breakout - Jeff Gross', type: 'breakout' },
-  { time: '8:00 or 9:15 AM', title: 'Drone Comparison, Best Fit Methodology and Current Tech Advances', speaker: 'Adam Johnston -Forensic Specialist Seiler Public Safety', type: 'breakout' },
-  { time: '8:00 or 9:15 AM', title: 'Testimony Training - Tips and Common Challenges, From Basic to Expert', speaker: 'AAGs Tara Jenswold and Emily Thompson', type: 'breakout' },
-  { time: '10:30 AM', title: 'Full Session Closing and Release', speaker: 'MATAI and TSRP Representatives', type: 'main' },
+  { time: '7:00 AM', title: 'Breakfast', speaker: '', type: 'break', room: 'Meal Room' },
+  { time: '8:00 or 9:15 AM', title: 'Electric Vehicle Safety for First Responders', speaker: 'Breakout - Jeff Gross', type: 'breakout', room: 'Upper Dells Ballroom' },
+  { time: '8:00 or 9:15 AM', title: 'Drone Comparison, Best Fit Methodology and Current Tech Advances', speaker: 'Adam Johnston -Forensic Specialist Seiler Public Safety', type: 'breakout', room: 'Breakout G & H' },
+  { time: '8:00 or 9:15 AM', title: 'Testimony Training - Tips and Common Challenges, From Basic to Expert', speaker: 'AAGs Tara Jenswold and Emily Thompson', type: 'breakout', room: 'Grand Ballroom' },
+  { time: '10:30 AM', title: 'Full Session Closing and Release', speaker: 'MATAI and TSRP Representatives', type: 'main', room: 'Grand Ballroom' },
 ]
 }
 

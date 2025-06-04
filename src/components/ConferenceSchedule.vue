@@ -48,7 +48,7 @@
                 {{ event.speaker }}
               </div>
               <div class="text-caption q-mt-sm">
-                {{ event.location }}
+                {{ event.room }}
               </div>
             </div>
           </q-card-section>
@@ -103,6 +103,7 @@ const typeColors = {
   TSRP: 'bg-secondary text-white',
   MATAI: 'bg-blue-6 text-white',
   breakout: 'bg-purple-5 text-white',
+  room: 'text-black'
 }
 </script>
 
