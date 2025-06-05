@@ -20,7 +20,7 @@
   <!-- SCHEDULE COMPONENT -->
 
   <section class="text-center">
-    <h4 class="q-pa-sm q-ma-none">IMPORTANT LOCATIONS</h4>
+    <h4 class="q-pa-sm q-ma-none">CONFERENCE HOTEL</h4>
     <q-card class="q-pa-md col-xs-12">
       <h4 class="text-bold">Chula Vista Hotel</h4>
       <h6 class="q-ma-none">1000 Chula Vista Pkwy, Wisconsin Dells, WI 53965</h6>
