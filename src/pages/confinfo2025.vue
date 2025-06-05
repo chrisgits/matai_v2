@@ -60,8 +60,6 @@
           <br>
           <ul>
             <li>Joint Conference with Wisconsin AG Office, TSRP and regional Motor Vehicle Homicide Investigators</li>
-            <li>Main presentations for both groups + breakout sessions on numerous tech topics!</li>
-            <li>Keep an eye out on this page for more updates and presenter information.</li>
             <li>Great family destination with HUGE waterpark and area activities</li>
           </ul>
           <h6 class="q-pa-none">Attendees that are ACTAR accredited can earn approximately <span class="text-red">18 credits</span> (pending final approval from ACTAR and our schedule) for this conference if they login to each session available to them. These credits are <span class="text-bold">NOT</span> automatically awarded by registering for the conference. Please see <a href="http://www.actar.org">ACTAR</a> website for more information!</h6>
@@ -183,7 +181,7 @@ const presentations = {
   { time: '12:30 PM', title: 'LUNCH PROVIDED', speaker: '', type: 'break', room: 'Meal Room' },
   { time: '1:30 PM', title: 'EDR Updates', speaker: 'Jon Northrup', type: 'main', room: 'Grand Ballroom' },
   { time: '3:30 PM', title: 'Afternoon Break', speaker: '', type: 'break', room: 'Entry Area'  },
-  { time: '3:45 PM', title: 'Panel Discussion - TECH - FROM SCENE TO COURTROOM - How Does Data Collection Translate to a Prosecutable Case?', speaker: 'AAG Tara Jenswold. AAG Emily Thompson, Chris Mannel, Dave Hallman, Chris Starrett, Jon Northrop', type: 'main', room: 'Grand Ballroom' }
+  { time: '3:45 PM', title: 'Panel Discussion - Technology: From Scene to Courtroom: Effective Presentation of Tech Evidence in Court', speaker: 'AAG Tara Jenswold. AAG Emily Thompson, Chris Mannel, Dave Hallman, Chris Starrett, Jon Northrop', type: 'main', room: 'Grand Ballroom' }
 ],
 'Tuesday': [
   { time: '7:00 AM', title: 'Breakfast', speaker: '', type: 'main', type: 'break', room: 'Meal Room' },
