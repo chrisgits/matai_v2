@@ -1,19 +1,37 @@
 <template>
-  <q-banner dense inline-actions class=" col-xs-12 text-white text-center bg-green">
-    2025 CONFERENCE
+  <q-banner dense inline-actions class=" col-xs-12 text-black text-bold text-center bg-orange">
+    <h5 class="q-ma-none">2025 CONFERENCE is LIVE!</h5>
   </q-banner>
-  <div class="row justify-center items-start q-gutter-md">
+  <div class="justify-center items-start">
     <q-card class="q-pa-xs" flat>
       <div class="row text-center justify-center">
-        <!-- <div class="text-h2 text-center q-mt-sm q-mb-xs"><p>2022 Conference is <span class="text-green text-bold">LIVE!</span></p></div> -->
         <div class="col-xs-12 col-6 lt-sm">
           <q-img fit="contain" width="100%" class="q-pa-sm q-ma-md" src="../assets/2025_Conf_Splash.jpg"/>
         </div>
         <div class="col-xs-12 col-6 gt-xs">
-          <q-img fit="contain" width="100%" class="q-pa-sm q-ma-md" src="../assets/2025_Conf_Logo.png"/>
+          <q-img fit="contain" width="40%" class="q-pa-sm q-ma-md" src="../assets/2025_Conf_Logo.png"/>
         </div>
       </div>
-      <q-card-section>
+    </q-card>
+  </div>
+
+  <!-- SCHEDULE COMPONENT -->
+  <ConferenceSchedule :schedule-data="presentations" />
+  <!-- SCHEDULE COMPONENT -->
+
+  <section class="text-center">
+    <h4 class="q-pa-sm q-ma-none">IMPORTANT LOCATIONS</h4>
+    <q-card class="q-pa-md col-xs-12">
+      <h4 class="text-bold">Chula Vista Hotel</h4>
+      <h6 class="q-ma-none">1000 Chula Vista Pkwy, Wisconsin Dells, WI 53965</h6>
+      <h5 class="q-ma-xs">+16086783119</h5>
+      <div class="q-pa-md">
+        <q-list bordered>
+          <q-item>MATAI Conference Contact</q-item>
+          <q-item>Chris Mannel - MATAI VP - 531-444-9348</q-item>
+        </q-list>
+      </div>
+            <q-card-section>
         <h6 class="q-ma-none q-pa-none">Printable Schedule</h6>
       </q-card-section>
 
@@ -41,27 +59,6 @@
           />
       </div>
     </q-card>
-    <!-- <q-banner dense inline-actions class=" col-xs-12 text-white text-center">
-      <q-img fit="contain" class="q-pa-none q-ma-none" src="../assets/Prairie_Conf_Map.png"/>
-    </q-banner> -->
-    <!-- SCHEDULE COMPONENT -->
-    <ConferenceSchedule :schedule-data="presentations" />
-    <!-- SCHEDULE COMPONENT -->
-
-  </div>
-  <section class="text-center">
-    <h4 class="q-pa-sm q-ma-none">IMPORTANT LOCATIONS</h4>
-    <q-card class="q-pa-md col-xs-12">
-      <h4 class="text-bold">Chula Vista Hotel</h4>
-      <h6 class="q-ma-none">1000 Chula Vista Pkwy, Wisconsin Dells, WI 53965</h6>
-      <h5 class="q-ma-xs">+16086783119</h5>
-      <div class="q-pa-md">
-        <q-list bordered>
-          <q-item>MATAI Conference Contact</q-item>
-          <q-item>Chris Mannel - MATAI VP - 531-444-9348</q-item>
-        </q-list>
-      </div>
-    </q-card>
     <br>
   </section>
   <br><br>
@@ -74,7 +71,7 @@
           <h3 class="q-ma-none text-red text-bold">Attention!</h3>
           <p>For attendees to receive credit for ACTAR CEUs for this conference you <span class="text-bold text-red">MUST</span> download the i-Attend app for your device and check in to <span class="text-bold">EACH</span> session you attend with the QR code available at the entrance. This is a change and process implemented by ACTAR. Please visit <a href="http://www.actar.org/ceu/earning">www.actar.org/ceu/earning</a> for the details of this change.</p>
           <p>For your convenience here is the <a href="https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1b0333fe-f7a7-4cbd-a61a-ae900137cf2b">link</a> to the i-Attend video instructions for the app. If you would like the PDF instructions download it <a href="https://files.matai.org/public/i-attend.pdf">here</a>.</p>
-          <h4 class="text-center text-deep-orange text-bold">18 credit hours available IF you login to each session as directed.</h4>
+          <h4 class="text-center text-deep-orange text-bold">Credit hours available IF you login to each session as directed.</h4>
         </div>
         <q-card-actions class="col-xs-12 col-sm-6">
           <q-btn
