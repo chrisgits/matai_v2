@@ -49,9 +49,8 @@
                     <div class="text-h2 text-bold">TECH IN RECON</div>
                     <div class="text-h5">June 9 - 11, 2025</div>
                     <div class="text-h6 q-mb-md ">Wisconsin Dells, WI</div>
-                    <div class="text-h5 text-bold">Updated Conference Info Added!</div>
                     <br>
-                    <div class="text-h6 text-bold text-red">We are excited to announce our speakers and topics! Please check out the conference info page and see the latest updates!</div>
+                    <div class="text-h4 text-bold text-red">Starts this weekend!</div>
                     <br>
                     <!-- <div class="text-h5 text-bold">$500/ MEMBERS $550/ Non-members</div> -->
                     <br>
@@ -59,20 +58,13 @@
                     <div class="text-h5 text-bold">Sunday June 8, 2025</div>
                     <q-card-section>
                       <q-btn
-                        href="https://momentum.matai.org/collect/description/479287-q-2025-matai-conference-registration-wisconsin-dells-wi"
                         unelevated
-                        class="q-ma-md q-px-lg q-pa-md"
-                        color="green"
-                        label="REGISTRATION IS OPEN"
-                        text-color="white"
-                      />
-                      <q-btn
-                        href="/confinfo"
-                        unelevated
-                        class="q-ma-md q-px-lg q-pa-md text-bold"
+                        to="/conflive"
+                        class="q-py-xs q-px-sm q-ml-sm text-black"
                         color="accent"
-                        label="conf info"
-                        text-color="black"
+                        label="conf live!"
+                        size="lg"
+                        style="border: black 4px solid"
                       />
                     </q-card-section>
 

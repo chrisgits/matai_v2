@@ -1,7 +1,18 @@
 <template>
-  <q-banner dense inline-actions class=" col-xs-12 text-black text-bold text-center bg-orange">
+  <q-banner dense inline-actions class=" col-xs-12 text-white text-bold text-center bg-green">
     <h5 class="q-ma-none">2025 CONFERENCE is LIVE!</h5>
   </q-banner>
+
+  <div class="justify-center items-start">
+    <q-card class="q-pa-xs" flat>
+      <div class="row text-center justify-center">
+        <div class="col-12 q-px-lg bg-amber">
+          <h6>Conference registration will be held in the conference center lobby/entry area. Any urgent conference updates will be posted on this page so check back when you can! We will see everyone Monday morning! Good luck to all ACTAR exam takers!</h6>
+        </div>
+      </div>
+    </q-card>
+  </div>
+
   <div class="justify-center items-start">
     <q-card class="q-pa-xs" flat>
       <div class="row text-center justify-center">
@@ -43,7 +54,7 @@
           size="lg"
           color="green"
           text-color="white"
-          label="CONF SCHEDULE PDF"
+          label="CONF SCHEDULE and FACILITY MAP PDF"
         />
       </q-card-actions>
       <div class="row justify-center q-ma-none q-pa-sm">
@@ -189,19 +200,20 @@ const presentations = {
   { time: '12:30 PM', title: 'LUNCH PROVIDED', speaker: '', type: 'break', room: 'Meal Room' },
   { time: '1:30 PM', title: 'EDR Updates', speaker: 'Jon Northrup', type: 'main', room: 'Grand Ballroom' },
   { time: '3:30 PM', title: 'Afternoon Break', speaker: '', type: 'break', room: 'Entry Area'  },
-  { time: '3:45 PM', title: 'Panel Discussion - TECH - FROM SCENE TO COURTROOM - How Does Data Collection Translate to a Prosecutable Case?', speaker: 'AAG Tara Jenswold. AAG Emily Thompson, Chris Mannel, Dave Hallman, Chris Starrett, Jon Northrop', type: 'main', room: 'Grand Ballroom' }
+  { time: '3:45 PM', title: 'Panel Discussion - Technology: From Scene to Courtroom: Effective Presentation of Tech Evidence in Court', speaker: 'AAG Tara Jenswold. AAG Emily Thompson, Chris Mannel, Dave Hallman, Chris Starrett, Jon Northrop', type: 'main', room: 'Grand Ballroom' }
 ],
 'Tuesday': [
   { time: '7:00 AM', title: 'Breakfast', speaker: '', type: 'main', type: 'break', room: 'Meal Room' },
   { time: '8:00 AM', title: 'Identifying Counterfeit & Non-OEM Airbags in Crash Investigations with Case Study', speaker: 'Thomas Nichols – Global Brand Protection Specialist, General Motors and Automotive Anti-Counterfeiting Council and Thomas Erdmann – Forensic Specialist Seiler Public Safety', type: 'main', room: 'Grand Ballroom' },
-  { time: '10:00 AM', title: 'Morning Break', speaker: '', type: 'break', room: ''  },
+  { time: '10:00 AM', title: 'Morning Break', speaker: '', type: 'break', room: 'Entry Area'  },
   { time: '10:15 AM',title: 'I\'m at the Crash, What Do I Need? Gathering Evidence and Preparing for Potential Prosecution', speaker: 'AAG Tara Jenswold, AAG Emily Thompson, Trooper Tracy Drager – Wisconsin State Patrol and Deputy Tim Dexter - Washington County Sheriff’s Office', type: 'TSRP', room: 'Grand Ballroom'},
   { time: '10:15 AM',title: 'Sketchup 3D Modeling for Crash Recon', speaker: 'MATAI Breakout - Bryce Adams', type: 'MATAI', room: 'Upper Dells Ballroom' },
   { time: '12:30 PM', title: 'LUNCH PROVIDED', speaker: '', type: 'break', room: 'Meal Room'  },
   { time: '1:15 or 2:30 PM', title: 'Video Analysis through Axon Software and Case Study', speaker: 'Special Agent Justin Bender – Wisconsin DCI- and Tilo Voitel – Denver Metro Forensics LLC', type: 'breakout', room: 'Upper Dells Ballroom' },
   { time: '1:15 or 2:30 PM', title: 'It\'s Not Just Texting Anymore: What Can You Get From the Phone?', speaker: 'AAG Tara Jenswold and AAG Emily Thompson and Detective Jeff Nocchi – Eau Claire County Sheriff\’s Office', type: 'breakout', room: 'Grand Ballroom' },
   { time: '1:15 or 2:30 PM', title: 'Using Tech to Leverage Fundamental Evidence Collection at Crash Scenes and Creating Deliverables for Court ', speaker: 'Lt. Hunter Martin, Kentucky State Police', type: 'breakout', room: 'Breakout G & H' },
-  { time: '1:15 or 2:30 PM', title: 'WSP - Avoiding Spoilation of Electronic Evidence in CMV Crashes', speaker: 'Inspector Ryan Schultz and Inspector Colton Fields – Wisconsin State Patrol', type: 'breakout', room: 'Breakout I' }
+  { time: '1:15 or 2:30 PM', title: 'WSP - Avoiding Spoilation of Electronic Evidence in CMV Crashes', speaker: 'Inspector Ryan Schultz and Inspector Colton Fields – Wisconsin State Patrol', type: 'breakout', room: 'Breakout I' },
+  { time: '4:30 - 7:30 PM', title: 'Seiler Sponsored Conference Attendee and Customer Appreciation Cookout', speaker: '', type: 'main', room: 'Kilbourne Fireman\'s Park' },
 ],
 'Wednesday': [
   { time: '7:00 AM', title: 'Breakfast', speaker: '', type: 'break', room: 'Meal Room' },
