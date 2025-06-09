@@ -72,8 +72,8 @@
     </q-card>
     <br>
   </section>
-  <br><br>
   <section>
+  <br><br>
     <div class="row justify-center" id="actar">
         <div class="col-xs-4 col-sm-3 q-pa-md">
           <q-img fit="contain" width="100%" class="q-pa-sm q-mt-lg gt-xs" src="../assets/actar.png"/>
@@ -109,9 +109,7 @@
           />
         </q-card-actions>
       </div>
-  </section>
   <!-- social media links -->
-  <section>
     <q-card class="q-pa-md">
       <h5 class="text-bold">SOCIAL MEDIA / LINKS</h5>
       <q-card-actions class="row justify-center">
@@ -220,6 +218,7 @@ const presentations = {
   { time: '8:00 or 9:15 AM', title: 'Electric Vehicle Safety for First Responders', speaker: 'Breakout - Jeff Gross', type: 'breakout', room: 'Upper Dells Ballroom' },
   { time: '8:00 or 9:15 AM', title: 'Drone Comparison, Best Fit Methodology and Current Tech Advances', speaker: 'Adam Johnston -Forensic Specialist Seiler Public Safety', type: 'breakout', room: 'Breakout G & H' },
   { time: '8:00 or 9:15 AM', title: 'Testimony Training - Tips and Common Challenges, From Basic to Expert', speaker: 'AAGs Tara Jenswold and Emily Thompson', type: 'breakout', room: 'Grand Ballroom' },
+  { time: '8:00 or 9:15 AM', title: 'ScenePro - Crash Reconstruction Test Hardware/Software', speaker: 'Andy Shelton - Ret. Lt. Tennessee Highway Patrol', type: 'breakout', room: 'Breakout I' },
   { time: '10:30 AM', title: 'Full Session Closing and Release', speaker: 'MATAI and TSRP Representatives', type: 'main', room: 'Grand Ballroom' },
 ]
 }
