@@ -7,7 +7,7 @@
     <q-card class="q-pa-xs" flat>
       <div class="row text-center justify-center">
         <div class="col-12 q-px-lg bg-amber">
-          <h6>Conference registration will be held in the conference center lobby/entry area. Any urgent conference updates will be posted on this page so check back when you can! We will see everyone Monday morning! Good luck to all ACTAR exam takers!</h6>
+          <h6>Welcome to Wisconsin Dells! No current urgent info!</h6>
         </div>
       </div>
     </q-card>
@@ -72,8 +72,7 @@
     </q-card>
     <br>
   </section>
-  <section>
-  <br><br>
+  <section class="actar">
     <div class="row justify-center" id="actar">
         <div class="col-xs-4 col-sm-3 q-pa-md">
           <q-img fit="contain" width="100%" class="q-pa-sm q-mt-lg gt-xs" src="../assets/actar.png"/>
