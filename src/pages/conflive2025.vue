@@ -198,7 +198,7 @@ const presentations = {
   { time: '12:30 PM', title: 'LUNCH PROVIDED', speaker: '', type: 'break', room: 'Meal Room' },
   { time: '1:30 PM', title: 'EDR Updates', speaker: 'Jon Northrup', type: 'main', room: 'Grand Ballroom' },
   { time: '3:30 PM', title: 'Afternoon Break', speaker: '', type: 'break', room: 'Entry Area'  },
-  { time: '3:45 PM', title: 'Panel Discussion - Technology: From Scene to Courtroom: Effective Presentation of Tech Evidence in Court', speaker: 'AAG Tara Jenswold. AAG Emily Thompson, Chris Mannel, Dave Hallman, Chris Starrett, Jon Northrop', type: 'main', room: 'Grand Ballroom' }
+  { time: '3:45 PM', title: 'Panel Discussion - Technology: From Scene to Courtroom: Effective Presentation of Tech Evidence in Court', speaker: 'AAG Tara Jenswold. AAG Emily Thompson, Chris Mannel, Chris Starrett, Jon Northrop', type: 'main', room: 'Grand Ballroom' }
 ],
 'Tuesday': [
   { time: '7:00 AM', title: 'Breakfast', speaker: '', type: 'main', type: 'break', room: 'Meal Room' },
