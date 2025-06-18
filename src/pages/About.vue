@@ -54,11 +54,15 @@
       <div class="col-12">
         <h5>Contact MATAI</h5>
         <h6>Secretary - Charles Tassoul</h6>
+        <h6><a href="mailto:secretary@matai.org">secretary@matai.org</a></h6>
         <h6>Treasure - John Mobley</h6>
+        <h6><a href="mailto:treasurer@matai.org">treasurer@matai.org</a></h6>
         <h6>MATAI Mailing Address</h6>
         <h6>PO Box 153</h6>
         <h6>Homer, NE 68030</h6>
         <h6><a href="tel:920-475-2975">920-475-2975</a></h6>
+
+        <h5 class="q-my-none text-bold q-mt-md">General Inquiries</h5>
         <h6><a href="mailto:info@matai.org">info@matai.org</a></h6>
         <br>
       </div>
@@ -106,24 +110,24 @@ export default defineComponent({
     return {
       boardmembers: [
         {
-          name: 'Chris Starrett',
-          title: 'President',
-          email: 'mailto: starrett@dps.state.ia.us',
-          phone1: '641-990-4245',
-          phone2: '',
-          yos: '2020',
-          photo: '/img/starrett.jpg',
-          bio: 'This is bio text if needed',
-          class: 'bg-officer'
-        },
-        {
           name: 'Chris Mannel',
-          title: 'Vice President',
-          email: 'mailto: chris@nar-llc.com',
+          title: 'President',
+          email: 'mailto: admin@matai.org',
           phone1: '531-444-9348',
           phone2: '',
           yos: '2022',
           photo: '/img/mannel.jpg',
+          bio: 'This is bio text if needed',
+          class: 'bg-officer'
+        },
+        {
+          name: 'Joseph Andersen',
+          title: 'Vice President',
+          email: 'mailto: joeandersen14@gmail.comtravel',
+          phone1: '402-250-5999',
+          phone2: '',
+          yos: '2024',
+          photo: '/img/andersen.jpg',
           bio: 'This is bio text if needed',
           class: 'bg-officer'
         },
@@ -180,16 +184,6 @@ export default defineComponent({
           bio: 'This is bio text if needed'
         },
         {
-          name: 'Joseph Andersen',
-          title: 'Board Member',
-          email: 'mailto: 90917@kearneygov.org',
-          phone1: '402-250-5999',
-          phone2: '',
-          yos: '2024',
-          photo: '/img/andersen.jpg',
-          bio: 'This is bio text if needed'
-        },
-        {
           name: 'Richard D. Yoder',
           title: 'Board Member',
           email: 'mailto: RDYoder117@msn.com',
@@ -197,6 +191,16 @@ export default defineComponent({
           phone2: '',
           yos: '1987',
           photo: '/img/yoder.jpg',
+          bio: 'This is bio text if needed'
+        },
+        {
+          name: 'Michael Marquardt',
+          title: 'Board Member',
+          email: 'mailto: mmarquardt@seilerinst.com>',
+          phone1: '608-720-9772',
+          phone2: '',
+          yos: '1987',
+          photo: '',
           bio: 'This is bio text if needed'
         },
         {

@@ -39,40 +39,39 @@
             <div class="text-uppercase text-h3 q-pa-lg">upcoming events</div>
           </div>
           <div class="col-12 col-md-6 q-pa-sm">
-            <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
+            <!-- upcoming events here -->
+
+            <!-- 2026 Conference - 40 year anniversary -->
+              <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-4 gt-xs">
-                    <img style="width: 100%" class="q-pa-sm" src="../assets/2025_Conf_Logo.png">
+                    <img style="width: 100%" class="q-pa-sm" src="../assets/MATAI_Circle@2x.png">
                   </q-card-section>
                   <q-card-section class="col-xs-12 col-sm-8">
-                    <div class="text-h5 text-bold text-red-10">2025 MATAI CONFERENCE</div>
-                    <div class="text-h2 text-bold">TECH IN RECON</div>
-                    <div class="text-h5">June 9 - 11, 2025</div>
-                    <div class="text-h6 q-mb-md ">Wisconsin Dells, WI</div>
+                    <div class="text-h5 text-bold text-red-10">2026 MATAI CONFERENCE</div>
+                    <div class="text-h2 text-bold">MATAI 40th Anniversary!</div>
+                    <div class="text-h5">TBD</div>
+                    <div class="text-h6 q-mb-md ">The BOD will be in discussions with conference hosts and will post information here when dates and events are determined! Be on the lookout for email announcments as well!</div>
                     <br>
-                    <div class="text-h4 text-bold text-red">Starts this weekend!</div>
+                    <!-- <div class="text-h4 text-bold text-red">Thank you for attending!</div> -->
                     <br>
                     <!-- <div class="text-h5 text-bold">$500/ MEMBERS $550/ Non-members</div> -->
                     <br>
-                    <div class="text-h5 text-bold text-blue">ACTAR Exam Preceeding the Conference!</div>
-                    <div class="text-h5 text-bold">Sunday June 8, 2025</div>
-                    <q-card-section>
+                    <!-- <q-card-section>
                       <q-btn
                         unelevated
-                        to="/conflive"
+                        to="/confinfo"
                         class="q-py-xs q-px-sm q-ml-sm text-black"
                         color="accent"
-                        label="conf live!"
+                        label="conf info"
                         size="lg"
-                        style="border: black 4px solid"
                       />
-                    </q-card-section>
+                    </q-card-section> -->
 
                   </q-card-section>
                 </div>
               </q-card>
-
-            </div>
+          </div>
           <!-- training cards -->
           <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
           <div class="q-pa-md">
@@ -128,6 +127,38 @@
               <div class="text-uppercase text-h3 q-pa-lg">past events</div>
             </div>
             <div class="col-12 col-md-6 q-pa-md items-start q-gutter-md">
+
+            <!-- 2025 Joint Conf -->
+              <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
+                <div class="flex row">
+                  <q-card-section class="col-4 gt-xs">
+                    <img style="width: 100%" class="q-pa-sm" src="../assets/2025_Conf_Logo.png">
+                  </q-card-section>
+                  <q-card-section class="col-xs-12 col-sm-8">
+                    <div class="text-h5 text-bold text-red-10">2025 MATAI CONFERENCE</div>
+                    <div class="text-h2 text-bold">TECH IN RECON</div>
+                    <div class="text-h5">June 9 - 11, 2025</div>
+                    <div class="text-h6 q-mb-md ">Wisconsin Dells, WI</div>
+                    <br>
+                    <div class="text-h4 text-bold text-red">Thank you for attending!</div>
+                    <br>
+                    <!-- <div class="text-h5 text-bold">$500/ MEMBERS $550/ Non-members</div> -->
+                    <br>
+                    <q-card-section>
+                      <q-btn
+                        unelevated
+                        to="/confinfo"
+                        class="q-py-xs q-px-sm q-ml-sm text-black"
+                        color="accent"
+                        label="conf info"
+                        size="lg"
+                      />
+                    </q-card-section>
+
+                  </q-card-section>
+                </div>
+              </q-card>
+              <!-- 2024 Fall Conference -->
               <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
                   <q-card-section class="col-4 gt-xs">
@@ -138,12 +169,7 @@
                     <div class="text-h2 text-bold">ATV Topics and Crash Testing</div>
                     <div class="text-h5">September 16 - 18, 2024</div>
                     <div class="text-h6 q-mb-md ">Newton, IA</div>
-                    <div class="text-h5 text-bold">COURSE REGISTRATION</div>
-                    <br>
-                    <div class="text-h5 text-bold">$500/ MEMBERS $550/ Non-members</div>
-                    <br>
-                    <div class="text-h5 text-bold text-red">ACTAR Exam Preceeding the Conference!</div>
-                    <div class="text-h5 text-bold">Sunday September 15, 2024</div>
+                    <div class="text-h4 text-bold text-red">Thank you for attending!</div>
                     <q-card-section>
                       <q-btn
                         href="/confinfo"
@@ -170,6 +196,7 @@
                     <div class="text-h2 text-bold">BACK TO THE BASICS</div>
                     <div class="text-h5">September 18 - 20, 2023</div>
                     <div class="text-h6 ">Des Moines, IA</div>
+                    <div class="text-h4 text-bold text-red">Thank you for attending!</div>
                     <q-card-section>
                       <q-btn
                       to="/confinfo"
