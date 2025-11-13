@@ -44,29 +44,47 @@
             <!-- 2026 Conference - 40 year anniversary -->
               <q-card class="flex justify-center q-pa-md my-card shadow-2 rounded-borders">
                 <div class="flex row">
-                  <q-card-section class="col-4 gt-xs">
-                    <img style="width: 100%" class="q-pa-sm" src="../assets/MATAI_Circle@2x.png">
+                  <q-card-section class="col-6 gt-xs">
+                    <img style="width: 100%" class="q-pa-sm" src="../assets/Conf_40@2x.png">
+                    <img style="width: 100%" class="q-pa-sm" src="../assets/40th_v1@2x.png">
+                    <img style="width: 100%" class="q-pa-sm" src="../assets/nodak_sp.png">
                   </q-card-section>
-                  <q-card-section class="col-xs-12 col-sm-8">
+                  <q-card-section class="col-xs-12 col-sm-6">
                     <div class="text-h5 text-bold text-red-10">2026 MATAI CONFERENCE</div>
-                    <div class="text-h2 text-bold">MATAI 40th Anniversary!</div>
-                    <div class="text-h5">TBD</div>
-                    <div class="text-h6 q-mb-md ">The BOD will be in discussions with conference hosts and will post information here when dates and events are determined! Be on the lookout for email announcments as well!</div>
+                    <div class="text-h6">Hosted by:</div>
+                    <div class="text-h4">North Dakota State Patrol</div>
+                    <div class="text-h3">Fargo, North Dakota</div>
+                    <div class="text-h2 text-bold">MATAI 40th</div>
+                    <div class="text-h4 text-bold">June 8 - 10, 2026</div>
+                    <div class="text-h3 q-mb-md ">Heavy Truck Topics</div>
+                    <div class="text-h6">Tentative Topics (to be finalized soon!)</div>
+                    <div class="text-h6"><span class="text-red-10 text-bold">LIVE CRASH TESTING - HEAVY TRUCK UNDERRIDE EVENTS/ROTATIONAL ANALYSIS</span></div>
+                    <div class="text-h6">HEAVY TRUCK SCENE EVIDENCE</div>
+                    <div class="text-h6">FEDERAL REGULATIONS</div>
+                    <div class="text-h6">HVEDR / DASH CAMS / GPS</div>
+                    <div class="text-h6">HEAVY TRUCK BRAKING SYSTEM</div>
+                    <div class="text-h6">HEAVY TRUCK POST-CRASH INSPECTIONS (HANDS-ON)</div>
+                    <div class="text-h6">HEAVY TRUCK BRAKING SYSTEMS (OVERVIEW)</div>
+                    <div class="text-h6">HEAVY TRUCK BRAKING EFFICIENCY CALCULATIONS</div>
+                    <div class="text-h6">ROTATIONAL MECHANICS (TRAILER SIDE IMPACTS) - <span class="text-red-10">JOHN DAILY</span></div>
+                    <div class="text-h6">CALCULATING SPEEDS IN UNDERRIDES - <span class="text-red-10">SCOTT SKINNER</span></div>
+                    <div class="text-h6">LIVE CRASH TEST DATA REVIEW - <span class="text-red-10">HALLMAN CRASH TEAM</span></div>
+
                     <br>
-                    <!-- <div class="text-h4 text-bold text-red">Thank you for attending!</div> -->
+                    <!-- <div class="text-h4 text-bold text-red"></div> -->
                     <br>
                     <!-- <div class="text-h5 text-bold">$500/ MEMBERS $550/ Non-members</div> -->
                     <br>
-                    <!-- <q-card-section>
+                    <q-card-section>
                       <q-btn
                         unelevated
-                        to="/confinfo"
+                        to="/"
                         class="q-py-xs q-px-sm q-ml-sm text-black"
-                        color="accent"
-                        label="conf info"
+                        color="grey"
+                        label="conf details coming soon!"
                         size="lg"
                       />
-                    </q-card-section> -->
+                    </q-card-section>
 
                   </q-card-section>
                 </div>
