@@ -151,7 +151,6 @@ export default defineComponent({
           yos: '2020',
           photo: '/img/mobley.jpg',
           bio: 'This is bio text if needed',
-          class: 'bg-officer'
         },
         {
           name: 'Drew Bolzer',
@@ -201,6 +200,16 @@ export default defineComponent({
           phone2: '',
           yos: '1987',
           photo: '',
+          bio: 'This is bio text if needed'
+        },
+                {
+          name: 'Karl Boehm',
+          title: 'Board Member',
+          email: 'mailto: kboehm@casscountyne.gov>',
+          phone1: '',
+          phone2: '',
+          yos: '1987',
+          photo: '/img/boehm.jpg',
           bio: 'This is bio text if needed'
         },
         {
