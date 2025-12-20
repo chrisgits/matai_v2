@@ -17,11 +17,11 @@
   </q-banner> -->
   <div class="row justify-center">
     <div class="q-pa-lg col-12">
-      <img style="width: 100%" class="q-pa-sm" src="../assets/2026_Conf_Splash.jpg">
+      <img style="width: 100%" class="q-pa-sm" src="../assets/2025_Conf_Splash.jpg">
     </div>
     <q-card class="q-pa-xs flex row" flat>
       <q-card-section class="col-sm-4 col-xs-12 gt-xs">
-        <img style="width: 100%" class="q-pa-sm" src="../assets/2026_Conf_Logo.png">
+        <img style="width: 100%" class="q-pa-sm" src="../assets/2025_Conf_Logo.png">
           <q-card-section class="text-black text-center">
             <h6>In Association with:</h6>
             <!-- <img style="width: 100%" class="q-pa-sm" src="../assets/seilerPS.png"> -->

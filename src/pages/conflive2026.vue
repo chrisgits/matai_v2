@@ -17,10 +17,10 @@
     <q-card class="q-pa-xs" flat>
       <div class="row text-center justify-center">
         <div class="col-xs-12 col-6 lt-sm">
-          <q-img fit="contain" width="100%" class="q-pa-sm q-ma-md" src="../assets/2026_Conf_Splash.jpg"/>
+          <q-img fit="contain" width="100%" class="q-pa-sm q-ma-md" src="../assets/2025_Conf_Splash.jpg"/>
         </div>
         <div class="col-xs-12 col-6 gt-xs">
-          <q-img fit="contain" width="40%" class="q-pa-sm q-ma-md" src="../assets/2026_Conf_Logo.png"/>
+          <q-img fit="contain" width="40%" class="q-pa-sm q-ma-md" src="../assets/2025_Conf_Logo.png"/>
         </div>
       </div>
     </q-card>
