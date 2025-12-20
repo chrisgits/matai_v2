@@ -6,7 +6,7 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/Index.vue') },
       { path: '/Contact', component: () => import('pages/Contact.vue') },
-      { path: '/confinfo', component: () => import('pages/confinfo2025.vue') },
+      { path: '/confinfo', component: () => import('pages/confinfo2026.vue') },
       { path: '/traininginfo', component: () => import('pages/TrainingPage.vue') },
       { path: '/members', component: () => import('pages/Members.vue'), meta: {requiresAuth: false} },
       { path: '/applicants', component: () => import('pages/applicants.vue') },
@@ -16,7 +16,7 @@ const routes = [
       { path: '/memberlist', component: () => import('pages/MemberList.vue') },
       { path: '/join', component: () => import('pages/join.vue') },
       { path: '/cta', component: () => import('pages/cta.vue') },
-      { path: '/conflive', component: () => import('src/pages/conflive2025.vue') },
+      { path: '/conflive', component: () => import('src/pages/conflive2026.vue') },
       { path: '/newmemberapp', component: () => import('pages/newApp.vue') },
       { path: '/recontools', component: () => import('pages/ReconTools.vue') },
 

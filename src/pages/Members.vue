@@ -1,5 +1,5 @@
 <template>
-  <q-page class="q-pa-md">
+  <q-page class="q-pa-md text-center">
     <h4>Welcome back!</h4>
     <h5>The members platform is LIVE! Once you have gone through the <a href="https://momentum.matai.org/collect/description/228963-r-matai-member-renewal">renewal</a> process you can login below:</h5>
     <q-btn

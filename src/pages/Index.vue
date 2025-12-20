@@ -23,13 +23,6 @@
           label="learn more"
           text-color="black"
         />
-        <q-btn
-          to="/members"
-          outline
-          class="bg-primary q-ml-xs q-py-md q-px-lg"
-          color="white"
-          label="members"
-        />
       </div>
     </div>
 

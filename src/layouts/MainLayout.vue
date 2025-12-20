@@ -19,8 +19,7 @@
           color="green"
           label="join now"
           text-color="white"
-        />
-          <!-- <q-btn to="/cta" class="q-py-sm q-px-sm" flat color="deep-orange" >CTA</q-btn> -->
+          />
           <!-- <q-btn
             color="green text-black"
             to="/conflive24"
@@ -44,6 +43,14 @@
             color="blue"
             text-color="white"
             label="RENEWALS"
+          />
+          <q-btn
+          to="/members"
+          unelevated
+          class="q-ml-sm q-py-sm q-px-sm"
+          color="primary"
+          label="member login"
+          text-color="white"
           />
           <!-- <q-btn color="green text-black" to="/about" class="q-py-xs q-px-sm q-ml-sm ">About</q-btn> -->
         </div>
