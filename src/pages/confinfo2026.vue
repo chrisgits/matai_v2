@@ -16,12 +16,12 @@
     />
   </q-banner> -->
   <div class="row justify-center">
-    <div class="q-pa-lg col-12">
+    <!-- <div class="q-pa-lg col-12">
       <img style="width: 100%" class="q-pa-sm" src="../assets/2025_Conf_Splash.jpg">
-    </div>
+    </div> -->
     <q-card class="q-pa-xs flex row" flat>
       <q-card-section class="col-sm-4 col-xs-12 gt-xs">
-        <img style="width: 100%" class="q-pa-sm" src="../assets/2025_Conf_Logo.png">
+        <img style="width: 100%" class="q-pa-sm" src="../assets/Conf_40@2x.png">
           <q-card-section class="text-black text-center">
             <h6>In Association with:</h6>
             <!-- <img style="width: 100%" class="q-pa-sm" src="../assets/seilerPS.png"> -->
@@ -53,26 +53,27 @@
         <!-- <div class="text-h5 q-mt-sm q-mb-xs"><span class="text-bold">ACTAR Exam</span> - Sunday September 15, 2024 - Applications for this exam are <span class="text-orange-10 text-bold">OPEN and due by Wednesday July 17, 2024</span> Please see the ACTAR <a href="http://actar.org">website</a> for more information.</div> -->
         <br>
         <br>
-        <div class="text-h4 text-red">UPDATED TOPICS / SPEAKERS BELOW!</div>
+        <!-- <div class="text-h4 text-red">UPDATED TOPICS / SPEAKERS BELOW!</div> -->
         <br>
         <div class="text-black text-h6">
-          This conference will be focused on heavy truck/cmv involved crash investigations.
+          This conference will be focused on heavy truck/CMV involved crash investigations.
           <br>
           <ul>
             <li>Celebrating the MATAI organization's 40th Anniversary!</li>
-            <li>We don't have Far2go to make it another 40 years!</li>
+            <li>We don't have Far2Go to make it another 40 years!</li>
           </ul>
           <h6 class="q-pa-none">Attendees that are ACTAR accredited can earn approximately <span class="text-red">20 credits</span> (pending final approval from ACTAR and our schedule) for this conference if they login to each session available to them. These credits are <span class="text-bold">NOT</span> automatically awarded by registering for the conference. Please see <a href="http://www.actar.org">ACTAR</a> website for more information!</h6>
         </div>
         <div class="text-blue text-bold text-h5">Conference Pricing</div>
         <ul>
-          <h5>Early Registration</h5>
-          <h6 class="q-ma-none">$500 for MATAI Members</h6>
-          <h6 class="q-ma-none">$600 for non-members</h6>
-          <h5>Late Registration After April 15th!</h5>
+          <h5 class="q-ma-none">Early Registration</h5>
+          <h6 class="q-ma-none text-blue">$500 for MATAI Members</h6>
+          <h6 class="q-ma-none text-orange-10">$600 for non-members</h6>
+          <h5 class="q-my-sm text-red-10">Late Registration After April 15th!</h5>
           <h6 class="q-ma-none">$650 for non-members</h6>
+          <h6 class="text-bold text-red-10 q-ma-none">Hotel Conference Room Rate available until May 7th.</h6>
         </ul>
-        <q-btn
+        <!-- <q-btn
             href="https://momentum.matai.org/collect/description/479287-q-2025-matai-conference-registration-wisconsin-dells-wi" target="blank"
             class="q-ml-none q-mr-sm col-xs-12"
             unelevated
@@ -80,35 +81,25 @@
             color="green"
             text-color="dark-grey"
             label="CONF REGISTRATION"
-          />
+          /> -->
         <br>
         <div class="text-blue text-bold text-h5">Hotel Information</div>
         <ul>
-          <li>DoubleTree by Hilton or Homewood Suites</li>
-          <li>Booking at conference rates is OPEN</li>
-          <li class="text-bold">Single Room Rate $98</li>
-          <li class="text-bold">Double Room Rate $129</li>
-          <li class="text-bold text-red">PLEASE CALL HOTEL USING NUMBER BELOW. SPECIAL RATES NOT AVAILABLE THROUGH WEBSITE!</li>
-          <!-- <li class="text-red text-bold">Phone for reservations: <H5 class="q-ma-none"><a href="tel:833-495-4218">833.495.4218</a></H5> </li> -->
-          <li>Booking ID used for room rates</li>
+          <h5 class="q-my-sm">Hilton Garden Inn - Fargo</h5>
+          <h6 class="q-my-sm">Booking at conference rates is NOT OPEN</h6>
+          <h6 class="q-my-sm text-bold">King or Queen Special Rate $115/night</h6>
+          <h6 class="q-my-sm text-bold text-red">PLEASE CALL HOTEL USING NUMBER BELOW. SPECIAL RATES NOT AVAILABLE THROUGH WEBSITE!</h6>
+          <h6 class="q-my-sm text-red text-bold">Phone for reservations: <H5 class="q-ma-none"><a href="tel:701.499.6000">701.499.6000</a></H5> </h6>
+          <h6 class="q-my-sm">Group Name used for Conference room rate: </h6>
             <h6 class="q-ma-none text-bold">???????</h6>
           <!-- <li>We have secured an agreement with the hotel including NO resort fees. Please make sure this is the case in your reservation.</li> -->
         </ul>
-        <!-- <q-btn
-          href="https://chulavistaresort.com/"
-          class="q-my-md col-xs-12"
-          unelevated
-          size="lg"
-          color="green"
-          text-color="dark-gray"
-          label="Chula Vista Hotel Info"
-        /> -->
       </q-card-section>
 
     </q-card>
   </div>
   <!-- CONFERENCE SCHEDULE COMPONENT INSERTED HERE -->
-  <ConferenceSchedule :schedule-data="presentations" />
+  <!-- <ConferenceSchedule :schedule-data="presentations" /> -->
     <!-- turn on actar component once ready -->
   <!-- <actar/> -->
 </template>

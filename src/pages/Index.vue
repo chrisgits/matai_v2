@@ -72,10 +72,11 @@
                     <div class="text-h6">HEAVY TRUCK BRAKING EFFICIENCY CALCULATIONS</div>
                     <!-- <div class="text-h4 text-bold text-red"></div> -->
                     <br>
-                    <div class="text-h6 text-bold">$500/ MEMBERS $600/ Non-members</div>
+                    <div class="text-h6 text-bold">$500/ MEMBERS -- $600/ Non-members</div>
                     <div class="text-h5 text-orange-10 text-bold">Late Registration - After April 15</div>
                     <div class="text-h6 text-bold">$500/ MEMBERS $650/ Non-members</div>
                     <div class="text-h6">Breakfast and Lunch Provided - M - W</div>
+                    <div class="text-h6 text-red-10 q-ma-none">Special Hotel Rate Until May 7th.</div>
                     <br>
                     <div class="text-h3 text bold"><span class="text-bold">ACTAR</span><span class="text-bold text-grey-6">EXAM</span></div>
                     <div class="text-h5">June 7, 2026</div>
@@ -83,12 +84,20 @@
                     <q-card-section>
                       <q-btn
                         unelevated
+                        to="/confinfo"
+                        class="q-py-xs q-px-sm q-my-sm text-black"
+                        color="green"
+                        label="Conf Info"
+                        size="lg"
+                      />
+                      <!-- <q-btn
+                        unelevated
                         to="/"
-                        class="q-py-xs q-px-sm q-ml-sm text-black"
+                        class="q-py-xs q-px-sm q-my-sm text-black"
                         color="grey"
                         label="conf registration coming soon!"
                         size="lg"
-                      />
+                      /> -->
                     </q-card-section>
 
                   </q-card-section>
