@@ -22,10 +22,10 @@
     <q-card class="q-pa-xs flex row" flat>
       <q-card-section class="col-sm-4 col-xs-12 gt-xs">
         <img style="width: 100%" class="q-pa-sm" src="../assets/Conf_40@2x.png">
-          <q-card-section class="text-black text-center">
+          <!-- <q-card-section class="text-black text-center">
             <h6>In Association with:</h6>
-            <!-- <img style="width: 100%" class="q-pa-sm" src="../assets/seilerPS.png"> -->
-            <!-- <q-btn
+            <img style="width: 100%" class="q-pa-sm" src="../assets/seilerPS.png">
+            <q-btn
               unelevated
               to="/conflive24"
               class="q-py-xs q-px-sm q-ml-sm text-black"
@@ -33,8 +33,8 @@
               label="conf live!"
               size="lg"
               style="border: black 4px solid"
-            /> -->
-          </q-card-section>
+            />
+          </q-card-section> -->
       </q-card-section>
 
       <q-card-section class="col-sm-8 col-xs-12">
@@ -72,26 +72,36 @@
           <h5 class="q-my-sm text-red-10">Late Registration After April 15th!</h5>
           <h6 class="q-ma-none">$650 for non-members</h6>
           <h6 class="text-bold text-red-10 q-ma-none">Hotel Conference Room Rate available until May 7th.</h6>
-        </ul>
-        <!-- <q-btn
-            href="https://momentum.matai.org/collect/description/479287-q-2025-matai-conference-registration-wisconsin-dells-wi" target="blank"
+          <q-btn
+            href="https://momentum.matai.org/collect/description/663946-q-2026-matai-conference-registration-fargo-nd" target="blank"
             class="q-ml-none q-mr-sm col-xs-12"
             unelevated
             size="lg"
             color="green"
             text-color="dark-grey"
-            label="CONF REGISTRATION"
-          /> -->
+            label="CONF REGISTRATION OPEN"
+          />
+        </ul>
+
         <br>
-        <div class="text-blue text-bold text-h5">Hotel Information</div>
+        <div class="q-mt-lg text-blue text-bold text-h5">Hotel Information</div>
         <ul>
           <h5 class="q-my-sm">Hilton Garden Inn - Fargo</h5>
-          <h6 class="q-my-sm">Booking at conference rates is NOT OPEN</h6>
+          <h5 class="q-my-sm">Booking at conference rates is <span class="text-green text-bold">OPEN</span></h5>
           <h6 class="q-my-sm text-bold">King or Queen Special Rate $115/night</h6>
-          <h6 class="q-my-sm text-bold text-red">PLEASE CALL HOTEL USING NUMBER BELOW. SPECIAL RATES NOT AVAILABLE THROUGH WEBSITE!</h6>
-          <h6 class="q-my-sm text-red text-bold">Phone for reservations: <H5 class="q-ma-none"><a href="tel:701.499.6000">701.499.6000</a></H5> </h6>
+          <h6 class="q-my-sm text-bold text-red">RATES ALSO AVAILABLE THROUGH THIS LINK ONLY:</h6>
+          <q-btn
+            href="https://www.hilton.com/en/attend-my-event/fargigi-910-5fbe8f8d-c92c-46ad-b2b6-6afbe32d39fa/" target="blank"
+            class="q-ml-none q-mr-sm col-xs-12"
+            unelevated
+            size="lg"
+            color="green"
+            text-color="dark-grey"
+            label="HOTEL GROUP RATE"
+          />
+          <h6 class="q-my-sm text-bold">OR direct phone number for reservations: <H5 class="q-ma-none"><a href="tel:701.499.6000">701.499.6000</a></H5> </h6>
           <h6 class="q-my-sm">Group Name used for Conference room rate: </h6>
-            <h6 class="q-ma-none text-bold">???????</h6>
+            <h5 class="q-ma-none text-bold">MATAI</h5>
           <!-- <li>We have secured an agreement with the hotel including NO resort fees. Please make sure this is the case in your reservation.</li> -->
         </ul>
       </q-card-section>
