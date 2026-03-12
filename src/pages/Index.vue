@@ -1,8 +1,8 @@
 <template>
   <div class="q-px-none">
-    <!-- <div class="q-mt-none q-pb-lg bg-green">
+    <div class="q-mt-none q-pb-lg bg-green">
       <Counter></Counter>
-    </div> -->
+    </div>
     <div id="jumbo" class="q-pa-lg  text-center text-black">
       <h3>MIDWEST ASSOCIATION OF TECHNICAL ACCIDENT INVESTIGATORS</h3>
       <h5 style="color: #1a1a1a">FOR THE ADVANCEMENT OF MOTOR VEHICLE CRASH INVESTIGATION</h5>
@@ -53,8 +53,13 @@
                     <div class="text-h2 text-bold">MATAI 40th</div>
                     <div class="text-h4 text-bold">June 8 - 10, 2026</div>
                     <div class="text-h3 q-mb-md ">Heavy Truck Topics</div>
+
+                    <div class="text-h5 q-mt-sm q-mb-xs text-center">A Special 40th Anniversary Event</div>
+                    <div class="text-h5 q-mt-sm q-mb-xs text-center"><span class="text-red text-bold">GRAND PRIZE</span> Drawing worth over $5,000!</div>
+                    <div class="text-h6 q-mt-sm q-mb-xs text-center">Many other door prize drawings too!</div>
                     <hr>
-                    <div class="text-h6">Tentative Topics and CONFIRMED INSTRUCTORS</div>
+                    <div class="text-h6 text-center">Topics and CONFIRMED INSTRUCTORS</div>
+
                     <br>
                     <div class="text-h4"><span class="text-red-10 text-bold">LIVE CRASH TESTING</span></div>
                     <div class="text-h5"><span class="text-red-10 text-bold">HEAVY TRUCK | UNDERRIDE EVENTS | ROTATIONAL ANALYSIS</span></div>
@@ -77,12 +82,7 @@
                     <div class="text-h6 text-bold">$500/ MEMBERS $650/ Non-members</div>
                     <div class="text-h6">Breakfast and Lunch Provided - M - W</div>
                     <div class="text-h6 text-red-10 q-ma-none">Special Hotel Rate Until May 7th.</div>
-                    <br>
-                    <div class="text-h3 text bold"><span class="text-bold">ACTAR</span><span class="text-bold text-grey-6">EXAM</span></div>
-                    <div class="text-h5">June 7, 2026</div>
-
-                    <q-card-section>
-                      <q-btn
+                        <q-btn
                         unelevated
                         to="/confinfo"
                         class="q-py-xs q-px-sm q-my-sm text-black"
@@ -90,14 +90,22 @@
                         label="Conf Info"
                         size="lg"
                       />
-                      <!-- <q-btn
+                    <h4 class="q-my-sm">VENDORS</h4>
+                    <div class="text-h6 text-bold">VENDOR REGISTRATION OPEN $600</div>
+                      <q-btn
                         unelevated
-                        to="/"
+                        href="https://momentum.matai.org/collect/description/687219-q-2026-matai-conference-vendor-registration"
                         class="q-py-xs q-px-sm q-my-sm text-black"
-                        color="grey"
-                        label="conf registration coming soon!"
+                        color="orange"
+                        label="VENDOR REGISTRATION ONLY"
                         size="lg"
-                      /> -->
+                      />
+                    <br>
+                    <div class="q-mt-lg text-h3 text bold"><span class="text-bold">ACTAR</span><span class="text-bold text-grey-6">EXAM</span></div>
+                    <div class="text-h5">June 7, 2026</div>
+
+                    <q-card-section>
+
                     </q-card-section>
 
                   </q-card-section>
@@ -371,7 +379,7 @@ import Counter from '../components/Counter.vue';
 export default defineComponent({
   name: 'Home',
   components: {
-  //  Counter
+   Counter
 
   }
 })

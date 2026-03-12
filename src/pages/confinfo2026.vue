@@ -48,10 +48,9 @@
         <div class="text-bold text-h5 text-orange-9">June 8 - 10, 2026</div>
         <div class="text-h4 q-mt-sm q-mb-xs">HEAVY TRUCK TOPICS</div>
         <div class="text-h5 q-mt-sm q-mb-xs">Fargo, ND</div>
-        <!-- <div class="text-h5 q-mt-sm q-mb-xs">Hilton Hotels, Fargo</div> -->
-        <!-- <img style="width: 30%" class="q-pa-sm" src="../assets/Chula-Logo.png"> -->
-        <!-- <div class="text-h5 q-mt-sm q-mb-xs"><span class="text-bold">ACTAR Exam</span> - Sunday September 15, 2024 - Applications for this exam are <span class="text-orange-10 text-bold">OPEN and due by Wednesday July 17, 2024</span> Please see the ACTAR <a href="http://actar.org">website</a> for more information.</div> -->
-        <br>
+        <div class="text-h5 q-mt-sm q-mb-xs">To help celebrate our 40th Anniversary Event</div>
+        <div class="text-h5 q-mt-sm q-mb-xs">A Grand Prize Drawing worth over $5,000!</div>
+        <div class="text-h6 q-mt-sm q-mb-xs">Many other door prize drawings too!</div>
         <br>
         <!-- <div class="text-h4 text-red">UPDATED TOPICS / SPEAKERS BELOW!</div> -->
         <br>
