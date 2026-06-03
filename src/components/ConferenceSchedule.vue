@@ -98,11 +98,11 @@ const events = {
 }
 
 const typeColors = {
-  break: 'bg-green-2 text-black',
+  admin: 'bg-green-2 text-black',
   main: 'bg-orange text-black',
   TSRP: 'bg-secondary text-white',
   MATAI: 'bg-blue-6 text-white',
-  breakout: 'bg-purple-5 text-white',
+  activity: 'bg-purple-5 text-white',
   room: 'text-black'
 }
 </script>

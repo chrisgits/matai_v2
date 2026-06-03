@@ -13,12 +13,12 @@
         </div>
         <div>
           <q-btn
-          to="/join"
-          unelevated
-          class="q-py-sm q-px-sm"
-          color="green"
-          label="join now"
-          text-color="white"
+            to="/join"
+            unelevated
+            class="q-py-sm q-px-sm"
+            color="green"
+            label="join now"
+            text-color="white"
           />
           <!-- <q-btn
             color="green text-black"
@@ -27,15 +27,15 @@
             Conf Live
             <q-badge color="red" floating>NEW</q-badge>
           </q-btn> -->
-          <!-- <q-btn
+          <q-btn
             unelevated
             to="/conflive"
             class="q-py-xs q-px-sm q-ml-sm text-black"
             color="accent"
             label="conf live!"
             size="lg"
-            style="border: black 4px solid"
-          /> -->
+            style="border: black 3px solid"
+          />
           <q-btn
             unelevated
             href="https://momentum.matai.org/collect/description/228963-r-matai-member-renewal"
@@ -44,14 +44,14 @@
             text-color="white"
             label="RENEWALS"
           />
-          <q-btn
+          <!-- <q-btn
           to="/members"
           unelevated
           class="q-ml-sm q-py-sm q-px-sm"
           color="primary"
           label="member login"
           text-color="white"
-          />
+          /> -->
           <!-- <q-btn color="green text-black" to="/about" class="q-py-xs q-px-sm q-ml-sm ">About</q-btn> -->
         </div>
       </q-toolbar>

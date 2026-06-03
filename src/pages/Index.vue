@@ -28,9 +28,9 @@
 
     <div>
       <div>
-          <div class="text-center">
+          <!-- <div class="text-center">
             <div class="text-uppercase text-h3 q-pa-lg">upcoming events</div>
-          </div>
+          </div> -->
           <div class="col-12 col-md-6 q-pa-sm">
             <!-- upcoming events here -->
 
@@ -77,30 +77,17 @@
                     <div class="text-h6">HEAVY TRUCK BRAKING EFFICIENCY CALCULATIONS</div>
                     <!-- <div class="text-h4 text-bold text-red"></div> -->
                     <br>
-                    <div class="text-h6 text-bold">$500/ MEMBERS -- $600/ Non-members</div>
-                    <div class="text-h5 text-orange-10 text-bold">Late Registration - After April 15</div>
-                    <div class="text-h6 text-bold">$500/ MEMBERS $650/ Non-members</div>
-                    <div class="text-h6">Breakfast and Lunch Provided - M - W</div>
-                    <div class="text-h6 text-red-10 q-ma-none">Special Hotel Rate Until May 7th.</div>
-                        <q-btn
-                        unelevated
-                        to="/confinfo"
-                        class="q-py-xs q-px-sm q-my-sm text-black"
-                        color="green"
-                        label="Conf Info"
-                        size="lg"
-                      />
-                    <h4 class="q-my-sm">VENDORS</h4>
-                    <div class="text-h6 text-bold">VENDOR REGISTRATION OPEN $600</div>
-                      <q-btn
-                        unelevated
-                        href="https://momentum.matai.org/collect/description/687219-q-2026-matai-conference-vendor-registration"
-                        class="q-py-xs q-px-sm q-my-sm text-black"
-                        color="orange"
-                        label="VENDOR REGISTRATION ONLY"
-                        size="lg"
-                      />
-                    <br>
+
+                    <q-btn
+                      unelevated
+                      to="/conflive"
+                      class="q-py-xs q-px-sm q-ml-sm text-black"
+                      color="accent"
+                      label="conf live!"
+                      size="lg"
+                      style="border: black 4px solid"
+                    />
+
                     <div class="q-mt-lg text-h3 text bold"><span class="text-bold">ACTAR</span><span class="text-bold text-grey-6">EXAM</span></div>
                     <div class="text-h5">June 7, 2026</div>
 

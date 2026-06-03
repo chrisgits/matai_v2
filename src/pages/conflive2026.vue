@@ -16,11 +16,8 @@
   <div class="justify-center items-start">
     <q-card class="q-pa-xs" flat>
       <div class="row text-center justify-center">
-        <div class="col-xs-12 col-6 lt-sm">
-          <q-img fit="contain" width="100%" class="q-pa-sm q-ma-md" src="../assets/2025_Conf_Splash.jpg"/>
-        </div>
         <div class="col-xs-12 col-6 gt-xs">
-          <q-img fit="contain" width="40%" class="q-pa-sm q-ma-md" src="../assets/2025_Conf_Logo.png"/>
+          <q-img fit="contain" width="40%" class="q-pa-sm q-ma-md" src="../assets/Conf_40@2x.png"/>
         </div>
       </div>
     </q-card>
@@ -33,9 +30,9 @@
   <section class="text-center">
     <h4 class="q-pa-sm q-ma-none">CONFERENCE HOTEL</h4>
     <q-card class="q-pa-md col-xs-12">
-      <h4 class="text-bold">DoubleTree by Hilton</h4>
+      <h4 class="q-ma-xs text-bold">Hilton Garden Inn</h4>
       <h6 class="q-ma-none">Fargo, ND</h6>
-      <h5 class="q-ma-xs">#</h5>
+      <h5 class="q-ma-xs">#701.499.6000</h5>
       <div class="q-pa-md">
         <q-list bordered>
           <q-item>MATAI Conference Contact</q-item>
@@ -54,7 +51,7 @@
           size="lg"
           color="green"
           text-color="white"
-          label="CONF SCHEDULE and FACILITY MAP PDF"
+          label="CONF SCHEDULE PDF"
         />
       </q-card-actions>
       <div class="row justify-center q-ma-none q-pa-sm">
@@ -188,37 +185,43 @@ import { ref } from 'vue';
 import ConferenceSchedule from '../components/ConferenceSchedule.vue';
 
 const presentations = {
-'Monday': [
-  { time: '7:00 AM', title: 'Registration/Breakfast', speaker: '', type: 'break', room: 'Meal Room/Entry Area' },
-  { time: '8:00 AM', title: 'Opening Ceremony', speaker: '', type: 'break', room: 'Grand Ballroom' },
-  { time: '8:15 AM', title: 'Recent Issues in Digital Evidence Warrants', speaker: 'David Maas', type: 'main', room: 'Grand Ballroom' },
-  { time: '10:15 AM', title: 'Morning Break', speaker: '', type: 'break', room: 'Entry Area' },
-  { time: '10:30 AM', title: 'Integrated Workflow of Drone, Pix4D Photogrammetry and Lidar Scanning Processes in Scene Evidence Collection - Introduction of Blender 3D Software Tool Integration', speaker: 'Chris Starrett \/ Chris Mannel', type: 'main', room: 'Grand Ballroom' },
-  { time: '12:30 PM', title: 'LUNCH PROVIDED', speaker: '', type: 'break', room: 'Meal Room' },
-  { time: '1:30 PM', title: 'EDR Updates', speaker: 'Jon Northrup', type: 'main', room: 'Grand Ballroom' },
-  { time: '3:30 PM', title: 'Afternoon Break', speaker: '', type: 'break', room: 'Entry Area'  },
-  { time: '3:45 PM', title: 'Panel Discussion - Technology: From Scene to Courtroom: Effective Presentation of Tech Evidence in Court', speaker: 'AAG Tara Jenswold. AAG Emily Thompson, Chris Mannel, Chris Starrett, Dave Hallman, Jon Northrop', type: 'main', room: 'Grand Ballroom' }
+'Sunday': [
+
+  { time: '7:30 PM', title: 'Pre-Conference Registration / Packet Pickup (optional)', type: 'main', room: 'Hotel' },
+  { time: '8:00 PM', title: 'Hospitality Room', speaker: '', type: 'activity', room: 'Hotel' },
+  { time: '8:30 PM', title: 'BOD Meeting', speaker: '', type: 'admin', room: 'Hotel'  },
+],
+  'Monday': [
+  { time: '7:00 AM', title: 'Conf Registration/Breakfast', speaker: '', type: 'admin', room: 'Hotel' },
+  { time: '8:00 AM', title: 'Opening Ceremony', speaker: '', type: 'admin', room: 'Hotel' },
+  { time: '9:00 AM', title: 'CMV Crash Testing', speaker: 'Crash Team', type: 'main', room: 'West Fargo Fairgrounds' },
+  { time: '10:00 AM', title: 'On-site Breakout Sessions', speaker: '', type: 'main', room: 'West Fargo Fairgrounds'  },
+  { time: '12:00 PM', title: 'Lunch', speaker: '', type: 'admin', room: 'West Fargo Fairgrounds' },
+  { time: '1:00 PM', title: 'CMV Crash Testing', speaker: 'Crash Team', type: 'main', room: 'West Fargo Fairgrounds' },
+  { time: '2:00 PM', title: 'On-site Breakout Sessions', speaker: '', type: 'main', room: 'West Fargo Fairgrounds'  },
+  { time: '6:00 PM', title: 'Hospitality Room', speaker: '', type: 'activity', room: 'Hotel' }
 ],
 'Tuesday': [
-  { time: '7:00 AM', title: 'Breakfast', speaker: '', type: 'main', type: 'break', room: 'Meal Room' },
-  { time: '8:00 AM', title: 'Identifying Counterfeit & Non-OEM Airbags in Crash Investigations with Case Study', speaker: 'Thomas Nichols – Global Brand Protection Specialist, General Motors and Automotive Anti-Counterfeiting Council and Thomas Erdmann – Forensic Specialist Seiler Public Safety', type: 'main', room: 'Grand Ballroom' },
-  { time: '10:00 AM', title: 'Morning Break', speaker: '', type: 'break', room: 'Entry Area'  },
-  { time: '10:15 AM',title: 'I\'m at the Crash, What Do I Need? Gathering Evidence and Preparing for Potential Prosecution', speaker: 'AAG Tara Jenswold, AAG Emily Thompson, Trooper Tracy Drager – Wisconsin State Patrol and Deputy Tim Dexter - Washington County Sheriff’s Office', type: 'TSRP', room: 'Grand Ballroom'},
-  { time: '10:15 AM',title: 'Sketchup 3D Modeling for Crash Recon', speaker: 'MATAI Breakout - Bryce Adams', type: 'MATAI', room: 'Upper Dells Ballroom' },
-  { time: '12:30 PM', title: 'LUNCH PROVIDED', speaker: '', type: 'break', room: 'Meal Room'  },
-  { time: '1:15 or 2:30 PM', title: 'Video Analysis through Axon Software and Case Study', speaker: 'Special Agent Justin Bender – Wisconsin DCI- and Tilo Voitel – Denver Metro Forensics LLC', type: 'breakout', room: 'Upper Dells Ballroom' },
-  { time: '1:15 or 2:30 PM', title: 'It\'s Not Just Texting Anymore: What Can You Get From the Phone?', speaker: 'AAG Tara Jenswold and AAG Emily Thompson and Detective Jeff Nocchi – Eau Claire County Sheriff\’s Office', type: 'breakout', room: 'Grand Ballroom' },
-  { time: '1:15 or 2:30 PM', title: 'Using Tech to Leverage Fundamental Evidence Collection at Crash Scenes and Creating Deliverables for Court ', speaker: 'Lt. Hunter Martin, Kentucky State Police', type: 'breakout', room: 'Breakout G & H' },
-  { time: '1:15 or 2:30 PM', title: 'WSP - Avoiding Spoilation of Electronic Evidence in CMV Crashes', speaker: 'Inspector Ryan Schultz and Inspector Colton Fields – Wisconsin State Patrol', type: 'breakout', room: 'Breakout I' },
-  { time: '4:30 - 7:30 PM', title: 'Seiler Sponsored Conference Attendee and Customer Appreciation Cookout', speaker: '', type: 'main', room: 'Kilbourne Fireman\'s Park' },
+  { time: '7:00 AM', title: 'Breakfast', speaker: '', type: 'admin', room: 'Hotel' },
+  { time: '8:00 AM', title: 'Federal Driver Regulations/HOS', speaker: 'Trooper J. Anderson', type: 'main', room: 'Hotel' },
+  { time: '9:00 AM', title: 'Heavy Truck Post-Crash Inspections and Scene Considerations', speaker: 'Matthew Brown', type: 'main', room: 'Hotel' },
+  { time: '10:00 AM', title: 'Heavy Truck Braking Systems and Efficiency Calculations', speaker: 'Matthew Brown', type: 'main', room: 'Hotel' },
+  { time: '11:00 AM', title: 'HVEDR/Dash Cams/GPS Systems on CMVs', speaker: 'Chris Mannel', type: 'main', room: 'Hotel' },
+  { time: '12:00 PM', title: 'Lunch', speaker: '', type: 'admin', room: 'Hotel' },
+  { time: '1:00 PM', title: 'Nighttime Visibility and Retroreflective Striping', speaker: 'William Messerschmidt', type: 'main', room: 'Hotel' },
+  { time: '3:00 PM', title: 'Rotational Mechanics', speaker: 'John Daily', type: 'main', room: 'Hotel' },
+  { time: '5:30 PM', title: 'Evening Activity - Bus Pickup (to Suite Shots)', speaker: '', type: 'activity', room: 'Hotel' },
+  { time: '6 - 8 PM', title: 'Evening Activity - Suite Shots - Fargo', speaker: '', type: 'activity', room: 'Suite Shots' },
+  { time: '8:00 PM', title: 'Evening Activity - Bus Pickup (back to hotel)', speaker: '', type: 'activity', room: 'Suite Shots' },
+  { time: '8:30 PM', title: 'Hospitality Room', speaker: '', type: 'activity', room: 'Hotel' }
 ],
 'Wednesday': [
-  { time: '7:00 AM', title: 'Breakfast', speaker: '', type: 'break', room: 'Meal Room' },
-  { time: '8:00 or 9:15 AM', title: 'Electric Vehicle Safety for First Responders', speaker: 'Breakout - Jeff Gross', type: 'breakout', room: 'Upper Dells Ballroom' },
-  { time: '8:00 or 9:15 AM', title: 'Drone Comparison, Best Fit Methodology and Current Tech Advances', speaker: 'Adam Johnston -Forensic Specialist Seiler Public Safety', type: 'breakout', room: 'Breakout G & H' },
-  { time: '8:00 or 9:15 AM', title: 'Testimony Training - Tips and Common Challenges, From Basic to Expert', speaker: 'AAGs Tara Jenswold and Emily Thompson', type: 'breakout', room: 'Grand Ballroom' },
-  { time: '8:00 or 9:15 AM', title: 'ScenePro - Crash Reconstruction Test Hardware/Software', speaker: 'Andy Shelton - Ret. Lt. Tennessee Highway Patrol', type: 'breakout', room: 'Breakout I' },
-  { time: '10:30 AM', title: 'Full Session Closing and Release', speaker: 'MATAI and TSRP Representatives', type: 'main', room: 'Grand Ballroom' },
+  { time: '7:00 AM', title: 'Breakfast', speaker: '', type: 'admin', room: 'Hotel' },
+  { time: '8:00 AM', title: 'Calculating Speeds in Trailer Underride Crashes', speaker: 'Scott Skinner', type: 'main', room: 'Hotel' },
+  { time: '9:00 AM', title: 'Previous Underride Crash Testing', speaker: 'Scott Skinner', type: 'main', room: 'Hotel' },
+  { time: '10:00 AM', title: 'Live Crash Test Review', speaker: 'Dave Hallman', type: 'main', room: 'Hotel' },
+  { time: '11:00 AM', title: 'Raffle Drawing / Closing / Colors Retired', speaker: '', type: 'main', room: 'Hotel' },
+  { time: '12:00 PM', title: 'BOD Meeting', speaker: '', type: 'admin', room: 'Hotel'  },
 ]
 }
 

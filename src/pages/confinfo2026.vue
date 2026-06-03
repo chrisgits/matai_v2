@@ -63,8 +63,8 @@
           </ul>
           <h6 class="q-pa-none">Attendees that are ACTAR accredited can earn approximately <span class="text-red">20 credits</span> (pending final approval from ACTAR and our schedule) for this conference if they login to each session available to them. These credits are <span class="text-bold">NOT</span> automatically awarded by registering for the conference. Please see <a href="http://www.actar.org">ACTAR</a> website for more information!</h6>
         </div>
-        <div class="text-blue text-bold text-h5">Conference Pricing</div>
-        <ul>
+        <!-- <div class="text-blue text-bold text-h5">Conference Pricing</div> -->
+        <!-- <ul>
           <h5 class="q-ma-none">Early Registration</h5>
           <h6 class="q-ma-none text-blue">$500 for MATAI Members</h6>
           <h6 class="q-ma-none text-orange-10">$600 for non-members</h6>
@@ -80,13 +80,13 @@
             text-color="dark-grey"
             label="CONF REGISTRATION OPEN"
           />
-        </ul>
+        </ul> -->
 
         <br>
         <div class="q-mt-lg text-blue text-bold text-h5">Hotel Information</div>
         <ul>
           <h5 class="q-my-sm">Hilton Garden Inn - Fargo</h5>
-          <h5 class="q-my-sm">Booking at conference rates is <span class="text-green text-bold">OPEN</span></h5>
+          <!-- <h5 class="q-my-sm">Booking at conference rates is <span class="text-green text-bold">OPEN</span></h5>
           <h6 class="q-my-sm text-bold">King or Queen Special Rate $115/night</h6>
           <h6 class="q-my-sm text-bold text-red">RATES ALSO AVAILABLE THROUGH THIS LINK ONLY:</h6>
           <q-btn
@@ -100,7 +100,7 @@
           />
           <h6 class="q-my-sm text-bold">OR direct phone number for reservations: <H5 class="q-ma-none"><a href="tel:701.499.6000">701.499.6000</a></H5> </h6>
           <h6 class="q-my-sm">Group Name used for Conference room rate: </h6>
-            <h5 class="q-ma-none text-bold">MATAI</h5>
+            <h5 class="q-ma-none text-bold">MATAI</h5> -->
           <!-- <li>We have secured an agreement with the hotel including NO resort fees. Please make sure this is the case in your reservation.</li> -->
         </ul>
       </q-card-section>
