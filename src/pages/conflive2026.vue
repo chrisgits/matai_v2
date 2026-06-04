@@ -28,7 +28,11 @@
   <!-- SCHEDULE COMPONENT -->
 
   <section class="text-center">
-    <h4 class="q-pa-sm q-ma-none">CONFERENCE HOTEL</h4>
+    <div class="col-xs-12 col-6 gt-xs">
+      <q-img fit="contain" width="60%" class="q-pa-sm q-ma-md" src="../assets/hilton_garden_fargo_conf_floor.png"/>
+    </div>
+    <h4 class="q-pa-sm q-ma-none">VENDORS setup in Lilac Room -- Be sure to visit them!</h4>
+    <h4 class="q-pa-sm q-ma-none text-bold">CONFERENCE HOTEL</h4>
     <q-card class="q-pa-md col-xs-12">
       <h4 class="q-ma-xs text-bold">Hilton Garden Inn</h4>
       <h6 class="q-ma-none">Fargo, ND</h6>
@@ -187,41 +191,42 @@ import ConferenceSchedule from '../components/ConferenceSchedule.vue';
 const presentations = {
 'Sunday': [
 
-  { time: '7:30 PM', title: 'Pre-Conference Registration / Packet Pickup (optional)', type: 'main', room: 'Hotel' },
-  { time: '8:00 PM', title: 'Hospitality Room', speaker: '', type: 'activity', room: 'Hotel' },
-  { time: '8:30 PM', title: 'BOD Meeting', speaker: '', type: 'admin', room: 'Hotel'  },
+  { time: '8a - 5p', title: 'ACTAR Exam', type: 'main', room: 'Iris Room' },
+  { time: '7:30 PM', title: 'Pre-Conference Registration / Packet Pickup (optional)', type: 'main', room: 'Pre-Function Area' },
+  { time: '8:30 PM', title: 'BOD Meeting', speaker: '', type: 'admin', room: 'Iris Room'  },
+  { time: '9:30 PM', title: 'Hospitality Room', speaker: '', type: 'activity', room: 'Iris Room' }
 ],
   'Monday': [
-  { time: '7:00 AM', title: 'Conf Registration/Breakfast', speaker: '', type: 'admin', room: 'Hotel' },
-  { time: '8:00 AM', title: 'Opening Ceremony', speaker: '', type: 'admin', room: 'Hotel' },
+  { time: '7:00 AM', title: 'Conf Registration/Breakfast', speaker: '', type: 'admin', room: 'Orchid Room' },
+  { time: '8:00 AM', title: 'Opening Ceremony', speaker: '', type: 'admin', room: 'Rose/Lily Rooms' },
   { time: '9:00 AM', title: 'CMV Crash Testing', speaker: 'Crash Team', type: 'main', room: 'West Fargo Fairgrounds' },
   { time: '10:00 AM', title: 'On-site Breakout Sessions', speaker: '', type: 'main', room: 'West Fargo Fairgrounds'  },
-  { time: '12:00 PM', title: 'Lunch', speaker: '', type: 'admin', room: 'West Fargo Fairgrounds' },
+  { time: '12:00 PM', title: 'Lunch', speaker: '', type: 'admin', room: 'Barnyard Bar' },
   { time: '1:00 PM', title: 'CMV Crash Testing', speaker: 'Crash Team', type: 'main', room: 'West Fargo Fairgrounds' },
   { time: '2:00 PM', title: 'On-site Breakout Sessions', speaker: '', type: 'main', room: 'West Fargo Fairgrounds'  },
-  { time: '6:00 PM', title: 'Hospitality Room', speaker: '', type: 'activity', room: 'Hotel' }
+  { time: '6:00 PM', title: 'Hospitality Room', speaker: '', type: 'activity', room: 'Orchid Room' }
 ],
 'Tuesday': [
   { time: '7:00 AM', title: 'Breakfast', speaker: '', type: 'admin', room: 'Hotel' },
-  { time: '8:00 AM', title: 'Federal Driver Regulations/HOS', speaker: 'Trooper J. Anderson', type: 'main', room: 'Hotel' },
-  { time: '9:00 AM', title: 'Heavy Truck Post-Crash Inspections and Scene Considerations', speaker: 'Matthew Brown', type: 'main', room: 'Hotel' },
-  { time: '10:00 AM', title: 'Heavy Truck Braking Systems and Efficiency Calculations', speaker: 'Matthew Brown', type: 'main', room: 'Hotel' },
-  { time: '11:00 AM', title: 'HVEDR/Dash Cams/GPS Systems on CMVs', speaker: 'Chris Mannel', type: 'main', room: 'Hotel' },
-  { time: '12:00 PM', title: 'Lunch', speaker: '', type: 'admin', room: 'Hotel' },
-  { time: '1:00 PM', title: 'Nighttime Visibility and Retroreflective Striping', speaker: 'William Messerschmidt', type: 'main', room: 'Hotel' },
-  { time: '3:00 PM', title: 'Rotational Mechanics', speaker: 'John Daily', type: 'main', room: 'Hotel' },
+  { time: '8:00 AM', title: 'Federal Driver Regulations/HOS', speaker: 'Trooper J. Anderson', type: 'main', room: 'Rose/Lily Rooms' },
+  { time: '9:00 AM', title: 'Heavy Truck Post-Crash Inspections and Scene Considerations', speaker: 'Matthew Brown', type: 'main', room: 'Rose/Lily Rooms' },
+  { time: '10:00 AM', title: 'Heavy Truck Braking Systems and Efficiency Calculations', speaker: 'Matthew Brown', type: 'main', room: 'Rose/Lily Rooms' },
+  { time: '11:00 AM', title: 'HVEDR/Dash Cams/GPS Systems on CMVs', speaker: 'Chris Mannel', type: 'main', room: 'Rose/Lily Rooms' },
+  { time: '12:00 PM', title: 'Lunch', speaker: '', type: 'admin', room: 'Orchid Room' },
+  { time: '1:00 PM', title: 'Nighttime Visibility and Retroreflective Striping', speaker: 'William Messerschmidt', type: 'main', room: 'Rose/Lily Rooms' },
+  { time: '3:00 PM', title: 'Rotational Mechanics', speaker: 'John Daily', type: 'main', room: 'Rose/Lily Rooms' },
   { time: '5:30 PM', title: 'Evening Activity - Bus Pickup (to Suite Shots)', speaker: '', type: 'activity', room: 'Hotel' },
-  { time: '6 - 8 PM', title: 'Evening Activity - Suite Shots - Fargo', speaker: '', type: 'activity', room: 'Suite Shots' },
+  { time: '6 - 8 PM', title: 'Evening Activity - Suite Shots - Fargo', speaker: '', type: 'activity', room: 'Suite Shots - Pebble Beach Event Room' },
   { time: '8:00 PM', title: 'Evening Activity - Bus Pickup (back to hotel)', speaker: '', type: 'activity', room: 'Suite Shots' },
-  { time: '8:30 PM', title: 'Hospitality Room', speaker: '', type: 'activity', room: 'Hotel' }
+  { time: '8:30 PM', title: 'Hospitality Room', speaker: '', type: 'activity', room: 'Orchid Room' }
 ],
 'Wednesday': [
-  { time: '7:00 AM', title: 'Breakfast', speaker: '', type: 'admin', room: 'Hotel' },
-  { time: '8:00 AM', title: 'Calculating Speeds in Trailer Underride Crashes', speaker: 'Scott Skinner', type: 'main', room: 'Hotel' },
-  { time: '9:00 AM', title: 'Previous Underride Crash Testing', speaker: 'Scott Skinner', type: 'main', room: 'Hotel' },
-  { time: '10:00 AM', title: 'Live Crash Test Review', speaker: 'Dave Hallman', type: 'main', room: 'Hotel' },
-  { time: '11:00 AM', title: 'Raffle Drawing / Closing / Colors Retired', speaker: '', type: 'main', room: 'Hotel' },
-  { time: '12:00 PM', title: 'BOD Meeting', speaker: '', type: 'admin', room: 'Hotel'  },
+  { time: '7:00 AM', title: 'Breakfast', speaker: '', type: 'admin', room: 'Orchid Room' },
+  { time: '8:00 AM', title: 'Calculating Speeds in Trailer Underride Crashes', speaker: 'Scott Skinner', type: 'main', room: 'Rose/Lily Rooms' },
+  { time: '9:00 AM', title: 'Previous Underride Crash Testing', speaker: 'Scott Skinner', type: 'main', room: 'Rose/Lily Rooms' },
+  { time: '10:00 AM', title: 'Live Crash Test Review', speaker: 'Dave Hallman', type: 'main', room: 'Rose/Lily Rooms' },
+  { time: '11:00 AM', title: 'Raffle Drawing / Closing / Colors Retired', speaker: '', type: 'main', room: 'Rose/Lily Rooms' },
+  { time: '12:00 PM', title: 'BOD Meeting', speaker: '', type: 'admin', room: 'Iris Room'  }
 ]
 }
 
