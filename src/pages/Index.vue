@@ -350,7 +350,7 @@ h3 {
 }
 /* webpackIgnore: true */
 #jumbo {
-  background-image: url("../assets/img/buscrash2022.jpg");
+  background-image: url("../assets/img/2026_CMVCrash_Cropped.JPG");
   background-color: #686868;
   background-position: center;
   background-repeat: no-repeat;
